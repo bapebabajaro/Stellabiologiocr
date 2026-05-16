@@ -232,3 +232,135 @@
 - **Pedagogiska element:** Två tomma resultattabeller för ifyllnad: en med kolumnerna ARTNAMN/SKIKT (3 rader: ART 1, ART 2, ART X) och en med ARTNAMN/TÄCKNINGSGRAD 1–3 (3 rader). Funktionellt protokollmall för fältdata.
 - **Frågor/övningar:** 4 + 3 deluppgifter för resultatanalys (resonemangsfrågor knutna till laborationen).
 
+### K1-s.40 (PDF: kapitel-1 s.39)
+- **Rubrik:** ENERGI OCH MATERIAL I EKOSYSTEMEN (delkapitelstart)
+- **Underrubrik:** Cellerna behöver byggmaterial och energi
+- **Mål-ruta:** Likheter och skillnader på en växt- och djurcell; Hur cellandningen fungerar; Hur fotosyntesen fungerar; Hur växter fungerar med både cellandning och fotosyntes; Hur fotosyntesen och cellandningen hänger ihop; Vad som menas med näringskedja, näringsväv och näringspyramid; Hur en näringskedja påverkas om en art försvinner; Kolets kretslopp; Närsalternas kretslopp
+- **Begrepp (Begrepps-ruta i marginalen):** Druvsockermolekyl, Cellandning, Cellmembran, Cellvägg, Mitokondrie, Kloroplast, Klorofyll, Fotosyntes, Stärkelse, Cellulosa, Klyvöppning, Närsalt, Producent, Konsument, Näringskedja, Näringsväv, Toppkonsument, Näringspyramid, Biomassa, Kretslopp, Nedbrytare, Förmultning, Förna, Kvävefixering
+- **Begrepp (i brödtext på sidan):** energi, byggmaterial, kolatomer, kolföreningar, väte, syre, kväve, fosfor, kolhydrater, fett, proteiner, druvsockermolekyl, kol, väte, syre
+- **Pedagogiska element:** Helsideshög grön lödhåll-spalt i vänstermarginalen med rubriker MÅL och BEGREPP — funktionellt avsnittsintro/checklista. 3D-molekylmodell av druvsocker (kol-vit-röd kul-och-stav) med utpekade etiketter Kol (svart), Syre (röd), Väte (vit) och bildtext.
+- **Frågor/övningar:** —
+
+### K1-s.41 (PDF: kapitel-1 s.40)
+- **Rubrik:** Växtcellen och djurcellen har både likheter och skillnader
+- **Begrepp:** eukaryota celler, cellkärna, arvsmassan, cellmembran, cellvägg, kloroplaster, fotosyntes, mitokondrier, druvsocker
+- **Pedagogiska element:** Jämförande cellmodell sida vid sida överst: DJURCELL (rosa, rundad) och VÄXTCELL (grön, kantig) med utpekade etiketter (Cellmembran, Mitokondrie, Cellkärna med arvsmassa för båda; Kloroplast och Cellvägg endast för växtcellen). Funktionellt visar modellen vilka strukturer som är gemensamma och vilka som skiljer celltyperna. Foto i nederkant av trädstam i tvärsnitt med årsringar och bildtext om cellväggars stabiliserande roll.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): lucktextfråga om molekyl som behövs för energi; nämn två likheter och två olikheter mellan växtcell och djurcell.
+
+### K1-s.42 (PDF: kapitel-1 s.41)
+- **Rubrik:** Cellandningen ger cellen energi
+- **Begrepp:** cellandning, mitokondrier, druvsocker, syre, koldioxid, vatten, energi, C₆H₁₂O₆, O₂, CO₂, H₂O
+- **Pedagogiska element:** Numrerad trestegsmodell (cellschema) som funktionellt visar cellandningens förlopp i en djurcell: (1) Cell tar in druvsocker och syre genom cellmembranet ("BÖRJA HÄR"), (2) Mitokondrien utför förbränning som frigör energi, (3) Koldioxid och vatten avges från cellen. Med utpekade etiketter (Mitokondrie, Cellmembran, Syre, Druvsocker, Energi, Koldioxid, Vatten). Reaktionsschema längst ned: molekylmodeller + ord + summaformel för druvsocker + syre → koldioxid + vatten + energi.
+- **Frågor/övningar:** —
+
+### K1-s.43 (PDF: kapitel-1 s.42)
+- **Rubrik:** Djuren äter och andas
+- **Begrepp:** cellandning, syre, mat, druvsocker, koldioxid, vatten, energi, tarmarna, lungorna, blodet
+- **Pedagogiska element:** Numrerad sexstegsmodell över hare (foto + pilar): (1) haren äter mat och andas in syre ("BÖRJA HÄR"), (2) mat går till tarmarna och syret till lungorna, (3) maten omvandlas till druvsocker i tarmarna, (4) syre och druvsocker förs med blodet ut till kroppens alla celler, (5) i cellernas mitokondrier reagerar syre och druvsocker i cellandningen så att det bildas energi samt vatten och koldioxid, (6) koldioxid och vatten transporteras till lungorna och haren andas ut dem. Funktionellt kopplar modellen cell- och organnivå till hela organismen. Foto i nederkant av harar på äng.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): vilka två ämnen som behövs för cellandningen; vilka två ämnen som bildas i cellandningen.
+
+### K1-s.44 (PDF: kapitel-1 s.43)
+- **Rubrik:** Fotosyntesen ger både druvsocker och syre
+- **Underrubrik:** Klyvöppningar på bladen sköter gastransporten
+- **Begrepp:** kloroplaster, klorofyll, fotosyntes, koldioxid, vatten, druvsocker, syre, solenergi, CO₂, H₂O, C₆H₁₂O₆, O₂, klyvöppningar
+- **Pedagogiska element:** Reaktionsschema i mitten: molekylmodeller + ord + summaformler för koldioxid + vatten + solenergi → druvsocker + syre (FOTOSYNTES). Två mikroskopfoton sida vid sida i nederkant med bildtexter: kloroplaster i mosscell respektive klyvöppningar i blad — funktionellt visar var fotosyntesen sker och var gasutbyte sker.
+- **Frågor/övningar:** —
+
+### K1-s.45 (PDF: kapitel-1 s.44)
+- **Rubrik:** (forts. Fotosyntesen) bladmodell
+- **Underrubrik:** Växterna tillverkar många ämnen
+- **Begrepp:** klorofyll, kloroplaster, klyvöppningar, koldioxid, vatten, druvsocker, syre, stärkelse, cellulosa, kolhydrater, fetter, proteiner, reservnäring, fibrer, vitaminer, kväve, fosfor
+- **Pedagogiska element:** Numrerad femstegsmodell över bladsnitt med pilar och illustration av ett blad: (1) solenergi tas upp av klorofyll i kloroplaster ("BÖRJA HÄR"), (2) bladet tar upp koldioxid genom klyvöppningarna och transporterar in i cellerna, (3) vatten tas upp av rötterna och leds till bladen, (4) i fotosyntesen tillverkas druvsocker som används i växtens cellandning och som byggmaterial, (5) syre bildas och släpps delvis ut genom klyvöppningarna, delvis till växtens egen cellandning. Funktionellt visar modellen växtens hela gasutbyte och energiflöde.
+- **Frågor/övningar:** 3 frågor i marginalruta (faktafrågor): vilka två ämnen växter behöver för fotosyntes; lucktextfråga om vad fotosyntesen bildar (två luckor); varifrån energin till fotosyntesen kommer.
+
+### K1-s.46 (PDF: kapitel-1 s.45)
+- **Rubrik:** Växtcellens fotosyntes och cellandning
+- **Underrubrik:** Ämnen återanvänds mellan fotosyntes och cellandning (börjar på sidan)
+- **Begrepp:** fotosyntes, cellandning, klorofyll, kloroplaster, mitokondrier, solenergi, koldioxid, vatten, druvsocker, syre, byggmaterial, reservnäring, klyvöppningar, atmosfären
+- **Pedagogiska element:** Numrerad sexstegsmodell av växtcell (grön) som integrerar fotosyntes och cellandning: (1) solenergi tas upp av klorofyll i kloroplasterna ("BÖRJA HÄR"), (2) cellen tar in vatten och koldioxid som i kloroplasterna omvandlas till druvsocker och syre, (3) del av druvsocker och syre används i mitokondrier i växtcellens egen cellandning, (4) en annan del av druvsockret används som byggmaterial i växtcellen, (5) resten av druvsockret transporteras till andra celler i växten för byggmaterial eller reservnäring, (6) det syre som inte växten behöver i sin cellandning släpps ut ur bladet genom klyvöppningarna. Med utpekade etiketter (Solenergi, Koldioxid, Vatten, Syre, Druvsocker, Kloroplast, Mitokondrie).
+- **Frågor/övningar:** —
+
+### K1-s.47 (PDF: kapitel-1 s.46)
+- **Rubrik:** (forts. Ämnen återanvänds mellan fotosyntes och cellandning)
+- **Begrepp:** fotosyntes, cellandning, koldioxid CO₂, vatten H₂O, syre O₂, druvsocker C₆H₁₂O₆, stärkelse, cellulosa, atmosfären
+- **Pedagogiska element:** Numrerad fyrastegsmodell med två träd (ett i sol = Fotosyntes, ett i sol+måne = Cellandning) sammanbundna av fyra dubbelriktade pilar märkta Koldioxid CO₂, Vatten H₂O, Syre O₂, Druvsocker C₆H₁₂O₆: (1) fotosyntesen behöver energi från solen och sker på dagen i växter och vissa bakterier, (2) i fotosyntesen bildas syre och druvsocker som används i organismernas cellandning, (3) cellandningen pågår hela tiden i alla organismer, (4) cellandningen lämnar ifrån sig koldioxid och vatten som behövs i fotosyntesen. Funktionellt visar modellen kretsloppet mellan de två processerna. Helsidesfoto av gröna blad i nederkant.
+- **Frågor/övningar:** 1 fråga i marginalruta (faktafråga): ge två exempel på vad en växt använder druvsocker till.
+
+### K1-s.48 (PDF: kapitel-1 s.47)
+- **Rubrik:** Energi och material förs vidare i näringskedjor
+- **Begrepp:** producenter, konsumenter, växtätare, rovdjur, allätare, näringskedja, näringsväv, näringspyramid, toppkonsument, topprovdjur
+- **Pedagogiska element:** Numrerad fyrastegs näringskedja som horisontell pilkedja längst ned: (1) Björkbladen fångar solenergin i fotosyntesen — björken är producent, (2) Larven äter björkbladen, larven är växtätare och konsument, (3) Larven blir mat åt en lövsångare, lövsångaren är rovdjur och konsument, (4) Lövsångaren blir mat åt en sparvhök som är topprovdjur eller toppkonsument. Med stora illustrationer (björkblad, larv, lövsångare, sparvhök). Funktionellt visar pilarna i vilken riktning energi och material förs.
+- **Frågor/övningar:** —
+
+### K1-s.49 (PDF: kapitel-1 s.48)
+- **Rubriker:** Om arter försvinner påverkas näringskedjan; Energiförluster i näringskedjan
+- **Begrepp:** näringskedja, art, förökning, energiförluster, bränsle, energiprocent (90 % försvinner, 10 % går vidare)
+- **Pedagogiska element:** Stort foto upptill av gul-svart fjärilslarv på dillblommor med bildtext om att larven är växtätare och konsument i näringskedjan.
+- **Frågor/övningar:** 1 lucktextfråga i marginalruta (faktafråga): näringskedja börjar med en organism som kan utföra ___ .
+
+### K1-s.50 (PDF: kapitel-1 s.49)
+- **Rubriker:** Näringskedjor vävs ihop till näringsvävar; En näringspyramid visar energiförluster
+- **Begrepp:** näringsväv, bladlöss, parasitsteklar, rovsteklar, fjärilslarver, nyckelpigor, mesar, sångare, sparvhök, vivlar, björk, näringspyramid
+- **Pedagogiska element:** Numrerad sexstegs näringsväv illustrerad som gröna pilar i ett björkträd (med foton på nio organismer): (1) Björkblad äts av vivlar, fjärilslarver och bladlöss ("BÖRJA HÄR"), (2) Bladlöss äts av nyckelpigor, rovsteklar, parasitsteklar och mesar, (3) Parasitsteklar äter vivlar, fjärilslarver och bladlöss, (4) Sångare äter parasitsteklar, rovsteklar, fjärilslarver och nyckelpigor, (5) Mesar äter rovsteklar, nyckelpigor och bladlöss, (6) Mesar och sångare äts båda av sparvhöken. Funktionellt visar väven hur flera kedjor flätas ihop.
+- **Frågor/övningar:** —
+
+### K1-s.51 (PDF: kapitel-1 s.50)
+- **Rubrik:** (forts. Näringspyramid)
+- **Underrubrik:** Kretslopp i ekosystemen
+- **Begrepp:** biomassa, producenter, växtätare, rovdjur, topprovdjur, näringspyramid, kretslopp, närsalter, kväve, fosfor, vatten, kol
+- **Pedagogiska element:** Tredimensionell näringspyramid med fyra våningar (nedifrån): Producenter (äng/blommor/blad), Växtätare (larver, möss, insekter), Rovdjur (småfåglar, getingar), Topprovdjur (sparvhök, räv). En diagonal näringskedja-pillinje löper upp genom pyramiden. Funktionellt visar pyramiden hur biomassan blir mindre högre upp och att bara 10 % går vidare per nivå.
+- **Frågor/övningar:** 2 lucktextfrågor i marginalruta (faktafrågor): bild som sammanfattar biomassan i ett ekosystem på olika nivåer kallas en ___ ; när ämnen går runt och används igen kallas det för ___ .
+
+
+### K1-s.52 (PDF: kapitel-1 s.51)
+- **Rubrik:** Kolets kretslopp
+- **Underrubrik:** Nedbrytning frigör koldioxid
+- **Begrepp:** kolföreningar, kolatomer, kretslopp, koldioxid, druvsocker, stärkelse, cellandning, fotosyntes, förna, nedbrytare, maskar, kvalster
+- **Pedagogiska element:** Numrerad fyrastegsmodell över träd, hare, sol och koldioxid i luften: (1) Växterna tar upp koldioxid i fotosyntesen och tillverkar druvsocker ("BÖRJA HÄR"), (2) Växterna använder druvsocker i sin cellandning och släpper ut koldioxid, (3) Djuren äter växter och får i sig kolföreningar som stärkelse, (4) Djuren bryter ner stärkelsen till druvsocker och andas ut koldioxid från cellandningen. Funktionellt visar modellen kolatomers kretslopp på land.
+- **Frågor/övningar:** —
+
+### K1-s.53 (PDF: kapitel-1 s.52)
+- **Rubrik:** (forts. Nedbrytning frigör koldioxid)
+- **Begrepp:** hoppstjärtar, gråsuggor, nedbrytning, förmultning, nedbrytare, förna, kolföreningar, druvsocker, cellandning, koldioxid, kolets kretslopp
+- **Pedagogiska element:** Helsidesmodell över kolets kretslopp i ett landekosystem med sex numrerade steg: (1) Växterna tar upp koldioxid i fotosyntesen och tillverkar druvsocker ("BÖRJA HÄR"), (2) Växterna använder druvsocker i sin cellandning och släpper ut koldioxid, (3) Djuren äter växter och får i sig kolföreningar, till exempel stärkelse som har bildats i växterna, (4) Djuren andas ut koldioxid från sin cellandning, (5) Döda växt- och djurrester bildar förna som innehåller kolföreningar, (6) Nedbrytare använder förnan som bränsle i sin cellandning och avger koldioxid. Med sol, koldioxidmoln, träd, hare, svamp och nedgrävt förnaskikt. Stort foto av sopp och mossa nedtill på sidan. Funktionellt visar modellen hur kolföreningar går från luft till växter till djur till nedbrytare och tillbaka till luften.
+- **Frågor/övningar:** 2 faktafrågor i marginalruta: (1) Vad kallas döda växt- och djurrester som samlas på marken? (2) Vilken gas släpper nedbrytarna ut i sin cellandning?
+
+### K1-s.54 (PDF: kapitel-1 s.53)
+- **Rubrik:** Närsalternas kretslopp
+- **Begrepp:** kretslopp, kväve, fosfor, kalium, järn, magnesium, proteiner, vitaminer, salter, närsalter, rötter, förna, nedbrytning
+- **Pedagogiska element:** Numrerad fyrastegsmodell över närsalternas kretslopp i ett landekosystem med tvärsnitt ovan och under marken: (1) Närsalter med bland annat kväve och fosfor finns lösta i markens vatten, de tas upp av växternas rötter och byggs in i växtcellerna ("BÖRJA HÄR"), (2) Växter med inbyggt kväve och fosfor blir mat åt djur, (3) Döda växter och djur bildar förna som innehåller kväve och fosfor, (4) Förnan bryts ner av bakterier, svampar och smådjur, kväve, fosfor och andra ämnen kommer då ut som närsalter som löser sig i markens vatten igen, kretsloppet är slutet. Med etiketter Växter, Djur, Svampar, Smådjur, Bakterier, Förna, Rötter, Närsalter. Funktionellt visar modellen hur närsalter går runt mellan mark, växter, djur och nedbrytare.
+- **Frågor/övningar:** —
+
+### K1-s.55 (PDF: kapitel-1 s.54)
+- **Rubrik:** Bakterier och blixtar gör om kvävgas till kvävesalter
+- **Begrepp:** kvävgas, klyvöppningar, kvävesalter, bakterier, kvävefixering, blixturladdningar, ärtväxter, åskväder
+- **Pedagogiska element:** Numrerad fyrastegsmodell över kvävets kretslopp mellan luft och mark: (1) Bakterier i jorden omvandlar en del av kvävesalterna till kvävgas som avgår till luften ("BÖRJA HÄR"), (2) Luften består till stor del av kvävgas som inte kan tas upp av växter och djur, (3) Luftens kvävgas kan tas upp av bakterier på ärtväxternas rötter, kvävgasen omvandlas då till kvävesalter som växterna kan ta upp — det kallas kvävefixering, (4) Blixturladdningar vid åskväder kan också omvandla kvävgasen till kvävesalter som växterna kan ta upp. Med träd, hare, svamp, ärtväxt, kvävgasmoln, blixt och tvärsnitt av marken med Kvävesalter och Bakterier samt Bakterier på ärtväxters rötter. Funktionellt visar modellen två vägar för kvävgas att bli kvävesalter.
+- **Frågor/övningar:** —
+
+### K1-s.56 (PDF: kapitel-1 s.55)
+- **Rubrik:** UPPGIFTER
+- **Underrubrik:** Begrepp och biologiska samband
+- **Begrepp:** fotosyntes, koldioxid, syre, druvsocker, kemisk reaktion, cellandning, näringskedja, planktonalg, hoppkräfta, mört, gädda, djurplankton, mussla, ejder, havsörn, bladlus, nyckelpiga, rapphöna, människa, morot, morotsfluga, flugsnappare, katt, grodyngel, växt, syre, koldioxid
+- **Pedagogiska element:** Tom tvåradstabell med kolumnrubrikerna "Kemisk reaktion / I vilka organismer? / Var i cellerna? / När? / Vilka 'råvaror' behövs? / Vad produceras?" och radetiketterna "FOTOSYNTES" och "CELLANDNING". Funktionellt strukturerar tabellen jämförelse mellan fotosyntes och cellandning.
+- **Frågor/övningar:** 4 uppgifter (1–4): (1) flervalsfaktafråga om fotosyntes (välj tre korrekta av A–F), (2) resonemangsfråga som kombinerar tabellifyllande och förklaring, (3) resonemangsfråga om vilken av fyra föreslagna näringskedjor som är korrekt med motivering, (4) resonemangsfråga om laborationsförsök med fyra burkar A–D och frågorna a) vilken burk innehåller mest syre vid dagens slut och b) vilken burk innehåller mest koldioxid vid dagens slut.
+
+### K1-s.57 (PDF: kapitel-1 s.56)
+- **Rubrik:** (forts. UPPGIFTER)
+- **Underrubriker:** Naturvetenskapliga argument och källor; Systematiska undersökningar
+- **Begrepp:** näringskedja, björkblad, vivel, parasitstekel, sångare, sparvhök, näringsväv, vivlar, mesar, fjärilslarver, sparvhökar, bladlöss, mes, rovstekel, nyckelpiga, fjärilslarv, folktro, fotosyntes, cellandning, blomjord, krukväxt, plantor, krukor, felkällor
+- **Pedagogiska element:** Stor illustration av en björk till höger med utpekade etiketter (Sparvhök, Mes, Sångare, Parasitstekel, Rovstekel, Nyckelpiga, Vivel, Fjärilslarv, Björkblad, Bladlus) och gröna pilar som visar näringsväven. Stort foto av tom terrakottakruka nedtill. Funktionellt kopplar illustrationerna uppgifterna 5–8 till tidigare modeller.
+- **Frågor/övningar:** 4 uppgifter (5–8): (5) resonemangsfråga om hur näringskedjan björkblad → vivel → parasitstekel → sångare → sparvhök påverkas om alla sångare försvann, (6) resonemangsfråga med fem deluppgifter a)–e) om hur näringsväven påverkas om vivlarna/mesarna/fjärilslarverna/sparvhökarna/bladlössen försvann eller massförökades, (7) resonemangsfråga (naturvetenskapliga argument och källor) om folktron att växter växer bättre om man pratar med dem, (8) systematisk undersökning (laboration) där en trädgårdsmästare jämför två blomjordar A och B med tre numrerade genomförandesteg och en "Analys av genomförande"-text om felkällor.
+
+### K1-s.58 (PDF: kapitel-1 s.57)
+- **Rubriker:** KLYVÖPPNINGAR I OLIKA FÖRSTORING; VÄXTCELL OCH DJURCELL I MIKROSKOP
+- **Underrubriker (laboration 1):** Genomförande, Resultat; **(laboration 2):** Frågeställning, Hypotes, Genomförande
+- **Begrepp:** klyvöppningar, preparat, lupp, mikroskop, tulpanblad, rakblad, pincett, objektglas, täckglas, dropprör, hudbiten, växtcell, djurcell, färgvätska, metylenblått, tändsticka, stjärnmossa, kindens insida, färgpennor, förstoring
+- **Pedagogiska element:** Två separata MATERIAL-rutor med pricklistor. Funktionellt anger materiallistorna utrustning för respektive laboration. Stor "UNDERSÖKNING"-tag löper vertikalt i högermarginalen.
+- **Frågor/övningar:** 2 laborationer: laboration 1 "Klyvöppningar i olika förstoring" med 4 numrerade genomförandesteg + Resultat-instruktion; laboration 2 "Växtcell och djurcell i mikroskop" med Frågeställning, Hypotes och 5 numrerade genomförandesteg (forts. på nästa sida).
+
+### K1-s.59 (PDF: kapitel-1 s.58)
+- **Rubriker:** (forts. VÄXTCELL OCH DJURCELL I MIKROSKOP); VILKEN GAS BILDAS I FOTOSYNTESEN?
+- **Underrubriker (lab 2 forts.):** Resultat, Tolkning av resultat; **(lab 3):** Frågeställningar, Hypotes, Genomförande, Resultat, Tolkning av resultat
+- **Begrepp:** djurceller, växtceller, förstoring, hypotes, fotosyntes, gas, tulpanblad, vattenpest, glastratt, bägare, vichyvatten, provrör, mörkerförsök, ljusförsök, glödande trästicka, mörker
+- **Pedagogiska element:** MATERIAL-ruta för lab 3 med pricklista (Delar av tulpanblad eller skott av vattenpest, Två stora bägare, Två glastrattar, Två provrör, Vichyvatten, Trästicka). Funktionellt anger materiallistan utrustning för fotosyntes-gasförsöket. "UNDERSÖKNING"-tag i högermarginalen.
+- **Frågor/övningar:** 2 laborationer (forts. och ny): laboration 2 forts. med 3 Resultat-steg och 3 Tolkning av resultat-frågor; laboration 3 "Vilken gas bildas i fotosyntesen?" med Frågeställningar, Hypotes, 9 numrerade genomförandesteg, 2 Resultat-steg och 3 Tolkning av resultat-frågor.
