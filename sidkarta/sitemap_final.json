@@ -1,0 +1,6132 @@
+{
+  "chapters": [
+    {
+      "name": "EKOLOGI",
+      "start": 2,
+      "end": 77
+    },
+    {
+      "name": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "start": 78,
+      "end": 143
+    },
+    {
+      "name": "MÄNNISKOKROPPEN",
+      "start": 144,
+      "end": 207
+    },
+    {
+      "name": "LIV OCH HÄLSA",
+      "start": 208,
+      "end": 263
+    },
+    {
+      "name": "GENETIK OCH GENTEKNIK",
+      "start": 264,
+      "end": 327
+    },
+    {
+      "name": "EVOLUTION",
+      "start": 328,
+      "end": 361
+    }
+  ],
+  "per_pdf": {
+    "Biologi-Stella-kapitel-1": [
+      {
+        "pdf_page": 1,
+        "raw_page": 234,
+        "raw_chapter_ocr": "EC FSC\" C",
+        "book_page": 2,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 2,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 3,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 3,
+        "raw_page": 5,
+        "raw_chapter_ocr": "SE AS ) SST",
+        "book_page": 4,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 4,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 5,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 5,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 6,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 6,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 7,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 7,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 8,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 8,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 9,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 9,
+        "raw_page": 6,
+        "raw_chapter_ocr": null,
+        "book_page": 10,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 10,
+        "raw_page": 11,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 11,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 11,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 12,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 12,
+        "raw_page": 13,
+        "raw_chapter_ocr": "EKOLOGI JK",
+        "book_page": 13,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 13,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 14,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 14,
+        "raw_page": 5,
+        "raw_chapter_ocr": "VS 3 al",
+        "book_page": 15,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 15,
+        "raw_page": 5,
+        "raw_chapter_ocr": null,
+        "book_page": 16,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 16,
+        "raw_page": 17,
+        "raw_chapter_ocr": "EKOLOG! JK",
+        "book_page": 17,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 17,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 18,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 18,
+        "raw_page": 19,
+        "raw_chapter_ocr": "ka a",
+        "book_page": 19,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 19,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 20,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 20,
+        "raw_page": 21,
+        "raw_chapter_ocr": "or FS SN É ekoroct",
+        "book_page": 21,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 21,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 22,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 22,
+        "raw_page": 23,
+        "raw_chapter_ocr": "SAL RRSNR RE 1 LES VÄ EKOLOGI JK",
+        "book_page": 23,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 23,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 24,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 24,
+        "raw_page": 25,
+        "raw_chapter_ocr": "EKOLOGI JK",
+        "book_page": 25,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 25,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 26,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 26,
+        "raw_page": 27,
+        "raw_chapter_ocr": "VW EKOLOGI J",
+        "book_page": 27,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 27,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 28,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 28,
+        "raw_page": 29,
+        "raw_chapter_ocr": "EKOLOGI! JK",
+        "book_page": 29,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 29,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 30,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 30,
+        "raw_page": 31,
+        "raw_chapter_ocr": "ExoLoGI ak",
+        "book_page": 31,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 31,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 32,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 32,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 33,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 33,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 34,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 34,
+        "raw_page": 35,
+        "raw_chapter_ocr": "EKOLOGI JK",
+        "book_page": 35,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 35,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 36,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 36,
+        "raw_page": 2,
+        "raw_chapter_ocr": "RA smal fn",
+        "book_page": 37,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 37,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 38,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 38,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 39,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 39,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 40,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 40,
+        "raw_page": 41,
+        "raw_chapter_ocr": "MN | | G ) | | ; Se ekoLoG!",
+        "book_page": 41,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 41,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 42,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 42,
+        "raw_page": 43,
+        "raw_chapter_ocr": "kotoar",
+        "book_page": 43,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 43,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 44,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 44,
+        "raw_page": 45,
+        "raw_chapter_ocr": "EKOLOGI JK",
+        "book_page": 45,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 45,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 46,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 46,
+        "raw_page": 47,
+        "raw_chapter_ocr": "bn EKxoLOG!",
+        "book_page": 47,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 47,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 48,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 48,
+        "raw_page": 49,
+        "raw_chapter_ocr": "EKOLOGI! J",
+        "book_page": 49,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 49,
+        "raw_page": 1,
+        "raw_chapter_ocr": "den totala vikten av ala organismer i näringskedjorna i en lövskog",
+        "book_page": 50,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 50,
+        "raw_page": 51,
+        "raw_chapter_ocr": "EKOLOGI JK",
+        "book_page": 51,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 51,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 52,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 52,
+        "raw_page": 53,
+        "raw_chapter_ocr": "MY NY FRA RA - NE EKOLOGI JK",
+        "book_page": 53,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 53,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 54,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 54,
+        "raw_page": 2,
+        "raw_chapter_ocr": null,
+        "book_page": 55,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 55,
+        "raw_page": 1,
+        "raw_chapter_ocr": "RR veck Å",
+        "book_page": 56,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 56,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 57,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 57,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 58,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 58,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 59,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 59,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 60,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 60,
+        "raw_page": 61,
+        "raw_chapter_ocr": "ExoroG!",
+        "book_page": 61,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 61,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 62,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 62,
+        "raw_page": 63,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 63,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 63,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 64,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 64,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 65,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 65,
+        "raw_page": 1,
+        "raw_chapter_ocr": null,
+        "book_page": 66,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 66,
+        "raw_page": 67,
+        "raw_chapter_ocr": "EKOLOGI! JK",
+        "book_page": 67,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 67,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 68,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 68,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 69,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 69,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 70,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 70,
+        "raw_page": 71,
+        "raw_chapter_ocr": "EkoLoGI",
+        "book_page": 71,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 71,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 72,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 72,
+        "raw_page": 73,
+        "raw_chapter_ocr": "SÅR N 7 | | EKOLOGI",
+        "book_page": 73,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 73,
+        "raw_page": 3,
+        "raw_chapter_ocr": "Å I Kock",
+        "book_page": 74,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 74,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 75,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 75,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 76,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 76,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 77,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EKOLOGI"
+      }
+    ],
+    "Stella-biolgi-kapitel-2": [
+      {
+        "pdf_page": 1,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 78,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 2,
+        "raw_page": 5,
+        "raw_chapter_ocr": "I Vokulek mångfald",
+        "book_page": 79,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 3,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 80,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 4,
+        "raw_page": 81,
+        "raw_chapter_ocr": "UTVECKLING JK",
+        "book_page": 81,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 5,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 82,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 6,
+        "raw_page": 83,
+        "raw_chapter_ocr": "MILJÖ ÉK = UTVECKLING XX",
+        "book_page": 83,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 7,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 84,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 8,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 85,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 9,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 86,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 10,
+        "raw_page": 87,
+        "raw_chapter_ocr": "A MILJÖ/OCH | A",
+        "book_page": 87,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 11,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 88,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 12,
+        "raw_page": 89,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING JK",
+        "book_page": 89,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 13,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 14,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 15,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 16,
+        "raw_page": 3,
+        "raw_chapter_ocr": "MIL;Ö OCK HÅLLBAR UTVECKLING DE",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 17,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 18,
+        "raw_page": 3,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING 3 O",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 19,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 20,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 21,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 22,
+        "raw_page": 97,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 23,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 24,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 25,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 26,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 27,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 28,
+        "raw_page": 103,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 29,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 30,
+        "raw_page": 4,
+        "raw_chapter_ocr": "tidigare var torra. Det leder till matbrist och flyktingströmmar. ee - : . | a",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 31,
+        "raw_page": 106,
+        "raw_chapter_ocr": "MILJÖOCH HÅLLBAR UTVECKLING JR",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 32,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 33,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 34,
+        "raw_page": 109,
+        "raw_chapter_ocr": "EV - HÅLLBAR UTVECKLING J",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 35,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 36,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 37,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 38,
+        "raw_page": 113,
+        "raw_chapter_ocr": "LT >",
+        "book_page": 113,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 39,
+        "raw_page": 114,
+        "raw_chapter_ocr": "X& - —",
+        "book_page": 114,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 40,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 115,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 41,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 116,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 42,
+        "raw_page": 117,
+        "raw_chapter_ocr": "MILJÖ:OCH HÅLLBAR UTVECKLING SK",
+        "book_page": 117,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 43,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 118,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 44,
+        "raw_page": 119,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING",
+        "book_page": 119,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 45,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 120,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 46,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 121,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 47,
+        "raw_page": 122,
+        "raw_chapter_ocr": "JE MILJÖ OCK HÅLLBAR UTVECKLING SS",
+        "book_page": 122,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 48,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 123,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 49,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 124,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 50,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 125,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 51,
+        "raw_page": 126,
+        "raw_chapter_ocr": "K MILJÖ OCH HÅLLBAR UTVECKLING —-",
+        "book_page": 126,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 52,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 127,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 53,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 128,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 54,
+        "raw_page": 129,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING",
+        "book_page": 129,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 55,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 130,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 56,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 131,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 57,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 132,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 58,
+        "raw_page": 133,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING XX",
+        "book_page": 133,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 59,
+        "raw_page": 134,
+        "raw_chapter_ocr": "MILJÖ OCH HÅLLBAR UTVECKLING +",
+        "book_page": 134,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 60,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 135,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 61,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 136,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 62,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 137,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 63,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 138,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 64,
+        "raw_page": 139,
+        "raw_chapter_ocr": "KL OCH HÅLLBAR |",
+        "book_page": 139,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 65,
+        "raw_page": 140,
+        "raw_chapter_ocr": "JK MILO OCH HÅLLBAR UTVECKLING",
+        "book_page": 140,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      },
+      {
+        "pdf_page": 66,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 141,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "MILJÖ OCH HÅLLBAR UTVECKLING"
+      }
+    ],
+    "Biologi-del-1": [
+      {
+        "pdf_page": 1,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 6,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 2,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 7,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 3,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 8,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 4,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 9,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 5,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 10,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 6,
+        "raw_page": 11,
+        "raw_chapter_ocr": "EKOLOGI 3J",
+        "book_page": 11,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 7,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 12,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 8,
+        "raw_page": 13,
+        "raw_chapter_ocr": "FN / NN EKOLOGI",
+        "book_page": 13,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 9,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 14,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 10,
+        "raw_page": 2,
+        "raw_chapter_ocr": null,
+        "book_page": 15,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 11,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 16,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 12,
+        "raw_page": 17,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 17,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 13,
+        "raw_page": 4,
+        "raw_chapter_ocr": "Ar 2 arne br Arad AL UCL",
+        "book_page": 18,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 14,
+        "raw_page": 19,
+        "raw_chapter_ocr": null,
+        "book_page": 19,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 15,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 20,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 16,
+        "raw_page": 21,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 21,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 17,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 22,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 18,
+        "raw_page": 23,
+        "raw_chapter_ocr": "AIN BOFA AN FAN ; EKOLOGI",
+        "book_page": 23,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 19,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 24,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 20,
+        "raw_page": 25,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 25,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 21,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 22,
+        "raw_page": 41,
+        "raw_chapter_ocr": "N NE ekoroa",
+        "book_page": 41,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 23,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 42,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 24,
+        "raw_page": 43,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 43,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 25,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 44,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 26,
+        "raw_page": 45,
+        "raw_chapter_ocr": "EKOLOGI IK",
+        "book_page": 45,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 27,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 46,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 28,
+        "raw_page": 47,
+        "raw_chapter_ocr": "J EKOLOGI",
+        "book_page": 47,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 29,
+        "raw_page": 4,
+        "raw_chapter_ocr": "SS VN",
+        "book_page": 48,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 30,
+        "raw_page": 49,
+        "raw_chapter_ocr": "EKOLOGI J",
+        "book_page": 49,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 31,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 50,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 32,
+        "raw_page": 51,
+        "raw_chapter_ocr": "EKOLOGI!",
+        "book_page": 51,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 33,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 52,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 34,
+        "raw_page": 53,
+        "raw_chapter_ocr": "A SN I SVE 3 I > 3 3 VR -",
+        "book_page": 53,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 35,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 54,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 36,
+        "raw_page": 55,
+        "raw_chapter_ocr": "ÄRA J | EKOLOGI JK",
+        "book_page": 55,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 37,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 56,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 38,
+        "raw_page": 57,
+        "raw_chapter_ocr": "EKOLOGI J",
+        "book_page": 57,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 39,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 58,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 40,
+        "raw_page": 59,
+        "raw_chapter_ocr": "CR EAT EKOLOGI JK",
+        "book_page": 59,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 41,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 60,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 42,
+        "raw_page": 61,
+        "raw_chapter_ocr": "SN EKOLOGI > Q",
+        "book_page": 61,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 43,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 62,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 44,
+        "raw_page": 63,
+        "raw_chapter_ocr": "CN & EKOLOGI",
+        "book_page": 63,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 45,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 64,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 46,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 65,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 47,
+        "raw_page": 4,
+        "raw_chapter_ocr": "Å EKOLOGI KI",
+        "book_page": 66,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 48,
+        "raw_page": 67,
+        "raw_chapter_ocr": "EKOLOGI J",
+        "book_page": 67,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 49,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 68,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 50,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 69,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 51,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 70,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 52,
+        "raw_page": 71,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 71,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 53,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 72,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 54,
+        "raw_page": 73,
+        "raw_chapter_ocr": "VÅ JA PAN Ö EKOLOGI",
+        "book_page": 73,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 55,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 74,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 56,
+        "raw_page": 75,
+        "raw_chapter_ocr": "EKOLOGI",
+        "book_page": 75,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 57,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 76,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 58,
+        "raw_page": 77,
+        "raw_chapter_ocr": "SN EKOLOGI",
+        "book_page": 77,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EKOLOGI"
+      },
+      {
+        "pdf_page": 59,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 60,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 61,
+        "raw_page": 7,
+        "raw_chapter_ocr": "ar PRE a SR PARA Str art ben Str r NS Aga",
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 62,
+        "raw_page": 145,
+        "raw_chapter_ocr": "SNR NS EEE SEN ED ASEA VARSE",
+        "book_page": 145,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 63,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 146,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 64,
+        "raw_page": 147,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 147,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 65,
+        "raw_page": 8,
+        "raw_chapter_ocr": "j 148 pd JR",
+        "book_page": 148,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 66,
+        "raw_page": 149,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN XX",
+        "book_page": 149,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 67,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 150,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 68,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 151,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 69,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 152,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 70,
+        "raw_page": 153,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 153,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 71,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 154,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 72,
+        "raw_page": 1,
+        "raw_chapter_ocr": null,
+        "book_page": 155,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 73,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 156,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 74,
+        "raw_page": 157,
+        "raw_chapter_ocr": "UA MÄNNISKOKROPPEN",
+        "book_page": 157,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 75,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 158,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 76,
+        "raw_page": 2,
+        "raw_chapter_ocr": null,
+        "book_page": 159,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 77,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 160,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 78,
+        "raw_page": 161,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 161,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 79,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 162,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 80,
+        "raw_page": 163,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 163,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 81,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 164,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 82,
+        "raw_page": 165,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 165,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 83,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 166,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 84,
+        "raw_page": 167,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN >)J",
+        "book_page": 167,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 85,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 168,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 86,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 169,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 87,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 170,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 88,
+        "raw_page": 171,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 171,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 89,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 172,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 90,
+        "raw_page": 173,
+        "raw_chapter_ocr": "EE MÄNNISKOKROPPEN",
+        "book_page": 173,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 91,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 174,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 92,
+        "raw_page": 175,
+        "raw_chapter_ocr": "SR JE \" Y - A",
+        "book_page": 175,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 93,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 176,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 94,
+        "raw_page": 177,
+        "raw_chapter_ocr": "G < MÄNNISKOKROPPEN",
+        "book_page": 177,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 95,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 178,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 96,
+        "raw_page": 179,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 179,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 97,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 180,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 98,
+        "raw_page": 181,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 181,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 99,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 182,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 100,
+        "raw_page": 4,
+        "raw_chapter_ocr": null,
+        "book_page": 183,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      }
+    ],
+    "Biologi-del-2": [
+      {
+        "pdf_page": 1,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 184,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 2,
+        "raw_page": 185,
+        "raw_chapter_ocr": "LÖR. ER 3 EE MÄNNISKOKROPPEN",
+        "book_page": 185,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 3,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 186,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 4,
+        "raw_page": 187,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN 3)J",
+        "book_page": 187,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 5,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 188,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 6,
+        "raw_page": 189,
+        "raw_chapter_ocr": "TN FINÄNNISKOKROPPEN",
+        "book_page": 189,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 7,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 190,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 8,
+        "raw_page": 191,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 191,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 9,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 192,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 10,
+        "raw_page": 193,
+        "raw_chapter_ocr": "ÄL ER | A ÖR MÄNNISKOKROPPEN 2K",
+        "book_page": 193,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 11,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 194,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 12,
+        "raw_page": 105,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 195,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 13,
+        "raw_page": 7,
+        "raw_chapter_ocr": "mycket ovanligare nu än förr i tiden då man inte tillsatte jod i salt",
+        "book_page": 196,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 14,
+        "raw_page": 197,
+        "raw_chapter_ocr": "OO A MÄNNISKOKROPPEN",
+        "book_page": 197,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 15,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 198,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 16,
+        "raw_page": 199,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 199,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 17,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 200,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 18,
+        "raw_page": 201,
+        "raw_chapter_ocr": "MÄNNISKOKROPPEN",
+        "book_page": 201,
+        "book_page_source": "anchor",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 19,
+        "raw_page": 3,
+        "raw_chapter_ocr": "OD MÄNNISKOKROPPEN",
+        "book_page": 202,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 20,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 203,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 21,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 204,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 22,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 205,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 23,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 206,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 24,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 207,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "MÄNNISKOKROPPEN"
+      },
+      {
+        "pdf_page": 25,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 208,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 26,
+        "raw_page": 209,
+        "raw_chapter_ocr": "LIV OCH HÄLSA",
+        "book_page": 209,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 27,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 210,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 28,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 211,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 29,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 212,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 30,
+        "raw_page": 213,
+        "raw_chapter_ocr": "LIV OCH HÄLSA JK",
+        "book_page": 213,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 31,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 214,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 32,
+        "raw_page": 215,
+        "raw_chapter_ocr": "LEN EN LIV OCH HÄLSA JJK",
+        "book_page": 215,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 33,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 216,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 34,
+        "raw_page": 217,
+        "raw_chapter_ocr": "b Uvock HÄLSA sj",
+        "book_page": 217,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 35,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 218,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 36,
+        "raw_page": 219,
+        "raw_chapter_ocr": "LIV OCH HÄLSA",
+        "book_page": 219,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 37,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 220,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 38,
+        "raw_page": 221,
+        "raw_chapter_ocr": "LIVOCH HÄLSA JK",
+        "book_page": 221,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 39,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 222,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 40,
+        "raw_page": 223,
+        "raw_chapter_ocr": "LIV OCH HÄLSA JK",
+        "book_page": 223,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 41,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 224,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 42,
+        "raw_page": 225,
+        "raw_chapter_ocr": "LIV OCH HÄLSA K&K",
+        "book_page": 225,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 43,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 226,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 44,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 227,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 45,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 228,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 46,
+        "raw_page": 229,
+        "raw_chapter_ocr": "LIV.OCH/HALSA",
+        "book_page": 229,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 47,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 230,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 48,
+        "raw_page": 231,
+        "raw_chapter_ocr": "LIVOCH HÄLSA 2J",
+        "book_page": 231,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 49,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 232,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 50,
+        "raw_page": 233,
+        "raw_chapter_ocr": "FR NV ochhasa",
+        "book_page": 233,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 51,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 234,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 52,
+        "raw_page": 235,
+        "raw_chapter_ocr": "LIVOCH HÄLSA",
+        "book_page": 235,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 53,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 236,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 54,
+        "raw_page": 237,
+        "raw_chapter_ocr": "LIV OCH HÄLSA",
+        "book_page": 237,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 55,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 238,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 56,
+        "raw_page": 239,
+        "raw_chapter_ocr": "LIVOCH HÄLSA JK",
+        "book_page": 239,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 57,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 240,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 58,
+        "raw_page": 241,
+        "raw_chapter_ocr": "LIV OCH HÄLSA",
+        "book_page": 241,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 59,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 242,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 60,
+        "raw_page": 243,
+        "raw_chapter_ocr": "UIVOCK HÄLSA",
+        "book_page": 243,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 61,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 244,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 62,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 245,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 63,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 246,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 64,
+        "raw_page": 247,
+        "raw_chapter_ocr": "UV OCH HÄLSA",
+        "book_page": 247,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 65,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 248,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 66,
+        "raw_page": 249,
+        "raw_chapter_ocr": "LIV OCH HÄLSA JK",
+        "book_page": 249,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 67,
+        "raw_page": 2,
+        "raw_chapter_ocr": "som omfattas av smittskyddslagen. J",
+        "book_page": 250,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 68,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 251,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 69,
+        "raw_page": 1,
+        "raw_chapter_ocr": "XX LIV OCH HÄLSA",
+        "book_page": 252,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 70,
+        "raw_page": 253,
+        "raw_chapter_ocr": "FO 5 UNGGHHALSA",
+        "book_page": 253,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 71,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 254,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 72,
+        "raw_page": 255,
+        "raw_chapter_ocr": "LIV OCH HÄLSA JK",
+        "book_page": 255,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 73,
+        "raw_page": 3,
+        "raw_chapter_ocr": "JK uvockHALSA",
+        "book_page": 256,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 74,
+        "raw_page": 257,
+        "raw_chapter_ocr": "D HÄLSA",
+        "book_page": 257,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 75,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 258,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 76,
+        "raw_page": 259,
+        "raw_chapter_ocr": "LIV OCH HÄLSA >",
+        "book_page": 259,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 77,
+        "raw_page": 3,
+        "raw_chapter_ocr": null,
+        "book_page": 260,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 78,
+        "raw_page": 4,
+        "raw_chapter_ocr": "FE SS z 2 ANG bred",
+        "book_page": 261,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 79,
+        "raw_page": 262,
+        "raw_chapter_ocr": null,
+        "book_page": 262,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      },
+      {
+        "pdf_page": 80,
+        "raw_page": 263,
+        "raw_chapter_ocr": "LIV OCH HÄLSA K&K",
+        "book_page": 263,
+        "book_page_source": "anchor",
+        "assigned_chapter": "LIV OCH HÄLSA"
+      }
+    ],
+    "Biologi-del-3": [
+      {
+        "pdf_page": 1,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 264,
+        "book_page_source": "extrapolated_right",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 2,
+        "raw_page": 265,
+        "raw_chapter_ocr": "RT A RN SE K&K",
+        "book_page": 265,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 3,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 266,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 4,
+        "raw_page": 267,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK \"K",
+        "book_page": 267,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 5,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 268,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 6,
+        "raw_page": 269,
+        "raw_chapter_ocr": "ME ER SENETIK OCH GENTEKNIK J",
+        "book_page": 269,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 7,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 270,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 8,
+        "raw_page": 271,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK SJK",
+        "book_page": 271,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 9,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 272,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 10,
+        "raw_page": 273,
+        "raw_chapter_ocr": "VE | VD GENETIK OCH GENTEKNIK JK",
+        "book_page": 273,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 11,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 274,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 12,
+        "raw_page": 275,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK 2J",
+        "book_page": 275,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 13,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 276,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 14,
+        "raw_page": 2,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK 3€",
+        "book_page": 277,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 15,
+        "raw_page": 278,
+        "raw_chapter_ocr": null,
+        "book_page": 278,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 16,
+        "raw_page": 270,
+        "raw_chapter_ocr": "så EE ER bakteden dear sö En GENETIK OCH GENTEKNIK >J",
+        "book_page": 279,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 17,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 280,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 18,
+        "raw_page": 281,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 281,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 19,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 282,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 20,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 283,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 21,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 284,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 22,
+        "raw_page": 285,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 285,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 23,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 286,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 24,
+        "raw_page": 287,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 287,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 25,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 288,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 26,
+        "raw_page": 289,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK",
+        "book_page": 289,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 27,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 290,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 28,
+        "raw_page": 291,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK X",
+        "book_page": 291,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 29,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 292,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 30,
+        "raw_page": 293,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 293,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 31,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 294,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 32,
+        "raw_page": 205,
+        "raw_chapter_ocr": "GENETIK OCH'GENTEKNIK )K",
+        "book_page": 295,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 33,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 296,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 34,
+        "raw_page": 207,
+        "raw_chapter_ocr": "J GENETIK OCH GENTEKNIK J",
+        "book_page": 297,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 35,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 298,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 36,
+        "raw_page": 299,
+        "raw_chapter_ocr": "GENETIK OCH'GENTEKNIK JK",
+        "book_page": 299,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 37,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 300,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 38,
+        "raw_page": 301,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 301,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 39,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 302,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 40,
+        "raw_page": 303,
+        "raw_chapter_ocr": "I AF D J GENETIK OCH GENTEKNIK > DQ",
+        "book_page": 303,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 41,
+        "raw_page": 2,
+        "raw_chapter_ocr": null,
+        "book_page": null,
+        "book_page_source": "section_break",
+        "assigned_chapter": null
+      },
+      {
+        "pdf_page": 42,
+        "raw_page": 303,
+        "raw_chapter_ocr": "A GENETIK OCH GENTEKNIK 3J",
+        "book_page": 303,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 43,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 304,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 44,
+        "raw_page": 305,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK J",
+        "book_page": 305,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 45,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 306,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 46,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 307,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 47,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 308,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 48,
+        "raw_page": 2,
+        "raw_chapter_ocr": "föradlade Tran vild kalt. Å RR ö",
+        "book_page": 309,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 49,
+        "raw_page": 310,
+        "raw_chapter_ocr": null,
+        "book_page": 310,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 50,
+        "raw_page": 311,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 311,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 51,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 312,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 52,
+        "raw_page": 313,
+        "raw_chapter_ocr": "NUTS 2 PL SK SIR ANS FNETIK OCH GENTEKNIK JK",
+        "book_page": 313,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 53,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 314,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 54,
+        "raw_page": 315,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK",
+        "book_page": 315,
+        "book_page_source": "anchor",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 55,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 316,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 56,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 317,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 57,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 318,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 58,
+        "raw_page": 319,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK JK",
+        "book_page": 319,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 59,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 320,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 60,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 321,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 61,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 322,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 62,
+        "raw_page": 323,
+        "raw_chapter_ocr": "GENETIK OCH GENTEKNIK",
+        "book_page": 323,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 63,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 324,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 64,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 325,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 65,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 326,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 66,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 327,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "GENETIK OCH GENTEKNIK"
+      },
+      {
+        "pdf_page": 67,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 328,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 68,
+        "raw_page": 329,
+        "raw_chapter_ocr": "J EVOLUTION",
+        "book_page": 329,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 69,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 330,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 70,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 331,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 71,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 332,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 72,
+        "raw_page": 333,
+        "raw_chapter_ocr": "EVOLUTION",
+        "book_page": 333,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 73,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 334,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 74,
+        "raw_page": 335,
+        "raw_chapter_ocr": "EVOLUTION",
+        "book_page": 335,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 75,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 336,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 76,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 337,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 77,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 338,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 78,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 339,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 79,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 340,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 80,
+        "raw_page": 341,
+        "raw_chapter_ocr": "EVOLUTION",
+        "book_page": 341,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 81,
+        "raw_page": 7,
+        "raw_chapter_ocr": null,
+        "book_page": 342,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 82,
+        "raw_page": 343,
+        "raw_chapter_ocr": "MARIAN KREON ; SA EEE DR RR TROTS VOLUTION AK",
+        "book_page": 343,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 83,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 344,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 84,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 345,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 85,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 346,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 86,
+        "raw_page": 347,
+        "raw_chapter_ocr": "EVOLUTION",
+        "book_page": 347,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 87,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 348,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 88,
+        "raw_page": 3,
+        "raw_chapter_ocr": null,
+        "book_page": 349,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 89,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 350,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 90,
+        "raw_page": 351,
+        "raw_chapter_ocr": "EVOLUTION J",
+        "book_page": 351,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 91,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 352,
+        "book_page_source": "extrapolated",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 92,
+        "raw_page": 353,
+        "raw_chapter_ocr": "EVOLUTION SJK",
+        "book_page": 353,
+        "book_page_source": "anchor",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 93,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 354,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 94,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 355,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 95,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 356,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 96,
+        "raw_page": 357,
+        "raw_chapter_ocr": "EVOLUTION 3K",
+        "book_page": 357,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 97,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 358,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 98,
+        "raw_page": null,
+        "raw_chapter_ocr": null,
+        "book_page": 359,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 99,
+        "raw_page": 3,
+        "raw_chapter_ocr": "a a = 0 fn",
+        "book_page": 360,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      },
+      {
+        "pdf_page": 100,
+        "raw_page": 361,
+        "raw_chapter_ocr": "EVOLUTION K&K",
+        "book_page": 361,
+        "book_page_source": "extrapolated_left",
+        "assigned_chapter": "EVOLUTION"
+      }
+    ]
+  },
+  "canonical_pages": {
+    "2": {
+      "book_page": 2,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 1,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "3": {
+      "book_page": 3,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 2,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "4": {
+      "book_page": 4,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 3,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "5": {
+      "book_page": 5,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 4,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "6": {
+      "book_page": 6,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 5,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "7": {
+      "book_page": 7,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 6,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "8": {
+      "book_page": 8,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 7,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "9": {
+      "book_page": 9,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 8,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "10": {
+      "book_page": 10,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 9,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "11": {
+      "book_page": 11,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 10,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "12": {
+      "book_page": 12,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 11,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "13": {
+      "book_page": 13,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 12,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "14": {
+      "book_page": 14,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 13,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "15": {
+      "book_page": 15,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 14,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "16": {
+      "book_page": 16,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 15,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "17": {
+      "book_page": 17,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 16,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "18": {
+      "book_page": 18,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 17,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "19": {
+      "book_page": 19,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 18,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "20": {
+      "book_page": 20,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 19,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "21": {
+      "book_page": 21,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 20,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "22": {
+      "book_page": 22,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 21,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "23": {
+      "book_page": 23,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 22,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "24": {
+      "book_page": 24,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 23,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "25": {
+      "book_page": 25,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 24,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "26": {
+      "book_page": 26,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 25,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "27": {
+      "book_page": 27,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 26,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "28": {
+      "book_page": 28,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 27,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "29": {
+      "book_page": 29,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 28,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "30": {
+      "book_page": 30,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 29,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "31": {
+      "book_page": 31,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 30,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "32": {
+      "book_page": 32,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 31,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "33": {
+      "book_page": 33,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 32,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "34": {
+      "book_page": 34,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 33,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "35": {
+      "book_page": 35,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 34,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "36": {
+      "book_page": 36,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 35,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "37": {
+      "book_page": 37,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 36,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "38": {
+      "book_page": 38,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 37,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "39": {
+      "book_page": 39,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 38,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "40": {
+      "book_page": 40,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 39,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "41": {
+      "book_page": 41,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 40,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "42": {
+      "book_page": 42,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 41,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "43": {
+      "book_page": 43,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 42,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "44": {
+      "book_page": 44,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 43,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "45": {
+      "book_page": 45,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 44,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "46": {
+      "book_page": 46,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 45,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "47": {
+      "book_page": 47,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 46,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "48": {
+      "book_page": 48,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 47,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "49": {
+      "book_page": 49,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 48,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "50": {
+      "book_page": 50,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 49,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "51": {
+      "book_page": 51,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 50,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "52": {
+      "book_page": 52,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 51,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "53": {
+      "book_page": 53,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 52,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "54": {
+      "book_page": 54,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 53,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "55": {
+      "book_page": 55,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 54,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "56": {
+      "book_page": 56,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 55,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "57": {
+      "book_page": 57,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 56,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "58": {
+      "book_page": 58,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 57,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "59": {
+      "book_page": 59,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 58,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "60": {
+      "book_page": 60,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 59,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "61": {
+      "book_page": 61,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 60,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "62": {
+      "book_page": 62,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 61,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "63": {
+      "book_page": 63,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 62,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "64": {
+      "book_page": 64,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 63,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "65": {
+      "book_page": 65,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 64,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "66": {
+      "book_page": 66,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 65,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "67": {
+      "book_page": 67,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 66,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "68": {
+      "book_page": 68,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 67,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "69": {
+      "book_page": 69,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 68,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "70": {
+      "book_page": 70,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 69,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "71": {
+      "book_page": 71,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 70,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "72": {
+      "book_page": 72,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 71,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "73": {
+      "book_page": 73,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 72,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "74": {
+      "book_page": 74,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 73,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "75": {
+      "book_page": 75,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 74,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "76": {
+      "book_page": 76,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 75,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "77": {
+      "book_page": 77,
+      "chapter": "EKOLOGI",
+      "source_pdf": "Biologi-Stella-kapitel-1",
+      "pdf_page": 76,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "78": {
+      "book_page": 78,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 1,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "79": {
+      "book_page": 79,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 2,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "80": {
+      "book_page": 80,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 3,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "81": {
+      "book_page": 81,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 4,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "82": {
+      "book_page": 82,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 5,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "83": {
+      "book_page": 83,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 6,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "84": {
+      "book_page": 84,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 7,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "85": {
+      "book_page": 85,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 8,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "86": {
+      "book_page": 86,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 9,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "87": {
+      "book_page": 87,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 10,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "88": {
+      "book_page": 88,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 11,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "89": {
+      "book_page": 89,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 12,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "113": {
+      "book_page": 113,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 38,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "114": {
+      "book_page": 114,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 39,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "115": {
+      "book_page": 115,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 40,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "116": {
+      "book_page": 116,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 41,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "117": {
+      "book_page": 117,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 42,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "118": {
+      "book_page": 118,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 43,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "119": {
+      "book_page": 119,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 44,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "120": {
+      "book_page": 120,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 45,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "121": {
+      "book_page": 121,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 46,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "122": {
+      "book_page": 122,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 47,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "123": {
+      "book_page": 123,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 48,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "124": {
+      "book_page": 124,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 49,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "125": {
+      "book_page": 125,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 50,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "126": {
+      "book_page": 126,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 51,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "127": {
+      "book_page": 127,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 52,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "128": {
+      "book_page": 128,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 53,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "129": {
+      "book_page": 129,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 54,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "130": {
+      "book_page": 130,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 55,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "131": {
+      "book_page": 131,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 56,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "132": {
+      "book_page": 132,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 57,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "133": {
+      "book_page": 133,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 58,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "134": {
+      "book_page": 134,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 59,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "135": {
+      "book_page": 135,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 60,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "136": {
+      "book_page": 136,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 61,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "137": {
+      "book_page": 137,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 62,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "138": {
+      "book_page": 138,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 63,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "139": {
+      "book_page": 139,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 64,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "140": {
+      "book_page": 140,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 65,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "141": {
+      "book_page": 141,
+      "chapter": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "source_pdf": "Stella-biolgi-kapitel-2",
+      "pdf_page": 66,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "145": {
+      "book_page": 145,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 62,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "146": {
+      "book_page": 146,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 63,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "147": {
+      "book_page": 147,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 64,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "148": {
+      "book_page": 148,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 65,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "149": {
+      "book_page": 149,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 66,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "150": {
+      "book_page": 150,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 67,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "151": {
+      "book_page": 151,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 68,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "152": {
+      "book_page": 152,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 69,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "153": {
+      "book_page": 153,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 70,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "154": {
+      "book_page": 154,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 71,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "155": {
+      "book_page": 155,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 72,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "156": {
+      "book_page": 156,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 73,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "157": {
+      "book_page": 157,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 74,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "158": {
+      "book_page": 158,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 75,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "159": {
+      "book_page": 159,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 76,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "160": {
+      "book_page": 160,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 77,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "161": {
+      "book_page": 161,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 78,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "162": {
+      "book_page": 162,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 79,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "163": {
+      "book_page": 163,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 80,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "164": {
+      "book_page": 164,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 81,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "165": {
+      "book_page": 165,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 82,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "166": {
+      "book_page": 166,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 83,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "167": {
+      "book_page": 167,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 84,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "168": {
+      "book_page": 168,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 85,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "169": {
+      "book_page": 169,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 86,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "170": {
+      "book_page": 170,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 87,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "171": {
+      "book_page": 171,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 88,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "172": {
+      "book_page": 172,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 89,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "173": {
+      "book_page": 173,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 90,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "174": {
+      "book_page": 174,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 91,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "175": {
+      "book_page": 175,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 92,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "176": {
+      "book_page": 176,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 93,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "177": {
+      "book_page": 177,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 94,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "178": {
+      "book_page": 178,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 95,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "179": {
+      "book_page": 179,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 96,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "180": {
+      "book_page": 180,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 97,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "181": {
+      "book_page": 181,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 98,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "182": {
+      "book_page": 182,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 99,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "183": {
+      "book_page": 183,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-1",
+      "pdf_page": 100,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "184": {
+      "book_page": 184,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 1,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": true
+    },
+    "185": {
+      "book_page": 185,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 2,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "186": {
+      "book_page": 186,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 3,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "187": {
+      "book_page": 187,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 4,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "188": {
+      "book_page": 188,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 5,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "189": {
+      "book_page": 189,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 6,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "190": {
+      "book_page": 190,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 7,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "191": {
+      "book_page": 191,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 8,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "192": {
+      "book_page": 192,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 9,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "193": {
+      "book_page": 193,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 10,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "194": {
+      "book_page": 194,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 11,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "195": {
+      "book_page": 195,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 12,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "196": {
+      "book_page": 196,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 13,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "197": {
+      "book_page": 197,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 14,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "198": {
+      "book_page": 198,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 15,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "199": {
+      "book_page": 199,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 16,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "200": {
+      "book_page": 200,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 17,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "201": {
+      "book_page": 201,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 18,
+      "book_page_source": "anchor",
+      "is_fallback": true
+    },
+    "202": {
+      "book_page": 202,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 19,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "203": {
+      "book_page": 203,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 20,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "204": {
+      "book_page": 204,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 21,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "205": {
+      "book_page": 205,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 22,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "206": {
+      "book_page": 206,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 23,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "207": {
+      "book_page": 207,
+      "chapter": "MÄNNISKOKROPPEN",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 24,
+      "book_page_source": "extrapolated",
+      "is_fallback": true
+    },
+    "208": {
+      "book_page": 208,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 25,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "209": {
+      "book_page": 209,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 26,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "210": {
+      "book_page": 210,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 27,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "211": {
+      "book_page": 211,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 28,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "212": {
+      "book_page": 212,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 29,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "213": {
+      "book_page": 213,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 30,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "214": {
+      "book_page": 214,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 31,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "215": {
+      "book_page": 215,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 32,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "216": {
+      "book_page": 216,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 33,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "217": {
+      "book_page": 217,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 34,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "218": {
+      "book_page": 218,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 35,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "219": {
+      "book_page": 219,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 36,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "220": {
+      "book_page": 220,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 37,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "221": {
+      "book_page": 221,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 38,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "222": {
+      "book_page": 222,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 39,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "223": {
+      "book_page": 223,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 40,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "224": {
+      "book_page": 224,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 41,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "225": {
+      "book_page": 225,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 42,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "226": {
+      "book_page": 226,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 43,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "227": {
+      "book_page": 227,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 44,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "228": {
+      "book_page": 228,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 45,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "229": {
+      "book_page": 229,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 46,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "230": {
+      "book_page": 230,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 47,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "231": {
+      "book_page": 231,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 48,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "232": {
+      "book_page": 232,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 49,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "233": {
+      "book_page": 233,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 50,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "234": {
+      "book_page": 234,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 51,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "235": {
+      "book_page": 235,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 52,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "236": {
+      "book_page": 236,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 53,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "237": {
+      "book_page": 237,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 54,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "238": {
+      "book_page": 238,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 55,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "239": {
+      "book_page": 239,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 56,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "240": {
+      "book_page": 240,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 57,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "241": {
+      "book_page": 241,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 58,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "242": {
+      "book_page": 242,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 59,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "243": {
+      "book_page": 243,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 60,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "244": {
+      "book_page": 244,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 61,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "245": {
+      "book_page": 245,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 62,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "246": {
+      "book_page": 246,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 63,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "247": {
+      "book_page": 247,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 64,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "248": {
+      "book_page": 248,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 65,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "249": {
+      "book_page": 249,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 66,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "250": {
+      "book_page": 250,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 67,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "251": {
+      "book_page": 251,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 68,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "252": {
+      "book_page": 252,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 69,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "253": {
+      "book_page": 253,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 70,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "254": {
+      "book_page": 254,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 71,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "255": {
+      "book_page": 255,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 72,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "256": {
+      "book_page": 256,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 73,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "257": {
+      "book_page": 257,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 74,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "258": {
+      "book_page": 258,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 75,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "259": {
+      "book_page": 259,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 76,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "260": {
+      "book_page": 260,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 77,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "261": {
+      "book_page": 261,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 78,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "262": {
+      "book_page": 262,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 79,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "263": {
+      "book_page": 263,
+      "chapter": "LIV OCH HÄLSA",
+      "source_pdf": "Biologi-del-2",
+      "pdf_page": 80,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "264": {
+      "book_page": 264,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 1,
+      "book_page_source": "extrapolated_right",
+      "is_fallback": false
+    },
+    "265": {
+      "book_page": 265,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 2,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "266": {
+      "book_page": 266,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 3,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "267": {
+      "book_page": 267,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 4,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "268": {
+      "book_page": 268,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 5,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "269": {
+      "book_page": 269,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 6,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "270": {
+      "book_page": 270,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 7,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "271": {
+      "book_page": 271,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 8,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "272": {
+      "book_page": 272,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 9,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "273": {
+      "book_page": 273,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 10,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "274": {
+      "book_page": 274,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 11,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "275": {
+      "book_page": 275,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 12,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "276": {
+      "book_page": 276,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 13,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "277": {
+      "book_page": 277,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 14,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "278": {
+      "book_page": 278,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 15,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "279": {
+      "book_page": 279,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 16,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "280": {
+      "book_page": 280,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 17,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "281": {
+      "book_page": 281,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 18,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "282": {
+      "book_page": 282,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 19,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "283": {
+      "book_page": 283,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 20,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "284": {
+      "book_page": 284,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 21,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "285": {
+      "book_page": 285,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 22,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "286": {
+      "book_page": 286,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 23,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "287": {
+      "book_page": 287,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 24,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "288": {
+      "book_page": 288,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 25,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "289": {
+      "book_page": 289,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 26,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "290": {
+      "book_page": 290,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 27,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "291": {
+      "book_page": 291,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 28,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "292": {
+      "book_page": 292,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 29,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "293": {
+      "book_page": 293,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 30,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "294": {
+      "book_page": 294,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 31,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "295": {
+      "book_page": 295,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 32,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "296": {
+      "book_page": 296,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 33,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "297": {
+      "book_page": 297,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 34,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "298": {
+      "book_page": 298,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 35,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "299": {
+      "book_page": 299,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 36,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "300": {
+      "book_page": 300,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 37,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "301": {
+      "book_page": 301,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 38,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "302": {
+      "book_page": 302,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 39,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "303": {
+      "book_page": 303,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 40,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "304": {
+      "book_page": 304,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 43,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "305": {
+      "book_page": 305,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 44,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "306": {
+      "book_page": 306,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 45,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "307": {
+      "book_page": 307,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 46,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "308": {
+      "book_page": 308,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 47,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "309": {
+      "book_page": 309,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 48,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "310": {
+      "book_page": 310,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 49,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "311": {
+      "book_page": 311,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 50,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "312": {
+      "book_page": 312,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 51,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "313": {
+      "book_page": 313,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 52,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "314": {
+      "book_page": 314,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 53,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "315": {
+      "book_page": 315,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 54,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "316": {
+      "book_page": 316,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 55,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "317": {
+      "book_page": 317,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 56,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "318": {
+      "book_page": 318,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 57,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "319": {
+      "book_page": 319,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 58,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "320": {
+      "book_page": 320,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 59,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "321": {
+      "book_page": 321,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 60,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "322": {
+      "book_page": 322,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 61,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "323": {
+      "book_page": 323,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 62,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "324": {
+      "book_page": 324,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 63,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "325": {
+      "book_page": 325,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 64,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "326": {
+      "book_page": 326,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 65,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "327": {
+      "book_page": 327,
+      "chapter": "GENETIK OCH GENTEKNIK",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 66,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "328": {
+      "book_page": 328,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 67,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "329": {
+      "book_page": 329,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 68,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "330": {
+      "book_page": 330,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 69,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "331": {
+      "book_page": 331,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 70,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "332": {
+      "book_page": 332,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 71,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "333": {
+      "book_page": 333,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 72,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "334": {
+      "book_page": 334,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 73,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "335": {
+      "book_page": 335,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 74,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "336": {
+      "book_page": 336,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 75,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "337": {
+      "book_page": 337,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 76,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "338": {
+      "book_page": 338,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 77,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "339": {
+      "book_page": 339,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 78,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "340": {
+      "book_page": 340,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 79,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "341": {
+      "book_page": 341,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 80,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "342": {
+      "book_page": 342,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 81,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "343": {
+      "book_page": 343,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 82,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "344": {
+      "book_page": 344,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 83,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "345": {
+      "book_page": 345,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 84,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "346": {
+      "book_page": 346,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 85,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "347": {
+      "book_page": 347,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 86,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "348": {
+      "book_page": 348,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 87,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "349": {
+      "book_page": 349,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 88,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "350": {
+      "book_page": 350,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 89,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "351": {
+      "book_page": 351,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 90,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "352": {
+      "book_page": 352,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 91,
+      "book_page_source": "extrapolated",
+      "is_fallback": false
+    },
+    "353": {
+      "book_page": 353,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 92,
+      "book_page_source": "anchor",
+      "is_fallback": false
+    },
+    "354": {
+      "book_page": 354,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 93,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "355": {
+      "book_page": 355,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 94,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "356": {
+      "book_page": 356,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 95,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "357": {
+      "book_page": 357,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 96,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "358": {
+      "book_page": 358,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 97,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "359": {
+      "book_page": 359,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 98,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "360": {
+      "book_page": 360,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 99,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    },
+    "361": {
+      "book_page": 361,
+      "chapter": "EVOLUTION",
+      "source_pdf": "Biologi-del-3",
+      "pdf_page": 100,
+      "book_page_source": "extrapolated_left",
+      "is_fallback": false
+    }
+  },
+  "missing_pages": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    142,
+    143,
+    144
+  ],
+  "primary_pdf_per_chapter": {
+    "EKOLOGI": "Biologi-Stella-kapitel-1",
+    "MILJÖ OCH HÅLLBAR UTVECKLING": "Stella-biolgi-kapitel-2",
+    "MÄNNISKOKROPPEN": "Biologi-del-1",
+    "LIV OCH HÄLSA": "Biologi-del-2",
+    "GENETIK OCH GENTEKNIK": "Biologi-del-3",
+    "EVOLUTION": "Biologi-del-3"
+  }
+}
