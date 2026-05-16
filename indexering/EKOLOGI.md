@@ -114,3 +114,121 @@
 - **Pedagogiska element:** Två materiallistor (avrivna pappersrutor) för respektive laboration. Foto av objektglas och täckglas på mörk yta med etiketter — funktionell instrumentbild. Numrerade arbetsgångs-listor (2 + 5 steg) för Genomförande. Separata Resultat-rutor.
 - **Frågor/övningar:** 2 laborationer.
 
+### K1-s.22 (PDF: kapitel-1 s.21)
+- **Rubrik:** JORDENS BIOLOGISKA MÅNGFALD (delkapitelstart)
+- **Underrubrik:** Bakterier finns överallt
+- **Begrepp:** bakterier, nedbrytare, bakteriearter
+- **Pedagogiska element:** Helsidesfoto i nedre delen: mörkgröna stavformade bakterier i stark förstoring — illustrerar bakteriers form.
+- **Frågor/övningar:** —
+
+### K1-s.23 (PDF: kapitel-1 s.22)
+- **Rubrik:** (forts. Bakterier)
+- **Underrubriker:** Cyanobakterier tillverkar näring och syre; Arkéer klarar de hårdaste miljöerna
+- **Begrepp:** cyanobakterier, fotosyntes, algblomning, arkéer, cellkärna, metangas
+- **Pedagogiska element:** Satellitfoto i övre högerhörn av kust med algblomning + bildtext om cyanobakteriers tillväxt och giftighet — illustrerar funktionellt algblomning. Flygfoto av vulkanisk sjö/varm källa (Grand Prismatic-liknande) med bildtext — illustrerar extrem livsmiljö för arkéer.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): två exempel på hur bakterier skaffar energi; vilken grupp som klarar heta källor och supersalta sjöar.
+
+### K1-s.24 (PDF: kapitel-1 s.23)
+- **Rubrik:** Växter
+- **Underrubrik:** Växterna förökar sig med sporer eller frön
+- **Begrepp:** fotosyntes, sporväxter, fröväxter, sporer, frön, alger, mossor, ormbunksväxter, barrträd, blomväxter
+- **Pedagogiska element:** Släktträd över växtriket: gröna pilar från "Liv i vatten" längst ned via grenpunkter märkta "Liv på land", "Rötter och stam", "Förökning med frön", "Blomma och frukt" upp till de fem grupperna (Alger, Mossor, Ormbunksväxter under SPORVÄXTER; Barrträd, Blomväxter under FRÖVÄXTER) med fotosymboler. Funktionellt visar trädet utvecklingsordning och nya egenskaper vid varje grenpunkt.
+- **Frågor/övningar:** —
+
+### K1-s.25 (PDF: kapitel-1 s.24)
+- **Rubrik:** Sporväxter
+- **Underrubrik:** Alger
+- **Begrepp:** plankton, växtplankton, grönalger, kiselalger, rödalger, brunalger, tång
+- **Pedagogiska element:** Två staplade mikroskopfoton (grönalger och kiselalger) i övre högerhörn med gemensam bildtext om växtplankton. Tre färgfoton med bildtexter: grönslick, blåstång, rödsallat — illustrerar grön-, brun- och rödalger i ordning.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): vad organismer som svävar fritt i vattnet kallas; vilka färger stora alger kan ha.
+
+### K1-s.26 (PDF: kapitel-1 s.25)
+- **Rubrik:** Mossor
+- **Begrepp:** mossor, sporer, kapslar
+- **Pedagogiska element:** Tre staplade närbildsfoton av mossor med bildtexter: Väggmossa, Björnmossa, Vitmossa — illustrerar art-/utseendevariation inom mossorna.
+- **Frågor/övningar:** —
+
+### K1-s.27 (PDF: kapitel-1 s.26)
+- **Rubrik:** Ormbunksväxter
+- **Underrubriker:** Fröväxter; Barrträd; Blomväxter
+- **Begrepp:** lummerväxter, fräkenväxter, ormbunkar, sporer, rötter, kärl, fröväxter, barrträd, blomväxter, nakenfröiga, gömfröiga, ståndare, pistill, fruktlämne, pollenkorn, pollinering
+- **Pedagogiska element:** Tre foton med bildtexter (Lummer, Fräken, Ormbunke) som exempel på ormbunksväxter. Foto av barrkottar och frön med bildtext om nakna frön på fjäll. Stor blomgenomskärning i nedre delen med utpekade etiketter (Ståndare, Pistill) som funktionellt visar blomväxtens fortplantningsorgan.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): hur det ska vara där mossor lever; om granen är gömfröig eller nakenfröig.
+
+### K1-s.28 (PDF: kapitel-1 s.27)
+- **Rubrik:** Djur
+- **Underrubriker:** Ryggradslösa djur; Urdjur
+- **Begrepp:** ryggradslösa djur, ryggradsdjur, skelett, brosk, urdjur, svampdjur, nässeldjur, ringmaskar, blötdjur, björndjur, leddjur, tagghudingar, toffeldjur, amöbor
+- **Pedagogiska element:** Släktträd över djurriket: grå pilar från "Encelliga djur" via grenpunkter märkta "Flercelliga djur", "Maghåla", "Tarmkanal", "Yttre skelett med leder", "Inre skelett med ryggrad" upp till nio djurgrupper med cirkulerade fotosymboler (Urdjur, Svampdjur, Nässeldjur, Ringmaskar, Blötdjur, Björndjur, Leddjur, Tagghudingar, Ryggradsdjur). Funktionellt visar trädet utvecklingsordning och nya egenskaper vid varje grenpunkt.
+- **Frågor/övningar:** —
+
+### K1-s.29 (PDF: kapitel-1 s.28)
+- **Rubriker:** Nässeldjur; Maskar
+- **Begrepp:** nässeldjur, maneter, koraller, nässelceller, korallrev, rundmaskar, plattmaskar, ringmaskar, daggmaskar
+- **Pedagogiska element:** Två staplade foton i övre högerhörn (rosa anemon och korallrev) med gemensam bildtext om koralldjur respektive korallrev. Stort foto av daggmaskars avföringshög i gräs med bildtext.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): vilka fem djurgrupper som är ryggradsdjur; vad de minsta/första djuren kallas.
+
+### K1-s.30 (PDF: kapitel-1 s.29)
+- **Rubriker:** Blötdjur; Leddjur
+- **Begrepp:** blötdjur, snäckor, musslor, bläckfiskar, sniglar, blåmussla, leddjur, segment, mångfotingar, tusenfotingar, spindeldjur, kräftdjur, insekter
+- **Pedagogiska element:** Tre staplade foton i vänstermarginal med bildtexter: Trädgårdssnäcka, Blåmussla, Bläckfisk — illustrerar de tre blötdjursgrupperna. Foto av mångfoting med bildtext. Foto av spindel med bildtext "Spindeldjur".
+- **Frågor/övningar:** —
+
+### K1-s.31 (PDF: kapitel-1 s.30)
+- **Rubrik:** (forts. Leddjur) Kräftdjur, Insekter
+- **Begrepp:** kräftdjur, gråsuggor, havstulpaner, djurplankton, hinnkräftor, hoppkräftor, insekter, puppor, citronfjäril, granbarkborren
+- **Pedagogiska element:** Foto av kräftdjur med bildtext "Kräftdjur". Foto av gråsuggor och foto av havstulpaner, båda med bildtexter som funktionellt visar landlevande respektive fastsittande kräftdjur. Foto av skalbagge med bildtext "Insekt". Två mikrofoton i nederkant med gemensam bildtext: hinnkräftor och hoppkräftor som djurplankton.
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): tre grupper bland blötdjuren; vilken grupp som är störst bland leddjuren.
+
+### K1-s.32 (PDF: kapitel-1 s.31)
+- **Rubriker:** Tagghudingar; Ryggradsdjur; Fiskar
+- **Begrepp:** tagghudingar, sjöstjärnor, sjöborrar, sjögurkor, slangfötter, ryggradsdjur, inre befruktning, yttre befruktning, jämnvarma, växelvarma, fiskar, fjäll, gälar
+- **Pedagogiska element:** Tre staplade foton i vänstermarginal med bildtexter: Sjöstjärna, Sjöborre, Sjögurka — illustrerar tagghudingsgruppens tre kroppsformer. Helsidesnära foto av fiskhuvud i genomskärning med bildtext om gälarnas placering bakom huvudet, täckta av gällock.
+- **Frågor/övningar:** —
+
+### K1-s.33 (PDF: kapitel-1 s.32)
+- **Rubriker:** Groddjur; Kräldjur; Fåglar
+- **Begrepp:** groddjur, grodor, paddor, salamandrar, växelvarma, yttre befruktning, lungor, kräldjur, reptiler, ödlor, ormar, krokodiler, sköldpaddor, fjäll, plåtar, inre befruktning, fåglar, jämnvarma, flyttfåglar, rovfåglar
+- **Pedagogiska element:** Foto av vattensalamander med bildtext om grodyngels stjärt. Foto av kopparrödla med bildtext som korrigerar vanligt missförstånd (ödla utan ben, inte orm).
+- **Frågor/övningar:** 2 frågor i marginalruta (faktafrågor): vilka fyra grupper kräldjur delas in i; vad kräldjur också kallas (lucktextfråga).
+
+### K1-s.34 (PDF: kapitel-1 s.33)
+- **Rubriker:** Däggdjur; Svampar; Nedbrytningssvampar
+- **Begrepp:** däggdjur, jämnvarma, päls, fladdermöss, modersmjölken, svampar, klorofyll, storsvampar, hattsvampar, fruktkroppar, sporer, mycel, nedbrytningssvampar
+- **Pedagogiska element:** Stort helsidesfoto upptill av flygande fladdermus i flykt med utbredda vingar — illustrerar däggdjur med flygförmåga. Foto av rosa nedbrytningssvampar (tickor) på trädstam med bildtext "Nedbrytningssvampar".
+- **Frågor/övningar:** —
+
+### K1-s.35 (PDF: kapitel-1 s.34)
+- **Rubriker:** Jästsvampar; Mögelsvampar; Alger och svampar samarbetar i lavar
+- **Begrepp:** jästsvampar, encelliga, mögelsvampar, alger, lavar, renlavar, blåslav
+- **Pedagogiska element:** Två mikrofoton sida vid sida överst (jästceller i delning; mögel) med bildtexter "Jästsvampar" och "Mögelsvampar". Två foton i nederkant: renlavar på marken och blåslav på gren, med gemensam bildtext som illustrerar lav-symbiosen.
+- **Frågor/övningar:** 1 fråga i marginalruta (faktafråga): vad svamparnas nätverk av tunna trådar nere i jorden kallas.
+
+### K1-s.36 (PDF: kapitel-1 s.35)
+- **Rubrik:** UPPGIFTER
+- **Underrubrik:** Begrepp och biologiska samband
+- **Begrepp:** blötdjur, nässeldjur, leddjur, urdjur, ryggradsdjur, amöbor, toffeldjur, maneter, koraller, fåglar, fiskar, kräftdjur, spindeldjur, snäckor, musslor, mossor, ormbunksväxter, algblomning, cyanobakterier, däggdjur
+- **Pedagogiska element:** Streckteckning av haj i nedre delen av sidan som dekorativ illustration kopplad till djurgruppsfrågan. Vit textruta med ordlista (val, elefant, haj, säl, sköldpadda, krokodil, groda, talgoxe, giraff, isbjörn) för urvalsuppgift.
+- **Frågor/övningar:** 5 uppgifter — 1 matchningsuppgift A–E mot Y–Ö om djurgrupper (faktafråga), 1 förklara-varför-fråga om algblomning/cyanobakterier (resonemangsfråga), 2 flervalsfrågor A–D om mossor respektive ormbunksväxter (faktafrågor), 1 ordlisteurvalsfråga om däggdjur (faktafråga).
+
+### K1-s.37 (PDF: kapitel-1 s.36)
+- **Rubrik:** UPPGIFTER (forts.)
+- **Underrubriker:** Naturvetenskapliga argument och källor; Systematiska undersökningar
+- **Begrepp:** vitmossa, samarbete svampar/alger, klorofyll, frö gror, ljus, mörker
+- **Pedagogiska element:** Foto av renlavar (lav) i övre högerhörn kopplat till uppgift om påståenden A–C. Tre pratbubblor A, B, C med olika påståenden om vad bilden föreställer — funktionellt diskussionsmodell för argumentering.
+- **Frågor/övningar:** 2 uppgifter — 1 argumentationsuppgift om vilken av A–C som har rätt (resonemangsfråga, 2 deluppgifter), 1 undersökningsdesign-uppgift om gror fler frön i ljus än i mörker (resonemangsfråga om experimentdesign, 2 deluppgifter).
+
+### K1-s.38 (PDF: kapitel-1 s.37)
+- **Rubrik:** FÄLTUNDERSÖKNING (uppslagsrubrik)
+- **Underrubriker:** Skogens skikt; Täckningsgrad av växter; GENOMFÖRANDE I FÄLT; Skogens skikt; Täckningsgrad av växter
+- **Begrepp:** fältundersökning, naturruta, kvadratmeter, trädskikt, buskskikt, fältskikt, bottenskikt, täckningsgrad
+- **Pedagogiska element:** Materiallista (avriven pappersruta) för fältundersökning. Tuschteckning av grangren med kotte som dekorativ illustration. Numrerade arbetsgångsbeskrivningar för de två delmomenten.
+- **Frågor/övningar:** 1 fältlaboration uppdelad på två delmoment (Skogens skikt + Täckningsgrad av växter).
+
+### K1-s.39 (PDF: kapitel-1 s.38)
+- **Rubrik:** UNDERSÖKNING (uppslagsforts.)
+- **Underrubriker:** ARBETE I KLASSRUMMET; Skogens skikt; Resultat; Analys av resultat; Täckningsgraden av växter; Resultat; Analys av resultat
+- **Begrepp:** växtflora, artbestämning, täckningsgrad, barrskog, blandskog, lövskog, biologisk mångfald
+- **Pedagogiska element:** Två tomma resultattabeller för ifyllnad: en med kolumnerna ARTNAMN/SKIKT (3 rader: ART 1, ART 2, ART X) och en med ARTNAMN/TÄCKNINGSGRAD 1–3 (3 rader). Funktionellt protokollmall för fältdata.
+- **Frågor/övningar:** 4 + 3 deluppgifter för resultatanalys (resonemangsfrågor knutna till laborationen).
+
