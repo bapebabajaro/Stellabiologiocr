@@ -364,3 +364,119 @@
 - **Begrepp:** djurceller, växtceller, förstoring, hypotes, fotosyntes, gas, tulpanblad, vattenpest, glastratt, bägare, vichyvatten, provrör, mörkerförsök, ljusförsök, glödande trästicka, mörker
 - **Pedagogiska element:** MATERIAL-ruta för lab 3 med pricklista (Delar av tulpanblad eller skott av vattenpest, Två stora bägare, Två glastrattar, Två provrör, Vichyvatten, Trästicka). Funktionellt anger materiallistan utrustning för fotosyntes-gasförsöket. "UNDERSÖKNING"-tag i högermarginalen.
 - **Frågor/övningar:** 2 laborationer (forts. och ny): laboration 2 forts. med 3 Resultat-steg och 3 Tolkning av resultat-frågor; laboration 3 "Vilken gas bildas i fotosyntesen?" med Frågeställningar, Hypotes, 9 numrerade genomförandesteg, 2 Resultat-steg och 3 Tolkning av resultat-frågor.
+
+### K1-s.60 (PDF: kapitel-1 s.59)
+- **Rubrik:** ANPASSNINGAR I SAMSPEL MED ANDRA ORGANISMER
+- **Underrubriker:** Utveckling i samspel med andra; Konkurrens mellan djur
+- **Begrepp:** arter, individer, anpassningar, konkurrens
+- **Pedagogiska element:** Vänsterspalt med två rubricerade rutor: "MÅL — I det här avsnittet får du läsa om:" (8 punktade lärandemål om organismers utveckling i samspel, konkurrens och hur den kan fungera, specialisering, parasitism, hur rovdjur och bytesdjur påverkar varandra, hur växter, svampar och djur kan samarbeta, hur vissa arter i ekosystem är viktigare än andra) och "BEGREPP" (pricklista: Konkurrens, Revir, Specialist, Parasit, Värdart, Kamouflage, Svamphyf, Mimikry, Rovdjur, Bytesdjur, Mykorrhiza, Värdväxt). Funktionellt orienterar spalten läsaren inför delkapitlet.
+- **Frågor/övningar:** —
+
+### K1-s.61 (PDF: kapitel-1 s.60)
+- **Rubriker:** Konkurrens inom arten; Konkurrens mellan arter
+- **Begrepp:** revir, doftsignaler, sång, matvanor, fågelpopulation, insekter, duvhök, hane, hona, fladdermöss, flugsnappare, spindelarter, nät
+- **Pedagogiska element:** Stor illustration av duvhök med byte med etiketten "Duvhök". Två foton i högerspalt: spindel i nät på natten ("Spindlar jagar på olika platser; vissa jagar flygande insekter med nät, medan andra jagar på marken utan nät.") och fladdermöss som jagar nattflyn ("Fladdermössen jagar nattetid och slipper konkurrens från fåglar."). Funktionellt visar bilderna exempel på olika sätt att klara konkurrens.
+- **Frågor/övningar:** 1 faktafråga i marginalruta: Vad är ett revir?
+
+### K1-s.62 (PDF: kapitel-1 s.61)
+- **Rubriker:** Specialisering är ett sätt att slippa konkurrens; Många specialister på savannen; Konkurrens mellan växter
+- **Begrepp:** specialister, anpassning, bladlöss, växtsaft, flamingo, växtplankton, saltsjöar, savannen, zebror, gnuer, antiloper, gräs, betning, giraffer, gaseller, antiloper, ljus, vatten, näring, gifter, rötter
+- **Pedagogiska element:** Två foton i vänsterspalt: flamingoflock i saltsjö ("Flamingor i en saltsjö kan äta giftiga växtplankton och vada i det mycket salta vattnet.") och giraff på savann ("Giraffer har specialiserat sig på att äta växter på hög höjd."). Funktionellt illustrerar bilderna specialisering hos djur.
+- **Frågor/övningar:** —
+
+### K1-s.63 (PDF: kapitel-1 s.62)
+- **Rubrik:** (forts. Konkurrens mellan växter)
+- **Underrubrik:** Växter har olika sätt att sprida frön
+- **Begrepp:** näring, brännässla, hundkäx, näringsfattig mark, frön, midsommarblomster, vinden, vingar, hårpenslar, lind, maskros, djur, krokar, päls, kardborre, avföring, blåbär, nötter, hassel
+- **Pedagogiska element:** Stort foto av brännässlor ("Brännässlor konkurrerar ut andra växter på mark som har mycket näring."). Tablåuppställning med sex foton i tre kategorier av fröspridning: "SPRÄTTER UT FRÖNA" (Midsommarblomster), "SPRIDS MED VINDEN" (Lind, Maskros), "SPRIDS MED DJUR" (Kardborre, Blåbär, Hassel). Funktionellt grupperar tablån växter efter spridningsmetod.
+- **Frågor/övningar:** 2 faktafrågor i marginalruta: (1) Djur som har sina egna särskilda anpassningar kallas ___ . (2) Nämn tre växter som sprider sina frön med hjälp av djur.
+
+### K1-s.64 (PDF: kapitel-1 s.63)
+- **Rubriker:** Parasitism — när den ena arten skadas; Svampar som angriper växter
+- **Begrepp:** parasiter, bakterier, svampar, växter, djur, värdart, parasitstekel, nyckelpiga, larv, puppa, kokong, zombie, svartrost, vete, honungsskivling, tall, gran, sporer, svamphyfer
+- **Pedagogiska element:** Tre foton i vänsterspalt: nyckelpiga som vaktar puppa av en stekel ("En nyckelpiga som vaktar en puppa av en stekel."), svartrost på vete ("Svartrost på vete kan ge stora skördeförluster."), honungsskivling på trädstam ("Honungsskivling på levande träd kan ge stora problem med träddöd."). Funktionellt illustrerar bilderna olika parasitexempel.
+- **Frågor/övningar:** —
+
+### K1-s.65 (PDF: kapitel-1 s.64)
+- **Rubrik:** Svampar och växter samarbetar i mykorrhiza
+- **Begrepp:** fruktkropp, mycel, svamptrådar, mykorrhiza, svamprot, signaler, skadedjur, vatten, närsalter, socker, fotosyntes
+- **Pedagogiska element:** Numrerad tresteg-modell över mykorrhizan med tvärsnitt av marken och två träd, samt en förstoringscirkel som visar mycel runt rötterna: (1) Mykorrhizan består av mycel och växtens minsta rötter ("BÖRJA HÄR"), (2) Svampen tar upp vatten och närsalter som transporteras upp till växten, (3) Från växtens fotosyntes transporteras socker ner till svampen i marken. Funktionellt visar modellen ömsesidigt utbyte mellan svamp och växt.
+- **Frågor/övningar:** 1 faktafråga i marginalruta: Vad är en parasit?
+
+### K1-s.66 (PDF: kapitel-1 s.65)
+- **Rubriker:** Rovdjur och bytesdjur; Att undvika fiender
+- **Begrepp:** rovdjur, bytesdjur, populationer, kamouflage, kameleont, giftiga, gadd, getingar, mimikry, getinglik blomfluga, skyddande likhet
+- **Pedagogiska element:** Numrerad fyrastegsmodell över rovdjur–bytesdjur-cykeln som en cirkulär pilkedja runt en lodjurillustration: (1) När det finns många bytesdjur så kan rovdjuren försörja många ungar och antalet rovdjur ökar ("BÖRJA HÄR") → MÅNGA ROVDJUR, (2) När rovdjuren blir fler så blir många bytesdjur uppätna, det gör att bytesdjurens antal minskar → FÄRRE BYTESDJUR, (3) Färre bytesdjur gör att färre rovdjur får tillräckligt med mat, många rovdjur svälter ihjäl → FÄRRE ROVDJUR, (4) När antalet rovdjur minskar så ökar antalet bytesdjur igen och cirkeln är sluten → MÅNGA BYTESDJUR. Två foton i vänsterspalt: geting och getinglik blomfluga med bildtext om mimikry. Funktionellt visar modellen att rovdjurs- och bytesdjurspopulationer styr varandra.
+- **Frågor/övningar:** —
+
+### K1-s.67 (PDF: kapitel-1 s.66)
+- **Rubrik:** Djur samarbetar i flockar
+- **Begrepp:** flockar, fiender, para sig, mat, fiskar, stim, rovfiskar, fåglar, kejsarpingvinen, Antarktis, klungor
+- **Pedagogiska element:** Tre fördelar med flockliv listade som punktlista i brödtexten. Två foton: fiskstim ("Fiskar som simmar i stim har lättare att slippa undan rovfiskar.") och kejsarpingviner i klunga ("Kejsarpingvinen på Antarktis är bra på att samarbeta i flock."). Funktionellt illustrerar bilderna fördelar med samarbete.
+- **Frågor/övningar:** 2 frågor i marginalruta: (1) faktafråga — Vad betyder mimikry? (2) resonemangsfråga — Ge två exempel på varför det är bra att leva i en flock.
+
+### K1-s.68 (PDF: kapitel-1 s.67)
+- **Rubrik:** Vissa arter är viktiga för hela ekosystem
+- **Underrubriker:** Exempel från skogen; Exempel från havet; Topprovdjur i havet
+- **Begrepp:** värdväxter, gran, blåbärsgranskog, blåbärsris, insekter, fåglar, tjäder, orre, järpe, rådjur, älg, hare, sork, björn, räv, blåstång, hårda bottnar, torsk, havsutter, topprovdjur, balans, Östersjön
+- **Pedagogiska element:** Två foton i vänsterspalt: blåbärsgranskog ("Blåbärsgranskog har gran och blåbär som de viktigaste arterna i ekosystemet.") och blåstångsbälte under vattenytan ("I en enda blåstångsplanta kan det finnas hundratals organismer av många olika slag."). Funktionellt illustrerar bilderna två exempel på viktiga värdväxter.
+- **Frågor/övningar:** —
+
+### K1-s.69 (PDF: kapitel-1 s.68)
+- **Rubrik:** (forts. Topprovdjur i havet)
+- **Begrepp:** torsk, rovfisk, strömming, skarpsill, djurplankton, hoppkräfta, växtplankton, algblomning, Östersjön
+- **Pedagogiska element:** Numrerad fyrastegsmodell som vertikal näringskedja-illustration uppifrån och ned med blå pilar mellan fotorutor av Torsk, Strömming och skarpsill, Hoppkräfta (märkt Djurplankton) och Växtplankton, och bredvid varje steg en numrerad textruta: (1) Om torsken minskar i antal så överlever fler mindre rovfiskar eftersom det då inte finns så många torskar som äter upp dem, (2) Mindre rovfiskar är bland annat strömming och skarpsill, när antalet av dessa ökar blir det fler fiskar som äter djurplankton, (3) Då minskar antalet djurplankton, och det blir färre djurplankton som äter växtplankton, (4) Mängden växtplankton ökar då, och vattnet blir grumligt av algblomning. Stort foto av torsk nedtill ("Torsken är viktig för hela ekosystemet i Östersjön."). Funktionellt visar modellen kaskadeffekter när ett topprovdjur försvinner.
+- **Frågor/övningar:** 2 frågor i marginalruta: (1) faktafråga — Hur många olika arter kan leva i en gran? (2) resonemangsfråga — Blir det mer eller mindre algblomning i Östersjön om torsken ökar i antal?
+
+### K1-s.70 (PDF: kapitel-1 s.69)
+- **Rubrik:** UPPGIFTER
+- **Underrubrik:** Begrepp och biologiska samband
+- **Begrepp:** parasiter, svartrost, giraff, flamingo, honungsskivling, maskros, växter, konkurrens, nyckelpiga, larver, bladlöss, population, rovdjur, bytesdjur, svampar, fotosyntes, mykorrhiza, mycel, rötter, närsalter
+- **Pedagogiska element:** Linjediagram med x-axel Januari–December och y-axel "Storlek på populationen". Två kurvor utan numerisk skala visar förlopp under ett år: en högre topp (nyckelpigor eller bladlöss) som följs av en lägre topp, eller tvärtom — uppgiften kräver att eleven identifierar vilken kurva som är vilken. Funktionellt illustrerar diagrammet rovdjur–bytesdjur-dynamik över tid.
+- **Frågor/övningar:** 5 uppgifter (1–5), uppgift 5 fortsätter på nästa sida: (1) faktafråga med ordval (välj två parasiter av fem givna alternativ: svartrost, giraff, flamingo, honungsskivling, maskros), (2) resonemangsfråga om tre exempel på växters anpassningar mot konkurrens, (3) resonemangsfråga om diagrammet med deluppgifter a) vilken kurva visar nyckelpigorna respektive bladlössen och b) varför populationernas toppar ligger i olika månader, (4) resonemangsfråga om mykorrhiza-samarbete med fem givna begrepp att använda, (5) naturvetenskapliga argument och källor — text om artikel om främmande träd i parker (forts. på s.71).
+
+### K1-s.71 (PDF: kapitel-1 s.70)
+- **Rubrik:** (forts. UPPGIFTER, uppgift 5)
+- **Begrepp:** stadsfåglar, växter, träd, ekosystem, parker, grönområden, holkar, Malmö, inhemska träd, ek, bok, björk, främmande trädarter, insekter, småfåglar, blåmes, talgoxe, fågelungar, källkritik, syfte, objektivitet, avsändare, tidpunkt, källhänvisningar
+- **Pedagogiska element:** Faksimil av en webbartikel med rubrik "Svenska träd får stadsfåglar att kvittra och bygga bo", publicerad 6 februari 2023, med citat av Johan Kjellberg Jensen, doktorand i urban ekologi vid Lunds universitet, och uppgift om källa "forskning.se (webbplats för nyheter från universitet och högskolor)". Funktionellt fungerar artikeln som källmaterial för källkritisk uppgift.
+- **Frågor/övningar:** 1 resonemangsfråga (forts. av uppgift 5 från s.70) med två deluppgifter: a) använda kunskaper om anpassningar och näringskedjor för att förklara matbrist i parker med många främmande träd, b) källkritisk resonemang utifrån två av fem givna källkritiska perspektiv (Syfte, Objektivitet, Avsändare, Tidpunkt, Källhänvisningar).
+
+### K1-s.72 (PDF: kapitel-1 s.71)
+- **Rubrik:** EKOSYSTEMTJÄNSTER
+- **Underrubriker:** Ekosystemtjänster av fyra slag; Stödjande ekosystemtjänster
+- **Begrepp:** ekosystemtjänster, biologisk mångfald, stödjande, försörjande, reglerande, kulturella, fotosyntes, kretslopp, närsalter, vatten, jordbildning, livsmiljöer
+- **Pedagogiska element:** Vänsterspalt med två rubricerade rutor: "MÅL — I det här avsnittet får du läsa om:" (3 punktade lärandemål om vad som menas med ekosystemtjänster, hur de delas in i fyra grupper, och olika exempel på ekosystemtjänster) och "BEGREPP" (pricklista: Ekosystemtjänst, Stödjande ekosystemtjänst, Försörjande ekosystemtjänst, Reglerande ekosystemtjänst, Kulturell ekosystemtjänst, Erosion). Punktlista i brödtexten med de fyra grupperna (stödjande, försörjande, reglerande, kulturella). Funktionellt orienterar spalten läsaren inför delkapitlet.
+- **Frågor/övningar:** —
+
+### K1-s.73 (PDF: kapitel-1 s.72)
+- **Rubrik:** Försörjande ekosystemtjänster
+- **Underrubriker:** Mat; Energi; Råvaror; Vatten; Syre
+- **Begrepp:** mat, råvaror, energi, syre, vatten, odling, fiske, jakt, ris, majs, vete, potatis, kött, mjölk, ägg, ved, grödor, matavfall, biogas, biobränslen, flis, pellets, etanol, virke, papper, kemikalier, plaster, bomull, lin, ull, dricksvatten, sjöar, grundvatten, vattenverk, cyanobakterier, fotosyntes, cellandning
+- **Pedagogiska element:** Vertikalt fotokollage av fyra foton i högerspalt: tacos, biogas-buss märkt "BIO BIOGAS BUSS", möbelsnickeri, kran med rinnande vatten. Funktionellt illustrerar fotona de fem försörjande ekosystemtjänstkategorierna.
+- **Frågor/övningar:** 1 faktafråga i marginalruta: Ekosystemtjänsterna delas in i fyra grupper. Vilka?
+
+### K1-s.74 (PDF: kapitel-1 s.73)
+- **Rubrik:** Reglerande ekosystemtjänster
+- **Underrubriker:** Pollinering; Ingen hamburgare utan pollinering; Luftrening; Vattenrening
+- **Begrepp:** reglerande ekosystemtjänster, pollinering, luftrening, vattenrening, vattenreglering, erosionsskydd, skadedjur, ogräs, klimatreglering, pollinerare, frukter, grönsaker, hamburgare, senap, gurka, lök, sallat, tomat, ketchup, humlor, bin, klöver, raps, insekter, träd, föroreningar, partiklar, blad, våtmarker, grönområden, kväve, fosfor, bakterier, kvävegas, mikroorganismer, blåmusslor, växtplankton, närsalter
+- **Pedagogiska element:** Tre foton i vänsterspalt: hamburgare ("Utan pollinerare skulle det inte finnas hamburgare."), hand med jordgubbar ("Bin är en av de insekter som pollinerar jordgubbsblommor. Jordgubbarna blir större när de har pollinerats flitigt."), bi på vit blomma. Funktionellt illustrerar bilderna kopplingen mellan pollinering och mat.
+- **Frågor/övningar:** —
+
+### K1-s.75 (PDF: kapitel-1 s.74)
+- **Rubriker:** Vattenreglering; Erosionsskydd; Reglering av skadedjur och ogräs; Klimatreglering
+- **Begrepp:** våtmarker, grönområden, översvämningar, torka, störtregn, erosion, vatten, vågor, vind, rötter, ålgräsängar, åkrar, skadedjur, ogräs, grödor, nyckelpiga, bladlöss, spindlar, blomflugor, jordlöpare, fåglar, fladdermöss, igelkottar, grodor, paddor, kemiska bekämpningsmedel, träd, buskar, skugga, vindskydd, luftfuktighet, koldioxid, fotosyntes, global uppvärmning
+- **Pedagogiska element:** Tre foton i högerspalt: våtmark vid solnedgång ("Våtmarker hör till de mest artrika miljöerna i Sverige och ger många ekosystemtjänster."), ålgräsäng under vatten ("Ålgräsängar växer på grunda bottnar vid kusten."), nyckelpigelarv som äter bladlus ("En nyckelpigelarv äter en bladlus. Nyckelpigan är en naturlig fiende till bladlusen."). Funktionellt illustrerar bilderna tre reglerande ekosystemtjänster.
+- **Frågor/övningar:** 1 resonemangsfråga i marginalruta: Nämn fem olika reglerande ekosystemtjänster.
+
+### K1-s.76 (PDF: kapitel-1 s.75)
+- **Rubriker:** Kulturella ekosystemtjänster ger oss upplevelser; Ekosystemtjänster från skogen
+- **Begrepp:** kulturella ekosystemtjänster, friluftsliv, avkoppling, grönska, motion, skönhetsupplevelser, naturen, dikter, måla, undervisning, vetenskap, kulturarv, jordbrukslandskap, skog, råvaror, papper, möbler, hus, kläder, kemikalier, plaster, biobränslen, försörjande, mångbruk, bär, svamp, vilda djur, vilt, stödjande, koldioxid, syre, fotosyntes, livsmiljö, nedbrytare, närsalter, förna, mykorrhiza, reglerande, luft, vindar, störtregn, översvämningar, bergen, erosion, temperatur, klimatförändringar, rovdjur, parasiter, skadegörare
+- **Pedagogiska element:** Tre foton i vänsterspalt: person som sitter på sten vid fjordutsikt ("Friluftsliv är en kulturell ekosystemtjänst."), två personer i kvällsskog ("Sveriges skogar ger oss många ekosystemtjänster."). Punktlista i brödtexten med fyra kategorier kulturella ekosystemtjänster (friluftsliv och avkoppling, skönhetsupplevelser, undervisning och vetenskap, kulturarv). Funktionellt strukturerar punktlistan kulturella ekosystemtjänster.
+- **Frågor/övningar:** 1 resonemangsfråga i marginalruta: Ge tre exempel på kulturella ekosystemtjänster.
+
+### K1-s.77 (PDF: kapitel-1 s.76)
+- **Rubrik:** UPPGIFTER
+- **Underrubrik:** Begrepp och biologiska samband
+- **Begrepp:** biologisk mångfald, ekosystemtjänster, stödjande, fotosyntes, skönhetsupplevelser, råvaror, närsalternas kretslopp, luftrening, klimatreglering, försörjande, reglerande, kulturella
+- **Pedagogiska element:** Stor svartvit linjeillustration av två kupade händer som håller jord med en liten planta. Funktionellt symboliserar bilden människans omsorg om ekosystemtjänster.
+- **Frågor/övningar:** 4 uppgifter (1–4): (1) resonemangsfråga om två exempel på och varför biologisk mångfald krävs för ekosystemtjänster, (2) faktafråga med ordval (välj vilka av sex givna alternativ som är stödjande ekosystemtjänster: fotosyntes, skönhetsupplevelser, råvaror, närsalternas kretslopp, luftrening, klimatreglering), (3) faktafråga med flerval (vilken beskrivning A–D passar på försörjande ekosystemtjänster), (4) resonemangsfråga om vilka ekosystemtjänster eleven själv haft nytta av sedan hen vaknade på morgonen.
