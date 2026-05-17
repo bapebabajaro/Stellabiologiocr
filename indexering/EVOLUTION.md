@@ -66,13 +66,13 @@
 - **Rubrik:** Genflöde från en population till en annan
 - **Underrubriker:** Massutdöende leder till flaskhalseffekt och minskad genetisk variation
 - **Begrepp:** genflöde, nedisningar, vulkanutbrott, asteroidnedslag, flaskhalseffekt
-- **Pedagogiska element:** Foto av två asteroidnedslag med bildtext.
+- **Pedagogiska element:** Foto av två asteroider med bildtext "Asteroidnedslag kan orsaka miljöförändringar".
 - **Frågor/övningar:** inga
 
 ### K6-s.331 (PDF: del3 s.70)
 - **Rubrik:** Isolering skapar nya arter
 - **Begrepp:** Artbildning, geografiskt hinder, mutationer, sexuell förökning
-- **Pedagogiska element:** 7-stegs illustrationsmodell med "BÖRJA HÄR"-markering: artbildning genom geografisk isolering — varmt klimat vs kallt klimat, räv- och fjällräv-populationer separeras av bergskedja.
+- **Pedagogiska element:** 7-stegs illustrationsmodell med "BÖRJA HÄR"-markering: artbildning genom geografisk isolering — en art delas upp i två populationer av ett geografiskt hinder (bergskedja), den ena hamnar i varmt klimat och utvecklas till djur med tunn päls, den andra i kallt klimat och utvecklas till djur med tjock päls. Illustreras med foto av rödräv (Population med tunn päls) och vit räv (Population med tjock päls) och bergskedja märkt "GEOGRAFISKT HINDER".
 - **Frågor/övningar:** inga
 
 ### K6-s.332 (PDF: del3 s.71)
@@ -86,7 +86,7 @@
 - **Rubrik:** Det finns inget mål för evolutionen
 - **Underrubriker:** Rovdjur och bytesdjur har utvecklat varandra; Sengångaren är anpassad för att spara energi
 - **Begrepp:** Geparden, gaseller, Sengångaren, kamouflage
-- **Pedagogiska element:** Foto av gepard som jagar gasell med bildtext. Foto av sengångare som hänger i gren med bildtext.
+- **Pedagogiska element:** Foto av gepard som jagar gasell med bildtext "Geparden är ett rovdjur som jagar gaseller". Foto av sengångare som hänger i gren med bildtext "Sengångaren är långsam och sparar energi".
 - **Frågor/övningar:** 2 faktafrågor
 
 ### K6-s.334 (PDF: del3 s.73) — UPPGIFTER
@@ -245,7 +245,7 @@
 
 ### K6-s.356 (PDF: del3 s.95)
 - **Rubrik:** Växternas anpassningar för liv på land
-- **Begrepp:** encelliga grönalger, sporväxter, frövväxter, alger, mossor, ormbunksväxter, barrträd, blomväxter
+- **Begrepp:** encelliga grönalger, sporväxter, fröväxter, alger, mossor, ormbunksväxter, barrträd, blomväxter
 - **Pedagogiska element:** Växternas släktträd med fem grupper (Alger, Mossor, Ormbunksväxter, Barrträd, Blomväxter), uppdelat i SPORVÄXTER och FRÖVÄXTER, med utvecklingssteg: Liv i vatten → Encelliga grönalger → Liv på land → Rötter och stam med ledningsvävnad → Förökning med frön → Blomma och frukt. STELLA-stjärnlogo dekorativ.
 - **Frågor/övningar:** inga
 
@@ -259,14 +259,14 @@
 ### K6-s.358 (PDF: del3 s.97)
 - **Rubrik:** (forts. Förökning med sporer och frön) / Blomma med frukt
 - **Underrubriker:** Blomma med frukt
-- **Begrepp:** frövväxter, äggcell, hancell, pollenkorn, frö, nakenfröiga, gömfröiga, Blomväxterna, ståndare, pistill, frukt, pollinering, samevolution
+- **Begrepp:** fröväxter, äggcell, hancell, pollenkorn, frö, nakenfröiga, gömfröiga, Blomväxterna, ståndare, pistill, frukt, pollinering, samevolution
 - **Pedagogiska element:** Närbild av bi som suger nektar i blomma med bildtext om pollinering.
 - **Frågor/övningar:** inga
 
 ### K6-s.359 (PDF: del3 s.98)
 - **Rubrik:** Ryggradsdjurens anpassningar för liv på land
-- **Begrepp:** Andning med lungor, Inre befruktning, Foster i moderns kropp, Fiskar, Groddjur, Kräldjur, Fåglar, Däggdjur
-- **Pedagogiska element:** Punktlista (Andning med lungor, Inre befruktning, Foster i moderns kropp). Släktträd över ryggradsdjuren med 5 grupper (Fiskar, Groddjur, Kräldjur, Fåglar, Däggdjur) och fyra utvecklingssteg: Andning med gälar, liv i vatten → Andning med lungor, kan leva på land → Förökning på land, inre befruktning → Foster i moderns kropp. STELLA-stjärnlogo dekorativ.
+- **Begrepp:** (inga nya begrepp introduceras)
+- **Pedagogiska element:** Punktlista (Andning med lungor; Inre befruktning; Foster i moderns kropp). Släktträd över ryggradsdjuren med 5 grupper (Fiskar, Groddjur, Kräldjur, Fåglar, Däggdjur) och fyra utvecklingssteg: Andning med gälar, liv i vatten → Andning med lungor, kan leva på land → Förökning på land, inre befruktning → Foster i moderns kropp. STELLA-stjärnlogo dekorativ.
 - **Frågor/övningar:** 1 resonemangsfråga (rosa marginalruta).
 
 ### K6-s.360 (PDF: del3 s.99)
@@ -278,7 +278,7 @@
 
 ### K6-s.361 (PDF: del3 s.100)
 - **Rubrik:** Foster i moderns kropp
-- **Begrepp:** kloakdjur, pungdjur, moderkaksdjur, Moderkakan, livmoder, Pungdjurens, kloakdjur, kloak
+- **Begrepp:** kloakdjur, pungdjur, moderkaksdjur, Moderkakan, livmoder, Pungdjuren, kloak
 - **Pedagogiska element:** Foto av känguru och foto av koala med gemensam bildtext "Känguru och koala är exempel på pungdjur". Foto av myrpiggsvin och foto av näbbdjur med gemensam bildtext "Myrpiggsvin och näbbdjur är de enda idag levande kloakdjuren". STELLA-stjärnlogo dekorativ.
 - **Frågor/övningar:** 2 faktafrågor (rosa marginalruta).
 
@@ -287,3 +287,13 @@
 ## Kapitel 6 EVOLUTION — slut (s.361 är sista sidan i kapitlet enligt PDF-rendering)
 
 **Anmärkning:** Innehållsförteckningen på s.325 listar sex delkapitel: 1) Evolutionen – så fungerar den; 2) Evidens för evolutionen; 3) Livets uppkomst och tidiga utveckling; 4) Det flercelliga livets utveckling; 5) Anpassningar till miljö och klimat; 6) Människans utveckling. Vid genomgång av PDF-sidorna 63–100 (= bok-s.324–361) har endast fyra MÅL+BEGREPP-spalter (delkapitelstart med gröna spalter) identifierats: s.326, s.338, s.344, s.351. Sidorna s.356–361 saknar egna MÅL-spalter och fortsätter direkt efter delkapitel 4. De två sista delkapitlen i innehållsförteckningen ("Anpassningar till miljö och klimat" och "Människans utveckling") finns inte som separata delkapitel i den renderade PDF-sektionen.
+
+## Granskningspass (revision 2)
+
+Filtgenomgång efter första indexeringen identifierade och åtgärdade följande:
+- s.330: "Foto av två asteroidnedslag" → korrigerat till "Foto av två asteroider" med exakt bildtext.
+- s.331: förtydligat modellen (rödräv/vit räv, GEOGRAFISKT HINDER) utan att addera artnamn som inte står i boken.
+- s.333: lagt till exakta bildtexter för gepard- och sengångarfoto.
+- s.356, s.358: stavning "frövväxter" → "fröväxter".
+- s.359: tagit bort "Begrepp"-rad som listade djurgruppsetiketter (Fiskar, Groddjur, Kräldjur, Fåglar, Däggdjur) som redan introducerats tidigare.
+- s.361: tagit bort dubblett av "kloakdjur" samt korrigerat "Pungdjurens" → "Pungdjuren".
