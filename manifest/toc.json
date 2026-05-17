@@ -1,0 +1,582 @@
+{
+  "schemaVersion": "ocr-toc-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "tocStatus": "partial_indexed_with_blockers",
+  "sourceSummary": [
+    {
+      "kind": "repo_file",
+      "locator": "sidkarta/sitemap_final.json",
+      "confidence": "high"
+    },
+    {
+      "kind": "repo_file",
+      "locator": "indexering/EKOLOGI.md",
+      "confidence": "high"
+    },
+    {
+      "kind": "repo_file",
+      "locator": "indexering/MILJO.md",
+      "confidence": "high"
+    },
+    {
+      "kind": "repo_file",
+      "locator": "indexering/MANNISKOKROPPEN.md",
+      "confidence": "medium"
+    },
+    {
+      "kind": "repo_file",
+      "locator": "indexering/LIV_OCH_HALSA.md",
+      "confidence": "medium"
+    }
+  ],
+  "chapters": [
+    {
+      "chapterId": "biologi-kap1",
+      "chapterNo": 1,
+      "title": "EKOLOGI",
+      "pageSpan": {
+        "start": 2,
+        "end": 77
+      },
+      "primarySource": "Biologi-Stella-kapitel-1",
+      "status": "indexed",
+      "confidence": "high",
+      "evidenceRefs": [],
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap1-sec01",
+          "title": "Livets utveckling och mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 10,
+            "end": 19
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec02",
+          "title": "Dags att mikroskopera",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec03",
+          "title": "Jordens biologiska mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 22,
+            "end": 37
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec04",
+          "title": "Fältundersökning",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec05",
+          "title": "Energi och material i ekosystemen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 40,
+            "end": 57
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec06",
+          "title": "Klyvöppningar i olika förstoring",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 58,
+            "end": 59
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec07",
+          "title": "Anpassningar i samspel med andra organismer",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 60,
+            "end": 71
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap1-sec08",
+          "title": "Ekosystemtjänster",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 72,
+            "end": 77
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": []
+        }
+      ]
+    },
+    {
+      "chapterId": "biologi-kap2",
+      "chapterNo": 2,
+      "title": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "pageSpan": {
+        "start": 78,
+        "end": 143
+      },
+      "primarySource": "Stella-biolgi-kapitel-2",
+      "status": "indexed_with_page_gap",
+      "confidence": "medium",
+      "evidenceRefs": [],
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap2-sec01",
+          "title": "Hållbar utveckling",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 80,
+            "end": 85
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap2-sec02",
+          "title": "Global uppvärmning",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 86,
+            "end": 101
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap2-sec03",
+          "title": "Klimatförändringar - åtgärder och konsekvenser",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 102,
+            "end": 113
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap2-sec04",
+          "title": "Hållbar konsumtion och produktion",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 114,
+            "end": 121
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap2-sec05",
+          "title": "Vatten och miljö",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 122,
+            "end": 129
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap2-sec06",
+          "title": "Naturbruk och biologisk mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 130,
+            "end": 141
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": []
+        }
+      ]
+    },
+    {
+      "chapterId": "biologi-kap3",
+      "chapterNo": 3,
+      "title": "MÄNNISKOKROPPEN",
+      "pageSpan": {
+        "start": 144,
+        "end": 207
+      },
+      "primarySource": "Biologi-del-1 + Biologi-del-2",
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "evidenceRefs": [
+        {
+          "kind": "repo_file",
+          "locator": "indexering/MANNISKOKROPPEN.md",
+          "confidence": "medium"
+        },
+        {
+          "kind": "repo_file",
+          "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+          "confidence": "medium"
+        },
+        {
+          "kind": "repo_file",
+          "locator": "README.md#Sidkartan-i-korthet",
+          "confidence": "medium"
+        }
+      ],
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap3-sec01",
+          "title": "Celler, organ och organsystem",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 144,
+            "end": 153
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec02",
+          "title": "Matspjälkningen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 154,
+            "end": 161
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec03",
+          "title": "Andningssystemet och urinorganen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 162,
+            "end": 169
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec04",
+          "title": "Blodomloppet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 170,
+            "end": 183
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec05",
+          "title": "Nervsystemet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 184,
+            "end": 190
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec06",
+          "title": "Hjärnan och hormonsystemet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 191,
+            "end": 197
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec07",
+          "title": "Fortplantningen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 198,
+            "end": 205
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "repo_file",
+              "locator": "indexering/MANNISKOKROPPEN.md",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "sidkarta/stella_biologi_sidkarta.md#MÄNNISKOKROPPEN",
+              "confidence": "medium"
+            },
+            {
+              "kind": "repo_file",
+              "locator": "README.md#Sidkartan-i-korthet",
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "sourceNote": "K3 spänner över Biologi-del-1 och Biologi-del-2 enligt README, sidkarta och MANNISKOKROPPEN-indexering. Sidgränsen är fortfarande blockerad tills OCR page records är verifierade."
+    },
+    {
+      "chapterId": "biologi-kap4",
+      "chapterNo": 4,
+      "title": "LIV OCH HÄLSA",
+      "pageSpan": {
+        "start": 208,
+        "end": 263
+      },
+      "primarySource": "Biologi-del-2",
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "evidenceRefs": [],
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap4-sec01",
+          "title": "Fysisk hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 208,
+            "end": 215
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap4-sec02",
+          "title": "Psykisk hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 216,
+            "end": 225
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap4-sec03",
+          "title": "Hälsa och livsstil",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 226,
+            "end": 235
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap4-sec04",
+          "title": "Droger och beroende",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 236,
+            "end": 245
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap4-sec05",
+          "title": "Sexuell hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 246,
+            "end": 253
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        },
+        {
+          "sectionId": "biologi-kap4-sec06",
+          "title": "Sexualitet och relationer",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 254,
+            "end": 263
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": []
+        }
+      ]
+    },
+    {
+      "chapterId": "biologi-kap5",
+      "chapterNo": 5,
+      "title": "GENETIK OCH GENTEKNIK",
+      "pageSpan": {
+        "start": 264,
+        "end": 327
+      },
+      "primarySource": "Biologi-del-3",
+      "status": "pending_ocr_index",
+      "confidence": "low",
+      "evidenceRefs": [],
+      "subchapters": []
+    },
+    {
+      "chapterId": "biologi-kap6",
+      "chapterNo": 6,
+      "title": "EVOLUTION",
+      "pageSpan": {
+        "start": 328,
+        "end": 361
+      },
+      "primarySource": "Biologi-del-3",
+      "status": "pending_ocr_index",
+      "confidence": "low",
+      "evidenceRefs": [],
+      "subchapters": []
+    }
+  ],
+  "blockers": [
+    "K3/K4 page boundary conflict between sidkarta and indexering files.",
+    "K5/K6 lack full per-page pedagogical index files.",
+    "No runtime SourceClaim may be accepted before exact OCR evidence refs are reviewed."
+  ]
+}

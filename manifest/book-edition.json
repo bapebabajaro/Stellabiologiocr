@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "ocr-book-edition-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "sourceFamily": "stella",
+  "title": "Stella Biologi 7-9",
+  "publisher": "Natur & Kultur Läromedel och Akademi",
+  "authors": [
+    "Birgitta Johansson",
+    "Gabriel Gillner"
+  ],
+  "isbn": "9789127461413",
+  "editionYear": 2023,
+  "language": "sv-SE",
+  "bookId": "book-stella-biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "sourceType": "private_ocr_with_public_toc_summary",
+  "ocrSourceHash": "pending-full-ocr-hash",
+  "pageMapHash": "e6a77ebc255172c3bb4a4edb239a35da953653257b49f339e052b32b76b80e85",
+  "tocStatus": "partial_indexed_with_blockers",
+  "licenseScope": "private_instructional_source_not_for_public_excerpting",
+  "privateSourcePolicy": {
+    "allowedReferencePrefix": "private-source://pdfer/",
+    "rawTextCommitPolicy": "forbidden",
+    "absolutePathPolicy": "forbidden"
+  },
+  "rotationPolicy": {
+    "mode": "additive_versioned_book_profiles",
+    "neverOverwriteExistingBookEdition": true,
+    "requiresStablePageMap": true,
+    "requiresAcceptedSourceClaimsForRuntime": true
+  },
+  "currentBranch": "codex/ocr-contract-skeleton-20260517",
+  "repositoryDataSafetyStatus": "blocked_existing_public_pdf_derived_artifacts",
+  "repositoryDataSafetyNote": "Existing tracked page_renders/, ocr_data/, margin_samples/ and legacy absolute script paths predate this contract. New contract artifacts are non-runtime; do not treat repository as public-safe source package until owner decides purge/split policy."
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "ocr-source-policy-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "rules": [
+    "No raw OCR text or long textbook excerpts in public repository artifacts.",
+    "No absolute local paths; use private-source://pdfer/... for private evidence references.",
+    "No student data, PINs, cookies, KV keys, import apply output, production secrets or classroom identifiers.",
+    "Source QA and render QA must remain separate artifacts.",
+    "A SourceClaim can become accepted only after exact page/locator evidence is reviewed.",
+    "Question, KnowledgePoint, QKL, pixel binding and image generation are blocked until accepted lineage exists.",
+    "Firecrawl may only be used for public unauthenticated metadata such as publisher TOC pages."
+  ],
+  "fatalGateCodes": [
+    "DS_SOURCE_REF_UNVERIFIED",
+    "DS_CLAIM_UNGROUNDED",
+    "DS_ANSWER_UNGROUNDED",
+    "DS_DISTRACTOR_UNRATIONALED",
+    "DS_RENDER_AS_SOURCE",
+    "DS_QA_LAYER_COLLAPSE",
+    "DS_OPTION_DRIFT",
+    "DS_REMEDIATION_TOO_BROAD",
+    "DS_NOT_UNIQUE",
+    "DS_PRIVATE_SOURCE_LEAK"
+  ]
+}
