@@ -1,7 +1,7 @@
 # Stella Biologi - OCR och pedagogisk indexering
 
-Strukturell indexering av läroboken Stella Biologi för Albin Holmqvists personliga
-lektionsplanering och förberedd PPF-handoff.
+Strukturell indexering av läroboken Stella Biologi för lokal lektionsplanering och
+förberedd PPF-handoff.
 
 ## Status
 

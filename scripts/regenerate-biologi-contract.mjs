@@ -241,7 +241,7 @@ const toc = {
   blockers: [
     'K3/K4 page boundary conflict between sidkarta/README and indexering files.',
     'K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.',
-    'Repository public-safety blocker remains: legacy PDF-derived artifacts and local path patterns exist.',
+    'Tracked handoff public-safety is resolved; runtime content remains blocked until accepted evidence exists.',
     'No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed.'
   ]
 };
@@ -534,7 +534,7 @@ The BookEdition is structurally rotatable: the current generated package is scop
 
 Not ready for runtime:
 
-- public-safety blocker remains in this repository;
+- tracked handoff public-safety is resolved, but runtime content remains pending;
 - boundary conflicts remain for K3/K4 and K5/K6;
 - no accepted SourceClaims exist;
 - no atomic accepted KnowledgePoints exist;

@@ -148,6 +148,11 @@ if (errors.length === 0 && book) {
   if (rotation.activationGates?.runtimeQuestionsAllowed !== false) errors.push('rotation must block runtime questions');
   if (rotation.activationGates?.kvWriteAllowed !== false) errors.push('rotation must block KV writes');
   if (ocrRunContract.runtimeWriteAllowed !== false) errors.push('OCR run contract must block runtime writes');
+  if (sourceInventory.publicSafe !== true) errors.push('sourceInventory.publicSafe must be true for the tracked sanitized handoff');
+  for (const source of sourceInventory.sources ?? []) {
+    if (source.trackedLegacyDerivedArtifactsPresent !== false) errors.push(`sourceInventory source still marks tracked legacy artifacts present: ${source.sourceId}`);
+  }
+  if ((sourceInventory.blockers ?? []).some((blocker) => /tracked derived artifacts must be purged|public-safety blocker remains/i.test(blocker))) errors.push('sourceInventory still contains stale tracked-artifact public-safety blocker text');
   if (intake.runtimeImportAllowed !== false) errors.push('question intake must block runtime import');
   if (intake.candidateGenerationAllowed !== false) errors.push('question intake must block candidate generation');
   if (atomicKpWorklist.runtimeImportAllowed !== false) errors.push('atomic KP worklist must block runtime import');
