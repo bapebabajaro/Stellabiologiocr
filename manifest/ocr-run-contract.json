@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "ocr-run-contract-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "runtimeWriteAllowed": false,
+  "allowedOutputFiles": [
+    "lineage/page-records.jsonl",
+    "lineage/source-evidence.jsonl",
+    "lineage/section-boundary-decisions.jsonl",
+    "lineage/source-claims.jsonl",
+    "lineage/knowledge-point-candidates.jsonl",
+    "reports/validation/source-lineage-review.md",
+    "reports/validation/ocr-quality-report.md",
+    "reports/validation/page-coverage-matrix.md"
+  ],
+  "forbiddenOutputKinds": [
+    "raw_ocr_text",
+    "long_textbook_excerpt",
+    "full_page_render",
+    "margin_image",
+    "answer_key_copy",
+    "absolute_local_path",
+    "student_data",
+    "kv_write_plan",
+    "runtime_import"
+  ],
+  "requiredRecordTypes": [
+    "page_record",
+    "evidence_ref",
+    "source_atom",
+    "visual_source_atom",
+    "claim_table",
+    "distractor_rationale"
+  ]
+}

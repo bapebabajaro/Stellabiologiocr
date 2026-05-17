@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "ocr-agent-worklist-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "runtimeActivationAllowed": false,
+  "globalRules": [
+    "Do not commit raw OCR text or long textbook excerpts.",
+    "Use private-source://pdfer/biologi/... for private evidence locators.",
+    "Do not send private textbook pages, OCR or student data to Firecrawl or external model chains.",
+    "Do not mark SourceClaims accepted until evidence_ref, page_record and source_atom are reviewed.",
+    "Do not create pixel images before accepted KnowledgePoints and pixel bindings exist."
+  ],
+  "requiredPerPageRecord": [
+    "bookEditionId",
+    "privateSourceRef",
+    "printedPage",
+    "pdfPage",
+    "ocrConfidenceBand",
+    "chapterId",
+    "sectionId",
+    "pageMapDecision",
+    "noRawTextStored"
+  ],
+  "requiredPerClaim": [
+    "bookLocationId",
+    "evidence_ref",
+    "source_atom",
+    "visual_source_atom",
+    "claim_table",
+    "reviewStatus",
+    "runtimeEligible"
+  ],
+  "workItems": [
+    {
+      "id": "bio-repo-public-safety-decision",
+      "status": "blocked_owner_decision_required",
+      "reason": "Existing tracked page renders, OCR json and margin samples make the repo unsafe as a public handoff source."
+    },
+    {
+      "id": "bio-k3-k4-page-boundary-resolution",
+      "status": "blocked_ocr_review_required",
+      "chapters": ["K3", "K4"],
+      "reason": "Sidkarta and indexering disagree on printed boundaries."
+    },
+    {
+      "id": "bio-k1-k4-source-claim-review",
+      "status": "pending_ocr_agent",
+      "chapters": ["K1", "K2", "K3", "K4"],
+      "reason": "Structural sections exist, but claims remain candidate-only."
+    },
+    {
+      "id": "bio-k5-k6-full-indexing",
+      "status": "pending_ocr_index",
+      "chapters": ["K5", "K6"],
+      "reason": "Only chapter shells exist."
+    }
+  ],
+  "handoffOutputsExpectedFromNextAgent": [
+    "lineage/page-records.jsonl",
+    "lineage/source-atoms.jsonl",
+    "lineage/claim-table.jsonl",
+    "reports/validation/source-claim-review.md",
+    "reports/validation/page-map-review.md"
+  ]
+}

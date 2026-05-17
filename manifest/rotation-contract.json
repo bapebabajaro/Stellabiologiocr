@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "ocr-rotation-contract-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "sourceFamily": "stella",
+  "bookId": "book-stella-biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "contentState": "content-pending",
+  "canonicalEntityOrder": [
+    "Book",
+    "BookEdition",
+    "BookLocation",
+    "SourceClaim",
+    "KnowledgePoint",
+    "Question",
+    "QuestionKnowledgeLink",
+    "PixelEvidence"
+  ],
+  "namespacePolicy": {
+    "subjectNamespace": "biologi",
+    "newStorageMode": "subject-v3-only-after-separate-release-order",
+    "legacyKemiKeys": "forbidden",
+    "sameStudentAccountAggregation": true
+  },
+  "sourcePolicy": {
+    "privateReferencePrefix": "private-source://pdfer/biologi/",
+    "rawTextCommits": "forbidden",
+    "absolutePathCommits": "forbidden",
+    "studentDataCommits": "forbidden",
+    "externalScrapeOfPrivateMaterial": "forbidden"
+  },
+  "identityPolicy": {
+    "bookEditionIdsAreImmutable": true,
+    "newEditionRequiresNewBookEditionId": true,
+    "bookLocationIdsAreStableWithinEdition": true,
+    "knowledgePointIdsAreGeneratedAfterAcceptedSourceClaims": true,
+    "questionIdsAreGeneratedAfterPublicSanitizedCopy": true
+  },
+  "activationGates": {
+    "runtimeQuestionsAllowed": false,
+    "kvWriteAllowed": false,
+    "importApplyAllowed": false,
+    "productionDeployAllowed": false,
+    "requiresAcceptedSourceClaims": true,
+    "requiresStablePageMapHash": true,
+    "requiresPixelBindings": true,
+    "requiresFiveReviewerPixelPass": true
+  },
+  "visualContract": {
+    "progressionRenderPlanSchema": 1,
+    "coordinateSpace": {
+      "width": 650,
+      "height": 480
+    },
+    "referenceArtTarget": {
+      "width": 1672,
+      "height": 941
+    },
+    "revealBehavior": "inactive-invisible-active-original-pixels",
+    "referenceParitySource": "static/knowledge-map/reference/chemistry-book/"
+  }
+}

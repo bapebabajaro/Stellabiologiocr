@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "source-inventory-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "publicSafe": false,
+  "sources": [
+    {
+      "sourceId": "bio-del-1-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-1",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": true
+    },
+    {
+      "sourceId": "bio-del-2-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-2",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": true
+    },
+    {
+      "sourceId": "bio-del-3-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-3",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": true
+    }
+  ],
+  "blockers": [
+    "Existing tracked derived artifacts must be purged, split or made private before this repository is treated as public-safe."
+  ]
+}

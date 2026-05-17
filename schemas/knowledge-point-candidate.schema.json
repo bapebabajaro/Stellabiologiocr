@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KnowledgePointCandidate",
+  "type": "object",
+  "required": ["id", "bookLocationId", "sourceClaimIds", "status", "pixelEligible"],
+  "properties": {
+    "id": { "type": "string" },
+    "sourceClaimIds": { "type": "array" },
+    "status": { "type": "string" },
+    "pixelEligible": { "type": "boolean" }
+  }
+}

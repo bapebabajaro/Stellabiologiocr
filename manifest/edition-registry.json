@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "edition-registry-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "editions": [
+    {
+      "bookId": "book-stella-biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceFamily": "stella",
+      "editionYear": 2023,
+      "isbn": "9789127461413",
+      "supersedes": [],
+      "isActiveForImport": false,
+      "migrationStatus": "skeleton_only_blocked",
+      "runtimeStatus": "content-pending"
+    }
+  ],
+  "rotationPolicy": "Add new textbooks or editions as new BookEdition rows; never overwrite previous ids."
+}

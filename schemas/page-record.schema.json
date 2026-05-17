@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PageRecord",
+  "type": "object",
+  "required": ["bookEditionId", "sourceId", "printedPage", "evidenceLocator", "noRawTextStored"],
+  "properties": {
+    "bookEditionId": { "type": "string" },
+    "sourceId": { "type": "string" },
+    "printedPage": { "type": ["integer", "null"] },
+    "evidenceLocator": { "type": "string" },
+    "noRawTextStored": { "const": true }
+  }
+}

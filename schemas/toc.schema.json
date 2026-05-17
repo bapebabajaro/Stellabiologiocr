@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TOC",
+  "type": "object",
+  "required": ["bookEditionId", "chapters"],
+  "properties": {
+    "bookEditionId": { "type": "string" },
+    "chapters": { "type": "array" }
+  }
+}

@@ -8,17 +8,45 @@ const baseRequiredFiles = [
   'manifest/book-edition.json',
   'manifest/toc.json',
   'manifest/source-policy.json',
+  'manifest/rotation-contract.json',
+  'manifest/source-inventory.json',
+  'manifest/edition-registry.json',
+  'manifest/private-source-registry.md',
+  'manifest/ocr-run-contract.json',
   'lineage/book-locations.jsonl',
   'lineage/source-claims.jsonl',
   'lineage/knowledge-point-candidates.jsonl',
+  'lineage/README.md',
+  'lineage/page-records.jsonl',
+  'lineage/source-evidence.jsonl',
+  'lineage/section-boundary-decisions.jsonl',
   'questions/intake-candidates.jsonl',
+  'questions/intake-contract.json',
   'assets/pixel-briefs/README.md',
+  'assets/pixel-briefs/pixel-brief-template.json',
+  'schemas/book-edition.schema.json',
+  'schemas/toc.schema.json',
+  'schemas/book-location.schema.json',
+  'schemas/source-claim.schema.json',
+  'schemas/page-record.schema.json',
+  'schemas/knowledge-point-candidate.schema.json',
   'reports/validation/ocr-contract-summary.md',
-  'reports/validation/page-boundary-conflicts.md'
+  'reports/validation/page-boundary-conflicts.md',
+  'reports/validation/ocr-agent-worklist.json',
+  'reports/validation/pixel-readiness-gates.md',
+  'reports/validation/rotation-readiness.md',
+  'reports/validation/page-coverage-matrix.md',
+  'reports/validation/public-safety-audit.md',
+  'reports/validation/source-lineage-review.md',
+  'reports/validation/ocr-quality-report.md',
+  'reports/validation/no-runtime-before-ocr.md',
+  'docs/ocr-agent-runbook.md',
+  'scripts/sanitize-handoff.mjs'
 ];
 const errors = [];
 const warnings = [];
 const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/home\/user\/workspace/i, /rawOcrText/i, /rawOcrExcerpt/i, /studentPin/i, /cookie\s*=/i, /set-cookie/i, /upstash/i];
+const scannerToolFiles = new Set(['scripts/validate-ocr-contract.mjs', 'scripts/sanitize-handoff.mjs']);
 const validStatuses = new Set(['indexed', 'indexed_with_page_gap', 'indexed_with_boundary_conflict', 'pending_ocr_index', 'public_sample']);
 
 function readText(rel) {
@@ -52,7 +80,7 @@ function scanRepositoryText(dir, rel = '') {
     const childRel = rel ? rel + '/' + entry.name : entry.name;
     if (entry.isDirectory()) scanRepositoryText(abs, childRel);
     else if (new Set(['.md', '.json', '.jsonl', '.mjs', '.js', '.ts', '.py', '.csv', '.txt']).has(extname(entry.name).toLowerCase())) {
-      if (childRel.endsWith('scripts/validate-ocr-contract.mjs')) continue;
+      if (scannerToolFiles.has(childRel)) continue;
       scanText(childRel, readFileSync(abs, 'utf8'), 'warning');
     }
   }
@@ -67,7 +95,7 @@ if (existsSync(join(root, 'manifest/book-edition.json'))) {
   if (book.subject === 'fysik' && !existsSync(join(root, 'public-sources/stella-fysik-official-toc.md'))) errors.push('missing required physics public source evidence');
   if (book.subject === 'biologi' && !existsSync(join(root, 'reports/validation/repo-data-safety-blockers.md'))) warnings.push('biology repo has no explicit repo-data-safety blocker report');
 }
-for (const rel of baseRequiredFiles.filter((file) => existsSync(join(root, file)))) scanText(rel, readText(rel));
+for (const rel of baseRequiredFiles.filter((file) => existsSync(join(root, file)) && !scannerToolFiles.has(file))) scanText(rel, readText(rel));
 for (const dir of ['page_renders', 'ocr_data', 'margin_samples']) {
   if (existsSync(join(root, dir))) warnings.push(`legacy artifact directory present and not public-safe by itself: ${dir}`);
 }
@@ -76,15 +104,34 @@ if (strictPublicSafety && warnings.length > 0) errors.push(...warnings.map((warn
 
 if (errors.length === 0 && book) {
   const toc = readJson('manifest/toc.json');
+  const rotation = readJson('manifest/rotation-contract.json');
+  const sourceInventory = readJson('manifest/source-inventory.json');
+  const editionRegistry = readJson('manifest/edition-registry.json');
+  const ocrRunContract = readJson('manifest/ocr-run-contract.json');
+  const intake = readJson('questions/intake-contract.json');
+  const pixelBrief = readJson('assets/pixel-briefs/pixel-brief-template.json');
+  const worklist = readJson('reports/validation/ocr-agent-worklist.json');
   const locations = readJsonl('lineage/book-locations.jsonl');
   const claims = readJsonl('lineage/source-claims.jsonl');
   const kpCandidates = readJsonl('lineage/knowledge-point-candidates.jsonl');
   const requiredBookFields = ['subject', 'sourceFamily', 'bookId', 'bookEditionId', 'publisher', 'editionYear', 'isbn', 'ocrSourceHash', 'pageMapHash', 'tocStatus', 'licenseScope', 'rotationPolicy'];
   for (const field of requiredBookFields) if (book[field] === undefined || book[field] === null || book[field] === '') errors.push(`book-edition missing ${field}`);
   if (toc.bookEditionId !== book.bookEditionId) errors.push('toc.bookEditionId does not match book edition');
+  for (const [label, doc] of [['rotation', rotation], ['sourceInventory', sourceInventory], ['ocrRunContract', ocrRunContract], ['intake', intake], ['pixelBrief', pixelBrief], ['worklist', worklist]]) {
+    if (doc.subject !== book.subject) errors.push(`${label}.subject does not match book edition`);
+    if (doc.bookEditionId !== book.bookEditionId) errors.push(`${label}.bookEditionId does not match book edition`);
+  }
+  if (!Array.isArray(editionRegistry.editions) || !editionRegistry.editions.some((edition) => edition.bookEditionId === book.bookEditionId && edition.isActiveForImport === false)) errors.push('edition registry must include inactive current BookEdition');
+  if (rotation.activationGates?.runtimeQuestionsAllowed !== false) errors.push('rotation must block runtime questions');
+  if (rotation.activationGates?.kvWriteAllowed !== false) errors.push('rotation must block KV writes');
+  if (ocrRunContract.runtimeWriteAllowed !== false) errors.push('OCR run contract must block runtime writes');
+  if (intake.runtimeImportAllowed !== false) errors.push('question intake must block runtime import');
+  if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
+  if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
   if (!Array.isArray(toc.chapters) || toc.chapters.length === 0) errors.push('toc has no chapters');
   const chapterIds = new Set();
   const locationIds = new Set();
+  const locationById = new Map();
   for (const chapter of toc.chapters ?? []) {
     if (chapterIds.has(chapter.chapterId)) errors.push(`duplicate chapterId ${chapter.chapterId}`);
     chapterIds.add(chapter.chapterId);
@@ -98,6 +145,7 @@ if (errors.length === 0 && book) {
   for (const loc of locations) {
     if (locationIds.has(loc.id)) errors.push(`duplicate BookLocation id ${loc.id}`);
     locationIds.add(loc.id);
+    locationById.set(loc.id, loc);
     if (loc.bookEditionId !== book.bookEditionId) errors.push(`BookLocation wrong bookEditionId: ${loc.id}`);
   }
   const claimIds = new Set();
@@ -106,6 +154,7 @@ if (errors.length === 0 && book) {
     if (!locationIds.has(claim.bookLocationId)) errors.push(`SourceClaim references missing BookLocation: ${claim.id}`);
     if (claim.reviewStatus === 'accepted' && (!Array.isArray(claim.evidenceRefs) || claim.evidenceRefs.length === 0)) errors.push(`accepted SourceClaim lacks evidenceRefs: ${claim.id}`);
     if (claim.runtimeEligible === true && claim.reviewStatus !== 'accepted') errors.push(`runtime-eligible claim is not accepted: ${claim.id}`);
+    if (locationById.get(claim.bookLocationId)?.status === 'public_sample' && (claim.reviewStatus === 'accepted' || claim.runtimeEligible === true)) errors.push(`public_sample SourceClaim cannot be accepted/runtime: ${claim.id}`);
   }
   for (const kp of kpCandidates) {
     if (!locationIds.has(kp.bookLocationId)) errors.push(`KP candidate references missing BookLocation: ${kp.id}`);
@@ -116,5 +165,15 @@ if (errors.length === 0 && book) {
   if (locations.length === 0) errors.push('no BookLocations generated');
   if (claims.length === 0) warnings.push('no SourceClaims generated');
 }
-console.log(JSON.stringify({ ok: errors.length === 0, errors, warnings }, null, 2));
+const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));
+console.log(JSON.stringify({
+  ok: errors.length === 0,
+  contractOk: errors.length === 0,
+  publicSafetyOk,
+  runtimeReady: false,
+  strictPublicSafety,
+  readiness: publicSafetyOk ? 'contract-valid-content-pending' : 'contract-valid-public-safety-blocked',
+  errors,
+  warnings
+}, null, 2));
 if (errors.length > 0) process.exit(1);
