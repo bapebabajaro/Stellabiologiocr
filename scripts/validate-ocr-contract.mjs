@@ -22,6 +22,7 @@ const baseRequiredFiles = [
   'lineage/section-boundary-decisions.jsonl',
   'questions/intake-candidates.jsonl',
   'questions/intake-contract.json',
+  'questions/intake-worklist.json',
   'assets/pixel-briefs/README.md',
   'assets/pixel-briefs/pixel-brief-template.json',
   'schemas/book-edition.schema.json',
@@ -34,6 +35,7 @@ const baseRequiredFiles = [
   'reports/validation/page-boundary-conflicts.md',
   'reports/validation/ocr-agent-worklist.json',
   'reports/validation/pixel-readiness-gates.md',
+  'reports/validation/question-intake-readiness.md',
   'reports/validation/rotation-readiness.md',
   'reports/validation/page-coverage-matrix.md',
   'reports/validation/public-safety-audit.md',
@@ -41,12 +43,18 @@ const baseRequiredFiles = [
   'reports/validation/ocr-quality-report.md',
   'reports/validation/no-runtime-before-ocr.md',
   'docs/ocr-agent-runbook.md',
+  'scripts/build-question-intake-worklist.mjs',
+  'scripts/validate-question-intake-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 const errors = [];
 const warnings = [];
 const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/home\/user\/workspace/i, /rawOcrText/i, /rawOcrExcerpt/i, /studentPin/i, /cookie\s*=/i, /set-cookie/i, /upstash/i];
-const scannerToolFiles = new Set(['scripts/validate-ocr-contract.mjs', 'scripts/sanitize-handoff.mjs']);
+const scannerToolFiles = new Set([
+  'scripts/validate-ocr-contract.mjs',
+  'scripts/validate-question-intake-worklist.mjs',
+  'scripts/sanitize-handoff.mjs'
+]);
 const validStatuses = new Set(['indexed', 'indexed_with_page_gap', 'indexed_with_boundary_conflict', 'pending_ocr_index', 'public_sample']);
 
 function readText(rel) {
@@ -126,6 +134,7 @@ if (errors.length === 0 && book) {
   if (rotation.activationGates?.kvWriteAllowed !== false) errors.push('rotation must block KV writes');
   if (ocrRunContract.runtimeWriteAllowed !== false) errors.push('OCR run contract must block runtime writes');
   if (intake.runtimeImportAllowed !== false) errors.push('question intake must block runtime import');
+  if (intake.candidateGenerationAllowed !== false) errors.push('question intake must block candidate generation');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
   if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
   if (!Array.isArray(toc.chapters) || toc.chapters.length === 0) errors.push('toc has no chapters');

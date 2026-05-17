@@ -4,7 +4,10 @@
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
   "intakeStatus": "blocked_until_source_claims_and_public_copy_are_accepted",
+  "planningWorklist": "questions/intake-worklist.json",
+  "futureCandidateTarget": 1200,
   "runtimeImportAllowed": false,
+  "candidateGenerationAllowed": false,
   "requiredBeforeAnyQuestionCandidate": [
     "stable BookLocation for the source page or section",
     "accepted SourceClaim with private-source evidence_ref",

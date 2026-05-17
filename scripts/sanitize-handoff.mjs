@@ -26,6 +26,7 @@ const included = [
   'lineage/section-boundary-decisions.jsonl',
   'questions/intake-candidates.jsonl',
   'questions/intake-contract.json',
+  'questions/intake-worklist.json',
   'assets/pixel-briefs/README.md',
   'assets/pixel-briefs/pixel-brief-template.json',
   'schemas/book-edition.schema.json',
@@ -38,6 +39,7 @@ const included = [
   'reports/validation/page-boundary-conflicts.md',
   'reports/validation/ocr-agent-worklist.json',
   'reports/validation/pixel-readiness-gates.md',
+  'reports/validation/question-intake-readiness.md',
   'reports/validation/rotation-readiness.md',
   'reports/validation/page-coverage-matrix.md',
   'reports/validation/public-safety-audit.md',
@@ -46,13 +48,19 @@ const included = [
   'reports/validation/no-runtime-before-ocr.md',
   'reports/validation/generated-contract-hashes.json',
   'scripts/regenerate-biologi-contract.mjs',
+  'scripts/build-question-intake-worklist.mjs',
   'scripts/validate-ocr-contract.mjs',
+  'scripts/validate-question-intake-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 
 const excluded = ['page_renders/', 'ocr_data/', 'margin_samples/', '.firecrawl/', '.git/'];
 const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/home\/user\/workspace/i, /rawOcrText/i, /rawOcrExcerpt/i, /studentPin/i, /cookie\s*=/i, /set-cookie/i, /upstash/i];
-const scannerToolFiles = new Set(['scripts/validate-ocr-contract.mjs', 'scripts/sanitize-handoff.mjs']);
+const scannerToolFiles = new Set([
+  'scripts/validate-ocr-contract.mjs',
+  'scripts/validate-question-intake-worklist.mjs',
+  'scripts/sanitize-handoff.mjs'
+]);
 const errors = [];
 
 for (const rel of included) {
