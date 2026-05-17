@@ -1,0 +1,9 @@
+.firecrawl/
+
+# Private OCR workspaces. These can exist locally for review, but must never be
+# committed to the public handoff branch.
+indexering/
+private-source-local/
+page_renders/
+ocr_data/
+margin_samples/

@@ -30,7 +30,7 @@
     "requiresStablePageMap": true,
     "requiresAcceptedSourceClaimsForRuntime": true
   },
-  "currentBranch": "codex/ocr-contract-skeleton-20260517",
+  "currentBranch": "codex/ocr-contract-sanitized-20260517",
   "repositoryDataSafetyStatus": "tracked_handoff_public_safe_content_pending",
   "repositoryDataSafetyNote": "Tracked page_renders/, ocr_data/ and margin_samples/ artifacts have been removed from git tracking and ignored as local-only OCR working artifacts. Legacy OCR scripts use ignored local path helpers. The tracked handoff package is public-safe, but runtime content remains blocked until SourceClaims, atomic KnowledgePoints, questions, QKL, safe-active metadata, pixel-bindings and pixel assets are accepted."
 }

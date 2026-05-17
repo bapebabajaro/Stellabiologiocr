@@ -6,6 +6,7 @@ import { extname, join } from 'node:path';
 const root = process.cwd();
 const strictPublicSafety = process.argv.includes('--strict-public-safety');
 const baseRequiredFiles = [
+  '.gitignore',
   'manifest/book-edition.json',
   'manifest/toc.json',
   'manifest/source-policy.json',
@@ -140,6 +141,14 @@ function hasTrackedFilesUnder(rel) {
     return existsSync(join(root, rel));
   }
 }
+function isGitIgnored(rel) {
+  try {
+    execFileSync('git', ['check-ignore', '--quiet', '--', rel], { cwd: root });
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 for (const rel of baseRequiredFiles) {
   if (!existsSync(join(root, rel))) errors.push(`missing required file: ${rel}`);
@@ -155,6 +164,11 @@ for (const dir of ['page_renders', 'ocr_data', 'margin_samples']) {
   if (hasTrackedFilesUnder(dir)) warnings.push(`legacy artifact directory tracked and not public-safe by itself: ${dir}`);
 }
 if (hasTrackedFilesUnder('indexering')) warnings.push('OCR-derived indexering files are tracked; move them to private-source-local before public handoff');
+if (strictPublicSafety) {
+  for (const rel of ['indexering/', 'private-source-local/', 'page_renders/', 'ocr_data/', 'margin_samples/', '.firecrawl/']) {
+    if (!isGitIgnored(rel)) warnings.push(`private/OCR workspace path is not gitignored: ${rel}`);
+  }
+}
 scanRepositoryText(root);
 if (strictPublicSafety && warnings.length > 0) errors.push(...warnings.map((warning) => `strict-public-safety: ${warning}`));
 
