@@ -74,6 +74,7 @@ Kör validering med:
 ```powershell
 node scripts/validate-ocr-contract.mjs
 node scripts/validate-ocr-contract.mjs --strict-public-safety
+node scripts/validate-source-claim-review-worklist.mjs
 node scripts/validate-atomic-kp-worklist.mjs
 node scripts/validate-question-intake-worklist.mjs
 node scripts/sanitize-handoff.mjs

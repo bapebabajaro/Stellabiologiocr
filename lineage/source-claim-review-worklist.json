@@ -1,0 +1,2248 @@
+{
+  "schemaVersion": "source-claim-review-worklist-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "sourceClaimCount": 43,
+  "bookLocationCount": 43,
+  "pageRecordCount": 702,
+  "sourceEvidenceCount": 43,
+  "reviewItemCount": 43,
+  "acceptedSourceClaims": 0,
+  "runtimeEligibleSourceClaims": 0,
+  "acceptanceAllowedByThisWorklist": false,
+  "runtimePromotionAllowed": false,
+  "candidateGenerationAllowed": false,
+  "pixelBindingAllowed": false,
+  "status": "blocked_review_worklist_only",
+  "fatalGates": [
+    "no SourceClaim acceptance from this generator",
+    "no runtime promotion from this generator",
+    "no question generation",
+    "no pixel binding",
+    "no KV write",
+    "no import apply"
+  ],
+  "reviewItems": [
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1",
+      "chapterId": "biologi-kap1",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 2,
+        "end": 77
+      },
+      "pageRecordCount": 76,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec01",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 10,
+        "end": 19
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec02",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec02",
+      "locationKind": "investigation",
+      "pageSpan": {
+        "start": 20,
+        "end": 21
+      },
+      "pageRecordCount": 2,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec03",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 22,
+        "end": 37
+      },
+      "pageRecordCount": 16,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec04",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec04",
+      "locationKind": "investigation",
+      "pageSpan": {
+        "start": 38,
+        "end": 39
+      },
+      "pageRecordCount": 2,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec05",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec05",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 40,
+        "end": 57
+      },
+      "pageRecordCount": 18,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec06",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec06",
+      "locationKind": "investigation",
+      "pageSpan": {
+        "start": 58,
+        "end": 59
+      },
+      "pageRecordCount": 2,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec07",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec07",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 60,
+        "end": 71
+      },
+      "pageRecordCount": 12,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec08",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec08",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 72,
+        "end": 77
+      },
+      "pageRecordCount": 6,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2",
+      "chapterId": "biologi-kap2",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 78,
+        "end": 143
+      },
+      "pageRecordCount": 66,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec01",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 80,
+        "end": 85
+      },
+      "pageRecordCount": 6,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec02",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec02",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 86,
+        "end": 101
+      },
+      "pageRecordCount": 16,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec03",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 102,
+        "end": 113
+      },
+      "pageRecordCount": 12,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec04",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 114,
+        "end": 121
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec05",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec05",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 122,
+        "end": 129
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec06",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec06",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 130,
+        "end": 141
+      },
+      "pageRecordCount": 12,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": null,
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3",
+      "chapterId": "biologi-kap3",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 144,
+        "end": 207
+      },
+      "pageRecordCount": 64,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec01",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 144,
+        "end": 153
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec02",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec02",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 154,
+        "end": 161
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec03",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 162,
+        "end": 169
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec04",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec04",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 170,
+        "end": 183
+      },
+      "pageRecordCount": 14,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec05",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec05",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 184,
+        "end": 190
+      },
+      "pageRecordCount": 7,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec06",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec06",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 191,
+        "end": 197
+      },
+      "pageRecordCount": 7,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec07",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec07",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 198,
+        "end": 205
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4",
+      "chapterId": "biologi-kap4",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 208,
+        "end": 263
+      },
+      "pageRecordCount": 56,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec01",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 208,
+        "end": 215
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec02",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec02",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 216,
+        "end": 225
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec03",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 226,
+        "end": 235
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec04",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec04",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 236,
+        "end": 245
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec05",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec05",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 246,
+        "end": 253
+      },
+      "pageRecordCount": 8,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec06",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec06",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 254,
+        "end": 263
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k3-k4-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5",
+      "chapterId": "biologi-kap5",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 264,
+        "end": 323
+      },
+      "pageRecordCount": 60,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec01",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 266,
+        "end": 277
+      },
+      "pageRecordCount": 12,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec02",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec02",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 278,
+        "end": 291
+      },
+      "pageRecordCount": 14,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec03",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 292,
+        "end": 301
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec04",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec04",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 302,
+        "end": 307
+      },
+      "pageRecordCount": 6,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec05",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec05",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 308,
+        "end": 317
+      },
+      "pageRecordCount": 10,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec06",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec06",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 318,
+        "end": 323
+      },
+      "pageRecordCount": 6,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6",
+      "chapterId": "biologi-kap6",
+      "sectionId": null,
+      "locationKind": "chapter",
+      "pageSpan": {
+        "start": 324,
+        "end": 361
+      },
+      "pageRecordCount": 38,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec01",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec01",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 326,
+        "end": 337
+      },
+      "pageRecordCount": 12,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec02",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec02",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 338,
+        "end": 343
+      },
+      "pageRecordCount": 6,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec03",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec03",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 344,
+        "end": 350
+      },
+      "pageRecordCount": 7,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    },
+    {
+      "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
+      "schemaVersion": "source-claim-review-item-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec04",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec04",
+      "locationKind": "section",
+      "pageSpan": {
+        "start": 351,
+        "end": 361
+      },
+      "pageRecordCount": 11,
+      "sourceEvidenceCount": 1,
+      "boundaryDecisionId": "bio-boundary-k5-k6-20260517",
+      "currentReviewStatus": "public_or_index_reference_only",
+      "currentRuntimeEligible": false,
+      "acceptanceAllowedByThisWorklist": false,
+      "runtimePromotionAllowed": false,
+      "requiredReviewerInputs": [
+        "page_record_review",
+        "evidence_ref_review",
+        "source_atom",
+        "visual_source_atom_when_figures_models_or_tables_matter",
+        "claim_table_row",
+        "quote_leak_check",
+        "boundary_decision_review_when_applicable"
+      ],
+      "requiredAcceptancePatchShape": {
+        "sourceClaimId": "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
+        "reviewStatus": "reviewed_not_runtime",
+        "runtimeEligible": false,
+        "evidenceRefs": [
+          "existing evidence_ref ids only"
+        ],
+        "sourceAtomId": "source-atom-*",
+        "visualSourceAtomIds": [],
+        "claimTableRowId": "claim-table-*",
+        "reviewerId": "human-or-agent-reviewer-id",
+        "reviewerDecision": "accept_structure_only_or_request_fix",
+        "reviewedAt": "ISO-8601 timestamp"
+      },
+      "fatalBeforeAcceptance": [
+        "boundary_decision_not_resolved_for_runtime",
+        "no_raw_ocr_text_allowed_in_public_artifacts",
+        "no_textbook_quote_allowed_in_public_student_copy",
+        "no_runtime_promotion_without_new_release_data_order"
+      ],
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
+    }
+  ]
+}

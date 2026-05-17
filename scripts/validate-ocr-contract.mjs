@@ -18,6 +18,7 @@ const baseRequiredFiles = [
   'lineage/source-claims.jsonl',
   'lineage/knowledge-point-candidates.jsonl',
   'lineage/atomic-knowledge-point-worklist.json',
+  'lineage/source-claim-review-worklist.json',
   'lineage/README.md',
   'lineage/page-records.jsonl',
   'lineage/source-evidence.jsonl',
@@ -43,6 +44,7 @@ const baseRequiredFiles = [
   'reports/validation/page-coverage-matrix.md',
   'reports/validation/public-safety-audit.md',
   'reports/validation/source-lineage-review.md',
+  'reports/validation/source-claim-review-readiness.md',
   'reports/validation/ocr-quality-report.md',
   'reports/validation/no-runtime-before-ocr.md',
   'docs/ocr-agent-runbook.md',
@@ -50,6 +52,8 @@ const baseRequiredFiles = [
   'scripts/validate-question-intake-worklist.mjs',
   'scripts/build-atomic-kp-worklist.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
+  'scripts/build-source-claim-review-worklist.mjs',
+  'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 const errors = [];
@@ -59,6 +63,7 @@ const scannerToolFiles = new Set([
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
+  'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
 const privateArtifactDirs = new Set(['page_renders', 'ocr_data', 'margin_samples', 'private-source-local']);
@@ -137,10 +142,11 @@ if (errors.length === 0 && book) {
   const claims = readJsonl('lineage/source-claims.jsonl');
   const kpCandidates = readJsonl('lineage/knowledge-point-candidates.jsonl');
   const atomicKpWorklist = readJson('lineage/atomic-knowledge-point-worklist.json');
+  const sourceClaimReviewWorklist = readJson('lineage/source-claim-review-worklist.json');
   const requiredBookFields = ['subject', 'sourceFamily', 'bookId', 'bookEditionId', 'publisher', 'editionYear', 'isbn', 'ocrSourceHash', 'pageMapHash', 'tocStatus', 'licenseScope', 'rotationPolicy'];
   for (const field of requiredBookFields) if (book[field] === undefined || book[field] === null || book[field] === '') errors.push(`book-edition missing ${field}`);
   if (toc.bookEditionId !== book.bookEditionId) errors.push('toc.bookEditionId does not match book edition');
-  for (const [label, doc] of [['rotation', rotation], ['sourceInventory', sourceInventory], ['ocrRunContract', ocrRunContract], ['intake', intake], ['pixelBrief', pixelBrief], ['worklist', worklist], ['atomicKpWorklist', atomicKpWorklist]]) {
+  for (const [label, doc] of [['rotation', rotation], ['sourceInventory', sourceInventory], ['ocrRunContract', ocrRunContract], ['intake', intake], ['pixelBrief', pixelBrief], ['worklist', worklist], ['atomicKpWorklist', atomicKpWorklist], ['sourceClaimReviewWorklist', sourceClaimReviewWorklist]]) {
     if (doc.subject !== book.subject) errors.push(`${label}.subject does not match book edition`);
     if (doc.bookEditionId !== book.bookEditionId) errors.push(`${label}.bookEditionId does not match book edition`);
   }
@@ -158,6 +164,10 @@ if (errors.length === 0 && book) {
   if (atomicKpWorklist.runtimeImportAllowed !== false) errors.push('atomic KP worklist must block runtime import');
   if (atomicKpWorklist.candidateGenerationAllowed !== false) errors.push('atomic KP worklist must block candidate generation');
   if (atomicKpWorklist.pixelBindingAllowed !== false) errors.push('atomic KP worklist must block pixel binding');
+  if (sourceClaimReviewWorklist.acceptanceAllowedByThisWorklist !== false) errors.push('source-claim review worklist must block direct acceptance');
+  if (sourceClaimReviewWorklist.runtimePromotionAllowed !== false) errors.push('source-claim review worklist must block runtime promotion');
+  if (sourceClaimReviewWorklist.candidateGenerationAllowed !== false) errors.push('source-claim review worklist must block candidate generation');
+  if (sourceClaimReviewWorklist.reviewItemCount !== claims.length) errors.push('source-claim review worklist item count must match SourceClaim count');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
   if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
   if (!Array.isArray(toc.chapters) || toc.chapters.length === 0) errors.push('toc has no chapters');
