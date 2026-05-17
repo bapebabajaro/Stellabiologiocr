@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "pixel-brief-v1",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "runtimeAssetAllowed": false,
+  "coordinateSpace": {
+    "width": 650,
+    "height": 480
+  },
+  "referenceArtTarget": {
+    "width": 1672,
+    "height": 941
+  },
+  "blockedUntil": [
+    "accepted KnowledgePoints",
+    "stable pixel-bindings",
+    "approved source semantics",
+    "five reviewer PASS"
+  ],
+  "briefFieldsWhenUnlocked": {
+    "chapterId": "Kx",
+    "knowledgePointIds": [],
+    "regionIntent": "",
+    "visualMetaphor": "",
+    "mustMatchChemistryReference": true,
+    "mustNotCopyTextbookImage": true,
+    "mustNotContainTextbookText": true
+  },
+  "requiredReviewers": [
+    "visual_fidelity_reviewer",
+    "coordinate_reveal_reviewer",
+    "responsive_screenshot_reviewer",
+    "source_semantics_reviewer",
+    "adversarial_leak_reviewer"
+  ]
+}

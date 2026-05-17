@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceClaim",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "bookEditionId",
+    "subject",
+    "bookLocationId",
+    "claimType",
+    "claimText",
+    "reviewStatus",
+    "evidenceQuality",
+    "evidenceRefs",
+    "evidenceRefIds",
+    "runtimeEligible",
+    "blocker"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^sourceclaim-" },
+    "schemaVersion": { "const": "source-claim-v1" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "subject": { "const": "biologi" },
+    "bookLocationId": { "type": "string" },
+    "claimType": { "enum": ["toc_structure"] },
+    "claimText": { "type": "string", "maxLength": 220 },
+    "reviewStatus": { "enum": ["public_or_index_reference_only", "reviewed_not_runtime", "request_fix", "reject", "accepted"] },
+    "evidenceQuality": { "enum": ["high", "medium", "low"] },
+    "evidenceRefs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "locator", "confidence"],
+        "properties": {
+          "kind": { "enum": ["private_source"] },
+          "locator": { "type": "string", "pattern": "^private-source://pdfer/biologi/" },
+          "confidence": { "enum": ["high", "medium", "low"] }
+        }
+      }
+    },
+    "evidenceRefIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^evidence-ref-physical-page-" }
+    },
+    "runtimeEligible": { "const": false },
+    "blocker": { "type": "string" }
+  }
+}

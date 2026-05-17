@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VisualSourceAtom",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "subject",
+    "bookEditionId",
+    "sourceAtomId",
+    "visualKind",
+    "visualSummary",
+    "reviewStatus",
+    "containsPageImage",
+    "runtimeEligible"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^visual-source-atom-" },
+    "schemaVersion": { "const": "visual-source-atom-v1" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "sourceAtomId": { "type": "string", "pattern": "^source-atom-" },
+    "visualKind": { "enum": ["figure", "model", "table", "diagram", "lab_setup"] },
+    "visualSummary": { "type": "string", "maxLength": 280 },
+    "reviewStatus": { "enum": ["reviewed_not_runtime", "request_fix", "reject"] },
+    "containsPageImage": { "const": false },
+    "runtimeEligible": { "const": false }
+  }
+}

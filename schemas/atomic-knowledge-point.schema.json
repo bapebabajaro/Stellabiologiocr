@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AtomicKnowledgePoint",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "subject",
+    "bookEditionId",
+    "bookLocationIds",
+    "sourceClaimIds",
+    "sourceAtomIds",
+    "label",
+    "studentGoal",
+    "reviewStatus",
+    "runtimeEligible",
+    "pixelEligible"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^kp-biologi-" },
+    "schemaVersion": { "const": "knowledge-point-v1" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "bookLocationIds": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "sourceClaimIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^sourceclaim-" } },
+    "sourceAtomIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^source-atom-" } },
+    "label": { "type": "string", "maxLength": 90 },
+    "studentGoal": { "type": "string", "maxLength": 240 },
+    "qklRole": { "enum": ["core", "support", "extension"] },
+    "reviewStatus": { "enum": ["candidate_review_required", "reviewed_not_runtime", "request_fix", "reject"] },
+    "runtimeEligible": { "const": false },
+    "pixelEligible": { "const": false }
+  }
+}

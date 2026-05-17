@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "question-intake-contract-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "intakeStatus": "blocked_until_source_claims_and_public_copy_are_accepted",
+  "planningWorklist": "questions/intake-worklist.json",
+  "futureCandidateTarget": 1200,
+  "runtimeImportAllowed": false,
+  "candidateGenerationAllowed": false,
+  "requiredBeforeAnyQuestionCandidate": [
+    "stable BookLocation for the source page or section",
+    "accepted SourceClaim with private-source evidence_ref",
+    "atomic KnowledgePoint candidate linked to the accepted claim",
+    "student-facing Swedish copy written from sanitized understanding, not copied textbook text",
+    "distractor_rationale for every wrong option",
+    "QuestionKnowledgeLink review"
+  ],
+  "forbiddenFields": [
+    "raw_ocr_text",
+    "raw_ocr_excerpt",
+    "absoluteLocalPath",
+    "student_pin",
+    "cookie",
+    "kvKey"
+  ],
+  "requiredQuestionFieldsWhenUnlocked": [
+    "id",
+    "subject",
+    "bookEditionId",
+    "bookLocationIds",
+    "sourceClaimIds",
+    "knowledgePointIds",
+    "studentStem",
+    "options",
+    "correctOptionId",
+    "distractorRationales",
+    "publicSanitizedSourceSummary",
+    "reviewStatus"
+  ]
+}

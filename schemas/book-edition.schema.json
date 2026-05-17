@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BookEdition",
+  "type": "object",
+  "required": ["subject", "sourceFamily", "bookId", "bookEditionId", "publisher", "editionYear", "isbn", "rotationPolicy"],
+  "properties": {
+    "subject": { "type": "string" },
+    "bookEditionId": { "type": "string" },
+    "rotationPolicy": { "type": "object" }
+  }
+}

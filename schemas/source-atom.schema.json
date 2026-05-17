@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SourceAtom",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "subject",
+    "bookEditionId",
+    "sourceClaimIds",
+    "evidenceRefIds",
+    "atomText",
+    "reviewStatus",
+    "containsRawOcr",
+    "runtimeEligible"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^source-atom-" },
+    "schemaVersion": { "const": "source-atom-v1" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "sourceClaimIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^sourceclaim-" } },
+    "evidenceRefIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^evidence-ref-" } },
+    "atomText": { "type": "string", "maxLength": 280 },
+    "reviewStatus": { "enum": ["reviewed_not_runtime", "request_fix", "reject"] },
+    "containsRawOcr": { "const": false },
+    "runtimeEligible": { "const": false }
+  }
+}

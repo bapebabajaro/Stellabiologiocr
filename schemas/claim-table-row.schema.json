@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ClaimTableRow",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "subject",
+    "bookEditionId",
+    "sourceClaimId",
+    "sourceAtomIds",
+    "decision",
+    "runtimeEligible"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^claim-table-" },
+    "schemaVersion": { "const": "claim-table-row-v1" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "sourceClaimId": { "type": "string", "pattern": "^sourceclaim-" },
+    "sourceAtomIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^source-atom-" } },
+    "decision": { "enum": ["reviewed_not_runtime", "request_fix", "reject"] },
+    "runtimeEligible": { "const": false }
+  }
+}

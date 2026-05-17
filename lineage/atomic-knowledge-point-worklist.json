@@ -1,0 +1,2027 @@
+{
+  "schemaVersion": "atomic-kp-worklist-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "targetQuestionCandidates": 1200,
+  "targetQuestionsPerAtomicKp": 5,
+  "targetAtomicKnowledgePoints": 240,
+  "plannedAtomicKnowledgePointCount": 240,
+  "workItemCount": 37,
+  "acceptedSourceClaims": 0,
+  "acceptedAtomicKnowledgePoints": 0,
+  "runtimeImportAllowed": false,
+  "candidateGenerationAllowed": false,
+  "pixelBindingAllowed": false,
+  "status": "blocked_planning_only",
+  "distributionPolicy": "Atomic KP quotas reserve review capacity. They do not authorize runtime KnowledgePoints, questions or pixel bindings.",
+  "fatalGates": [
+    "no accepted SourceClaims",
+    "no reviewed source_atom records",
+    "no atomic KnowledgePoints",
+    "no QKL",
+    "no safe-active metadata",
+    "no pixel bindings",
+    "no runtime import or KV write order"
+  ],
+  "workItems": [
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02"
+      ],
+      "sectionType": "investigation",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04"
+      ],
+      "sectionType": "investigation",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec05",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec05",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec06",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec06",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06"
+      ],
+      "sectionType": "investigation",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec07",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec07",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap1-sec08",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec08",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec08",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec05",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec05",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap2-sec06",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec06",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_page_gap",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 7,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec05",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec05",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec06",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec06",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap3-sec07",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec07",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec05",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec05",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap4-sec06",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec06",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec05",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec05",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap5-sec06",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec06",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap6-sec01",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec01",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap6-sec02",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec02",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap6-sec03",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec03",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    },
+    {
+      "id": "atomic-kp-workitem-biologi-kap6-sec04",
+      "schemaVersion": "atomic-kp-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec04",
+      "sourcePlaceholderKnowledgePointId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04"
+      ],
+      "sectionType": "section",
+      "sectionStatus": "indexed_with_boundary_conflict",
+      "plannedAtomicKnowledgePointQuota": 6,
+      "plannedQuestionCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "pixelEligible": false,
+      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "reviewerInputsRequired": [
+        "accepted SourceClaim evidence_ref",
+        "neutral source_atom summary",
+        "visual_source_atom when figures or models matter",
+        "claim_table row for each atom",
+        "no copied textbook phrasing",
+        "one narrow measurable learning target per atomic KP",
+        "future QKL role recommendation"
+      ],
+      "requiredAtomicKnowledgePointShapeWhenUnlocked": {
+        "id": "stable kp-biologi-* id",
+        "schemaVersion": "knowledge-point-v1",
+        "subject": "biologi",
+        "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+        "bookLocationIds": [
+          "accepted BookLocation id"
+        ],
+        "sourceClaimIds": [
+          "accepted SourceClaim id"
+        ],
+        "sourceAtomIds": [
+          "accepted source_atom id"
+        ],
+        "label": "short public-safe Swedish label",
+        "studentGoal": "what the student should be able to do, not copied text",
+        "assessmentModes": [
+          "mcq",
+          "short_reasoning",
+          "visual_interpretation"
+        ],
+        "pixelEligible": false,
+        "reviewStatus": "candidate_review_required"
+      }
+    }
+  ]
+}

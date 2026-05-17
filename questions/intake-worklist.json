@@ -1,0 +1,1025 @@
+{
+  "schemaVersion": "question-intake-worklist-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "targetCandidateCount": 1200,
+  "plannedCandidateCount": 1200,
+  "workItemCount": 37,
+  "runtimeImportAllowed": false,
+  "candidateGenerationAllowed": false,
+  "activeQuestionCount": 0,
+  "acceptedSourceClaims": 0,
+  "acceptedKnowledgePoints": 0,
+  "status": "blocked_planning_only",
+  "distributionPolicy": "1200 is a future candidate target only. Quotas reserve review capacity per section placeholder; they do not authorize generation.",
+  "fatalGates": [
+    "no accepted SourceClaims",
+    "no atomic KnowledgePoints",
+    "no QuestionKnowledgeLinks",
+    "no public sanitized question copy",
+    "no safe-active metadata",
+    "no runtime import or KV write order"
+  ],
+  "forbiddenInCandidates": [
+    "raw_ocr_text",
+    "raw_ocr_excerpt",
+    "absoluteLocalPath",
+    "private source locator in public copy",
+    "student data",
+    "PIN",
+    "cookie",
+    "KV key"
+  ],
+  "requiredQuestionShapeWhenUnlocked": {
+    "id": "stable biology question id",
+    "subject": "biologi",
+    "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+    "bookLocationIds": [
+      "BookLocation id"
+    ],
+    "sourceClaimIds": [
+      "accepted SourceClaim id"
+    ],
+    "knowledgePointIds": [
+      "accepted atomic KnowledgePoint id"
+    ],
+    "studentStem": "student-facing Swedish question text",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correctOptionId": "one option id",
+    "distractorRationales": [
+      "one rationale per wrong option"
+    ],
+    "publicSanitizedSourceSummary": "short non-copied source grounding",
+    "reviewStatus": "candidate_review_required"
+  },
+  "workItems": [
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec05",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec05",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec06",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec06",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec07",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec07",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap1-sec08",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap1",
+      "sectionId": "biologi-kap1-sec08",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap1-sec08",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec05",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec05",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap2-sec06",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap2",
+      "sectionId": "biologi-kap2-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec06",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02"
+      ],
+      "plannedCandidateQuota": 33,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec05",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec05",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec06",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec06",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap3-sec07",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap3",
+      "sectionId": "biologi-kap3-sec07",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap3-sec07",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec05",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec05",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap4-sec06",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap4",
+      "sectionId": "biologi-kap4-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap4-sec06",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec05",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec05",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec05",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap5-sec06",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap5",
+      "sectionId": "biologi-kap5-sec06",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap5-sec06",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap6-sec01",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec01",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec01",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap6-sec02",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec02",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec02",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap6-sec03",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec03",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec03",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    },
+    {
+      "id": "question-intake-workitem-biologi-kap6-sec04",
+      "schemaVersion": "question-intake-workitem-v1",
+      "subject": "biologi",
+      "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+      "chapterId": "biologi-kap6",
+      "sectionId": "biologi-kap6-sec04",
+      "bookLocationId": "bookedition-stella-biologi-ocr-v1:biologi-kap6-sec04",
+      "knowledgePointCandidateId": "kp-candidate-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
+      "sourceClaimIds": [
+        "sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04"
+      ],
+      "plannedCandidateQuota": 32,
+      "candidateGenerationAllowed": false,
+      "runtimeImportAllowed": false,
+      "blocker": "blocked_until_source_claims_and_atomic_knowledge_points_are_accepted",
+      "requiredBeforeUnlock": [
+        "accepted SourceClaims with reviewed evidence_ref",
+        "section placeholder split into atomic KnowledgePoints",
+        "student-facing copy written without textbook copying",
+        "four answer options with one correct option",
+        "distractor rationale for every wrong option",
+        "QuestionKnowledgeLink review",
+        "public sanitized copy review"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BookLocation",
+  "type": "object",
+  "required": ["id", "bookEditionId", "chapterId", "status"],
+  "properties": {
+    "id": { "type": "string" },
+    "bookEditionId": { "type": "string" },
+    "chapterId": { "type": "string" },
+    "status": { "type": "string" }
+  }
+}

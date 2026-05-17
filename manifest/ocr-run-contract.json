@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "ocr-run-contract-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "runtimeWriteAllowed": false,
+  "allowedOutputFiles": [
+    "lineage/page-records.jsonl",
+    "lineage/physical-page-records.jsonl",
+    "lineage/book-location-page-links.jsonl",
+    "lineage/evidence-refs.jsonl",
+    "lineage/source-evidence.jsonl",
+    "lineage/section-boundary-decisions.jsonl",
+    "lineage/source-claims.jsonl",
+    "lineage/source-claim-review-worklist.json",
+    "lineage/page-record-review-worklist.json",
+    "lineage/source-atoms.jsonl",
+    "lineage/visual-source-atoms.jsonl",
+    "lineage/claim-table.jsonl",
+    "lineage/knowledge-point-candidates.jsonl",
+    "lineage/atomic-knowledge-point-worklist.json",
+    "lineage/atomic-kp-review-worklist.json",
+    "reports/validation/source-lineage-review.md",
+    "reports/validation/ocr-quality-report.md",
+    "reports/validation/page-coverage-matrix.md",
+    "reports/validation/atomic-kp-readiness.md",
+    "reports/validation/page-record-review-readiness.md",
+    "reports/validation/source-atom-readiness.md",
+    "reports/validation/atomic-kp-review-readiness.md"
+  ],
+  "forbiddenOutputKinds": [
+    "raw_ocr_text",
+    "long_textbook_excerpt",
+    "full_page_render",
+    "margin_image",
+    "answer_key_copy",
+    "absolute_local_path",
+    "student_data",
+    "kv_write_plan",
+    "runtime_import"
+  ],
+  "requiredRecordTypes": [
+    "page_record",
+    "physical_page_record",
+    "evidence_ref",
+    "source_atom",
+    "visual_source_atom",
+    "claim_table",
+    "distractor_rationale"
+  ]
+}

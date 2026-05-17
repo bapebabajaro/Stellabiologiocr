@@ -1,0 +1,856 @@
+{
+  "schemaVersion": "ocr-toc-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "tocStatus": "full_indexed_with_blockers",
+  "sourceSummary": [
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1",
+      "confidence": "high"
+    },
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2",
+      "confidence": "high"
+    },
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2",
+      "confidence": "medium"
+    },
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Biologi-del-2",
+      "confidence": "high"
+    },
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Biologi-del-3",
+      "confidence": "medium"
+    },
+    {
+      "kind": "private_source",
+      "locator": "private-source://pdfer/biologi/Biologi-del-3",
+      "confidence": "medium"
+    }
+  ],
+  "chapters": [
+    {
+      "chapterNo": 1,
+      "chapterId": "biologi-kap1",
+      "title": "EKOLOGI",
+      "pageSpan": {
+        "start": 2,
+        "end": 77
+      },
+      "status": "indexed",
+      "confidence": "high",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap1-sec01",
+          "title": "Livets utveckling och mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 10,
+            "end": 19
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-10-19",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec02",
+          "title": "Dags att mikroskopera",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 20,
+            "end": 21
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-20-21",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec03",
+          "title": "Jordens biologiska mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 22,
+            "end": 37
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-22-37",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec04",
+          "title": "Fältundersökning",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 38,
+            "end": 39
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-38-39",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec05",
+          "title": "Energi och material i ekosystemen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 40,
+            "end": 57
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-40-57",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec06",
+          "title": "Klyvöppningar i olika förstoring",
+          "sectionType": "investigation",
+          "pageSpan": {
+            "start": 58,
+            "end": 59
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-58-59",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec07",
+          "title": "Anpassningar i samspel med andra organismer",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 60,
+            "end": 71
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-60-71",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap1-sec08",
+          "title": "Ekosystemtjänster",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 72,
+            "end": 77
+          },
+          "status": "indexed",
+          "confidence": "high",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-72-77",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Biologi-Stella-kapitel-1",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1#book-pages-2-77",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "chapterNo": 2,
+      "chapterId": "biologi-kap2",
+      "title": "MILJÖ OCH HÅLLBAR UTVECKLING",
+      "pageSpan": {
+        "start": 78,
+        "end": 143
+      },
+      "status": "indexed_with_page_gap",
+      "confidence": "medium",
+      "sourceNote": "Indexeringen täcker s.78-141; sidkartan markerar luckor s.90-112 och s.142-143. Runtime kräver accepterade page records.",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap2-sec01",
+          "title": "Hållbar utveckling",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 80,
+            "end": 85
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-80-85",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap2-sec02",
+          "title": "Global uppvärmning",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 86,
+            "end": 101
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-86-101",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap2-sec03",
+          "title": "Klimatförändringar - åtgärder och konsekvenser",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 102,
+            "end": 113
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-102-113",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap2-sec04",
+          "title": "Hållbar konsumtion och produktion",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 114,
+            "end": 121
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-114-121",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap2-sec05",
+          "title": "Vatten och miljö",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 122,
+            "end": 129
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-122-129",
+              "confidence": "high"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap2-sec06",
+          "title": "Naturbruk och biologisk mångfald",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 130,
+            "end": 141
+          },
+          "status": "indexed_with_page_gap",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-130-141",
+              "confidence": "high"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Stella-biolgi-kapitel-2",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2#book-pages-78-143",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "chapterNo": 3,
+      "chapterId": "biologi-kap3",
+      "title": "MÄNNISKOKROPPEN",
+      "pageSpan": {
+        "start": 144,
+        "end": 207
+      },
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "sourceNote": "Sidkarta/README anger K3 s.144-207; indexeringen börjar på s.142 och slutar på s.205. Runtime kräver boundary-beslut från page records.",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap3-sec01",
+          "title": "Celler, organ och organsystem",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 144,
+            "end": 153
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-144-153",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec02",
+          "title": "Matspjälkningen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 154,
+            "end": 161
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-154-161",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec03",
+          "title": "Andningssystemet och urinorganen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 162,
+            "end": 169
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-162-169",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec04",
+          "title": "Blodomloppet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 170,
+            "end": 183
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-170-183",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec05",
+          "title": "Nervsystemet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 184,
+            "end": 190
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-184-190",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec06",
+          "title": "Hjärnan och hormonsystemet",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 191,
+            "end": 197
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-191-197",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap3-sec07",
+          "title": "Fortplantningen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 198,
+            "end": 205
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-198-205",
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Biologi-del-1 + Biologi-del-2",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2#book-pages-144-207",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "chapterNo": 4,
+      "chapterId": "biologi-kap4",
+      "title": "LIV OCH HÄLSA",
+      "pageSpan": {
+        "start": 208,
+        "end": 263
+      },
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "sourceNote": "Sidkarta/README anger K4 s.208-263; indexeringen börjar på s.206. Runtime kräver boundary-beslut från page records.",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap4-sec01",
+          "title": "Fysisk hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 208,
+            "end": 215
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-208-215",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap4-sec02",
+          "title": "Psykisk hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 216,
+            "end": 225
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-216-225",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap4-sec03",
+          "title": "Hälsa och livsstil",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 226,
+            "end": 235
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-226-235",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap4-sec04",
+          "title": "Droger och beroende",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 236,
+            "end": 245
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-236-245",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap4-sec05",
+          "title": "Sexuell hälsa",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 246,
+            "end": 253
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-246-253",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap4-sec06",
+          "title": "Sexualitet och relationer",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 254,
+            "end": 263
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-254-263",
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Biologi-del-2",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Biologi-del-2#book-pages-208-263",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "chapterNo": 5,
+      "chapterId": "biologi-kap5",
+      "title": "GENETIK OCH GENTEKNIK",
+      "pageSpan": {
+        "start": 264,
+        "end": 323
+      },
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "sourceNote": "README/sidkarta anger K5 s.264-327, men den färska indexeringen slutar K5 på s.323 och anger s.324-325 som K6-start. Runtime kräver boundary-beslut från page records.",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap5-sec01",
+          "title": "Gener ger oss våra egenskaper",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 266,
+            "end": 277
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-266-277",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap5-sec02",
+          "title": "Celldelning och mutationer",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 278,
+            "end": 291
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-278-291",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap5-sec03",
+          "title": "Hur egenskaper går i arv",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 292,
+            "end": 301
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-292-301",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap5-sec04",
+          "title": "Hur arv och miljö påverkar våra egenskaper",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 302,
+            "end": 307
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-302-307",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap5-sec05",
+          "title": "Avel, växtförädling och genteknik",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 308,
+            "end": 317
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-308-317",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap5-sec06",
+          "title": "Genteknik i vård och forskning",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 318,
+            "end": 323
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-318-323",
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Biologi-del-3",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-264-323",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "chapterNo": 6,
+      "chapterId": "biologi-kap6",
+      "title": "EVOLUTION",
+      "pageSpan": {
+        "start": 324,
+        "end": 361
+      },
+      "status": "indexed_with_boundary_conflict",
+      "confidence": "medium",
+      "sourceNote": "README/sidkarta anger K6 s.328-361, men den färska indexeringen börjar K6 på s.324. Runtime kräver boundary-beslut från page records.",
+      "subchapters": [
+        {
+          "sectionId": "biologi-kap6-sec01",
+          "title": "Evolutionen - så fungerar den",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 326,
+            "end": 337
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-326-337",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap6-sec02",
+          "title": "Evidens för evolutionen",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 338,
+            "end": 343
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-338-343",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap6-sec03",
+          "title": "Livets uppkomst och tidiga utveckling",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 344,
+            "end": 350
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-344-350",
+              "confidence": "medium"
+            }
+          ]
+        },
+        {
+          "sectionId": "biologi-kap6-sec04",
+          "title": "Det flercelliga livets utveckling",
+          "sectionType": "section",
+          "pageSpan": {
+            "start": 351,
+            "end": 361
+          },
+          "status": "indexed_with_boundary_conflict",
+          "confidence": "medium",
+          "evidenceRefs": [
+            {
+              "kind": "private_source",
+              "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-351-361",
+              "confidence": "medium"
+            }
+          ]
+        }
+      ],
+      "primarySource": "Biologi-del-3",
+      "evidenceRefs": [
+        {
+          "kind": "private_source",
+          "locator": "private-source://pdfer/biologi/Biologi-del-3#book-pages-324-361",
+          "confidence": "medium"
+        }
+      ]
+    }
+  ],
+  "boundaryDecisions": [
+    {
+      "id": "bio-boundary-k3-k4-20260517",
+      "status": "blocked_until_page_records_accepted",
+      "issue": "Sidkarta/README and indexering disagree on K3/K4 boundaries."
+    },
+    {
+      "id": "bio-boundary-k5-k6-20260517",
+      "status": "blocked_until_page_records_accepted",
+      "issue": "Sidkarta/README say K5 ends s.327 and K6 starts s.328; fresh index says K5 ends s.323 and K6 starts s.324."
+    }
+  ],
+  "blockers": [
+    "K3/K4 page boundary conflict between sidkarta/README and indexering files.",
+    "K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.",
+    "Tracked handoff public-safety is resolved; runtime content remains blocked until accepted evidence exists.",
+    "No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed."
+  ]
+}

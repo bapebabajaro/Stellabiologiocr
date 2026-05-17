@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "generated-contract-hashes-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "fileCount": 39,
+  "files": [
+    {
+      "rel": "manifest/book-edition.json",
+      "sha256": "4740d4e83e23e23c1fdca5adc45296fda04c4e2ed42b5dead09c80482b00ba5a"
+    },
+    {
+      "rel": "manifest/toc.json",
+      "sha256": "3ceac22568aca5758120f01affce12dbff2fb7240d7faa19134d3f8fa632f219"
+    },
+    {
+      "rel": "manifest/source-policy.json",
+      "sha256": "961e3a4e745cea711ec40fcbc115750dda00c51fa2f124d7370f89ecb50c03d1"
+    },
+    {
+      "rel": "manifest/rotation-contract.json",
+      "sha256": "09ed25cbf4361b6fd34218db38dede5238433a8eff26c759a7a20e7d57d9cb26"
+    },
+    {
+      "rel": "manifest/source-inventory.json",
+      "sha256": "d75952d9985182f9ebf1fdd85f610204d4fbab5dc4f9b5007bcc28b7fcc525c4"
+    },
+    {
+      "rel": "manifest/edition-registry.json",
+      "sha256": "8b062fb64983d204a1fda8734036d86a64e2aa05405140b65731b57c2dca820a"
+    },
+    {
+      "rel": "manifest/ocr-run-contract.json",
+      "sha256": "a7dee51b4116451f5176f9bc7f05d5c0e76b0c4cbe26c21dddbe592c1cc8a98b"
+    },
+    {
+      "rel": "lineage/book-locations.jsonl",
+      "sha256": "9b1d7ef49210ea02831b2cdfe34445a2c62e9ef95ceed7ab471f73ea5f933c9c"
+    },
+    {
+      "rel": "lineage/source-claims.jsonl",
+      "sha256": "5493217d562b32ed19347dd235dcea3ee6e7763a939dc813b8887036765bcbfc"
+    },
+    {
+      "rel": "lineage/knowledge-point-candidates.jsonl",
+      "sha256": "935cb4d4864606604ce93f425acaeb5a9defcdb59706a4f1e16c9e4d17db64c0"
+    },
+    {
+      "rel": "lineage/atomic-knowledge-point-worklist.json",
+      "sha256": "3a4e20f554dbb4497b1fdd7b61bf50b212c9581afe8cfd0dd725c190abc82bef"
+    },
+    {
+      "rel": "lineage/source-claim-review-worklist.json",
+      "sha256": "e0db12f4b5ef177c2e4d9645012079877f5d769c6455bf4234895d06ea293dc3"
+    },
+    {
+      "rel": "lineage/page-record-review-worklist.json",
+      "sha256": "81906b1231ce2f3c1852db0bd06507a3429f92405b7e0209841cd96c0d437ede"
+    },
+    {
+      "rel": "lineage/atomic-kp-review-worklist.json",
+      "sha256": "eb00726b07c0112e23bdf115aa41920190d6f28e29c3ff00fa2e2b2ab8213fad"
+    },
+    {
+      "rel": "lineage/page-records.jsonl",
+      "sha256": "3daf49092265447c23f2092da845c04cefa643a498032d5fc93e9641c48e8584"
+    },
+    {
+      "rel": "lineage/physical-page-records.jsonl",
+      "sha256": "77c53213c5a633a305cf2b181d24e705fb76b20e98c27eb0df3aaa21952668b7"
+    },
+    {
+      "rel": "lineage/book-location-page-links.jsonl",
+      "sha256": "13d0056701c255d69ce472c792501890c6e5e950dcab194a3e62d5ca544ef95d"
+    },
+    {
+      "rel": "lineage/evidence-refs.jsonl",
+      "sha256": "e68d13d350d4156842648f37c3ae38fa5a43049253e9cf5ab1309698c9dd37ff"
+    },
+    {
+      "rel": "lineage/source-evidence.jsonl",
+      "sha256": "7d59c7e01c01f6775fbe2b57d7cd5ad414b0ba174854e9476641f08b115d1baf"
+    },
+    {
+      "rel": "lineage/section-boundary-decisions.jsonl",
+      "sha256": "3daf74dde6ee044910c858dcb671cff55c15d936897e9039430b6a731d2babf3"
+    },
+    {
+      "rel": "lineage/page-record-review-decisions.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/source-claim-review-decisions.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/source-atoms.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/visual-source-atoms.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/claim-table.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/atomic-knowledge-points.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "lineage/atomic-kp-review-decisions.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "questions/intake-candidates.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "rel": "questions/intake-contract.json",
+      "sha256": "a451f21397531c3ec2b3124603dd578d0f5bce2ae143caf60aec997e45f39f2e"
+    },
+    {
+      "rel": "questions/intake-worklist.json",
+      "sha256": "f6674a2ad7083d361c6688f157bea28268158ca9593dd2322f517024ba0e134a"
+    },
+    {
+      "rel": "assets/pixel-briefs/pixel-brief-template.json",
+      "sha256": "bff454964d666b80ed581865b54d6036b074275d3fcde66475df394407e26249"
+    },
+    {
+      "rel": "schemas/source-claim.schema.json",
+      "sha256": "0f477e7ecdd9d49f539261f05e62d7fe68a9d936f94f2c7ad6f19622fe65edd7"
+    },
+    {
+      "rel": "schemas/page-record.schema.json",
+      "sha256": "82e67cb18822eff9cb80d08cf26848556ae3fcee5527b2849b003cd1f64527d1"
+    },
+    {
+      "rel": "schemas/physical-page-record.schema.json",
+      "sha256": "b5f76ec6f3bea92c1b319ba3880b0a27b232ce90256334ed06afc7072e2b1e7f"
+    },
+    {
+      "rel": "schemas/evidence-ref.schema.json",
+      "sha256": "fc5578b70fd2d6fec6c63d609df83ba5c157603d78585b5df640fbb926b9b864"
+    },
+    {
+      "rel": "schemas/source-atom.schema.json",
+      "sha256": "b1aa86f26ed8868913e72886f062d97118d069e6abfeeb3273a7c7a07e149484"
+    },
+    {
+      "rel": "schemas/visual-source-atom.schema.json",
+      "sha256": "277cc73e011daeab4d7cebe976c0b40355f6f8f56d345c5fd012a38cb00fb5bf"
+    },
+    {
+      "rel": "schemas/claim-table-row.schema.json",
+      "sha256": "a5417b8654dc46577cf60426c26403047a3efbd15898a0fe88e723eec8e36e29"
+    },
+    {
+      "rel": "schemas/atomic-knowledge-point.schema.json",
+      "sha256": "c78eec7d82899faf817274b7580ca8a0daa61d0bdd8656e7a9754ab253ef9bf9"
+    }
+  ]
+}

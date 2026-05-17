@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "ocr-agent-worklist-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "runtimeActivationAllowed": false,
+  "counts": {
+    "chapters": 6,
+    "bookLocations": 43,
+    "sourceClaims": 43,
+    "knowledgePointCandidates": 37,
+    "pageRecords": 702,
+    "sourceEvidence": 43
+  },
+  "nextWork": [
+    "Resolve K3/K4 and K5/K6 page boundary conflicts from accepted page records.",
+    "Split section placeholders into atomic KnowledgePoint candidates.",
+    "Attach reviewed source_atom and visual_source_atom evidence without raw OCR excerpts.",
+    "Only after accepted SourceClaims: generate public question candidates and QKL.",
+    "Only after accepted KPs/QKL: create pixel bindings and pixel briefs."
+  ],
+  "blockers": [
+    "K3/K4 page boundary conflict between sidkarta/README and indexering files.",
+    "K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.",
+    "Tracked handoff public-safety is resolved; runtime content remains blocked until accepted evidence exists.",
+    "No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "source-inventory-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "publicSafe": true,
+  "publicSafetyStatus": "tracked_head_sanitized_history_requires_review",
+  "sources": [
+    {
+      "sourceId": "bio-kapitel-1-private",
+      "uri": "private-source://pdfer/biologi/Biologi-Stella-kapitel-1",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": false
+    },
+    {
+      "sourceId": "bio-kapitel-2-private",
+      "uri": "private-source://pdfer/biologi/Stella-biolgi-kapitel-2",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": false
+    },
+    {
+      "sourceId": "bio-del-1-plus-del-2-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-1+Biologi-del-2",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": false
+    },
+    {
+      "sourceId": "bio-del-2-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-2",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": false
+    },
+    {
+      "sourceId": "bio-del-3-private",
+      "uri": "private-source://pdfer/biologi/Biologi-del-3",
+      "storageClass": "private",
+      "hashStatus": "pending",
+      "rawTextInGitAllowed": false,
+      "trackedLegacyDerivedArtifactsPresent": false
+    }
+  ],
+  "blockers": [
+    "Tracked head must not include OCR-derived indexering markdown; repository history before this sanitizing commit may still require private-history remediation before public distribution.",
+    "Runtime remains blocked until source hashes, accepted SourceClaims, atomic KnowledgePoints, QKL, safe-active question metadata, pixel bindings and five-reviewer visual PASS exist."
+  ]
+}

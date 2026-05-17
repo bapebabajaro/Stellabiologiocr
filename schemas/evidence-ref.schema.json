@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EvidenceRef",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "schemaVersion",
+    "subject",
+    "bookEditionId",
+    "physicalPageRecordId",
+    "sourceId",
+    "bookPage",
+    "pdfPage",
+    "zoneId",
+    "sourceRef",
+    "evidenceHash",
+    "hashStatus",
+    "confidence",
+    "containsRawOcr",
+    "containsPageImage",
+    "runtimeEligible"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^evidence-ref-" },
+    "schemaVersion": { "const": "evidence-ref-v1" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "physicalPageRecordId": { "type": "string", "pattern": "^physical-page-" },
+    "sourceId": { "type": "string" },
+    "bookPage": { "type": "integer", "minimum": 1 },
+    "pdfPage": { "type": ["integer", "null"] },
+    "zoneId": { "type": "string" },
+    "sourceRef": { "type": "string", "pattern": "^private-source://pdfer/biologi/.+#book-page-[0-9]+$" },
+    "evidenceHash": { "type": ["string", "null"] },
+    "hashStatus": { "const": "pending_private_review" },
+    "confidence": { "const": "pending_review" },
+    "containsRawOcr": { "const": false },
+    "containsPageImage": { "const": false },
+    "runtimeEligible": { "const": false }
+  }
+}
