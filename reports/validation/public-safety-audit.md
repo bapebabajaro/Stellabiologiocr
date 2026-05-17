@@ -1,12 +1,21 @@
 # Public safety audit - Stella Biologi
 
-Status: failed for existing repository, pass only for new contract files.
+Status: pass for tracked public handoff files.
 
-## Existing blocker
+## Previous blocker
 
-The repository already tracks PDF/OCR-derived artifacts under `page_renders/`,
-`ocr_data/` and `margin_samples/`, plus legacy scripts with local path examples.
-Those files predate this contract and were not removed in this branch.
+The repository previously tracked PDF/OCR-derived artifacts under
+`page_renders/`, `ocr_data/` and `margin_samples/`, plus legacy scripts with
+machine-specific local path examples.
+
+## Resolved in this branch
+
+- `page_renders/`, `ocr_data/` and `margin_samples/` are removed from git
+  tracking and are ignored as local-only OCR working artifacts.
+- Legacy OCR scripts now resolve local working paths through
+  `scripts/ocr_local_paths.py`.
+- `node scripts/validate-ocr-contract.mjs --strict-public-safety` passes with
+  zero warnings.
 
 ## Sanitized contract rules
 
@@ -17,10 +26,8 @@ Those files predate this contract and were not removed in this branch.
 - No student data, PINs, cookies or KV keys.
 - Private source references use `private-source://pdfer/...`.
 
-## Required owner decision
+## Remaining runtime blockers
 
-Before this repo can become a public handoff source, choose one:
-
-1. Purge/split derived artifacts and keep only sanitized structure here.
-2. Make this repo private and create a separate sanitized public handoff repo.
-3. Keep this repo as private working evidence and export sanitized bundles only.
+The public handoff is sanitized, but runtime activation remains blocked because
+SourceClaims, atomic KnowledgePoints, QKL, questions, safe-active metadata,
+pixel-bindings and pixel assets are not accepted yet.

@@ -7,10 +7,10 @@ Strukturell indexering av läroboken Stella Biologi för Albin Holmqvists person
 | Mapp | Innehåll |
 |---|---|
 | `sidkarta/` | Slutlig sidkarta (Markdown, CSV, JSON) — mappning boksida ↔ PDF-källa |
-| `page_renders/` | Alla 422 PDF-sidor renderade som PNG i 150 DPI gråskala |
-| `ocr_data/` | Rådata från Tesseract OCR (footer-zon, sidnummer + kapiteltext per sida) |
+| `page_renders/` | Lokal, ignorerad OCR-arbetsyta för sidrenderingar; får inte trackas |
+| `ocr_data/` | Lokal, ignorerad OCR-arbetsyta för Tesseract-output; får inte trackas |
 | `scripts/` | Python-skript som användes för indexeringen |
-| `margin_samples/` | Marginalbilder från olika sidor för verifiering |
+| `margin_samples/` | Lokal, ignorerad OCR-arbetsyta för marginalbilder; får inte trackas |
 | `indexering/` | Per-kapitel pedagogisk indexering (Fas 2 — kommer steg för steg) |
 
 ## Sidkartan i korthet

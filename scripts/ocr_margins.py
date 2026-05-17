@@ -8,9 +8,11 @@ import json
 from pathlib import Path
 from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from ocr_local_paths import ocr_work_dir
 
-THUMBS = Path("/home/user/workspace/stella_work/thumbs")
-OUT = Path("/home/user/workspace/stella_work/margin_ocr.json")
+WORK = ocr_work_dir()
+THUMBS = WORK / "thumbs"
+OUT = WORK / "margin_ocr.json"
 
 def ocr_margins(png_path):
     img = Image.open(png_path)

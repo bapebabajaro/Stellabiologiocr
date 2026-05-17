@@ -8,9 +8,11 @@ import json
 from pathlib import Path
 from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from ocr_local_paths import ocr_work_dir
 
-THUMBS = Path("/home/user/workspace/stella_work/thumbs")
-OUT = Path("/home/user/workspace/stella_work/margin_ocr_v2.json")
+WORK = ocr_work_dir()
+THUMBS = WORK / "thumbs"
+OUT = WORK / "margin_ocr_v2.json"
 
 def ocr_region(img, top_frac, bot_frac, label_prefix, stem):
     w, h = img.size

@@ -1,8 +1,9 @@
 """Lista de PDF-sidor som har osäker sidnummermappning."""
 import json
 from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-with open("/home/user/workspace/stella_work/sitemap_final.json", encoding="utf-8") as f:
+with open(ocr_work_dir() / "sitemap_final.json", encoding="utf-8") as f:
     final = json.load(f)
 
 # Vilka PDF-sidor i Stella-biolgi-kapitel-2 är osäkra?

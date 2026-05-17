@@ -1,1 +1,5 @@
 .firecrawl/
+private-source-local/
+page_renders/
+ocr_data/
+margin_samples/

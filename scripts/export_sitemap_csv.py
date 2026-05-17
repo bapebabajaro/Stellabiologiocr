@@ -2,8 +2,9 @@
 import json
 import csv
 from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-WORK = Path("/home/user/workspace/stella_work")
+WORK = ocr_work_dir()
 with open(WORK / "sitemap_final.json", encoding="utf-8") as f:
     final = json.load(f)
 

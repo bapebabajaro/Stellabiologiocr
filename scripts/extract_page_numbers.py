@@ -8,9 +8,11 @@ import os
 import re
 import json
 from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-TEXT_ROOT = Path("/home/user/workspace/stella_work/text")
-OUT = Path("/home/user/workspace/stella_work/page_index_raw.json")
+WORK = ocr_work_dir()
+TEXT_ROOT = WORK / "text"
+OUT = WORK / "page_index_raw.json"
 
 def find_page_number(lines):
     """

@@ -6,8 +6,9 @@ import json
 import re
 from pathlib import Path
 from collections import defaultdict, Counter
+from ocr_local_paths import ocr_work_dir
 
-WORK = Path("/home/user/workspace/stella_work")
+WORK = ocr_work_dir()
 
 with open(WORK / "margin_ocr.json", encoding="utf-8") as f:
     margin = json.load(f)

@@ -6,8 +6,9 @@ import json
 import re
 from pathlib import Path
 from collections import Counter
+from ocr_local_paths import ocr_work_dir
 
-WORK = Path("/home/user/workspace/stella_work")
+WORK = ocr_work_dir()
 
 PDFS = ["Biologi-Stella-kapitel-1", "Stella-biolgi-kapitel-2",
         "Biologi-del-1", "Biologi-del-2", "Biologi-del-3"]

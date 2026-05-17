@@ -8,9 +8,11 @@ import json
 from pathlib import Path
 from PIL import Image
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from ocr_local_paths import ocr_work_dir
 
-THUMBS = Path("/home/user/workspace/stella_work/thumbs")
-OUT = Path("/home/user/workspace/stella_work/footer_ocr_v3.json")
+WORK = ocr_work_dir()
+THUMBS = WORK / "thumbs"
+OUT = WORK / "footer_ocr_v3.json"
 
 def ocr_zone(img, box, stem, label):
     """box: (left_frac, top_frac, right_frac, bottom_frac)"""

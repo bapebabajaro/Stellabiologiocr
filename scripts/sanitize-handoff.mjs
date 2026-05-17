@@ -21,6 +21,7 @@ const included = [
   'lineage/book-locations.jsonl',
   'lineage/source-claims.jsonl',
   'lineage/knowledge-point-candidates.jsonl',
+  'lineage/atomic-knowledge-point-worklist.json',
   'lineage/page-records.jsonl',
   'lineage/source-evidence.jsonl',
   'lineage/section-boundary-decisions.jsonl',
@@ -40,6 +41,7 @@ const included = [
   'reports/validation/ocr-agent-worklist.json',
   'reports/validation/pixel-readiness-gates.md',
   'reports/validation/question-intake-readiness.md',
+  'reports/validation/atomic-kp-readiness.md',
   'reports/validation/rotation-readiness.md',
   'reports/validation/page-coverage-matrix.md',
   'reports/validation/public-safety-audit.md',
@@ -49,8 +51,10 @@ const included = [
   'reports/validation/generated-contract-hashes.json',
   'scripts/regenerate-biologi-contract.mjs',
   'scripts/build-question-intake-worklist.mjs',
+  'scripts/build-atomic-kp-worklist.mjs',
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 
@@ -59,6 +63,7 @@ const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/ho
 const scannerToolFiles = new Set([
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
 const errors = [];

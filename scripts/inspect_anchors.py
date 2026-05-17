@@ -1,8 +1,9 @@
 """Visa alla validerade ankarpunkter per PDF för manuell granskning."""
 import json
 from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-WORK = Path("/home/user/workspace/stella_work")
+WORK = ocr_work_dir()
 with open(WORK / "sitemap_v3.json", encoding="utf-8") as f:
     sitemap = json.load(f)
 

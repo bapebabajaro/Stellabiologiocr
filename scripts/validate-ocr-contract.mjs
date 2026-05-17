@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { extname, join } from 'node:path';
 
 const root = process.cwd();
@@ -16,6 +17,7 @@ const baseRequiredFiles = [
   'lineage/book-locations.jsonl',
   'lineage/source-claims.jsonl',
   'lineage/knowledge-point-candidates.jsonl',
+  'lineage/atomic-knowledge-point-worklist.json',
   'lineage/README.md',
   'lineage/page-records.jsonl',
   'lineage/source-evidence.jsonl',
@@ -36,6 +38,7 @@ const baseRequiredFiles = [
   'reports/validation/ocr-agent-worklist.json',
   'reports/validation/pixel-readiness-gates.md',
   'reports/validation/question-intake-readiness.md',
+  'reports/validation/atomic-kp-readiness.md',
   'reports/validation/rotation-readiness.md',
   'reports/validation/page-coverage-matrix.md',
   'reports/validation/public-safety-audit.md',
@@ -45,6 +48,8 @@ const baseRequiredFiles = [
   'docs/ocr-agent-runbook.md',
   'scripts/build-question-intake-worklist.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/build-atomic-kp-worklist.mjs',
+  'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 const errors = [];
@@ -53,8 +58,10 @@ const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/ho
 const scannerToolFiles = new Set([
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
+const privateArtifactDirs = new Set(['page_renders', 'ocr_data', 'margin_samples', 'private-source-local']);
 const validStatuses = new Set(['indexed', 'indexed_with_page_gap', 'indexed_with_boundary_conflict', 'pending_ocr_index', 'public_sample']);
 
 function readText(rel) {
@@ -83,7 +90,7 @@ function scanText(label, text, severity = 'error') {
 function scanRepositoryText(dir, rel = '') {
   if (!existsSync(dir)) return;
   for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name === '.git' || entry.name === '.firecrawl' || entry.name === 'node_modules') continue;
+    if (entry.name === '.git' || entry.name === '.firecrawl' || entry.name === 'node_modules' || privateArtifactDirs.has(entry.name)) continue;
     const abs = join(dir, entry.name);
     const childRel = rel ? rel + '/' + entry.name : entry.name;
     if (entry.isDirectory()) scanRepositoryText(abs, childRel);
@@ -91,6 +98,13 @@ function scanRepositoryText(dir, rel = '') {
       if (scannerToolFiles.has(childRel)) continue;
       scanText(childRel, readFileSync(abs, 'utf8'), 'warning');
     }
+  }
+}
+function hasTrackedFilesUnder(rel) {
+  try {
+    return execFileSync('git', ['ls-files', rel], { cwd: root, encoding: 'utf8' }).trim().length > 0;
+  } catch {
+    return existsSync(join(root, rel));
   }
 }
 
@@ -105,7 +119,7 @@ if (existsSync(join(root, 'manifest/book-edition.json'))) {
 }
 for (const rel of baseRequiredFiles.filter((file) => existsSync(join(root, file)) && !scannerToolFiles.has(file))) scanText(rel, readText(rel));
 for (const dir of ['page_renders', 'ocr_data', 'margin_samples']) {
-  if (existsSync(join(root, dir))) warnings.push(`legacy artifact directory present and not public-safe by itself: ${dir}`);
+  if (hasTrackedFilesUnder(dir)) warnings.push(`legacy artifact directory tracked and not public-safe by itself: ${dir}`);
 }
 scanRepositoryText(root);
 if (strictPublicSafety && warnings.length > 0) errors.push(...warnings.map((warning) => `strict-public-safety: ${warning}`));
@@ -122,10 +136,11 @@ if (errors.length === 0 && book) {
   const locations = readJsonl('lineage/book-locations.jsonl');
   const claims = readJsonl('lineage/source-claims.jsonl');
   const kpCandidates = readJsonl('lineage/knowledge-point-candidates.jsonl');
+  const atomicKpWorklist = readJson('lineage/atomic-knowledge-point-worklist.json');
   const requiredBookFields = ['subject', 'sourceFamily', 'bookId', 'bookEditionId', 'publisher', 'editionYear', 'isbn', 'ocrSourceHash', 'pageMapHash', 'tocStatus', 'licenseScope', 'rotationPolicy'];
   for (const field of requiredBookFields) if (book[field] === undefined || book[field] === null || book[field] === '') errors.push(`book-edition missing ${field}`);
   if (toc.bookEditionId !== book.bookEditionId) errors.push('toc.bookEditionId does not match book edition');
-  for (const [label, doc] of [['rotation', rotation], ['sourceInventory', sourceInventory], ['ocrRunContract', ocrRunContract], ['intake', intake], ['pixelBrief', pixelBrief], ['worklist', worklist]]) {
+  for (const [label, doc] of [['rotation', rotation], ['sourceInventory', sourceInventory], ['ocrRunContract', ocrRunContract], ['intake', intake], ['pixelBrief', pixelBrief], ['worklist', worklist], ['atomicKpWorklist', atomicKpWorklist]]) {
     if (doc.subject !== book.subject) errors.push(`${label}.subject does not match book edition`);
     if (doc.bookEditionId !== book.bookEditionId) errors.push(`${label}.bookEditionId does not match book edition`);
   }
@@ -135,6 +150,9 @@ if (errors.length === 0 && book) {
   if (ocrRunContract.runtimeWriteAllowed !== false) errors.push('OCR run contract must block runtime writes');
   if (intake.runtimeImportAllowed !== false) errors.push('question intake must block runtime import');
   if (intake.candidateGenerationAllowed !== false) errors.push('question intake must block candidate generation');
+  if (atomicKpWorklist.runtimeImportAllowed !== false) errors.push('atomic KP worklist must block runtime import');
+  if (atomicKpWorklist.candidateGenerationAllowed !== false) errors.push('atomic KP worklist must block candidate generation');
+  if (atomicKpWorklist.pixelBindingAllowed !== false) errors.push('atomic KP worklist must block pixel binding');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
   if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
   if (!Array.isArray(toc.chapters) || toc.chapters.length === 0) errors.push('toc has no chapters');

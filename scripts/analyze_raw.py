@@ -1,9 +1,9 @@
 """Analysera rådatat för att förstå struktur, sidspann och kapitel."""
 import json
 from collections import Counter, defaultdict
-from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-with open("/home/user/workspace/stella_work/page_index_raw.json", encoding="utf-8") as f:
+with open(ocr_work_dir() / "page_index_raw.json", encoding="utf-8") as f:
     data = json.load(f)
 
 print("=" * 70)

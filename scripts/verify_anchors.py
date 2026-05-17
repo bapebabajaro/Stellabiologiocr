@@ -1,8 +1,9 @@
 """Lista alla säkra marginalträffar för att se var de faktiska sekvenserna går."""
 import json
 from pathlib import Path
+from ocr_local_paths import ocr_work_dir
 
-with open("/home/user/workspace/stella_work/sitemap_v1.json", encoding="utf-8") as f:
+with open(ocr_work_dir() / "sitemap_v1.json", encoding="utf-8") as f:
     sitemap = json.load(f)
 
 for pdf_name, pages in sitemap.items():

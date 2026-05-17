@@ -7,16 +7,17 @@ import json
 from pathlib import Path
 from PIL import Image, ImageOps
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from ocr_local_paths import ocr_pdf_path, ocr_work_dir
 
-WORK = Path("/home/user/workspace/stella_work")
+WORK = ocr_work_dir()
 OUT = WORK / "footer_ocr_v4.json"
 
 PDFS = {
-    "Biologi-del-1": "/home/user/workspace/Biologi-del-1.pdf",
-    "Biologi-del-2": "/home/user/workspace/Biologi-del-2.pdf",
-    "Biologi-del-3": "/home/user/workspace/Biologi-del-3.pdf",
-    "Biologi-Stella-kapitel-1": "/home/user/workspace/Biologi-Stella-kapitel-1.pdf",
-    "Stella-biolgi-kapitel-2": "/home/user/workspace/Stella-biolgi-kapitel-2.pdf",
+    "Biologi-del-1": ocr_pdf_path("Biologi-del-1"),
+    "Biologi-del-2": ocr_pdf_path("Biologi-del-2"),
+    "Biologi-del-3": ocr_pdf_path("Biologi-del-3"),
+    "Biologi-Stella-kapitel-1": ocr_pdf_path("Biologi-Stella-kapitel-1"),
+    "Stella-biolgi-kapitel-2": ocr_pdf_path("Stella-biolgi-kapitel-2"),
 }
 
 # Antal sidor per PDF

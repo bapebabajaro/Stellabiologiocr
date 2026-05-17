@@ -10,9 +10,11 @@
     "lineage/section-boundary-decisions.jsonl",
     "lineage/source-claims.jsonl",
     "lineage/knowledge-point-candidates.jsonl",
+    "lineage/atomic-knowledge-point-worklist.json",
     "reports/validation/source-lineage-review.md",
     "reports/validation/ocr-quality-report.md",
-    "reports/validation/page-coverage-matrix.md"
+    "reports/validation/page-coverage-matrix.md",
+    "reports/validation/atomic-kp-readiness.md"
   ],
   "forbiddenOutputKinds": [
     "raw_ocr_text",
