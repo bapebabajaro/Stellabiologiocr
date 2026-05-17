@@ -1,25 +1,15 @@
 # Rotation readiness - Stella Biologi
 
-Status: not ready for import or runtime.
+Generated: 2026-05-17
 
-## What is ready
+Status: `contract-valid-content-pending`
 
-- BookEdition identity exists.
-- K1-K4 have structural section candidates from existing index files.
-- K5-K6 have explicit pending chapter shells.
-- K3/K4 boundary conflict is documented instead of guessed.
-- Contract validator checks source lineage edges and fail-closed runtime flags.
+The BookEdition is structurally rotatable: the current generated package is scoped by subject, source family, BookEdition id, private-source locators and additive rotation policy.
 
-## What is not ready
+Not ready for runtime:
 
-- Existing repo public-safety blocker is unresolved.
-- Page records are not yet normalized into a clean contract file.
-- SourceClaims are candidate-only.
-- KnowledgePoints are placeholders, not accepted atomic concepts.
-- Questions, QKL, pixel bindings and pixel images are intentionally absent.
-
-## Rotation rule
-
-Another biology textbook or edition must enter as a new BookEdition profile. It
-may reuse the same subject namespace and PPF runtime engines, but it may not
-overwrite this edition's ids, page map, SourceClaims or KnowledgePoints.
+- public-safety blocker remains in this repository;
+- boundary conflicts remain for K3/K4 and K5/K6;
+- no accepted SourceClaims exist;
+- no atomic accepted KnowledgePoints exist;
+- no safe-active questions, QKL or pixel bindings exist.

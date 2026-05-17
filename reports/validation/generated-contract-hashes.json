@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "generated-contract-hashes-v1",
+  "generatedAt": "2026-05-17",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "files": [
+    {
+      "rel": "manifest/toc.json",
+      "sha256": "ca654d7fca29167c8f4b984b25186df8a3eeef8157d5126629e4c0a5b362f0a2"
+    },
+    {
+      "rel": "lineage/book-locations.jsonl",
+      "sha256": "f8387ee4e66c460db00db9e182a25742dc18ddbc276e1c93130d01e812f990cf"
+    },
+    {
+      "rel": "lineage/source-claims.jsonl",
+      "sha256": "26a0c05a43aa8e22408f8b37171a59cc99e8340c82fc23cc9a28f0659743cf6d"
+    },
+    {
+      "rel": "lineage/knowledge-point-candidates.jsonl",
+      "sha256": "dcb4bf562b93b75dca377dacd03455f4ff0a2fbf744e31f28a2cbf47f57c5b8e"
+    },
+    {
+      "rel": "lineage/page-records.jsonl",
+      "sha256": "3daf49092265447c23f2092da845c04cefa643a498032d5fc93e9641c48e8584"
+    },
+    {
+      "rel": "lineage/source-evidence.jsonl",
+      "sha256": "70c254523f64835b2ee7619339f99ff556aab7809a364d88d35df2bdca796b6d"
+    }
+  ]
+}

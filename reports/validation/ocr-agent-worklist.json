@@ -4,63 +4,25 @@
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
   "runtimeActivationAllowed": false,
-  "globalRules": [
-    "Do not commit raw OCR text or long textbook excerpts.",
-    "Use private-source://pdfer/biologi/... for private evidence locators.",
-    "Do not send private textbook pages, OCR or student data to Firecrawl or external model chains.",
-    "Do not mark SourceClaims accepted until evidence_ref, page_record and source_atom are reviewed.",
-    "Do not create pixel images before accepted KnowledgePoints and pixel bindings exist."
+  "counts": {
+    "chapters": 6,
+    "bookLocations": 43,
+    "sourceClaims": 43,
+    "knowledgePointCandidates": 37,
+    "pageRecords": 702,
+    "sourceEvidence": 43
+  },
+  "nextWork": [
+    "Resolve K3/K4 and K5/K6 page boundary conflicts from accepted page records.",
+    "Split section placeholders into atomic KnowledgePoint candidates.",
+    "Attach reviewed source_atom and visual_source_atom evidence without raw OCR excerpts.",
+    "Only after accepted SourceClaims: generate public question candidates and QKL.",
+    "Only after accepted KPs/QKL: create pixel bindings and pixel briefs."
   ],
-  "requiredPerPageRecord": [
-    "bookEditionId",
-    "privateSourceRef",
-    "printedPage",
-    "pdfPage",
-    "ocrConfidenceBand",
-    "chapterId",
-    "sectionId",
-    "pageMapDecision",
-    "noRawTextStored"
-  ],
-  "requiredPerClaim": [
-    "bookLocationId",
-    "evidence_ref",
-    "source_atom",
-    "visual_source_atom",
-    "claim_table",
-    "reviewStatus",
-    "runtimeEligible"
-  ],
-  "workItems": [
-    {
-      "id": "bio-repo-public-safety-decision",
-      "status": "blocked_owner_decision_required",
-      "reason": "Existing tracked page renders, OCR json and margin samples make the repo unsafe as a public handoff source."
-    },
-    {
-      "id": "bio-k3-k4-page-boundary-resolution",
-      "status": "blocked_ocr_review_required",
-      "chapters": ["K3", "K4"],
-      "reason": "Sidkarta and indexering disagree on printed boundaries."
-    },
-    {
-      "id": "bio-k1-k4-source-claim-review",
-      "status": "pending_ocr_agent",
-      "chapters": ["K1", "K2", "K3", "K4"],
-      "reason": "Structural sections exist, but claims remain candidate-only."
-    },
-    {
-      "id": "bio-k5-k6-full-indexing",
-      "status": "pending_ocr_index",
-      "chapters": ["K5", "K6"],
-      "reason": "Only chapter shells exist."
-    }
-  ],
-  "handoffOutputsExpectedFromNextAgent": [
-    "lineage/page-records.jsonl",
-    "lineage/source-atoms.jsonl",
-    "lineage/claim-table.jsonl",
-    "reports/validation/source-claim-review.md",
-    "reports/validation/page-map-review.md"
+  "blockers": [
+    "K3/K4 page boundary conflict between sidkarta/README and indexering files.",
+    "K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.",
+    "Repository public-safety blocker remains: legacy PDF-derived artifacts and local path patterns exist.",
+    "No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed."
   ]
 }

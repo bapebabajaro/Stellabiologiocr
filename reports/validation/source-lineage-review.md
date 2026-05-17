@@ -1,14 +1,21 @@
 # Source lineage review - Stella Biologi
 
-Status: not started.
+Generated: 2026-05-17
 
-No SourceClaim is accepted. The current claims are structural candidates only.
+Status: locator lineage generated, not accepted.
 
-Reviewers must verify:
+| Artifact | Count | Runtime status |
+|---|---:|---|
+| BookLocations | 43 | non-runtime |
+| SourceClaims | 43 | 0 accepted, 0 runtimeEligible |
+| Page records | 702 | locator-only, pending review |
+| Source evidence rows | 43 | locator-only, public-safe metadata |
 
-- page_record exists,
-- evidence_ref uses private-source locator,
-- source_atom is a neutral summary rather than a quote,
-- visual_source_atom does not copy textbook images,
-- claim_table is linked to the correct BookLocation,
+Reviewers must still verify:
+
+- each page_record points to the correct private-source locator;
+- source_atom is a neutral summary rather than a quote;
+- visual_source_atom does not copy textbook images;
+- claim_table is linked to the correct BookLocation;
+- boundary conflicts are resolved from accepted page records;
 - runtimeEligible remains false until separate release order.

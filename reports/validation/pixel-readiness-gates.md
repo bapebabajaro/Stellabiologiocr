@@ -1,13 +1,22 @@
 # Pixel readiness gates - Stella Biologi
 
+Generated: 2026-05-17
+
 Status: blocked.
 
 No pixel image or live visual asset may be produced from this repo yet.
 
+## Current state
+
+- SourceClaims: 43, accepted: 0, runtimeEligible: 0.
+- KnowledgePoint candidates: 37, all section placeholders, pixelEligible: 0.
+- Pixel bindings: 0.
+- Five-reviewer PASS batches: 0.
+
 ## Required order
 
 1. Resolve source safety and page-boundary blockers.
-2. Produce page records with private-source evidence refs.
+2. Review page records with private-source evidence refs.
 3. Accept SourceClaims.
 4. Promote atomic KnowledgePoints.
 5. Build QKL and sanitized public question copy.

@@ -1,18 +1,17 @@
-# OCR contract summary - biologi
+# OCR contract summary - Stella Biologi
 
 Generated: 2026-05-17
-Branch: codex/ocr-contract-skeleton-20260517
 
-## Status
+The repository now has a complete non-runtime K1-K6 structure generated from the available index files.
 
-- BookEdition: bookedition-stella-biologi-ocr-v1
-- TOC status: partial_indexed_with_blockers
-- BookLocations: 33
-- SourceClaims: 33
-- KnowledgePoint candidates: 27
-- Runtime eligible: false
+| Artifact | Count |
+|---|---:|
+| Chapters | 6 |
+| Sections/investigations | 37 |
+| BookLocations | 43 |
+| SourceClaims | 43 |
+| Page records | 702 |
+| Source evidence rows | 43 |
 
-## Runtime block
-
-Detta repo är ett käll- och handoff-skelett. Det får inte användas för runtime-frågor, KV-write, import-apply, safe-active eller pixelbilder innan alla blockerare är lösta och SourceClaims har accepterad evidens.
-
+All SourceClaims remain public_or_index_reference_only and runtimeEligible:false.
+All KnowledgePoint candidates remain placeholders with pixelEligible:false.

@@ -44,6 +44,8 @@ const included = [
   'reports/validation/source-lineage-review.md',
   'reports/validation/ocr-quality-report.md',
   'reports/validation/no-runtime-before-ocr.md',
+  'reports/validation/generated-contract-hashes.json',
+  'scripts/regenerate-biologi-contract.mjs',
   'scripts/validate-ocr-contract.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
