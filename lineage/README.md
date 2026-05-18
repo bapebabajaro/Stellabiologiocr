@@ -13,5 +13,8 @@ This lineage package is a non-runtime contract for the current OCR index state.
   copied OCR text, textbook snippets or free-text comments.
 - KnowledgePoint candidates are section placeholders only.
 - Page records and source evidence contain locators, not raw OCR text or page images.
+- Source atoms, visual atoms and claim-table rows may be populated only after
+  complete `reviewed_not_runtime` SourceClaim decisions and must remain
+  public-safe, short and non-runtime.
 
 Runtime activation remains blocked until accepted SourceClaims, atomic KnowledgePoints, QKL, safe-active question metadata, pixel bindings and five-reviewer visual PASS exist.

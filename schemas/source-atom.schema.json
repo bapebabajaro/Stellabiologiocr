@@ -22,7 +22,7 @@
     "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
     "sourceClaimIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^sourceclaim-" } },
     "evidenceRefIds": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^evidence-ref-" } },
-    "atomText": { "type": "string", "maxLength": 280 },
+    "atomText": { "type": "string", "minLength": 20, "maxLength": 180 },
     "reviewStatus": { "enum": ["reviewed_not_runtime", "request_fix", "reject"] },
     "containsRawOcr": { "const": false },
     "runtimeEligible": { "const": false }

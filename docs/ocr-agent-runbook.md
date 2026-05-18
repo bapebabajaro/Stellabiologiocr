@@ -45,7 +45,9 @@ For each usable page or section, build this chain in order:
    Review ledgers do not support free-text comments or copied snippets; keep
    private review notes outside tracked artifacts.
 7. Create reviewed `source_atom`, optional `visual_source_atom` and
-   `claim_table` rows without copied textbook language.
+   `claim_table` rows without copied textbook language. Source atoms are
+   public-safe neutral summaries only and require complete non-runtime
+   SourceClaim review first.
 8. Only then promote atomic KnowledgePoint candidates.
 
 ## Local validation
@@ -55,6 +57,7 @@ Run these after adding page/source review decisions:
 ```powershell
 node scripts/validate-page-record-review-decisions.mjs
 node scripts/validate-source-claim-review-decisions.mjs
+node scripts/validate-source-atoms.mjs
 node scripts/validate-ocr-contract.mjs
 ```
 

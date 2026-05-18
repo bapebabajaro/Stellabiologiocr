@@ -22,7 +22,7 @@
     "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
     "sourceAtomId": { "type": "string", "pattern": "^source-atom-" },
     "visualKind": { "enum": ["figure", "model", "table", "diagram", "lab_setup"] },
-    "visualSummary": { "type": "string", "maxLength": 280 },
+    "visualSummary": { "type": "string", "minLength": 20, "maxLength": 180 },
     "reviewStatus": { "enum": ["reviewed_not_runtime", "request_fix", "reject"] },
     "containsPageImage": { "const": false },
     "runtimeEligible": { "const": false }

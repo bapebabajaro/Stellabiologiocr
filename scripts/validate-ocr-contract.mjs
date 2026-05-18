@@ -245,9 +245,6 @@ if (errors.length === 0 && book) {
   if (physicalPageRecords.length === 0) errors.push('physical page records must be generated');
   if (evidenceRefs.length !== physicalPageRecords.length) errors.push('evidence-ref count must match physical page records');
   if (bookLocationPageLinks.length !== pageRecordReviewWorklist.pageRecordCount) errors.push('BookLocation page link count must match page record count');
-  if (sourceAtoms.length !== 0) errors.push('source-atoms ledger must remain empty in this handoff');
-  if (visualSourceAtoms.length !== 0) errors.push('visual-source-atoms ledger must remain empty in this handoff');
-  if (claimTable.length !== 0) errors.push('claim-table ledger must remain empty in this handoff');
   if (atomicKnowledgePoints.length !== 0) errors.push('atomic KnowledgePoints ledger must remain empty in this handoff');
   if (atomicKpReviewDecisions.length !== 0) errors.push('atomic KP review decisions must remain empty in this handoff');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
@@ -294,6 +291,7 @@ if (errors.length === 0 && book) {
 }
 runValidator('scripts/validate-page-record-review-decisions.mjs');
 runValidator('scripts/validate-source-claim-review-decisions.mjs');
+runValidator('scripts/validate-source-atoms.mjs');
 const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));
 console.log(JSON.stringify({
   ok: errors.length === 0,
