@@ -1,6 +1,6 @@
 {
   "schemaVersion": "generated-contract-hashes-v1",
-  "generatedAt": "2026-05-17",
+  "generatedAt": "2026-05-18",
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
   "fileCount": 44,
@@ -95,11 +95,11 @@
     },
     {
       "rel": "lineage/source-atoms.jsonl",
-      "sha256": "00bba24aea612d0f2534294ccbde24db4fa4c1282a7e18a672d94ab7858d5667"
+      "sha256": "2c94bfd854bfbed1143d8f5cd842958783ea041b85e2e6ca69247abad97f0ebe"
     },
     {
       "rel": "lineage/visual-source-atoms.jsonl",
-      "sha256": "12c8f3add58c6941c648caf5640f2b55c8bf346531c8fd1bb767d406b3d48ed4"
+      "sha256": "ad4a33b3342861ac38ba327832fe1650e0b3eb5429c8295fc3afd6c7a95a7cbe"
     },
     {
       "rel": "lineage/claim-table.jsonl",
@@ -107,7 +107,7 @@
     },
     {
       "rel": "lineage/atomic-knowledge-points.jsonl",
-      "sha256": "b36a3ea6a6019aa081ccdb09fc5e695d6baeab4bbdfab6db091042e4f056e4c6"
+      "sha256": "8dae14c3135f7fffc1fd33becc885e25beea08f3648d9885fec47808132ba8d3"
     },
     {
       "rel": "lineage/atomic-kp-review-decisions.jsonl",
@@ -115,7 +115,7 @@
     },
     {
       "rel": "questions/intake-candidates.jsonl",
-      "sha256": "9d69abb60d77fc15047d86d2c310e415424f7a97d7c0216f1c200248ad280f62"
+      "sha256": "5756dc907bbf0275790dae8135fb5c3f76a28a79938654b53cb3a3e5f8761c59"
     },
     {
       "rel": "questions/intake-contract.json",
@@ -167,19 +167,19 @@
     },
     {
       "rel": "scripts/build-reviewed-kp-seeds.mjs",
-      "sha256": "ea802866d5e6f5c55c236cec9dd0c163570eafbaf4986b5159a364c0b21eb128"
+      "sha256": "d1e2fcf1829595c2046f96f32c5912b2cb21bce97754b7978feaf0e64f82940c"
     },
     {
       "rel": "reports/validation/question-generation-readiness.json",
-      "sha256": "f87fd900f37a5b764c275c2233e60b6c42efa5a5da16e89260f41b006fd8cd65"
+      "sha256": "c378ccbd12db8c7ca3e1ca3fb120d410dd9a78b6af6cd08dfe849bd71c6e8fdf"
     },
     {
       "rel": "scripts/build-question-candidate-batch.mjs",
-      "sha256": "dea74056e9a54b87c6ca172b3e0f9f7ca309cd0463523a6aa626926c010905c9"
+      "sha256": "a4c304f9a69d660c30bfb2eda2e5f539e0b1fbf98f78b9e8fb0fb92b0c527b6c"
     },
     {
       "rel": "scripts/validate-question-generation-readiness.mjs",
-      "sha256": "9ab4820e6660ac901eaaaeaa98bac443c047ccd0647d62fad271569c89c0bcb0"
+      "sha256": "94adae1e0f0e0ec8bb0a24a511cf69cc72e434f5dd0b347eb456b199ea87ff39"
     }
   ]
 }

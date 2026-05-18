@@ -474,16 +474,445 @@ const authored = [
   }
 ];
 
-const existing = readJsonl('questions/intake-candidates.jsonl').filter((candidate) => !candidate.id.startsWith('bio-q-k1-sec01-'));
+const authoredSec02 = [
+  {
+    kp: '001',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad är huvudsyftet med att använda ett mikroskop i biologi?',
+    correct: 'Att kunna undersöka detaljer som är för små för att se tydligt med ögat',
+    wrong: ['Att väga små organismer exakt', 'Att mäta temperaturen i ett prov', 'Att ändra vilka celler som finns i provet'],
+    rationales: ['Vikt mäts med våg, inte med mikroskopets optik.', 'Temperatur kräver termometer eller sensor, inte mikroskop.', 'Mikroskopet visar provet men ska inte förändra vilka celler som finns.'],
+    solution: 'Ett mikroskop förstorar och synliggör små strukturer, till exempel celler eller detaljer i ett preparat.',
+    summary: 'Sanitiserad grundning: delområdet behandlar mikroskopering som metod för observation.',
+    tags: ['mikroskop', 'begrepp']
+  },
+  {
+    kp: '001',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vilket begrepp beskriver materialet som placeras på objektglaset för att undersökas?',
+    correct: 'Preparat',
+    wrong: ['En hypotes', 'Felkällor', 'Population'],
+    rationales: ['En hypotes är en tänkbar förklaring, inte själva materialet på glaset.', 'Felkällor är sådant som kan störa resultatet.', 'Population betyder individer av samma art i ett område.'],
+    solution: 'Preparatet är det material eller prov som läggs på objektglaset och studeras i mikroskopet.',
+    summary: 'Sanitiserad grundning: delområdet använder mikroskoperingens metodord och observationer.',
+    tags: ['preparat', 'metod']
+  },
+  {
+    kp: '005',
+    typ: 'begrepp',
+    niva: 2,
+    stem: 'Varför börjar man ofta med låg förstoring när man mikroskoperar?',
+    correct: 'Det blir lättare att hitta provet och orientera sig i bilden',
+    wrong: ['Högsta förstoring gör det lättast att hitta hela preparatet', 'Låg förstoring är främst till för att mäta provets temperatur', 'Skärpan bör ställas in först efter att man bytt till högsta förstoring'],
+    rationales: ['Högsta förstoring visar ett mindre område och kan göra provet svårare att hitta.', 'Temperatur mäts inte med mikroskopets förstoring.', 'Skärpa och orientering behövs redan innan man går vidare till högre förstoring.'],
+    solution: 'Låg förstoring ger större synfält och gör det lättare att hitta rätt område innan man förstorar mer.',
+    summary: 'Sanitiserad grundning: delområdet tränar praktiskt val av förstoring vid observation.',
+    tags: ['förstoring', 'mikroskop']
+  },
+  {
+    kp: '005',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vad händer oftast med synfältet när förstoringen ökar?',
+    correct: 'Man ser ett mindre område men mer detalj',
+    wrong: ['Man ser ett större område och mindre detalj', 'Bilden slutar påverkas av fokus', 'Provet blir automatiskt tunnare'],
+    rationales: ['Större förstoring brukar minska området man ser.', 'Fokus är fortfarande viktigt vid högre förstoring.', 'Förstoring ändrar inte preparatets tjocklek.'],
+    solution: 'När förstoringen ökar syns ett mindre område av provet, men detaljer kan bli tydligare.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till förstoring och observation.',
+    tags: ['förstoring', 'synfält']
+  },
+  {
+    kp: '001',
+    typ: 'metod',
+    niva: 2,
+    stem: 'Vilken del av arbetet med mikroskopet hör tydligast ihop med begreppet fokus?',
+    correct: 'Att ställa in skärpan så att strukturerna blir tydliga',
+    wrong: ['Att välja vilken fråga undersökningen ska besvara', 'Att bestämma provets art utan observation', 'Att skriva en hypotes efter resultatet'],
+    rationales: ['Frågeställning är viktig men är inte fokusinställning.', 'Artbestämning kräver observation och belägg.', 'Hypotes och resultat är delar av undersökning, inte skärpeinställning.'],
+    solution: 'Fokus handlar om bildens skärpa; rätt fokus gör att strukturer i preparatet kan observeras tydligare.',
+    summary: 'Sanitiserad grundning: delområdet behandlar metodsteg för tydlig mikroskopobservation.',
+    tags: ['fokus', 'metod']
+  },
+  {
+    kp: '002',
+    typ: 'samband',
+    niva: 1,
+    stem: 'Vilket samband finns mellan ljus och observation i ett ljusmikroskop?',
+    correct: 'Rätt mängd ljus gör det lättare att se strukturer i preparatet',
+    wrong: ['Svagare kontrast gör strukturer lättare att avgränsa', 'Belysningen påverkar färgtonen men inte hur detaljer syns', 'Ljuset bestämmer vilken förstoring objektivet har'],
+    rationales: ['Svag kontrast kan göra gränser och detaljer svårare att se.', 'Belysningen påverkar också hur tydligt strukturer kan urskiljas.', 'Förstoringen styrs av linserna, medan ljuset påverkar synlighet och kontrast.'],
+    solution: 'Belysningen behöver ställas in så att kontrast och detaljer syns utan att bilden blir bländande.',
+    summary: 'Sanitiserad grundning: delområdet kopplar observation till mikroskopets inställningar.',
+    tags: ['ljus', 'observation']
+  },
+  {
+    kp: '002',
+    typ: 'samband',
+    niva: 2,
+    stem: 'Varför är det viktigt att ett biologiskt preparat är tunt när det ska mikroskoperas?',
+    correct: 'Ljuset behöver kunna passera så att detaljer syns tydligt',
+    wrong: ['Ett tjockare preparat ger tydligare konturer eftersom mer material syns', 'Preparatets tjocklek påverkar främst anteckningen, inte bilden', 'Högre förstoring kompenserar säkert för ett för tjockt prov'],
+    rationales: ['Mer material kan i stället skymma detaljer när ljuset ska passera.', 'Tjockleken påverkar själva observationen, inte bara dokumentationen.', 'Högre förstoring löser inte problemet om ljus och fokus hindras av provets tjocklek.'],
+    solution: 'Ett tunt preparat släpper igenom mer ljus och gör det lättare att urskilja strukturer.',
+    summary: 'Sanitiserad grundning: delområdet behandlar hur preparatets egenskaper påverkar observationen.',
+    tags: ['preparat', 'ljus']
+  },
+  {
+    kp: '001',
+    typ: 'förståelse',
+    niva: 2,
+    stem: 'En elev ser en suddig bild i mikroskopet. Vilken åtgärd är mest rimlig först?',
+    correct: 'Justera fokus försiktigt med låg förstoring',
+    wrong: ['Dra genast bort objektglaset medan man tittar i okularet', 'Anta att provet saknar celler', 'Höj alltid till högsta förstoring direkt'],
+    rationales: ['Att flytta glaset okontrollerat kan göra observationen sämre och skada preparatet.', 'Suddig bild betyder inte automatiskt att celler saknas.', 'Högsta förstoring gör det ofta svårare att hitta och fokusera först.'],
+    solution: 'Vid suddig bild är det klokt att börja med låg förstoring och försiktig fokusering.',
+    summary: 'Sanitiserad grundning: delområdet tränar samband mellan mikroskopinställning och observation.',
+    tags: ['fokus', 'observation']
+  },
+  {
+    kp: '002',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket val förbättrar oftast en mikroskopobservation?',
+    correct: 'Att justera ljus, fokus och förstoring stegvis',
+    wrong: ['Att ändra inställningar utan att notera vad som ändras', 'Att rita förväntade detaljer i stället för det som syns', 'Att hoppa över märkning av preparatet'],
+    rationales: ['Ospårade ändringar gör metoden svår att följa.', 'Observationen ska bygga på vad man faktiskt ser.', 'Märkning minskar risken att blanda ihop prover.'],
+    solution: 'En stegvis metod gör observationen tydligare och lättare att kontrollera.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till kontrollerad metod.',
+    tags: ['metod', 'observation']
+  },
+  {
+    kp: '002',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Varför är det riskabelt att dra en slutsats efter bara en snabb mikroskopbild?',
+    correct: 'Bilden kan vara påverkad av fokus, ljus, provets placering eller en felkälla',
+    wrong: ['Ett tydligt synfält räcker för att representera hela preparatet', 'Förstoringen visar automatiskt vilken celltyp som är viktigast', 'En noggrann ritning ersätter behovet av metodbeskrivning'],
+    rationales: ['Ett synfält kan vara urvalspåverkat och behöver ofta jämföras med fler observationer.', 'Förstoring hjälper observationen men avgör inte ensam biologisk tolkning.', 'Ritningen är användbar först när man också vet hur observationen gjordes.'],
+    solution: 'En säker slutsats kräver kontrollerad metod och medvetenhet om vad som kan ha påverkat observationen.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till tolkning och metodkritik.',
+    tags: ['metodkritik', 'felkälla']
+  },
+  {
+    kp: '003',
+    typ: 'modell',
+    niva: 1,
+    stem: 'Vad bör en enkel mikroskopskiss främst visa?',
+    correct: 'De strukturer som faktiskt observeras, tydligt och utan onödiga detaljer',
+    wrong: ['Allt eleven redan vet om organismen', 'Färger som valts för att bilden ska bli lättare att hitta i häftet', 'Samma standardskiss även när observationen visar andra former'],
+    rationales: ['Skissen ska bygga på observationen, inte bara förkunskap.', 'Färgval hjälper inte om det saknar koppling till observerade strukturer.', 'Olika observationer ska kunna ge olika skisser.'],
+    solution: 'En mikroskopskiss är en förenklad modell av observationen och ska visa relevanta strukturer tydligt.',
+    summary: 'Sanitiserad grundning: delområdet använder bilder och modeller som stöd för mikroskopobservation.',
+    tags: ['skiss', 'modell']
+  },
+  {
+    kp: '003',
+    typ: 'modell',
+    niva: 2,
+    stem: 'Varför ska en mikroskopskiss gärna ha rubrik eller märkning?',
+    correct: 'Det gör det tydligt vad skissen visar och vilka delar som observerats',
+    wrong: ['Det ersätter själva observationen', 'Det gör att skissen inte behöver stämma', 'Det används bara för att fylla sidan'],
+    rationales: ['Märkning kompletterar observationen men ersätter den inte.', 'En märkt skiss måste fortfarande bygga på det man ser.', 'Rubrik och märkning hjälper tolkning och kommunikation.'],
+    solution: 'Märkning gör skissen mer användbar eftersom andra kan förstå vad som har observerats.',
+    summary: 'Sanitiserad grundning: delområdet tränar hur mikroskopobservationer dokumenteras.',
+    tags: ['dokumentation', 'modell']
+  },
+  {
+    kp: '003',
+    typ: 'modell',
+    niva: 2,
+    stem: 'En skiss visar celler som perfekta cirklar fast bilden visar oregelbundna former. Vad är problemet?',
+    correct: 'Skissen återger inte observationen tillräckligt sakligt',
+    wrong: ['Skisser behöver vara lika detaljerade som ett fotografi', 'Oregelbundna former bör jämnas ut för att skissen ska bli snygg', 'Formen i bilden spelar mindre roll än att skissen blir symmetrisk'],
+    rationales: ['En skiss får förenkla men ska fortfarande bygga på det observerade.', 'Oregelbundna former kan vara biologiskt relevanta och ska inte snyggas till utan belägg.', 'Symmetri är mindre viktig än att återge de former som faktiskt syns.'],
+    solution: 'En bra skiss förenklar men bör inte hitta på former som inte stämmer med observationen.',
+    summary: 'Sanitiserad grundning: delområdet kopplar bildtolkning till observation och dokumentation.',
+    tags: ['modellkritik', 'observation']
+  },
+  {
+    kp: '005',
+    typ: 'metod',
+    niva: 3,
+    stem: 'Varför är en uppgift om skala eller förstoring användbar tillsammans med en mikroskopbild?',
+    correct: 'Den hjälper läsaren att förstå storleken på det som observeras',
+    wrong: ['Den visar vilken art provet måste vara', 'Den beskriver hur stark belysningen var', 'Den ersätter märkning av vilka delar bilden visar'],
+    rationales: ['Storleksinformation avgör inte ensam vilken art det är.', 'Skala och förstoring handlar om storlek, inte direkt om ljusstyrka.', 'Skala kompletterar märkning men förklarar inte vilka delar som syns.'],
+    solution: 'Förstoring eller skala gör det lättare att tolka hur små strukturerna är i verkligheten.',
+    summary: 'Sanitiserad grundning: delområdet behandlar mikroskopbilder som modeller med storleksinformation.',
+    tags: ['skala', 'förstoring']
+  },
+  {
+    kp: '003',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vad är en rimlig regel när man ritar av något från mikroskopet?',
+    correct: 'Rita det du ser och markera viktiga delar tydligt',
+    wrong: ['Rita in delar som borde finnas enligt förkunskap', 'Lämna rubrik och märkning tills efter slutsatsen', 'Byt prov om bilden är svår utan att anteckna det'],
+    rationales: ['Att lägga till delar utan belägg gör dokumentationen osäker.', 'Rubrik och märkning behövs för att skissen ska kunna förstås och granskas.', 'Metodproblem bör noteras i stället för att döljas.'],
+    solution: 'Mikroskopskissen ska vara saklig dokumentation av observationen med tydliga markeringar.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopisk observation till dokumentation.',
+    tags: ['skiss', 'metod']
+  },
+  {
+    kp: '003',
+    typ: 'jämförelse',
+    niva: 1,
+    stem: 'Vad skiljer observation från tolkning när man mikroskoperar?',
+    correct: 'Observation är vad man ser; tolkning är vad man tror att det betyder',
+    wrong: ['Observation och tolkning kan slås ihop om eleven är säker', 'Tolkning bör göras innan bilden har justerats', 'Observation betyder att välja den förklaring som känns rimlig'],
+    rationales: ['De hänger ihop men är inte samma steg.', 'Tolkning bör bygga på observation, inte ersätta den.', 'Observation handlar om att registrera det som syns.'],
+    solution: 'En bra undersökning skiljer mellan vad som faktiskt syns och slutsatsen man drar av det.',
+    summary: 'Sanitiserad grundning: delområdet tränar mikroskopering som metod och observation.',
+    tags: ['observation', 'tolkning']
+  },
+  {
+    kp: '004',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Vilken skillnad finns mellan objektglas och täckglas?',
+    correct: 'Objektglaset bär provet, medan täckglaset läggs ovanpå för att hålla preparatet plant',
+    wrong: ['Täckglaset är den lins som förstorar bilden', 'Objektglaset används främst för att mäta provets temperatur', 'De kan byta funktion utan att preparatet påverkas'],
+    rationales: ['Linsen man tittar genom är okular, inte täckglas.', 'Objektglaset används som bärare för preparatet.', 'De kan likna varandra men har olika roller i preparatet.'],
+    solution: 'Objektglas och täckglas samverkar, men de har olika roller när man gör ett preparat.',
+    summary: 'Sanitiserad grundning: delområdet behandlar material och metod vid mikroskopering.',
+    tags: ['preparat', 'jämförelse']
+  },
+  {
+    kp: '005',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Vad skiljer låg förstoring från hög förstoring i praktiskt arbete?',
+    correct: 'Låg förstoring ger överblick, hög förstoring ger mer detalj i ett mindre område',
+    wrong: ['Hög förstoring gör preparatet större i verkligheten', 'Låg förstoring används främst efter att slutsatsen är färdig', 'Förstoring påverkar bara ljusstyrkan och inte synfältet'],
+    rationales: ['Förstoringen ändrar bilden, inte provets verkliga storlek.', 'Låg förstoring är viktig tidigt för att hitta rätt område.', 'Synfältet brukar minska när förstoring ökar.'],
+    solution: 'Man använder ofta låg förstoring för att hitta provet och högre förstoring för detaljer.',
+    summary: 'Sanitiserad grundning: delområdet jämför metodval vid mikroskopering.',
+    tags: ['förstoring', 'synfält']
+  },
+  {
+    kp: '004',
+    typ: 'förståelse',
+    niva: 3,
+    stem: 'Varför behöver man ibland jämföra flera delar av samma preparat?',
+    correct: 'En enda synbild kan vara atypisk eller påverkad av placering och felkällor',
+    wrong: ['Delarna av ett preparat bör behandlas som identiska om de ligger på samma glas', 'Jämförelser gör observationen svagare eftersom de ger fler data', 'Man bör välja ett område och dölja varför det valdes'],
+    rationales: ['Biologiska preparat kan variera mellan olika delar.', 'Jämförelser kan tvärtom stärka observationen när de görs systematiskt.', 'Urvalet av område bör vara öppet så att observationen kan granskas.'],
+    solution: 'Flera observationer gör det lättare att avgöra om det man ser är typiskt för provet.',
+    summary: 'Sanitiserad grundning: delområdet tränar jämförelse och metodkritik i observation.',
+    tags: ['jämförelse', 'preparat']
+  },
+  {
+    kp: '002',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket par jämför två olika delar av mikroskoperingsarbetet?',
+    correct: 'Att ställa in fokus och att dokumentera observationen',
+    wrong: ['Att tolka bilden och att skriva av en färdig facittext', 'Att byta preparat och att ändra rubriken i efterhand', 'Att använda samma anteckning för alla observationer'],
+    rationales: ['Tolkning och facitavskrift tränar inte två observerade metoddelar.', 'Att byta preparat och rubrik beskriver inte samma metodjämförelse.', 'Samma anteckning för alla observationer gör jämförelsen svagare.'],
+    solution: 'Fokusering och dokumentation är olika men båda viktiga delar av mikroskoperingsarbetet.',
+    summary: 'Sanitiserad grundning: delområdet skiljer mellan metodsteg vid mikroskopering.',
+    tags: ['metod', 'dokumentation']
+  },
+  {
+    kp: '006',
+    typ: 'metod',
+    niva: 1,
+    stem: 'Vilket exempel är en möjlig felkälla vid mikroskopering?',
+    correct: 'Luftbubblor eller smuts hamnar i preparatet',
+    wrong: ['Att skriva vad man ser', 'Att börja med låg förstoring', 'Att använda ljus för att se provet'],
+    rationales: ['Att anteckna observationer är en del av god dokumentation.', 'Låg förstoring kan vara ett bra första steg.', 'Ljus behövs i ett ljusmikroskop och är inte i sig en felkälla.'],
+    solution: 'Luftbubblor, smuts eller fel fokus kan göra bilden svårtolkad och påverka slutsatsen.',
+    summary: 'Sanitiserad grundning: delområdet behandlar felkällor i mikroskopisk observation.',
+    tags: ['felkälla', 'metod']
+  },
+  {
+    kp: '006',
+    typ: 'metod',
+    niva: 2,
+    stem: 'En elev ser en mörk rund fläck och säger direkt att det är en cellkärna. Vad bör eleven göra först?',
+    correct: 'Kontrollera fokus, jämföra med fler delar av preparatet och överväga felkällor',
+    wrong: ['Skriva slutsatsen utan fler kontroller', 'Anta att mörka fläckar i provet har samma biologiska betydelse', 'Stryka metodanteckningar som inte passar slutsatsen'],
+    rationales: ['En snabb slutsats kan bli fel om bilden är otydlig.', 'Mörka fläckar kan ha flera orsaker i ett preparat.', 'Anteckningar behövs för att granska observationen.'],
+    solution: 'Tolkningen bör prövas mot fler observationer och möjliga felkällor innan den används som slutsats.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till källkritisk observation.',
+    tags: ['felkälla', 'tolkning']
+  },
+  {
+    kp: '006',
+    typ: 'resonemang',
+    niva: 2,
+    stem: 'Varför bör man anteckna om bilden var svår att fokusera?',
+    correct: 'Det hjälper andra att bedöma hur säker observationen är',
+    wrong: ['Det gör felkällor omöjliga', 'Det ersätter hela resultatet', 'Det visar att observationer inte behövs'],
+    rationales: ['Felkällor kan finnas även när man antecknar dem.', 'En metodanteckning kompletterar resultatet men ersätter det inte.', 'Observationen är fortfarande grunden för resultatet.'],
+    solution: 'Osäkerheter i metoden påverkar hur starkt man kan lita på slutsatsen och bör därför dokumenteras.',
+    summary: 'Sanitiserad grundning: delområdet tränar metodkritik vid biologiska observationer.',
+    tags: ['metodkritik', 'dokumentation']
+  },
+  {
+    kp: '004',
+    typ: 'förståelse',
+    niva: 3,
+    stem: 'Varför kan för mycket färgämne i ett preparat vara ett problem?',
+    correct: 'Det kan dölja detaljer eller göra strukturer svåra att skilja åt',
+    wrong: ['Det påverkar bara färgen på anteckningen efteråt', 'Det betyder att förstoringen behöver anges i procent', 'Det visar vilka delar som är viktigast utan ytterligare tolkning'],
+    rationales: ['Färgämnet påverkar själva bilden och vad som går att urskilja.', 'Förstoring anges inte i procent för att färgämnet ändras.', 'Färg kan hjälpa kontrasten men avgör inte ensam vilka delar som är viktigast.'],
+    solution: 'Färgämnen kan hjälpa kontrasten, men för mycket färg kan skapa en felkälla i tolkningen.',
+    summary: 'Sanitiserad grundning: delområdet behandlar hur metodval kan påverka mikroskopbilden.',
+    tags: ['preparat', 'observation']
+  },
+  {
+    kp: '006',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilken slutsats är bäst om två elever ser olika saker i samma preparat?',
+    correct: 'De bör jämföra metod, fokus och vilken del av preparatet de tittade på',
+    wrong: ['De bör bara behålla den observation som verkar enklast', 'De bör slå ihop observationerna utan att kontrollera metoden', 'De bör bortse från vilken förstoring som användes'],
+    rationales: ['Enklast observation är inte automatiskt mest tillförlitlig.', 'Olika observationer behöver kontrolleras innan de slås ihop.', 'Förstoring kan påverka vad som går att se i bilden.'],
+    solution: 'Skillnader bör undersökas genom att jämföra metodsteg och observationer innan slutsats dras.',
+    summary: 'Sanitiserad grundning: delområdet kopplar felkällor till jämförbara observationer.',
+    tags: ['felkälla', 'jämförelse']
+  },
+  {
+    kp: '007',
+    typ: 'samband',
+    niva: 1,
+    stem: 'Hur hänger mikroskopering ihop med biologiska samband?',
+    correct: 'Den kan visa strukturer som hjälper oss koppla form till funktion',
+    wrong: ['Den visar strukturer men tolkningen kan göras frikopplad från observationen', 'Den är den enda metod som behövs för biologiska samband', 'Den gör funktioner tydliga utan jämförelse med andra belägg'],
+    rationales: ['Tolkning behöver kopplas till belägg och metod, inte bara till en lös idé.', 'Mikroskopering är en metod bland flera.', 'Funktion behöver ofta tolkas med fler belägg än en bild.'],
+    solution: 'Genom att observera strukturer kan man resonera om hur de hänger ihop med funktioner i levande organismer.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till biologisk förståelse.',
+    tags: ['struktur', 'funktion']
+  },
+  {
+    kp: '007',
+    typ: 'samband',
+    niva: 2,
+    stem: 'En elev ser tydliga avgränsningar i ett preparat. Vilken slutsats är säkrast?',
+    correct: 'Det är en observation som kan användas som underlag, men strukturerna behöver identifieras försiktigt',
+    wrong: ['Avgränsningarna bevisar direkt exakt vilken funktion varje del har', 'Avgränsningarna betyder att fokus inte behöver kontrolleras', 'Avgränsningarna gör att fler observationer blir onödiga'],
+    rationales: ['En synlig struktur behöver tolkas med fler belägg innan funktion anges.', 'Tydliga former kan fortfarande påverkas av fokus.', 'Fler observationer kan stärka eller korrigera tolkningen.'],
+    solution: 'Mikroskopbilden ger ett underlag, men identifiering och funktion behöver kontrolleras med metod och jämförelse.',
+    summary: 'Sanitiserad grundning: delområdet använder mikroskopering för försiktig tolkning av observerade strukturer.',
+    tags: ['struktur', 'tolkning']
+  },
+  {
+    kp: '007',
+    typ: 'förståelse',
+    niva: 2,
+    stem: 'Varför räcker det inte alltid att bara se en form i mikroskopet för att veta dess funktion?',
+    correct: 'Funktion behöver ofta stöd av fler observationer eller biologisk kunskap',
+    wrong: ['Form och funktion kan jämställas utan extra belägg', 'Liknande former ger samma funktion i varje sammanhang', 'Mikroskopbilden ger slutsatsen utan att metoden behöver vägas in'],
+    rationales: ['Form kan ge ledtrådar men funktionen behöver tolkas med belägg.', 'Liknande former kan ha olika betydelse beroende på sammanhang.', 'Mikroskopet ger observationer, inte färdiga slutsatser.'],
+    solution: 'Mikroskopbilden ger belägg, men funktionen måste tolkas med metod, jämförelse och biologisk kunskap.',
+    summary: 'Sanitiserad grundning: delområdet tränar relationen mellan observation och biologisk förklaring.',
+    tags: ['tolkning', 'funktion']
+  },
+  {
+    kp: '004',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Hur kan mikroskopering bidra till att jämföra olika organismer?',
+    correct: 'Man kan jämföra cellstrukturer och använda skillnaderna som biologiska belägg',
+    wrong: ['Man kan jämföra observationer men hoppa över metodanteckningar', 'Man kan utgå från en enda otydlig bild som säkert facit', 'Man kan jämföra namn utan att beskriva det som syns'],
+    rationales: ['Metodanteckningar behövs för att jämförelsen ska kunna granskas.', 'En otydlig bild är ett svagt underlag för säker jämförelse.', 'Jämförelsen bör bygga på observerbara drag, inte bara namn.'],
+    solution: 'Mikroskopering kan ge observerbara likheter och skillnader som hjälper biologiska jämförelser.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopisk observation till biologiska samband.',
+    tags: ['jämförelse', 'belägg']
+  },
+  {
+    kp: '001',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilken fråga kan mikroskopering hjälpa till att undersöka?',
+    correct: 'Vilka strukturer som syns i ett cellprov',
+    wrong: ['Vilken väderförändring som pågår utanför klassrummet', 'Vilken förklaring som känns mest bekant före observationen', 'Vilken anteckning som är kortast att skriva'],
+    rationales: ['Väderförändringar undersöks med andra metoder än mikroskopering.', 'Bekant känsla är inte samma sak som mikroskopisk observation.', 'Kortast anteckning säger inget om biologiska strukturer.'],
+    solution: 'Mikroskopering lämpar sig för frågor om små strukturer i prov, till exempel celler och delar av celler.',
+    summary: 'Sanitiserad grundning: delområdet visar vilka biologiska frågor mikroskopering kan stödja.',
+    tags: ['frågeställning', 'mikroskop']
+  },
+  {
+    kp: '007',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vilket exempel visar en rimlig koppling mellan observation och biologisk funktion?',
+    correct: 'Att en synlig struktur kan ge en ledtråd om vad den gör, om tolkningen stöds av belägg',
+    wrong: ['Att en suddig form räcker för att bestämma funktion utan kontroll', 'Att utrustningens placering avgör vad strukturen gör', 'Att alla synliga delar måste ha samma funktion'],
+    rationales: ['En suddig form är ett svagt underlag utan kontroll.', 'Utrustningens placering påverkar observationen men avgör inte biologisk funktion.', 'Synliga delar kan ha olika funktioner och måste tolkas var för sig.'],
+    solution: 'Mikroskopering kan ge ledtrådar om funktion, men slutsatsen behöver stöd av tydlig observation och biologisk kunskap.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till försiktig biologisk tolkning.',
+    tags: ['funktion', 'belägg']
+  },
+  {
+    kp: '006',
+    typ: 'begrepp',
+    niva: 2,
+    stem: 'Vilket påstående om funktion är mest försiktigt och metodiskt?',
+    correct: 'En möjlig funktion bör beskrivas som en tolkning tills den stöds av fler observationer',
+    wrong: ['En möjlig funktion bör anges som slutsats om formen verkar tydlig', 'En enda okänd form räcker om den liknar ett exempel från en annan bild', 'Funktion kan kopplas till observationen utan att osäkerheten skrivs ut'],
+    rationales: ['En tydlig form kan ge en ledtråd men funktionen behöver fortfarande prövas.', 'Likhet med en annan bild är ett svagt stöd om strukturen inte identifierats.', 'Osäkerhet behöver synas när funktionen bara är en tolkning.'],
+    solution: 'Det är bättre att skilja säker observation från tolkning och låta fler belägg stärka funktionsförklaringen.',
+    summary: 'Sanitiserad grundning: delområdet tränar hur mikroskopobservationer används som belägg.',
+    tags: ['funktion', 'metodkritik']
+  },
+  {
+    kp: '007',
+    typ: 'förståelse',
+    niva: 2,
+    stem: 'Varför ska man vara försiktig med att säga vad en okänd struktur gör?',
+    correct: 'Funktionen behöver stöd av observation, jämförelse och tidigare biologisk kunskap',
+    wrong: ['Okända strukturer kan namnges utifrån första intrycket', 'Synliga strukturer i en cell bör tolkas som samma typ av del', 'Funktion kan avgöras genom den förklaring som passar rubriken bäst'],
+    rationales: ['Första intrycket behöver kontrolleras mot fler observationer.', 'Celler har olika strukturer med olika uppgifter.', 'Rubriken kan hjälpa sammanhanget men ersätter inte observation och jämförelse.'],
+    solution: 'En struktur kan föreslås ha en funktion, men slutsatsen blir starkare med fler belägg.',
+    summary: 'Sanitiserad grundning: delområdet kopplar mikroskopering till försiktig biologisk tolkning.',
+    tags: ['tolkning', 'belägg']
+  }
+];
+
+const batches = [
+  {
+    idPrefix: 'bio-q-k1-sec01',
+    importBatchId,
+    bookLocationId,
+    sourceClaimId,
+    sourceAtomId,
+    chapterCode,
+    delkapitel,
+    stella: 'Stella Biologi K1 delområde 1',
+    authored
+  },
+  {
+    idPrefix: 'bio-q-k1-sec02',
+    importBatchId: 'biologi-k1-sec02-offline-batch-20260518',
+    bookLocationId: 'bookedition-stella-biologi-ocr-v1:biologi-kap1-sec02',
+    sourceClaimId: 'sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02',
+    chapterCode: 'K1',
+    delkapitel: 'K1-biologi-kap1-sec02',
+    stella: 'Stella Biologi K1 delområde 2',
+    authored: authoredSec02
+  }
+];
+
+const existing = readJsonl('questions/intake-candidates.jsonl').filter((candidate) => {
+  return !batches.some((batch) => candidate.id.startsWith(`${batch.idPrefix}-`));
+});
 const atomicKps = new Set(readJsonl('lineage/atomic-knowledge-points.jsonl').map((row) => row.id));
 const sourceAtoms = new Set(readJsonl('lineage/source-atoms.jsonl').map((row) => row.id));
-if (!sourceAtoms.has(sourceAtomId)) throw new Error(`Missing source atom: ${sourceAtomId}`);
+for (const batch of batches) {
+  if (!sourceAtoms.has(batch.sourceAtomId)) throw new Error(`Missing source atom: ${batch.sourceAtomId}`);
+}
 
-const candidates = authored.map((item, index) => {
-  const id = `bio-q-k1-sec01-${String(index + 1).padStart(3, '0')}`;
-  const knowledgePointId = `kp-biologi-biologi-kap1-sec01-${item.kp}`;
+const candidates = batches.flatMap((batch, batchIndex) => batch.authored.map((item, index) => {
+  const id = `${batch.idPrefix}-${String(index + 1).padStart(3, '0')}`;
+  const sectionId = batch.bookLocationId.split(':').at(-1);
+  const knowledgePointId = `kp-biologi-${sectionId}-${item.kp}`;
   if (!atomicKps.has(knowledgePointId)) throw new Error(`Missing KP: ${knowledgePointId}`);
-  const correctIndex = index % 4;
+  const correctIndex = (index + batchIndex) % 4;
   const options = optionRows(item.correct, item.wrong, correctIndex);
   const correctOptionId = options.find((option) => option.text === item.correct)?.id;
   if (!correctOptionId) throw new Error(`Missing correct option for ${id}`);
@@ -491,7 +920,7 @@ const candidates = authored.map((item, index) => {
     id,
     subject,
     bookEditionId,
-    chapterCode,
+    chapterCode: batch.chapterCode,
     status: 'candidate_review_required',
     activationReviewStatus: 'not_reviewed',
     format: 'multiple_choice',
@@ -506,8 +935,8 @@ const candidates = authored.map((item, index) => {
       })),
     solution: item.solution,
     publicSanitizedSourceSummary: item.summary,
-    bookLocationIds: [bookLocationId],
-    sourceClaimIds: [sourceClaimId],
+    bookLocationIds: [batch.bookLocationId],
+    sourceClaimIds: [batch.sourceClaimId],
     knowledgePointIds: [knowledgePointId],
     questionKnowledgeLinks: [
       {
@@ -520,8 +949,8 @@ const candidates = authored.map((item, index) => {
     runtimeProjection: {
       typ: item.typ,
       niva: item.niva,
-      delkapitel,
-      stella: 'Stella Biologi K1 delområde 1'
+      delkapitel: batch.delkapitel,
+      stella: batch.stella
     },
     difficultyLevel: item.niva,
     enabledLevels: [`niva-${item.niva}`],
@@ -530,8 +959,8 @@ const candidates = authored.map((item, index) => {
     techniqueTags: ['flerval', 'distraktoranalys'],
     metadataCompleteness: metadataCompleteness(),
     contentHash: '',
-    importBatchId,
-    createdFromSourceId: sourceAtomId,
+    importBatchId: batch.importBatchId,
+    createdFromSourceId: batch.sourceAtomId,
     validationReport: falseValidationReport(),
     reviewStatus: 'candidate_review_required'
   };
@@ -544,7 +973,7 @@ const candidates = authored.map((item, index) => {
     knowledgePointIds: candidate.knowledgePointIds
   });
   return candidate;
-});
+}));
 
 const rows = [...existing, ...candidates].sort((a, b) => a.id.localeCompare(b.id));
 if (write) writeFileSync(join(root, 'questions/intake-candidates.jsonl'), rows.map((row) => JSON.stringify(row)).join('\n') + '\n');
@@ -552,7 +981,7 @@ if (write) writeFileSync(join(root, 'questions/intake-candidates.jsonl'), rows.m
 console.log(JSON.stringify({
   ok: true,
   write,
-  importBatchId,
+  importBatchIds: batches.map((batch) => batch.importBatchId),
   generatedCandidates: candidates.length,
   totalCandidates: rows.length,
   runtimeImportAllowed: false,

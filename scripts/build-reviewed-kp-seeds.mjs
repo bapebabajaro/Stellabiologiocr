@@ -190,18 +190,30 @@ function sectionConcepts(rows, fallbackTitle) {
     .map((part) => part.trim().toLowerCase())
     .filter((part) => part.length >= 5 && !stopWords.has(part));
   const investigationTerms = /undersökning|fält|mikroskop|förstoring/i.test(fallbackTitle)
-    ? ['observation', 'metod', 'jämförelse', 'felkälla']
+    ? ['observation', 'metod', 'preparat', 'förstoring', 'felkälla']
     : [];
   const enriched = [...concepts, ...titleTerms, ...investigationTerms, 'biologiskt samband', 'biologisk funktion'];
   return enriched
-    .map((concept) => concept.replace(/\s+/g, ' ').trim())
+    .map((concept) => normalizeConcept(concept.replace(/\s+/g, ' ').trim()))
     .filter((concept) => concept.length >= 5 && concept.length <= 44 && !stopWords.has(concept.toLowerCase()))
     .filter((concept, index, all) => all.findIndex((item) => item.toLowerCase() === concept.toLowerCase()) === index)
     .slice(0, 16);
 }
 
+function normalizeConcept(value) {
+  const lower = value.toLowerCase();
+  if (lower === 'mikroskopera') return 'mikroskopering';
+  return value;
+}
+
+function topicText(title) {
+  const lower = title.toLowerCase();
+  if (/mikroskopera/.test(lower)) return 'mikroskopering';
+  return lower;
+}
+
 function makeAtomText(location, concepts) {
-  const title = location.title.toLowerCase();
+  const title = topicText(location.title);
   const picked = concepts.filter((concept) => concept.toLowerCase() !== title).slice(0, 3);
   const core = picked.length >= 3
     ? `Knyter ${title} till ${picked[0]}, ${picked[1]} och ${picked[2]}.`
@@ -212,7 +224,7 @@ function makeAtomText(location, concepts) {
 }
 
 function makeVisualText(location) {
-  const title = location.title.toLowerCase();
+  const title = topicText(location.title);
   return cleanPublicText(`Visuellt underlag stödjer tolkning av modeller, bilder eller tabeller inom ${title}.`, {
     maxChars: 170,
     maxWords: 24
@@ -220,6 +232,7 @@ function makeVisualText(location) {
 }
 
 function makeGoal(location, concepts, slotNumber) {
+  const topic = topicText(location.title);
   const [templateLabel, templateGoal] = genericGoals[(slotNumber - 1) % genericGoals.length];
   const localConcepts = concepts.length >= 2 ? concepts : [...concepts, 'biologiskt samband', 'biologisk funktion'];
   const concept = localConcepts[(slotNumber - 1) % localConcepts.length] ?? location.title.toLowerCase();
@@ -231,13 +244,13 @@ function makeGoal(location, concepts, slotNumber) {
     : templateLabel === 'samband'
       ? `Eleven kan förklara sambandet mellan ${concept} och ${nextConcept} i ett biologiskt sammanhang.`
     : templateLabel === 'begrepp' && slotNumber > 6
-      ? `Eleven kan känna igen ett korrekt exempel på ${concept} i ${location.title.toLowerCase()}.`
+      ? `Eleven kan känna igen ett korrekt exempel på ${concept} i ${topic}.`
     : templateLabel === 'begrepp'
-      ? `Eleven kan använda ${concept} för att beskriva ${location.title.toLowerCase()} med egen formulering.`
+      ? `Eleven kan använda ${concept} för att beskriva ${topic} med egen formulering.`
     : templateLabel === 'modell'
-      ? `Eleven kan tolka en modell eller bild som visar ${concept} och koppla den till ${location.title.toLowerCase()}.`
+      ? `Eleven kan tolka en modell eller bild som visar ${concept} och koppla den till ${topic}.`
     : templateLabel === 'resonemang'
-      ? `Eleven kan använda ${concept} för att motivera ett biologiskt påstående om ${location.title.toLowerCase()}.`
+      ? `Eleven kan använda ${concept} för att motivera ett biologiskt påstående om ${topic}.`
     : templateLabel === 'orsak och följd'
       ? `Eleven kan beskriva en orsak eller följd som kopplar ${concept} till ${nextConcept}.`
       : templateGoal.replace('området', location.title.toLowerCase());

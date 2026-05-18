@@ -55,6 +55,36 @@ function addIssue(issues, category, id, message) {
   issues.push({ category, id: id || null, message });
 }
 
+function joinedCandidateText(candidate) {
+  const parts = [
+    candidate.studentStem,
+    candidate.solution,
+    candidate.publicSanitizedSourceSummary,
+    ...(Array.isArray(candidate.options) ? candidate.options.map((option) => option.text) : []),
+    ...(Array.isArray(candidate.distractorRationales) ? candidate.distractorRationales.map((row) => row.rationale) : []),
+    ...(Array.isArray(candidate.tags) ? candidate.tags : [])
+  ];
+  return parts.map(text).filter(Boolean).join(' ');
+}
+
+function wrongOptionTexts(candidate) {
+  if (!Array.isArray(candidate.options)) return [];
+  const correctOptionId = text(candidate.correctOptionId);
+  return candidate.options
+    .filter((option) => text(option.id) !== correctOptionId)
+    .map((option) => text(option.text))
+    .filter(Boolean);
+}
+
+function linkedKpText(candidate, atomicKpById) {
+  return (Array.isArray(candidate.knowledgePointIds) ? candidate.knowledgePointIds : [])
+    .map((id) => atomicKpById.get(id))
+    .filter(Boolean)
+    .map((kp) => `${text(kp.label)} ${text(kp.studentGoal)}`)
+    .join(' ')
+    .toLowerCase();
+}
+
 const evidenceRefs = readJsonl('lineage/evidence-refs.jsonl');
 const sourceClaimDecisions = readJsonl('lineage/source-claim-review-decisions.jsonl');
 const sourceAtoms = readJsonl('lineage/source-atoms.jsonl');
@@ -63,7 +93,30 @@ const atomicKpDecisions = readJsonl('lineage/atomic-kp-review-decisions.jsonl');
 const pageRecordDecisions = readJsonl('lineage/page-record-review-decisions.jsonl');
 const questionCandidates = readJsonl('questions/intake-candidates.jsonl');
 const evidenceById = new Map(evidenceRefs.map((row) => [row.id, row]));
+const sourceAtomById = new Map(sourceAtoms.map((row) => [row.id, row]));
+const atomicKpById = new Map(atomicKps.map((row) => [row.id, row]));
 const issues = [];
+
+const weakQuestionPatterns = [
+  { pattern: /\bmikroskoperandet\b/i, message: 'question copy uses awkward Swedish phrasing' },
+  { pattern: /\bskalenlig uppgift\b/i, message: 'question copy uses awkward Swedish phrasing' },
+  { pattern: /\banvända mikroskopera\b/i, message: 'KP/question copy uses ungrammatical Swedish phrasing' },
+  { pattern: /\bpris\b/i, message: 'distractor is too obviously non-biological' },
+  { pattern: /\bsladd\b/i, message: 'distractor is too obviously non-biological' },
+  { pattern: /\bbänk\b/i, message: 'distractor is too obviously non-biological' },
+  { pattern: /\bblunda\b/i, message: 'distractor is too obviously non-biological' },
+  { pattern: /\bmest populär/i, message: 'distractor relies on preference instead of biology' },
+  { pattern: /\bhelt objektiv\b/i, message: 'distractor overclaims certainty' },
+  { pattern: /\bkan aldrig ge biologisk information\b/i, message: 'distractor overclaims impossibility' },
+  { pattern: /\bgör\s+\w+\s+onödigt\b/i, message: 'distractor overclaims that a core method is unnecessary' },
+  { pattern: /\bsaknar funktion\b/i, message: 'distractor overclaims absence of function' },
+  { pattern: /\binte består av celler\b/i, message: 'distractor risks a broad factual error' }
+];
+
+const supportedConceptTerms = ['kloroplast', 'fotosyntes', 'cellvägg'];
+const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
+const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg)\b/i;
+const absurdWrongOptionPattern = /\b(levande igen|celler byter art|tar bort behovet av|påverkas aldrig av belysning|innehåller alltid fler arter)\b/i;
 
 for (const [label, rows] of [
   ['page-record-review-decisions', pageRecordDecisions],
@@ -111,6 +164,7 @@ for (const kp of atomicKps) {
   const locationId = Array.isArray(kp.bookLocationIds) ? kp.bookLocationIds[0] : '';
   const label = text(kp.label).toLowerCase();
   const goal = text(kp.studentGoal).toLowerCase();
+  const labelParts = label.split(':').map((part) => part.trim());
   const key = `${label}|${goal}`;
   const locationKeys = kpKeysByLocation.get(locationId) ?? new Set();
   if (locationKeys.has(key)) addIssue(issues, 'kp-quality', kp.id, 'duplicate label and studentGoal inside one BookLocation');
@@ -118,6 +172,9 @@ for (const kp of atomicKps) {
   kpKeysByLocation.set(locationId, locationKeys);
   if (/mellan ([\p{L}0-9-]+) och \1\b/iu.test(goal) || /jämföra ([\p{L}0-9-]+) med \1\b/iu.test(goal)) {
     addIssue(issues, 'kp-quality', kp.id, 'self-referential KP goal');
+  }
+  if (labelParts.length === 2 && labelParts[0] === labelParts[1]) {
+    addIssue(issues, 'kp-quality', kp.id, 'KP label repeats its own skill category');
   }
   if (/rimligt påstående|centrala begrepp|utan att blanda ihop dem/i.test(goal)) {
     addIssue(issues, 'kp-quality', kp.id, 'KP goal is generic placeholder copy');
@@ -149,6 +206,59 @@ if (questionCandidates.length > 0) {
       addIssue(issues, 'question-quality', candidate.id, 'question candidate must stay in review-required state');
     }
     if (hasRuntimeFlag(candidate)) addIssue(issues, 'question-quality', candidate.id, 'question candidate must keep all write/runtime flags false');
+    const candidateText = joinedCandidateText(candidate);
+    for (const check of weakQuestionPatterns) {
+      if (check.pattern.test(candidateText)) addIssue(issues, 'question-quality', candidate.id, check.message);
+    }
+    const strictDistractorQuality = !legacyDistractorQualityBatchIds.has(text(candidate.importBatchId));
+    const wrongTexts = wrongOptionTexts(candidate);
+    if (strictDistractorQuality) {
+      const broadCueWrongOptions = wrongTexts.filter((optionText) => broadCuePattern.test(optionText));
+      if (broadCueWrongOptions.length >= 2) {
+        addIssue(issues, 'question-quality', candidate.id, 'too many distractors rely on absolute cue words');
+      }
+      for (const optionText of wrongTexts) {
+        if (absurdWrongOptionPattern.test(optionText)) {
+          addIssue(issues, 'question-quality', candidate.id, 'distractor is too absurd or too easily eliminated');
+        }
+      }
+      const semanticText = [
+        text(candidate.studentStem),
+        ...(Array.isArray(candidate.skillTags) ? candidate.skillTags.map(text) : []),
+        ...(Array.isArray(candidate.abilityTags) ? candidate.abilityTags.map(text) : []),
+        ...(Array.isArray(candidate.techniqueTags) ? candidate.techniqueTags.map(text) : [])
+      ].join(' ').toLowerCase();
+      const kpText = linkedKpText(candidate, atomicKpById);
+      const expectation = /funktion|struktur|biologiskt samband/.test(semanticText) && /metodkritik|försiktigt|metodiskt|osäkerhet/.test(semanticText)
+        ? { pattern: /biologiskt samband|felkälla|observation/, label: 'methodical function interpretation' }
+        : /funktion|struktur|biologiskt samband/.test(semanticText)
+        ? { pattern: /biologiskt samband|funktion|struktur/, label: 'biological function/structure' }
+        : /observation/.test(semanticText) && /tolkning/.test(semanticText)
+          ? { pattern: /observation|modell|metod/, label: 'observation/interpretation' }
+        : /felkälla|metodkritik/.test(semanticText)
+          ? { pattern: /felkälla|observation/, label: 'method confidence/felkalla' }
+          : /dokumentation/.test(semanticText) && /metod|fokus/.test(semanticText)
+            ? { pattern: /modell|metod|observation/, label: 'method/documentation' }
+          : /förstoring|synfält|skala/.test(semanticText)
+            ? { pattern: /förstoring/, label: 'magnification/scale' }
+            : null;
+      if (expectation && !expectation.pattern.test(kpText)) {
+        addIssue(issues, 'question-quality', candidate.id, `primary QKL does not match ${expectation.label} semantics`);
+      }
+    }
+    const linkedSourceIds = new Set([
+      ...(Array.isArray(candidate.sourceAtomIds) ? candidate.sourceAtomIds : []),
+      text(candidate.createdFromSourceId)
+    ].filter(Boolean));
+    const linkedSourceText = [...linkedSourceIds]
+      .map((id) => text(sourceAtomById.get(id)?.atomText))
+      .filter(Boolean)
+      .join(' ');
+    for (const term of supportedConceptTerms) {
+      if (new RegExp(`\\b${term}\\b`, 'i').test(candidateText) && !new RegExp(`\\b${term}\\b`, 'i').test(linkedSourceText)) {
+        addIssue(issues, 'question-quality', candidate.id, `candidate uses ${term} without matching reviewed source atom support`);
+      }
+    }
   }
 }
 

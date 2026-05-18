@@ -8,7 +8,7 @@
     "sourceAtoms": 43,
     "atomicKnowledgePoints": 240,
     "atomicKpReviewDecisions": 240,
-    "questionCandidates": 33
+    "questionCandidates": 66
   },
   "outputPolicy": {
     "runtimeImportAllowed": false,
