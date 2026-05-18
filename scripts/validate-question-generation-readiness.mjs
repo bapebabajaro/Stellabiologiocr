@@ -135,7 +135,15 @@ const supportedConceptTerms = [
   { term: 'material', location: 'biologi-kap1-sec05' },
   { term: 'ekosystem', location: 'biologi-kap1-sec05' },
   { term: 'biologiskt samband', location: 'biologi-kap1-sec05' },
-  { term: 'biologisk funktion', location: 'biologi-kap1-sec05' }
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec05' },
+  { term: 'klyvöppningar', location: 'biologi-kap1-sec06' },
+  { term: 'förstoring', location: 'biologi-kap1-sec06' },
+  { term: 'observation', location: 'biologi-kap1-sec06' },
+  { term: 'metod', location: 'biologi-kap1-sec06' },
+  { term: 'preparat', location: 'biologi-kap1-sec06' },
+  { term: 'felkälla', location: 'biologi-kap1-sec06' },
+  { term: 'biologiskt samband', location: 'biologi-kap1-sec06' },
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec06' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -233,6 +241,7 @@ if (questionCandidates.length > 0) {
     for (const check of weakQuestionPatterns) {
       if (check.pattern.test(candidateText)) addIssue(issues, 'question-quality', candidate.id, check.message);
     }
+    const candidateLocationText = (Array.isArray(candidate.bookLocationIds) ? candidate.bookLocationIds : []).join(' ').toLowerCase();
     const strictDistractorQuality = !legacyDistractorQualityBatchIds.has(text(candidate.importBatchId));
     const wrongTexts = wrongOptionTexts(candidate);
     if (strictDistractorQuality) {
@@ -255,6 +264,7 @@ if (questionCandidates.length > 0) {
       const tagText = skillTags.join(' ').toLowerCase();
       const primaryTagText = (skillTags[0] ?? tagText).toLowerCase();
       const kpText = linkedKpText(candidate, atomicKpById);
+      const isSec06 = candidateLocationText.includes('biologi-kap1-sec06');
       const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
         ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
         : /fältundersökning/.test(primaryTagText)
@@ -279,6 +289,18 @@ if (questionCandidates.length > 0) {
                             ? { pattern: /biologiskt samband/, label: 'biological relation' }
                             : /biologisk funktion/.test(primaryTagText)
                               ? { pattern: /biologisk funktion|funktion/, label: 'biological function' }
+                              : isSec06 && /klyvöppningar/.test(primaryTagText)
+                                ? { pattern: /klyvöppningar/, label: 'stomata' }
+                                : isSec06 && /förstoring/.test(primaryTagText)
+                                  ? { pattern: /förstoring/, label: 'magnification' }
+                                  : isSec06 && /observation/.test(primaryTagText)
+                                    ? { pattern: /observation/, label: 'observation' }
+                                    : isSec06 && /metod/.test(primaryTagText)
+                                      ? { pattern: /metod/, label: 'method' }
+                                      : isSec06 && /preparat/.test(primaryTagText)
+                                        ? { pattern: /preparat/, label: 'specimen/preparation' }
+                                        : isSec06 && /felkälla/.test(primaryTagText)
+                                          ? { pattern: /felkälla/, label: 'source of error' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)
@@ -317,7 +339,6 @@ if (questionCandidates.length > 0) {
       .map((id) => text(sourceAtomById.get(id)?.atomText))
       .filter(Boolean)
       .join(' ');
-    const candidateLocationText = (Array.isArray(candidate.bookLocationIds) ? candidate.bookLocationIds : []).join(' ').toLowerCase();
     const candidateTextLower = candidateText.toLowerCase();
     const linkedSourceTextLower = linkedSourceText.toLowerCase();
     for (const check of supportedConceptTerms) {
