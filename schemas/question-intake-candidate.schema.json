@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "QuestionIntakeCandidate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "subject",
+    "bookEditionId",
+    "chapterCode",
+    "status",
+    "activationReviewStatus",
+    "format",
+    "studentStem",
+    "options",
+    "correctOptionId",
+    "distractorRationales",
+    "solution",
+    "publicSanitizedSourceSummary",
+    "bookLocationIds",
+    "sourceClaimIds",
+    "knowledgePointIds",
+    "questionKnowledgeLinks",
+    "runtimeProjection",
+    "difficultyLevel",
+    "enabledLevels",
+    "skillTags",
+    "abilityTags",
+    "techniqueTags",
+    "metadataCompleteness",
+    "contentHash",
+    "importBatchId",
+    "createdFromSourceId",
+    "validationReport",
+    "reviewStatus"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(bio|biologi)-q-[a-z0-9-]+$" },
+    "subject": { "const": "biologi" },
+    "bookEditionId": { "const": "bookedition-stella-biologi-ocr-v1" },
+    "chapterCode": { "enum": ["K1", "K2", "K3", "K4", "K5", "K6"] },
+    "status": { "const": "candidate_review_required" },
+    "activationReviewStatus": { "const": "not_reviewed" },
+    "format": { "const": "multiple_choice" },
+    "studentStem": { "type": "string", "minLength": 20, "maxLength": 320 },
+    "options": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "prefixItems": [
+        { "$ref": "#/$defs/optionA" },
+        { "$ref": "#/$defs/optionB" },
+        { "$ref": "#/$defs/optionC" },
+        { "$ref": "#/$defs/optionD" }
+      ]
+    },
+    "correctOptionId": { "enum": ["A", "B", "C", "D"] },
+    "distractorRationales": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/distractorRationale" }
+    },
+    "solution": { "type": "string", "minLength": 40, "maxLength": 700 },
+    "publicSanitizedSourceSummary": { "type": "string", "minLength": 30, "maxLength": 280 },
+    "bookLocationIds": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1,
+      "items": { "type": "string" }
+    },
+    "sourceClaimIds": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 4,
+      "items": { "type": "string", "pattern": "^sourceclaim-" }
+    },
+    "knowledgePointIds": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": { "type": "string", "pattern": "^kp-biologi-" }
+    },
+    "questionKnowledgeLinks": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 6,
+      "items": { "$ref": "#/$defs/qkl" }
+    },
+    "runtimeProjection": { "$ref": "#/$defs/runtimeProjection" },
+    "difficultyLevel": { "type": "integer", "minimum": 1, "maximum": 3 },
+    "enabledLevels": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "skillTags": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "abilityTags": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "techniqueTags": { "$ref": "#/$defs/nonEmptyStringArray" },
+    "metadataCompleteness": { "$ref": "#/$defs/metadataCompleteness" },
+    "contentHash": { "type": "string", "minLength": 1, "maxLength": 180 },
+    "importBatchId": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "createdFromSourceId": { "type": "string", "pattern": "^source-atom-" },
+    "validationReport": { "$ref": "#/$defs/validationReport" },
+    "reviewStatus": { "const": "candidate_review_required" }
+  },
+  "$defs": {
+    "optionA": { "$ref": "#/$defs/option", "properties": { "id": { "const": "A" } } },
+    "optionB": { "$ref": "#/$defs/option", "properties": { "id": { "const": "B" } } },
+    "optionC": { "$ref": "#/$defs/option", "properties": { "id": { "const": "C" } } },
+    "optionD": { "$ref": "#/$defs/option", "properties": { "id": { "const": "D" } } },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "text"],
+      "properties": {
+        "id": { "enum": ["A", "B", "C", "D"] },
+        "text": { "type": "string", "minLength": 8, "maxLength": 180 }
+      }
+    },
+    "distractorRationale": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["optionId", "rationale"],
+      "properties": {
+        "optionId": { "enum": ["A", "B", "C", "D"] },
+        "rationale": { "type": "string", "minLength": 20, "maxLength": 260 }
+      }
+    },
+    "qkl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["questionId", "knowledgePointId", "linkType", "weight"],
+      "properties": {
+        "questionId": { "type": "string" },
+        "knowledgePointId": { "type": "string", "pattern": "^kp-biologi-" },
+        "linkType": { "enum": ["primary", "supporting"] },
+        "weight": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 }
+      }
+    },
+    "runtimeProjection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["typ", "niva", "delkapitel", "stella"],
+      "properties": {
+        "typ": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "niva": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "delkapitel": { "type": "string", "minLength": 2, "maxLength": 80 },
+        "stella": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "visual": { "type": "string", "minLength": 1, "maxLength": 220 },
+        "visualAlt": { "type": "string", "minLength": 20, "maxLength": 260 },
+        "bildtext": { "type": "string", "minLength": 1, "maxLength": 260 },
+        "fallback": { "type": "string", "minLength": 1, "maxLength": 260 }
+      }
+    },
+    "nonEmptyStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 24,
+      "items": { "type": "string", "minLength": 1, "maxLength": 120 },
+      "uniqueItems": true
+    },
+    "metadataCompleteness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["checks"],
+      "properties": {
+        "checks": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "bookLocationIds",
+            "sourceClaimIds",
+            "knowledgePointIds",
+            "studentStem",
+            "options",
+            "correctOptionId",
+            "distractorRationales",
+            "solution",
+            "publicSanitizedSourceSummary",
+            "questionKnowledgeLinks",
+            "runtimeProjection",
+            "qklReviewRequired"
+          ],
+          "properties": {
+            "bookLocationIds": { "const": true },
+            "sourceClaimIds": { "const": true },
+            "knowledgePointIds": { "const": true },
+            "studentStem": { "const": true },
+            "options": { "const": true },
+            "correctOptionId": { "const": true },
+            "distractorRationales": { "const": true },
+            "solution": { "const": true },
+            "publicSanitizedSourceSummary": { "const": true },
+            "questionKnowledgeLinks": { "const": true },
+            "runtimeProjection": { "const": true },
+            "qklReviewRequired": { "const": true }
+          }
+        }
+      }
+    },
+    "validationReport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "runtimeDataChanged",
+        "runtimeWriteAllowed",
+        "runtimePromotionAllowed",
+        "candidateGenerationAllowed",
+        "canImportAsActive",
+        "canImportAsDraft",
+        "activationAllowed",
+        "runtimeActivationAllowed",
+        "runtimeImportAllowed",
+        "importApplyAllowed",
+        "kvWriteAllowed",
+        "safeActiveWriteAllowed",
+        "pixelBindingAllowed",
+        "pixelWriteAllowed",
+        "productionDeployAllowed",
+        "requiredBeforeActive"
+      ],
+      "properties": {
+        "runtimeDataChanged": { "const": false },
+        "runtimeWriteAllowed": { "const": false },
+        "runtimePromotionAllowed": { "const": false },
+        "candidateGenerationAllowed": { "const": false },
+        "canImportAsActive": { "const": false },
+        "canImportAsDraft": { "const": false },
+        "activationAllowed": { "const": false },
+        "runtimeActivationAllowed": { "const": false },
+        "runtimeImportAllowed": { "const": false },
+        "importApplyAllowed": { "const": false },
+        "kvWriteAllowed": { "const": false },
+        "safeActiveWriteAllowed": { "const": false },
+        "pixelBindingAllowed": { "const": false },
+        "pixelWriteAllowed": { "const": false },
+        "productionDeployAllowed": { "const": false },
+        "requiredBeforeActive": { "$ref": "#/$defs/nonEmptyStringArray" }
+      }
+    }
+  }
+}

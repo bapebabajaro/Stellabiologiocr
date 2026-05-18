@@ -39,6 +39,26 @@
     "id": "stable biology question id",
     "subject": "biologi",
     "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+    "chapterCode": "K1-K6",
+    "status": "candidate_review_required",
+    "activationReviewStatus": "not_reviewed",
+    "format": "multiple_choice",
+    "studentStem": "student-facing Swedish question text",
+    "options": [
+      {
+        "id": "A-D",
+        "text": "student-facing Swedish option text"
+      }
+    ],
+    "correctOptionId": "one option id",
+    "distractorRationales": [
+      {
+        "optionId": "wrong option id",
+        "rationale": "why this wrong option reveals a misconception"
+      }
+    ],
+    "solution": "short public-safe explanation",
+    "publicSanitizedSourceSummary": "short non-copied source grounding",
     "bookLocationIds": [
       "BookLocation id"
     ],
@@ -48,18 +68,33 @@
     "knowledgePointIds": [
       "accepted atomic KnowledgePoint id"
     ],
-    "studentStem": "student-facing Swedish question text",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D"
+    "questionKnowledgeLinks": [
+      {
+        "questionId": "same as id",
+        "knowledgePointId": "accepted atomic KnowledgePoint id",
+        "linkType": "primary | supporting",
+        "weight": "0-1"
+      }
     ],
-    "correctOptionId": "one option id",
-    "distractorRationales": [
-      "one rationale per wrong option"
+    "runtimeProjection": "Kemi-compatible typ, niva, delkapitel and stella projection",
+    "difficultyLevel": "1-3",
+    "enabledLevels": [
+      "public-safe level ids"
     ],
-    "publicSanitizedSourceSummary": "short non-copied source grounding",
+    "skillTags": [
+      "public-safe skill tags"
+    ],
+    "abilityTags": [
+      "public-safe ability tags"
+    ],
+    "techniqueTags": [
+      "public-safe technique tags"
+    ],
+    "metadataCompleteness": "all required checks true",
+    "contentHash": "candidate content hash",
+    "importBatchId": "dry-run batch id",
+    "createdFromSourceId": "reviewed source_atom id",
+    "validationReport": "all runtime/import/generation/write/pixel flags false",
     "reviewStatus": "candidate_review_required"
   },
   "workItems": [

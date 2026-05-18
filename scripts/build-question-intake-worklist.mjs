@@ -126,14 +126,38 @@ const worklist = {
     id: 'stable biology question id',
     subject,
     bookEditionId,
+    chapterCode: 'K1-K6',
+    status: 'candidate_review_required',
+    activationReviewStatus: 'not_reviewed',
+    format: 'multiple_choice',
+    studentStem: 'student-facing Swedish question text',
+    options: [{ id: 'A-D', text: 'student-facing Swedish option text' }],
+    correctOptionId: 'one option id',
+    distractorRationales: [{ optionId: 'wrong option id', rationale: 'why this wrong option reveals a misconception' }],
+    solution: 'short public-safe explanation',
+    publicSanitizedSourceSummary: 'short non-copied source grounding',
     bookLocationIds: ['BookLocation id'],
     sourceClaimIds: ['accepted SourceClaim id'],
     knowledgePointIds: ['accepted atomic KnowledgePoint id'],
-    studentStem: 'student-facing Swedish question text',
-    options: ['A', 'B', 'C', 'D'],
-    correctOptionId: 'one option id',
-    distractorRationales: ['one rationale per wrong option'],
-    publicSanitizedSourceSummary: 'short non-copied source grounding',
+    questionKnowledgeLinks: [
+      {
+        questionId: 'same as id',
+        knowledgePointId: 'accepted atomic KnowledgePoint id',
+        linkType: 'primary | supporting',
+        weight: '0-1'
+      }
+    ],
+    runtimeProjection: 'Kemi-compatible typ, niva, delkapitel and stella projection',
+    difficultyLevel: '1-3',
+    enabledLevels: ['public-safe level ids'],
+    skillTags: ['public-safe skill tags'],
+    abilityTags: ['public-safe ability tags'],
+    techniqueTags: ['public-safe technique tags'],
+    metadataCompleteness: 'all required checks true',
+    contentHash: 'candidate content hash',
+    importBatchId: 'dry-run batch id',
+    createdFromSourceId: 'reviewed source_atom id',
+    validationReport: 'all runtime/import/generation/write/pixel flags false',
     reviewStatus: 'candidate_review_required'
   },
   workItems
@@ -165,7 +189,8 @@ candidate is generated or runtime-eligible.
 
 - SourceClaims are structure-only and not accepted runtime evidence.
 - KnowledgePoint candidates are section placeholders, not atomic KnowledgePoints.
-- questions/intake-candidates.jsonl must remain empty until lineage gates pass.
+- questions/intake-candidates.jsonl may only be populated after
+  atomic_kp_review_ready.
 - No QKL, safe-active metadata, import apply or KV write is allowed.
 
 ## Next input for the question agent
@@ -173,8 +198,11 @@ candidate is generated or runtime-eligible.
 1. Resolve page-boundary blockers.
 2. Accept reviewed SourceClaims.
 3. Split section placeholders into atomic KnowledgePoints.
-4. Generate candidate questions from accepted KPs only.
-5. Validate answer grounding, distractor rationales, uniqueness and public copy.
+4. Run scripts/validate-question-intake-candidates.mjs before and after adding
+   candidate rows.
+5. Generate candidate questions from accepted atomic KPs only.
+6. Validate answer grounding, QKL, distractor rationales, uniqueness and public
+   copy.
 `
 );
 

@@ -25,6 +25,7 @@ function readJsonl(rel) {
 
 const worklist = readJson('questions/intake-worklist.json');
 const intakeCandidatesText = readFileSync(join(root, 'questions/intake-candidates.jsonl'), 'utf8').trim();
+const intakeCandidates = readJsonl('questions/intake-candidates.jsonl');
 const sourceClaims = readJsonl('lineage/source-claims.jsonl');
 const kpCandidates = readJsonl('lineage/knowledge-point-candidates.jsonl');
 
@@ -45,7 +46,7 @@ assert.equal(worklist.pixelWriteAllowed, false);
 assert.equal(worklist.activeQuestionCount, 0);
 assert.equal(worklist.acceptedSourceClaims, 0);
 assert.equal(worklist.acceptedKnowledgePoints, 0);
-assert.equal(intakeCandidatesText, '');
+assert.ok(Array.isArray(intakeCandidates));
 
 assert.equal(Array.isArray(worklist.workItems), true);
 assert.equal(worklist.workItems.length, 37);
@@ -94,6 +95,7 @@ for (const pattern of [
   /private-source:\/\//i
 ]) {
   assert.equal(pattern.test(serialized), false, `worklist must not contain ${pattern}`);
+  assert.equal(pattern.test(intakeCandidatesText), false, `intake candidates must not contain ${pattern}`);
 }
 
 console.log(
@@ -102,6 +104,7 @@ console.log(
       ok: true,
       workItems: worklist.workItems.length,
       plannedCandidateCount: planned,
+      questionCandidates: intakeCandidates.length,
       runtimeImportAllowed: worklist.runtimeImportAllowed,
       candidateGenerationAllowed: worklist.candidateGenerationAllowed,
       kvWriteAllowed: worklist.kvWriteAllowed,

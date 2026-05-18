@@ -53,6 +53,7 @@ const baseRequiredFiles = [
   'schemas/visual-source-atom.schema.json',
   'schemas/claim-table-row.schema.json',
   'schemas/atomic-knowledge-point.schema.json',
+  'schemas/question-intake-candidate.schema.json',
   'reports/validation/ocr-contract-summary.md',
   'reports/validation/page-boundary-conflicts.md',
   'reports/validation/ocr-agent-worklist.json',
@@ -73,6 +74,7 @@ const baseRequiredFiles = [
   'docs/ocr-agent-runbook.md',
   'scripts/build-question-intake-worklist.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-question-intake-candidates.mjs',
   'scripts/build-atomic-kp-worklist.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/build-source-claim-review-worklist.mjs',
@@ -91,6 +93,7 @@ const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/ho
 const scannerToolFiles = new Set([
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-question-intake-candidates.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/validate-page-record-review-worklist.mjs',
@@ -295,6 +298,8 @@ runValidator('scripts/validate-source-claim-review-decisions.mjs');
 runValidator('scripts/validate-source-atoms.mjs');
 runValidator('scripts/validate-atomic-kp-review-worklist.mjs');
 runValidator('scripts/validate-atomic-knowledge-points.mjs');
+runValidator('scripts/validate-question-intake-worklist.mjs');
+runValidator('scripts/validate-question-intake-candidates.mjs');
 const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));
 console.log(JSON.stringify({
   ok: errors.length === 0,

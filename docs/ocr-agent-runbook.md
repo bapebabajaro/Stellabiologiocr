@@ -51,6 +51,11 @@ For each usable page or section, build this chain in order:
 8. Only then promote atomic KnowledgePoint candidates.
    Atomic KPs must match one planned review slot, link to reviewed source atoms,
    include a QKL role and remain non-runtime/non-pixel.
+9. Only after `atomic_kp_review_ready`, add question candidates to
+   `questions/intake-candidates.jsonl`. Candidate rows must match
+   `schemas/question-intake-candidate.schema.json`, include candidate-local QKL
+   rows, and keep every runtime/import/generation/KV/safe-active/pixel/deploy
+   flag explicitly `false`.
 
 ## Local validation
 
@@ -61,6 +66,8 @@ node scripts/validate-page-record-review-decisions.mjs
 node scripts/validate-source-claim-review-decisions.mjs
 node scripts/validate-source-atoms.mjs
 node scripts/validate-atomic-knowledge-points.mjs
+node scripts/validate-question-intake-worklist.mjs
+node scripts/validate-question-intake-candidates.mjs
 node scripts/validate-ocr-contract.mjs
 ```
 
