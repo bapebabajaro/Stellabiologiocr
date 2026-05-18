@@ -130,7 +130,12 @@ const supportedConceptTerms = [
   { term: 'datainsamling', location: 'biologi-kap1-sec04' },
   { term: 'provyta', location: 'biologi-kap1-sec04' },
   { term: 'artbestämning', location: 'biologi-kap1-sec04' },
-  { term: 'jämförelse', location: 'biologi-kap1-sec04' }
+  { term: 'jämförelse', location: 'biologi-kap1-sec04' },
+  { term: 'energi', location: 'biologi-kap1-sec05' },
+  { term: 'material', location: 'biologi-kap1-sec05' },
+  { term: 'ekosystem', location: 'biologi-kap1-sec05' },
+  { term: 'biologiskt samband', location: 'biologi-kap1-sec05' },
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec05' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -264,6 +269,16 @@ if (questionCandidates.length > 0) {
                   ? { pattern: /artbestämning/, label: 'species identification' }
                   : /jämförelse/.test(primaryTagText)
                     ? { pattern: /jämförelse/, label: 'comparison' }
+                    : /energi/.test(primaryTagText)
+                      ? { pattern: /energi/, label: 'energy' }
+                      : /material/.test(primaryTagText)
+                        ? { pattern: /material/, label: 'material' }
+                        : /ekosystem/.test(primaryTagText)
+                          ? { pattern: /ekosystem/, label: 'ecosystem' }
+                          : /biologiskt samband/.test(primaryTagText)
+                            ? { pattern: /biologiskt samband/, label: 'biological relation' }
+                            : /biologisk funktion/.test(primaryTagText)
+                              ? { pattern: /biologisk funktion|funktion/, label: 'biological function' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)
