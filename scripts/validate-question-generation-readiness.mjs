@@ -143,7 +143,13 @@ const supportedConceptTerms = [
   { term: 'preparat', location: 'biologi-kap1-sec06' },
   { term: 'felkälla', location: 'biologi-kap1-sec06' },
   { term: 'biologiskt samband', location: 'biologi-kap1-sec06' },
-  { term: 'biologisk funktion', location: 'biologi-kap1-sec06' }
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec06' },
+  { term: 'anpassningar', location: 'biologi-kap1-sec07' },
+  { term: 'samspel', location: 'biologi-kap1-sec07' },
+  { term: 'andra', location: 'biologi-kap1-sec07' },
+  { term: 'organismer', location: 'biologi-kap1-sec07' },
+  { term: 'biologiskt samband', location: 'biologi-kap1-sec07' },
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec07' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -265,6 +271,7 @@ if (questionCandidates.length > 0) {
       const primaryTagText = (skillTags[0] ?? tagText).toLowerCase();
       const kpText = linkedKpText(candidate, atomicKpById);
       const isSec06 = candidateLocationText.includes('biologi-kap1-sec06');
+      const isSec07 = candidateLocationText.includes('biologi-kap1-sec07');
       const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
         ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
         : /fältundersökning/.test(primaryTagText)
@@ -301,6 +308,14 @@ if (questionCandidates.length > 0) {
                                         ? { pattern: /preparat/, label: 'specimen/preparation' }
                                         : isSec06 && /felkälla/.test(primaryTagText)
                                           ? { pattern: /felkälla/, label: 'source of error' }
+                                          : isSec07 && /anpassningar/.test(primaryTagText)
+                                            ? { pattern: /anpassningar/, label: 'adaptations' }
+                                            : isSec07 && /samspel/.test(primaryTagText)
+                                              ? { pattern: /samspel/, label: 'interaction' }
+                                              : isSec07 && /andra/.test(primaryTagText)
+                                                ? { pattern: /andra/, label: 'other organisms' }
+                                                : isSec07 && /organismer/.test(primaryTagText)
+                                                  ? { pattern: /organismer/, label: 'organisms' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)
