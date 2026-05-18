@@ -124,7 +124,13 @@ const supportedConceptTerms = [
   { term: 'livsmiljö', location: 'biologi-kap1-sec03' },
   { term: 'anpassning', location: 'biologi-kap1-sec03' },
   { term: 'hot mot mångfald', location: 'biologi-kap1-sec03' },
-  { term: 'bevarande', location: 'biologi-kap1-sec03' }
+  { term: 'bevarande', location: 'biologi-kap1-sec03' },
+  { term: 'fältundersökning', location: 'biologi-kap1-sec04' },
+  { term: 'fältobservation', location: 'biologi-kap1-sec04' },
+  { term: 'datainsamling', location: 'biologi-kap1-sec04' },
+  { term: 'provyta', location: 'biologi-kap1-sec04' },
+  { term: 'artbestämning', location: 'biologi-kap1-sec04' },
+  { term: 'jämförelse', location: 'biologi-kap1-sec04' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -246,6 +252,18 @@ if (questionCandidates.length > 0) {
       const kpText = linkedKpText(candidate, atomicKpById);
       const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
         ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
+        : /fältundersökning/.test(primaryTagText)
+          ? { pattern: /fältundersökning/, label: 'field investigation' }
+          : /fältobservation/.test(primaryTagText)
+            ? { pattern: /fältobservation|observation/, label: 'field observation' }
+            : /datainsamling/.test(primaryTagText)
+              ? { pattern: /datainsamling/, label: 'data collection' }
+              : /provyta/.test(primaryTagText)
+                ? { pattern: /provyta/, label: 'sample plot' }
+                : /artbestämning/.test(primaryTagText)
+                  ? { pattern: /artbestämning/, label: 'species identification' }
+                  : /jämförelse/.test(primaryTagText)
+                    ? { pattern: /jämförelse/, label: 'comparison' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)
