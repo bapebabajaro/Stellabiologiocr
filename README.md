@@ -12,7 +12,7 @@ Strukturell indexering av läroboken Stella Biologi för Albin Holmqvists person
 | Mapp | Innehåll |
 |---|---|
 | `sidkarta/` | Slutlig sidkarta (Markdown, CSV, JSON) — mappning boksida ↔ PDF-källa |
-| `page_renders/` | PDF-sidor renderade som PNG (lågupplöst för alla 360 sidor; högupplöst 200 DPI för K1–K2) |
+| `page_renders/` | PDF-sidor renderade som PNG. Lågupplöst för alla 360 sidor i `del-1/`, `del-2/`, `del-3/`. Högupplöst 200 DPI för K1–K2 (lösa filer) och K3–K6 (split tar-arkiv à 40 MB) |
 | `ocr_data/` | Rådata från Tesseract OCR (footer-zon, sidnummer + kapiteltext per sida) |
 | `scripts/` | Python-skript som användes för indexeringen |
 | `margin_samples/` | Marginalbilder från olika sidor för verifiering |
@@ -53,6 +53,24 @@ För varje sida dokumenteras endast följande fyra kategorier:
 4. **Frågor/övningar** — antal och typ (faktafråga, resonemangsfråga, laboration)
 
 Inga egna kopplingar, förklaringar eller tillägg.
+
+## Högupplösta sidbilder (200 DPI)
+
+| Kapitel | Sidor | Plats | Format |
+|---|---|---|---|
+| K1 EKOLOGI | 76 | `page_renders/kapitel-1-ekologi/` | Lösa PNG |
+| K2 MILJÖ | 66 | `page_renders/kapitel-2-miljo/` | Lösa PNG |
+| K3 MÄNNISKOKROPPEN | 66 | `page_renders/kapitel-3-manniskokroppen-hires/` | Split tar (4 delar) |
+| K4 LIV OCH HÄLSA | 58 | `page_renders/kapitel-4-liv-och-halsa-hires/` | Split tar (3 delar) |
+| K5 GENETIK | 63 | `page_renders/kapitel-5-genetik-hires/` | Split tar (3 delar) |
+| K6 EVOLUTION | 38 | `page_renders/kapitel-6-evolution-hires/` | Split tar (3 delar) |
+
+För att packa upp split tar-arkiv:
+
+```bash
+cd page_renders/kapitel-3-manniskokroppen-hires/
+cat kapitel-3-hires.tar.part* | tar -xf -
+```
 
 ## Commits per kapitel (Fas 2)
 
