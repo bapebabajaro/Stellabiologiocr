@@ -89,6 +89,10 @@ const workItems = sectionPlaceholders.map((candidate, index) => {
     candidateGenerationAllowed: false,
     runtimeImportAllowed: false,
     pixelEligible: false,
+    pixelBindingAllowed: false,
+    kvWriteAllowed: false,
+    importApplyAllowed: false,
+    safeActiveWriteAllowed: false,
     blocker: 'blocked_until_source_claims_are_accepted_and_page_records_reviewed',
     reviewerInputsRequired: [
       'accepted SourceClaim evidence_ref',
@@ -136,6 +140,9 @@ const worklist = {
   runtimeImportAllowed: false,
   candidateGenerationAllowed: false,
   pixelBindingAllowed: false,
+  kvWriteAllowed: false,
+  importApplyAllowed: false,
+  safeActiveWriteAllowed: false,
   status: 'blocked_planning_only',
   distributionPolicy:
     'Atomic KP quotas reserve review capacity. They do not authorize runtime KnowledgePoints, questions or pixel bindings.',
@@ -194,7 +201,10 @@ console.log(
       plannedAtomicKnowledgePointCount,
       runtimeImportAllowed: false,
       candidateGenerationAllowed: false,
-      pixelBindingAllowed: false
+      pixelBindingAllowed: false,
+      kvWriteAllowed: false,
+      importApplyAllowed: false,
+      safeActiveWriteAllowed: false
     },
     null,
     2

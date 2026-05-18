@@ -77,7 +77,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec02",
@@ -131,7 +135,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec03",
@@ -185,7 +193,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec04",
@@ -239,7 +251,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec05",
@@ -293,7 +309,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec06",
@@ -347,7 +367,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec07",
@@ -401,7 +425,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec08",
@@ -455,7 +483,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec01",
@@ -509,7 +541,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec02",
@@ -563,7 +599,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec03",
@@ -617,7 +657,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec04",
@@ -671,7 +715,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec05",
@@ -725,7 +773,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec06",
@@ -779,7 +831,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec01",
@@ -833,7 +889,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec02",
@@ -887,7 +947,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec03",
@@ -941,7 +1005,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec04",
@@ -995,7 +1063,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec05",
@@ -1049,7 +1121,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec06",
@@ -1103,7 +1179,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec07",
@@ -1157,7 +1237,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec01",
@@ -1211,7 +1295,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec02",
@@ -1265,7 +1353,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec03",
@@ -1319,7 +1411,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec04",
@@ -1373,7 +1469,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec05",
@@ -1427,7 +1527,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec06",
@@ -1481,7 +1585,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec01",
@@ -1535,7 +1643,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec02",
@@ -1589,7 +1701,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec03",
@@ -1643,7 +1759,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec04",
@@ -1697,7 +1817,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec05",
@@ -1751,7 +1875,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec06",
@@ -1805,7 +1933,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec01",
@@ -1859,7 +1991,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec02",
@@ -1913,7 +2049,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec03",
@@ -1967,7 +2107,11 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec04",
@@ -2021,7 +2165,14 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      }
+      },
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false
     }
-  ]
+  ],
+  "kvWriteAllowed": false,
+  "importApplyAllowed": false,
+  "safeActiveWriteAllowed": false
 }

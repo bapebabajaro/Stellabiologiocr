@@ -44,6 +44,9 @@ assert.equal(reviewWorklist.acceptedAtomicKnowledgePoints, 0);
 assert.equal(reviewWorklist.runtimeImportAllowed, false);
 assert.equal(reviewWorklist.candidateGenerationAllowed, false);
 assert.equal(reviewWorklist.pixelBindingAllowed, false);
+assert.equal(reviewWorklist.kvWriteAllowed, false);
+assert.equal(reviewWorklist.importApplyAllowed, false);
+assert.equal(reviewWorklist.safeActiveWriteAllowed, false);
 assert.equal(reviewWorklist.status, 'blocked_review_worklist_only');
 assert.equal(sourceAtoms.length, 0);
 assert.equal(atomicKps.length, 0);
@@ -60,6 +63,9 @@ for (const item of reviewWorklist.reviewItems) {
   assert.equal(item.runtimeImportAllowed, false);
   assert.equal(item.candidateGenerationAllowed, false);
   assert.equal(item.pixelBindingAllowed, false);
+  assert.equal(item.kvWriteAllowed, false);
+  assert.equal(item.importApplyAllowed, false);
+  assert.equal(item.safeActiveWriteAllowed, false);
   assert.equal(seenIds.has(item.id), false, `duplicate atomic KP review item id ${item.id}`);
   seenIds.add(item.id);
 
@@ -102,5 +108,8 @@ console.log(JSON.stringify({
   ok: true,
   reviewItems: reviewWorklist.reviewItemCount,
   plannedAtomicKnowledgePointCount: reviewWorklist.plannedAtomicKnowledgePointCount,
-  runtimeImportAllowed: reviewWorklist.runtimeImportAllowed
+  runtimeImportAllowed: reviewWorklist.runtimeImportAllowed,
+  kvWriteAllowed: reviewWorklist.kvWriteAllowed,
+  importApplyAllowed: reviewWorklist.importApplyAllowed,
+  safeActiveWriteAllowed: reviewWorklist.safeActiveWriteAllowed
 }, null, 2));
