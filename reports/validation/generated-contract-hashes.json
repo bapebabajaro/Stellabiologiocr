@@ -115,7 +115,7 @@
     },
     {
       "rel": "questions/intake-candidates.jsonl",
-      "sha256": "8a1c0d4f55ac67e2d94ccaaf1b642b1f1b03e431865089f08bcb400b2940cffa"
+      "sha256": "7d042245b98677fe5eb5d5fe0733eff627fb89df6d7b7c34fbd02b346e968155"
     },
     {
       "rel": "questions/intake-contract.json",
@@ -171,15 +171,15 @@
     },
     {
       "rel": "reports/validation/question-generation-readiness.json",
-      "sha256": "5dd6e6206a7d5f14afe1e5e767756f8d1aa49841b432112134faa1d4f34c1943"
+      "sha256": "5a62c22edf531d5bb4a2cd0d1201d5e9e4c41c5c5b4c2fc84366c775f7f6ec52"
     },
     {
       "rel": "scripts/build-question-candidate-batch.mjs",
-      "sha256": "e8818ba9650f345e1e7794f4b5f6adb57b8f5e869a871d407de22d0bd368e1da"
+      "sha256": "98404cdc420effe2b79889f00e4c2063a0e1fd8ca532ad1e31ef956d7a8f92c8"
     },
     {
       "rel": "scripts/validate-question-generation-readiness.mjs",
-      "sha256": "714e864e01ce949ffb1d98124904a966e0cec1fe22bc3279f55b986e288ce5a6"
+      "sha256": "180ff094ab2a9ecc8c4758755dbedc536ffb664b7da127ce7e45da0a8b8a62e1"
     }
   ]
 }
