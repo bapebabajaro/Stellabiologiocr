@@ -48,8 +48,6 @@ assert.equal(reviewWorklist.kvWriteAllowed, false);
 assert.equal(reviewWorklist.importApplyAllowed, false);
 assert.equal(reviewWorklist.safeActiveWriteAllowed, false);
 assert.equal(reviewWorklist.status, 'blocked_review_worklist_only');
-assert.equal(sourceAtoms.length, 0);
-assert.equal(atomicKps.length, 0);
 assert.equal(reviewDecisions.length, 0);
 
 const seenIds = new Set();

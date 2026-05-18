@@ -81,6 +81,7 @@ const baseRequiredFiles = [
   'scripts/validate-page-record-review-decisions.mjs',
   'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
+  'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
@@ -96,6 +97,7 @@ const scannerToolFiles = new Set([
   'scripts/validate-page-record-review-decisions.mjs',
   'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
+  'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
@@ -245,7 +247,6 @@ if (errors.length === 0 && book) {
   if (physicalPageRecords.length === 0) errors.push('physical page records must be generated');
   if (evidenceRefs.length !== physicalPageRecords.length) errors.push('evidence-ref count must match physical page records');
   if (bookLocationPageLinks.length !== pageRecordReviewWorklist.pageRecordCount) errors.push('BookLocation page link count must match page record count');
-  if (atomicKnowledgePoints.length !== 0) errors.push('atomic KnowledgePoints ledger must remain empty in this handoff');
   if (atomicKpReviewDecisions.length !== 0) errors.push('atomic KP review decisions must remain empty in this handoff');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
   if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
@@ -292,6 +293,8 @@ if (errors.length === 0 && book) {
 runValidator('scripts/validate-page-record-review-decisions.mjs');
 runValidator('scripts/validate-source-claim-review-decisions.mjs');
 runValidator('scripts/validate-source-atoms.mjs');
+runValidator('scripts/validate-atomic-kp-review-worklist.mjs');
+runValidator('scripts/validate-atomic-knowledge-points.mjs');
 const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));
 console.log(JSON.stringify({
   ok: errors.length === 0,

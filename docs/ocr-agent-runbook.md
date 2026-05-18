@@ -49,6 +49,8 @@ For each usable page or section, build this chain in order:
    public-safe neutral summaries only and require complete non-runtime
    SourceClaim review first.
 8. Only then promote atomic KnowledgePoint candidates.
+   Atomic KPs must match one planned review slot, link to reviewed source atoms,
+   include a QKL role and remain non-runtime/non-pixel.
 
 ## Local validation
 
@@ -58,6 +60,7 @@ Run these after adding page/source review decisions:
 node scripts/validate-page-record-review-decisions.mjs
 node scripts/validate-source-claim-review-decisions.mjs
 node scripts/validate-source-atoms.mjs
+node scripts/validate-atomic-knowledge-points.mjs
 node scripts/validate-ocr-contract.mjs
 ```
 
