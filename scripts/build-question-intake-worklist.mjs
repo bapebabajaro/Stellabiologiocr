@@ -65,6 +65,10 @@ const workItems = sectionPlaceholders.map((candidate, index) => {
     plannedCandidateQuota: baseQuota + (index < remainder ? 1 : 0),
     candidateGenerationAllowed: false,
     runtimeImportAllowed: false,
+    kvWriteAllowed: false,
+    importApplyAllowed: false,
+    safeActiveWriteAllowed: false,
+    pixelWriteAllowed: false,
     blocker: 'blocked_until_source_claims_and_atomic_knowledge_points_are_accepted',
     requiredBeforeUnlock: [
       'accepted SourceClaims with reviewed evidence_ref',
@@ -90,6 +94,10 @@ const worklist = {
   workItemCount: workItems.length,
   runtimeImportAllowed: false,
   candidateGenerationAllowed: false,
+  kvWriteAllowed: false,
+  importApplyAllowed: false,
+  safeActiveWriteAllowed: false,
+  pixelWriteAllowed: false,
   activeQuestionCount: 0,
   acceptedSourceClaims: 0,
   acceptedKnowledgePoints: 0,
@@ -178,7 +186,11 @@ console.log(
       targetCandidateCount,
       plannedCandidateCount,
       runtimeImportAllowed: false,
-      candidateGenerationAllowed: false
+      candidateGenerationAllowed: false,
+      kvWriteAllowed: false,
+      importApplyAllowed: false,
+      safeActiveWriteAllowed: false,
+      pixelWriteAllowed: false
     },
     null,
     2

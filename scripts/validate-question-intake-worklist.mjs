@@ -38,6 +38,10 @@ assert.equal(worklist.targetCandidateCount, 1200);
 assert.equal(worklist.plannedCandidateCount, 1200);
 assert.equal(worklist.runtimeImportAllowed, false);
 assert.equal(worklist.candidateGenerationAllowed, false);
+assert.equal(worklist.kvWriteAllowed, false);
+assert.equal(worklist.importApplyAllowed, false);
+assert.equal(worklist.safeActiveWriteAllowed, false);
+assert.equal(worklist.pixelWriteAllowed, false);
 assert.equal(worklist.activeQuestionCount, 0);
 assert.equal(worklist.acceptedSourceClaims, 0);
 assert.equal(worklist.acceptedKnowledgePoints, 0);
@@ -54,6 +58,10 @@ for (const item of worklist.workItems) {
   assert.equal(item.bookEditionId, bookEditionId);
   assert.equal(item.candidateGenerationAllowed, false);
   assert.equal(item.runtimeImportAllowed, false);
+  assert.equal(item.kvWriteAllowed, false);
+  assert.equal(item.importApplyAllowed, false);
+  assert.equal(item.safeActiveWriteAllowed, false);
+  assert.equal(item.pixelWriteAllowed, false);
   assert.equal(item.blocker, 'blocked_until_source_claims_and_atomic_knowledge_points_are_accepted');
   assert.equal(ids.has(item.id), false, `${item.id} must be unique`);
   ids.add(item.id);
@@ -95,7 +103,11 @@ console.log(
       workItems: worklist.workItems.length,
       plannedCandidateCount: planned,
       runtimeImportAllowed: worklist.runtimeImportAllowed,
-      candidateGenerationAllowed: worklist.candidateGenerationAllowed
+      candidateGenerationAllowed: worklist.candidateGenerationAllowed,
+      kvWriteAllowed: worklist.kvWriteAllowed,
+      importApplyAllowed: worklist.importApplyAllowed,
+      safeActiveWriteAllowed: worklist.safeActiveWriteAllowed,
+      pixelWriteAllowed: worklist.pixelWriteAllowed
     },
     null,
     2
