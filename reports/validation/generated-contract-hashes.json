@@ -95,7 +95,7 @@
     },
     {
       "rel": "lineage/source-atoms.jsonl",
-      "sha256": "2c94bfd854bfbed1143d8f5cd842958783ea041b85e2e6ca69247abad97f0ebe"
+      "sha256": "2eaa5d19b80b3347129e530d658d3e5215d3c30a5aadf2fb88a9f879690f2f4a"
     },
     {
       "rel": "lineage/visual-source-atoms.jsonl",
@@ -107,7 +107,7 @@
     },
     {
       "rel": "lineage/atomic-knowledge-points.jsonl",
-      "sha256": "8dae14c3135f7fffc1fd33becc885e25beea08f3648d9885fec47808132ba8d3"
+      "sha256": "d0f846bb412125e83db17321b0556a5fce68e5a94f547431621ca6b1463101d4"
     },
     {
       "rel": "lineage/atomic-kp-review-decisions.jsonl",
@@ -115,7 +115,7 @@
     },
     {
       "rel": "questions/intake-candidates.jsonl",
-      "sha256": "5756dc907bbf0275790dae8135fb5c3f76a28a79938654b53cb3a3e5f8761c59"
+      "sha256": "cca34bd71b9d2a0c68ac430884af6694b0482330a04177c290d5795c9d705acc"
     },
     {
       "rel": "questions/intake-contract.json",
@@ -167,19 +167,19 @@
     },
     {
       "rel": "scripts/build-reviewed-kp-seeds.mjs",
-      "sha256": "d1e2fcf1829595c2046f96f32c5912b2cb21bce97754b7978feaf0e64f82940c"
+      "sha256": "4cc02ad1c6b84f6b7f62593fd1c4f0416d48947ae80d124dcc176ba92f3a59a1"
     },
     {
       "rel": "reports/validation/question-generation-readiness.json",
-      "sha256": "c378ccbd12db8c7ca3e1ca3fb120d410dd9a78b6af6cd08dfe849bd71c6e8fdf"
+      "sha256": "1b2264776ea0fd6f653c0d16e5e8073a592a0daab1b120eea5832c69ac5be6af"
     },
     {
       "rel": "scripts/build-question-candidate-batch.mjs",
-      "sha256": "a4c304f9a69d660c30bfb2eda2e5f539e0b1fbf98f78b9e8fb0fb92b0c527b6c"
+      "sha256": "a85720992e9e586ce3145bd252a0071072102a7c7c685719e9a757f608020f8d"
     },
     {
       "rel": "scripts/validate-question-generation-readiness.mjs",
-      "sha256": "94adae1e0f0e0ec8bb0a24a511cf69cc72e434f5dd0b347eb456b199ea87ff39"
+      "sha256": "161a8b7d4845bbc11f9a30d835b7b7e38b58c1381e7cb54393cc604082e5c44b"
     }
   ]
 }

@@ -184,20 +184,52 @@ function pagesForLocation(byChapter, location) {
 
 function sectionConcepts(rows, fallbackTitle) {
   const concepts = rows.flatMap((row) => row.begrepp);
+  const topicConcepts = conceptsForTitle(fallbackTitle);
   const titleTerms = fallbackTitle
     .replace(/[.,:;!?()/-]/g, ' ')
     .split(/\s+/)
     .map((part) => part.trim().toLowerCase())
     .filter((part) => part.length >= 5 && !stopWords.has(part));
-  const investigationTerms = /undersökning|fält|mikroskop|förstoring/i.test(fallbackTitle)
+  const investigationTerms = /mikroskop|förstoring/i.test(fallbackTitle)
     ? ['observation', 'metod', 'preparat', 'förstoring', 'felkälla']
+    : /undersökning|fält/i.test(fallbackTitle)
+      ? ['fältobservation', 'metod', 'datainsamling', 'provyta', 'artbestämning', 'felkälla']
     : [];
-  const enriched = [...concepts, ...titleTerms, ...investigationTerms, 'biologiskt samband', 'biologisk funktion'];
+  const enriched = [...topicConcepts, ...concepts, ...titleTerms, ...investigationTerms, 'biologiskt samband', 'biologisk funktion'];
   return enriched
     .map((concept) => normalizeConcept(concept.replace(/\s+/g, ' ').trim()))
     .filter((concept) => concept.length >= 5 && concept.length <= 44 && !stopWords.has(concept.toLowerCase()))
     .filter((concept, index, all) => all.findIndex((item) => item.toLowerCase() === concept.toLowerCase()) === index)
     .slice(0, 16);
+}
+
+function conceptsForTitle(title) {
+  const lower = title.toLowerCase();
+  if (/jordens biologiska mångfald/.test(lower)) {
+    return [
+      'biologisk mångfald',
+      'artmångfald',
+      'ekosystem',
+      'genetisk variation',
+      'livsmiljö',
+      'anpassning',
+      'hot mot mångfald',
+      'bevarande'
+    ];
+  }
+  if (/fältundersökning/.test(lower)) {
+    return [
+      'fältundersökning',
+      'fältobservation',
+      'datainsamling',
+      'provyta',
+      'artbestämning',
+      'felkälla',
+      'jämförelse',
+      'metod'
+    ];
+  }
+  return [];
 }
 
 function normalizeConcept(value) {
@@ -214,8 +246,10 @@ function topicText(title) {
 
 function makeAtomText(location, concepts) {
   const title = topicText(location.title);
-  const picked = concepts.filter((concept) => concept.toLowerCase() !== title).slice(0, 3);
-  const core = picked.length >= 3
+  const picked = concepts.filter((concept) => concept.toLowerCase() !== title).slice(0, 8);
+  const core = picked.length >= 4
+    ? `Knyter ${title} till ${picked.slice(0, -1).join(', ')} och ${picked.at(-1)}.`
+    : picked.length >= 3
     ? `Knyter ${title} till ${picked[0]}, ${picked[1]} och ${picked[2]}.`
     : picked.length === 2
       ? `Knyter ${title} till ${picked[0]} och ${picked[1]}.`

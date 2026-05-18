@@ -113,9 +113,21 @@ const weakQuestionPatterns = [
   { pattern: /\binte består av celler\b/i, message: 'distractor risks a broad factual error' }
 ];
 
-const supportedConceptTerms = ['kloroplast', 'fotosyntes', 'cellvägg'];
+const supportedConceptTerms = [
+  { term: 'kloroplast' },
+  { term: 'fotosyntes' },
+  { term: 'cellvägg' },
+  { term: 'biologisk mångfald', location: 'biologi-kap1-sec03' },
+  { term: 'artmångfald', location: 'biologi-kap1-sec03' },
+  { term: 'ekosystem', location: 'biologi-kap1-sec03' },
+  { term: 'genetisk variation', location: 'biologi-kap1-sec03' },
+  { term: 'livsmiljö', location: 'biologi-kap1-sec03' },
+  { term: 'anpassning', location: 'biologi-kap1-sec03' },
+  { term: 'hot mot mångfald', location: 'biologi-kap1-sec03' },
+  { term: 'bevarande', location: 'biologi-kap1-sec03' }
+];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
-const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg)\b/i;
+const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
 const absurdWrongOptionPattern = /\b(levande igen|celler byter art|tar bort behovet av|påverkas aldrig av belysning|innehåller alltid fler arter)\b/i;
 
 for (const [label, rows] of [
@@ -228,8 +240,26 @@ if (questionCandidates.length > 0) {
         ...(Array.isArray(candidate.abilityTags) ? candidate.abilityTags.map(text) : []),
         ...(Array.isArray(candidate.techniqueTags) ? candidate.techniqueTags.map(text) : [])
       ].join(' ').toLowerCase();
+      const skillTags = Array.isArray(candidate.skillTags) ? candidate.skillTags.map(text).filter(Boolean) : [];
+      const tagText = skillTags.join(' ').toLowerCase();
+      const primaryTagText = (skillTags[0] ?? tagText).toLowerCase();
       const kpText = linkedKpText(candidate, atomicKpById);
-      const expectation = /funktion|struktur|biologiskt samband/.test(semanticText) && /metodkritik|försiktigt|metodiskt|osäkerhet/.test(semanticText)
+      const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
+        ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
+        : /artmångfald|arter/.test(primaryTagText)
+          ? { pattern: /artmångfald/, label: 'species diversity' }
+          : /ekosystem/.test(primaryTagText)
+            ? { pattern: /ekosystem/, label: 'ecosystem' }
+            : /genetisk variation/.test(primaryTagText)
+              ? { pattern: /genetisk variation/, label: 'genetic variation' }
+              : /livsmiljö|habitat/.test(primaryTagText)
+                ? { pattern: /livsmiljö/, label: 'habitat' }
+                : /anpassning/.test(primaryTagText)
+                  ? { pattern: /anpassning/, label: 'adaptation' }
+                  : /hot mot mångfald|bevarande/.test(primaryTagText)
+                    ? { pattern: /hot mot mångfald|bevarande/, label: 'threats to diversity' }
+                    : null;
+      const expectation = conceptExpectation ?? (/funktion|struktur|biologiskt samband/.test(semanticText) && /metodkritik|försiktigt|metodiskt|osäkerhet/.test(semanticText)
         ? { pattern: /biologiskt samband|felkälla|observation/, label: 'methodical function interpretation' }
         : /funktion|struktur|biologiskt samband/.test(semanticText)
         ? { pattern: /biologiskt samband|funktion|struktur/, label: 'biological function/structure' }
@@ -241,7 +271,7 @@ if (questionCandidates.length > 0) {
             ? { pattern: /modell|metod|observation/, label: 'method/documentation' }
           : /förstoring|synfält|skala/.test(semanticText)
             ? { pattern: /förstoring/, label: 'magnification/scale' }
-            : null;
+            : null);
       if (expectation && !expectation.pattern.test(kpText)) {
         addIssue(issues, 'question-quality', candidate.id, `primary QKL does not match ${expectation.label} semantics`);
       }
@@ -254,8 +284,13 @@ if (questionCandidates.length > 0) {
       .map((id) => text(sourceAtomById.get(id)?.atomText))
       .filter(Boolean)
       .join(' ');
-    for (const term of supportedConceptTerms) {
-      if (new RegExp(`\\b${term}\\b`, 'i').test(candidateText) && !new RegExp(`\\b${term}\\b`, 'i').test(linkedSourceText)) {
+    const candidateLocationText = (Array.isArray(candidate.bookLocationIds) ? candidate.bookLocationIds : []).join(' ').toLowerCase();
+    const candidateTextLower = candidateText.toLowerCase();
+    const linkedSourceTextLower = linkedSourceText.toLowerCase();
+    for (const check of supportedConceptTerms) {
+      const term = check.term.toLowerCase();
+      if (check.location && !candidateLocationText.includes(check.location)) continue;
+      if (candidateTextLower.includes(term) && !linkedSourceTextLower.includes(term)) {
         addIssue(issues, 'question-quality', candidate.id, `candidate uses ${term} without matching reviewed source atom support`);
       }
     }
