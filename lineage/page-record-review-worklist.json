@@ -12,6 +12,9 @@
   "runtimePromotionAllowed": false,
   "candidateGenerationAllowed": false,
   "pixelBindingAllowed": false,
+  "kvWriteAllowed": false,
+  "importApplyAllowed": false,
+  "safeActiveWriteAllowed": false,
   "status": "blocked_review_worklist_only",
   "fatalGates": [
     "no page record acceptance from this generator",
@@ -278,6 +281,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -303,12 +311,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
@@ -369,6 +372,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -394,12 +402,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
@@ -436,6 +439,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -461,12 +469,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
@@ -545,6 +548,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -570,12 +578,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
@@ -612,6 +615,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -637,12 +645,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
@@ -727,6 +730,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -752,12 +760,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
@@ -794,6 +797,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -819,12 +827,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
@@ -891,6 +894,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -916,12 +924,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
@@ -970,6 +973,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -995,12 +1003,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2",
@@ -1229,6 +1232,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1254,12 +1262,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
@@ -1308,6 +1311,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1333,12 +1341,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
@@ -1417,6 +1420,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1442,12 +1450,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
@@ -1514,6 +1517,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1539,12 +1547,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
@@ -1599,6 +1602,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1624,12 +1632,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
@@ -1684,6 +1687,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1709,12 +1717,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
@@ -1781,6 +1784,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1806,12 +1814,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3",
@@ -2034,6 +2037,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2060,12 +2068,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
@@ -2126,6 +2129,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2152,12 +2160,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
@@ -2212,6 +2215,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2238,12 +2246,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
@@ -2298,6 +2301,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2324,12 +2332,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
@@ -2402,6 +2405,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2428,12 +2436,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
@@ -2485,6 +2488,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2511,12 +2519,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
@@ -2568,6 +2571,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2594,12 +2602,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
@@ -2654,6 +2657,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2680,12 +2688,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4",
@@ -2884,6 +2887,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2910,12 +2918,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
@@ -2970,6 +2973,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2996,12 +3004,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
@@ -3062,6 +3065,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3088,12 +3096,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
@@ -3154,6 +3157,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3180,12 +3188,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
@@ -3246,6 +3249,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3272,12 +3280,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
@@ -3332,6 +3335,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3358,12 +3366,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
@@ -3424,6 +3427,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3450,12 +3458,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5",
@@ -3666,6 +3669,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3692,12 +3700,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
@@ -3764,6 +3767,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3790,12 +3798,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
@@ -3868,6 +3871,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3894,12 +3902,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
@@ -3960,6 +3963,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3986,12 +3994,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
@@ -4040,6 +4043,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4066,12 +4074,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
@@ -4132,6 +4135,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4158,12 +4166,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
@@ -4212,6 +4215,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4238,12 +4246,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6",
@@ -4388,6 +4391,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4414,12 +4422,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
@@ -4486,6 +4489,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4512,12 +4520,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
@@ -4566,6 +4569,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4592,12 +4600,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
@@ -4649,6 +4652,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4675,12 +4683,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
@@ -4744,6 +4747,11 @@
       "reviewStatus": "pending_review",
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4770,15 +4778,7 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ],
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      ]
     }
-  ],
-  "safeActiveWriteAllowed": false,
-  "kvWriteAllowed": false,
-  "importApplyAllowed": false
+  ]
 }

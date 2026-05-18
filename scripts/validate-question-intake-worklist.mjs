@@ -44,8 +44,8 @@ assert.equal(worklist.importApplyAllowed, false);
 assert.equal(worklist.safeActiveWriteAllowed, false);
 assert.equal(worklist.pixelWriteAllowed, false);
 assert.equal(worklist.activeQuestionCount, 0);
-assert.equal(worklist.acceptedSourceClaims, 0);
-assert.equal(worklist.acceptedKnowledgePoints, 0);
+assert.equal(worklist.reviewedNonRuntimeSourceClaims, 0);
+assert.equal(worklist.reviewedAtomicKnowledgePoints, 0);
 assert.ok(Array.isArray(intakeCandidates));
 
 assert.equal(Array.isArray(worklist.workItems), true);
@@ -63,7 +63,11 @@ for (const item of worklist.workItems) {
   assert.equal(item.importApplyAllowed, false);
   assert.equal(item.safeActiveWriteAllowed, false);
   assert.equal(item.pixelWriteAllowed, false);
-  assert.equal(item.blocker, 'blocked_until_source_claims_and_atomic_knowledge_points_are_accepted');
+  assert.equal(item.blocker, 'blocked_until_source_claims_atomic_kps_and_atomic_kp_review_decisions_are_ready');
+  assert.ok(
+    item.requiredBeforeUnlock.includes('atomic KP review decision linked to the same review slot'),
+    `${item.id}: must require atomic KP review decision before unlock`
+  );
   assert.equal(ids.has(item.id), false, `${item.id} must be unique`);
   ids.add(item.id);
   planned += item.plannedCandidateQuota;

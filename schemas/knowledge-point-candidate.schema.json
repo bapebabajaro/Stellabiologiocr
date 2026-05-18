@@ -28,7 +28,7 @@
     "sectionId": { "type": "string" },
     "label": { "type": "string", "maxLength": 120 },
     "candidateKind": { "const": "section_placeholder" },
-    "status": { "const": "blocked_until_source_claims_accepted" },
+    "status": { "const": "blocked_until_source_claims_reviewed_not_runtime" },
     "pixelEligible": { "const": false },
     "sourceClaimIds": {
       "type": "array",

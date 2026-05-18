@@ -40,7 +40,7 @@ assert.equal(reviewWorklist.sourceWorkItemCount, sourceWorklist.workItemCount);
 assert.equal(reviewWorklist.plannedAtomicKnowledgePointCount, sourceWorklist.plannedAtomicKnowledgePointCount);
 assert.equal(reviewWorklist.reviewItemCount, reviewWorklist.reviewItems.length);
 assert.equal(reviewWorklist.reviewItemCount, 240);
-assert.equal(reviewWorklist.acceptedAtomicKnowledgePoints, 0);
+assert.equal(reviewWorklist.reviewedAtomicKnowledgePoints, 0);
 assert.equal(reviewWorklist.runtimeImportAllowed, false);
 assert.equal(reviewWorklist.candidateGenerationAllowed, false);
 assert.equal(reviewWorklist.pixelBindingAllowed, false);
@@ -48,7 +48,6 @@ assert.equal(reviewWorklist.kvWriteAllowed, false);
 assert.equal(reviewWorklist.importApplyAllowed, false);
 assert.equal(reviewWorklist.safeActiveWriteAllowed, false);
 assert.equal(reviewWorklist.status, 'blocked_review_worklist_only');
-assert.equal(reviewDecisions.length, 0);
 
 const seenIds = new Set();
 const actualSlotsBySection = new Map();
@@ -105,6 +104,7 @@ for (const pattern of [/C:\\/i, /C:\//i, /rawOcrText/i, /rawOcrExcerpt/i, /stude
 console.log(JSON.stringify({
   ok: true,
   reviewItems: reviewWorklist.reviewItemCount,
+  reviewDecisions: reviewDecisions.length,
   plannedAtomicKnowledgePointCount: reviewWorklist.plannedAtomicKnowledgePointCount,
   runtimeImportAllowed: reviewWorklist.runtimeImportAllowed,
   kvWriteAllowed: reviewWorklist.kvWriteAllowed,

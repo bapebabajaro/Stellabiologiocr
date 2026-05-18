@@ -7,11 +7,11 @@
   "files": [
     {
       "rel": "manifest/book-edition.json",
-      "sha256": "4740d4e83e23e23c1fdca5adc45296fda04c4e2ed42b5dead09c80482b00ba5a"
+      "sha256": "fa48503b18a1c8f685d35d9ef7430c1d18eced78ea22404890c9e389794eb566"
     },
     {
       "rel": "manifest/toc.json",
-      "sha256": "3ceac22568aca5758120f01affce12dbff2fb7240d7faa19134d3f8fa632f219"
+      "sha256": "9c3234decde8faca49d2604e4e51bc53a90442ef0abb1c8b0ee4a17035335f1d"
     },
     {
       "rel": "manifest/source-policy.json",
@@ -39,27 +39,27 @@
     },
     {
       "rel": "lineage/source-claims.jsonl",
-      "sha256": "5493217d562b32ed19347dd235dcea3ee6e7763a939dc813b8887036765bcbfc"
+      "sha256": "fda9bfbc62f7925f58b633e4c5b48c6f61d204744bf1c4c0d8bc944cd7239e94"
     },
     {
       "rel": "lineage/knowledge-point-candidates.jsonl",
-      "sha256": "935cb4d4864606604ce93f425acaeb5a9defcdb59706a4f1e16c9e4d17db64c0"
+      "sha256": "c20eef41959a1764fff423d707ac4b3628e28d86007310c4a946f704a3daa9cc"
     },
     {
       "rel": "lineage/atomic-knowledge-point-worklist.json",
-      "sha256": "3a4e20f554dbb4497b1fdd7b61bf50b212c9581afe8cfd0dd725c190abc82bef"
+      "sha256": "1be4c9c6a59d58ad595d0ce4b499a0dba34edeaa48aee9f478d30cbf968a4081"
     },
     {
       "rel": "lineage/source-claim-review-worklist.json",
-      "sha256": "e0db12f4b5ef177c2e4d9645012079877f5d769c6455bf4234895d06ea293dc3"
+      "sha256": "ad7820628ef52fcd32865850695cd909cf5c55561236888be894a8d0d34181e6"
     },
     {
       "rel": "lineage/page-record-review-worklist.json",
-      "sha256": "81906b1231ce2f3c1852db0bd06507a3429f92405b7e0209841cd96c0d437ede"
+      "sha256": "a29a68351c8b860ada1b265ba2cd4406aa7414f4ad0ef81b289c60fee086f8ee"
     },
     {
       "rel": "lineage/atomic-kp-review-worklist.json",
-      "sha256": "eb00726b07c0112e23bdf115aa41920190d6f28e29c3ff00fa2e2b2ab8213fad"
+      "sha256": "3574e81c481240f96b7efde7d40eac93d3903e8be2c9640ed98d277e7492cf87"
     },
     {
       "rel": "lineage/page-records.jsonl",
@@ -119,11 +119,11 @@
     },
     {
       "rel": "questions/intake-contract.json",
-      "sha256": "a451f21397531c3ec2b3124603dd578d0f5bce2ae143caf60aec997e45f39f2e"
+      "sha256": "c43a4b5d21fdb74c4234e76b081725d07bbc0f32f8ede7b06f377ce46c309bcf"
     },
     {
       "rel": "questions/intake-worklist.json",
-      "sha256": "f6674a2ad7083d361c6688f157bea28268158ca9593dd2322f517024ba0e134a"
+      "sha256": "e925f1d7b7660b008a6d7ce76ee81b1421f652923d8ef11980dea29c24756c06"
     },
     {
       "rel": "assets/pixel-briefs/pixel-brief-template.json",
@@ -147,11 +147,11 @@
     },
     {
       "rel": "schemas/source-atom.schema.json",
-      "sha256": "b1aa86f26ed8868913e72886f062d97118d069e6abfeeb3273a7c7a07e149484"
+      "sha256": "f07584d8f996f58946ce4857885950117b9b92c41f5e117d751a348ece04fe76"
     },
     {
       "rel": "schemas/visual-source-atom.schema.json",
-      "sha256": "277cc73e011daeab4d7cebe976c0b40355f6f8f56d345c5fd012a38cb00fb5bf"
+      "sha256": "3c88dc2078b60561caf17751d59ef13a2108d5a8027a7b0857699c9f0b55d212"
     },
     {
       "rel": "schemas/claim-table-row.schema.json",
@@ -159,7 +159,7 @@
     },
     {
       "rel": "schemas/atomic-knowledge-point.schema.json",
-      "sha256": "c78eec7d82899faf817274b7580ca8a0daa61d0bdd8656e7a9754ab253ef9bf9"
+      "sha256": "36beff399a5c214cbf2a28ca2d87b952db31ff13e024bdf9c5e2546ec8ddae66"
     }
   ]
 }

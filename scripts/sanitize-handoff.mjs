@@ -56,6 +56,8 @@ const included = [
   'schemas/visual-source-atom.schema.json',
   'schemas/claim-table-row.schema.json',
   'schemas/atomic-knowledge-point.schema.json',
+  'schemas/atomic-kp-review-decision.schema.json',
+  'schemas/question-intake-candidate.schema.json',
   'reports/validation/ocr-contract-summary.md',
   'reports/validation/page-boundary-conflicts.md',
   'reports/validation/ocr-agent-worklist.json',
@@ -80,11 +82,16 @@ const included = [
   'scripts/build-source-claim-review-worklist.mjs',
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-question-intake-candidates.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/validate-page-record-review-worklist.mjs',
+  'scripts/validate-page-record-review-decisions.mjs',
+  'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
+  'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
+  'scripts/validate-atomic-kp-review-decisions.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 
@@ -93,11 +100,16 @@ const leakPatterns = [/C:\\/i, /C:\//i, /\bOneDrive\b/i, /\bSkrivbord\b/i, /\/ho
 const scannerToolFiles = new Set([
   'scripts/validate-ocr-contract.mjs',
   'scripts/validate-question-intake-worklist.mjs',
+  'scripts/validate-question-intake-candidates.mjs',
   'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/validate-page-record-review-worklist.mjs',
+  'scripts/validate-page-record-review-decisions.mjs',
+  'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
+  'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
+  'scripts/validate-atomic-kp-review-decisions.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
 const errors = [];

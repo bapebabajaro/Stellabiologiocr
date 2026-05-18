@@ -69,10 +69,11 @@ const workItems = sectionPlaceholders.map((candidate, index) => {
     importApplyAllowed: false,
     safeActiveWriteAllowed: false,
     pixelWriteAllowed: false,
-    blocker: 'blocked_until_source_claims_and_atomic_knowledge_points_are_accepted',
+    blocker: 'blocked_until_source_claims_atomic_kps_and_atomic_kp_review_decisions_are_ready',
     requiredBeforeUnlock: [
-      'accepted SourceClaims with reviewed evidence_ref',
+      'reviewed_not_runtime SourceClaims with reviewed evidence_ref',
       'section placeholder split into atomic KnowledgePoints',
+      'atomic KP review decision linked to the same review slot',
       'student-facing copy written without textbook copying',
       'four answer options with one correct option',
       'distractor rationale for every wrong option',
@@ -99,14 +100,15 @@ const worklist = {
   safeActiveWriteAllowed: false,
   pixelWriteAllowed: false,
   activeQuestionCount: 0,
-  acceptedSourceClaims: 0,
-  acceptedKnowledgePoints: 0,
+  reviewedNonRuntimeSourceClaims: 0,
+  reviewedAtomicKnowledgePoints: 0,
   status: 'blocked_planning_only',
   distributionPolicy:
     '1200 is a future candidate target only. Quotas reserve review capacity per section placeholder; they do not authorize generation.',
   fatalGates: [
-    'no accepted SourceClaims',
+    'no reviewed_not_runtime SourceClaims',
     'no atomic KnowledgePoints',
+    'no atomic KP review decisions',
     'no QuestionKnowledgeLinks',
     'no public sanitized question copy',
     'no safe-active metadata',
@@ -137,12 +139,12 @@ const worklist = {
     solution: 'short public-safe explanation',
     publicSanitizedSourceSummary: 'short non-copied source grounding',
     bookLocationIds: ['BookLocation id'],
-    sourceClaimIds: ['accepted SourceClaim id'],
-    knowledgePointIds: ['accepted atomic KnowledgePoint id'],
+    sourceClaimIds: ['reviewed_not_runtime SourceClaim id'],
+    knowledgePointIds: ['reviewed atomic KnowledgePoint id'],
     questionKnowledgeLinks: [
       {
         questionId: 'same as id',
-        knowledgePointId: 'accepted atomic KnowledgePoint id',
+        knowledgePointId: 'reviewed atomic KnowledgePoint id',
         linkType: 'primary | supporting',
         weight: '0-1'
       }
@@ -181,27 +183,47 @@ candidate is generated or runtime-eligible.
 | Target future candidates | ${targetCandidateCount} |
 | Planned candidate quota | ${plannedCandidateCount} |
 | Work items | ${workItems.length} |
-| Accepted SourceClaims | 0 |
-| Accepted atomic KnowledgePoints | 0 |
+| Reviewed non-runtime SourceClaims | 0 |
+| Reviewed atomic KnowledgePoints | 0 |
 | Active questions | 0 |
 
 ## Why blocked
 
-- SourceClaims are structure-only and not accepted runtime evidence.
+- SourceClaims are structure-only and not reviewed_not_runtime evidence yet.
 - KnowledgePoint candidates are section placeholders, not atomic KnowledgePoints.
 - questions/intake-candidates.jsonl may only be populated after
-  atomic_kp_review_ready.
+  atomic_kp_review_decisions_ready.
 - No QKL, safe-active metadata, import apply or KV write is allowed.
+
+## Candidate gate now in place
+
+scripts/validate-question-intake-candidates.mjs is the OCR-side validator for
+future rows in questions/intake-candidates.jsonl. It allows the file to stay
+empty in the current handoff, but if any candidate exists it requires:
+
+- complete atomic_kp_review_ready lineage,
+- complete atomic_kp_review_decisions_ready review decisions,
+- one BookLocation-backed work item per candidate,
+- reviewed non-runtime SourceClaim, source_atom and atomic KnowledgePoint
+  references,
+- exactly four answer options and one distractor rationale for each wrong
+  option,
+- candidate-local QKL rows,
+- Kemi-compatible runtime projection fields,
+- every runtime/import/generation/KV/safe-active/pixel/deploy flag set to
+  false.
 
 ## Next input for the question agent
 
 1. Resolve page-boundary blockers.
-2. Accept reviewed SourceClaims.
+2. Review SourceClaims as reviewed_not_runtime; do not production-accept them.
 3. Split section placeholders into atomic KnowledgePoints.
-4. Run scripts/validate-question-intake-candidates.mjs before and after adding
+4. Review each atomic KP with lineage/atomic-kp-review-decisions.jsonl.
+5. Run scripts/validate-question-intake-candidates.mjs before and after adding
    candidate rows.
-5. Generate candidate questions from accepted atomic KPs only.
-6. Validate answer grounding, QKL, distractor rationales, uniqueness and public
+6. Manually author sanitized candidate questions from reviewed atomic KPs only;
+   candidateGenerationAllowed remains false for runtime or automated generation.
+7. Validate answer grounding, QKL, distractor rationales, uniqueness and public
    copy.
 `
 );

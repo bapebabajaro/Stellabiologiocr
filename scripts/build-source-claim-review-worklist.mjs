@@ -185,6 +185,11 @@ const reviewItems = sourceClaims.map((claim) => {
     currentRuntimeEligible: claim.runtimeEligible === true,
     acceptanceAllowedByThisWorklist: false,
     runtimePromotionAllowed: false,
+    candidateGenerationAllowed: false,
+    pixelBindingAllowed: false,
+    kvWriteAllowed: false,
+    importApplyAllowed: false,
+    safeActiveWriteAllowed: false,
     allowedDecisionValues,
     requiredReviewerInputs: [
       'page_record_review',
@@ -247,6 +252,11 @@ const pageRecordReviewItems = bookLocations.map((location) => {
     reviewStatus: 'pending_review',
     acceptanceAllowedByThisWorklist: false,
     runtimePromotionAllowed: false,
+    candidateGenerationAllowed: false,
+    pixelBindingAllowed: false,
+    kvWriteAllowed: false,
+    importApplyAllowed: false,
+    safeActiveWriteAllowed: false,
     allowedDecisionValues,
     requiredReviewerInputs: [
       'confirm page span belongs to this BookLocation',
@@ -284,12 +294,15 @@ const worklist = {
   physicalPageRecordCount: physicalPageRecords.length,
   sourceEvidenceCount: sourceEvidence.length,
   reviewItemCount: reviewItems.length,
-  acceptedSourceClaims: sourceClaims.filter((claim) => claim.reviewStatus === 'accepted').length,
+  reviewedNonRuntimeSourceClaims: sourceClaims.filter((claim) => claim.reviewStatus === 'reviewed_not_runtime').length,
   runtimeEligibleSourceClaims: sourceClaims.filter((claim) => claim.runtimeEligible === true).length,
   acceptanceAllowedByThisWorklist: false,
   runtimePromotionAllowed: false,
   candidateGenerationAllowed: false,
   pixelBindingAllowed: false,
+  kvWriteAllowed: false,
+  importApplyAllowed: false,
+  safeActiveWriteAllowed: false,
   status: 'blocked_review_worklist_only',
   fatalGates: [
     'no SourceClaim acceptance from this generator',
@@ -316,6 +329,9 @@ const pageRecordWorklist = {
   runtimePromotionAllowed: false,
   candidateGenerationAllowed: false,
   pixelBindingAllowed: false,
+  kvWriteAllowed: false,
+  importApplyAllowed: false,
+  safeActiveWriteAllowed: false,
   status: 'blocked_review_worklist_only',
   fatalGates: [
     'no page record acceptance from this generator',
@@ -348,8 +364,11 @@ const atomicKpReviewItems = atomicKpSourceWorklist.workItems.flatMap((item) => {
       runtimeImportAllowed: false,
       candidateGenerationAllowed: false,
       pixelBindingAllowed: false,
+      kvWriteAllowed: false,
+      importApplyAllowed: false,
+      safeActiveWriteAllowed: false,
       requiredReviewerInputs: [
-        'accepted_or_reviewed_not_runtime SourceClaim decision',
+        'reviewed_not_runtime SourceClaim decision',
         'neutral source_atom row',
         'visual_source_atom when figures/models/tables matter',
         'narrow measurable student goal',
@@ -373,7 +392,7 @@ const atomicKpReviewItems = atomicKpSourceWorklist.workItems.flatMap((item) => {
         pixelEligible: false
       },
       fatalBeforeAcceptance: [
-        'no accepted SourceClaims',
+        'no reviewed_not_runtime SourceClaims',
         'no reviewed source_atom records',
         'no public-safe student goal',
         'no QKL',
@@ -393,10 +412,13 @@ const atomicKpReviewWorklist = {
   sourceWorkItemCount: atomicKpSourceWorklist.workItemCount,
   plannedAtomicKnowledgePointCount: atomicKpSourceWorklist.plannedAtomicKnowledgePointCount,
   reviewItemCount: atomicKpReviewItems.length,
-  acceptedAtomicKnowledgePoints: 0,
+  reviewedAtomicKnowledgePoints: 0,
   runtimeImportAllowed: false,
   candidateGenerationAllowed: false,
   pixelBindingAllowed: false,
+  kvWriteAllowed: false,
+  importApplyAllowed: false,
+  safeActiveWriteAllowed: false,
   status: 'blocked_review_worklist_only',
   fatalGates: [
     'no SourceClaim review decisions',
@@ -438,15 +460,18 @@ Status: \`blocked_review_worklist_only\`
 | Physical page records | ${worklist.physicalPageRecordCount} |
 | Source evidence rows | ${worklist.sourceEvidenceCount} |
 | Review items | ${worklist.reviewItemCount} |
-| Accepted SourceClaims | ${worklist.acceptedSourceClaims} |
+| Reviewed non-runtime SourceClaims | ${worklist.reviewedNonRuntimeSourceClaims} |
 | Runtime-eligible SourceClaims | ${worklist.runtimeEligibleSourceClaims} |
 
-This worklist prepares human or agent review. It does not accept claims,
-promote runtime evidence, generate questions, create pixel bindings, write KV or
-apply imports.
+This worklist prepares human or agent review. It does not accept claims for
+production, promote runtime evidence, generate questions, create pixel bindings,
+write KV or apply imports.
 
 Each SourceClaim review item requires page_record review, evidence_ref review,
-neutral source_atom, optional visual_source_atom, claim_table row and leak check.
+boundary resolution when needed and leak check. After a SourceClaim has a
+\`reviewed_not_runtime\` decision, the next lineage step may create neutral
+\`source_atom\`, optional \`visual_source_atom\` and \`claim_table\` rows. Those rows
+are still public-safe, non-runtime review artifacts, not production evidence.
 Boundary-linked items remain blocked for runtime until reviewed page records
 resolve the boundary decision.
 
@@ -494,8 +519,8 @@ The tracked atom ledgers are intentionally empty:
 - \`lineage/source-claim-review-decisions.jsonl\`
 
 Atoms must be neutral, public-safe, reviewer-authored summaries linked to
-accepted locator evidence. They must not contain raw OCR, long textbook quotes,
-student data, KV data or absolute local paths.
+reviewed non-runtime locator evidence. They must not contain raw OCR, long
+textbook quotes, student data, KV data or absolute local paths.
 `,
 );
 writeMd(
@@ -511,7 +536,7 @@ Status: \`blocked_review_worklist_only\`
 | Section work items | ${atomicKpReviewWorklist.sourceWorkItemCount} |
 | Planned atomic KP slots | ${atomicKpReviewWorklist.plannedAtomicKnowledgePointCount} |
 | Review items | ${atomicKpReviewWorklist.reviewItemCount} |
-| Accepted atomic KPs | 0 |
+| Reviewed atomic KPs | 0 |
 
 The review worklist expands the planning quota into individual atomic KP slots.
 It still blocks runtime import, question generation and pixel binding until
@@ -574,6 +599,6 @@ console.log(JSON.stringify({
   reviewItems: worklist.reviewItemCount,
   pageRecordReviewItems: pageRecordWorklist.reviewItemCount,
   atomicKpReviewItems: atomicKpReviewWorklist.reviewItemCount,
-  acceptedSourceClaims: worklist.acceptedSourceClaims,
+  reviewedNonRuntimeSourceClaims: worklist.reviewedNonRuntimeSourceClaims,
   runtimePromotionAllowed: worklist.runtimePromotionAllowed
 }, null, 2));

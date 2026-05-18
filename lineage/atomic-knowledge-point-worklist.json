@@ -8,15 +8,18 @@
   "targetAtomicKnowledgePoints": 240,
   "plannedAtomicKnowledgePointCount": 240,
   "workItemCount": 37,
-  "acceptedSourceClaims": 0,
-  "acceptedAtomicKnowledgePoints": 0,
+  "reviewedNonRuntimeSourceClaims": 0,
+  "reviewedAtomicKnowledgePoints": 0,
   "runtimeImportAllowed": false,
   "candidateGenerationAllowed": false,
   "pixelBindingAllowed": false,
+  "kvWriteAllowed": false,
+  "importApplyAllowed": false,
+  "safeActiveWriteAllowed": false,
   "status": "blocked_planning_only",
   "distributionPolicy": "Atomic KP quotas reserve review capacity. They do not authorize runtime KnowledgePoints, questions or pixel bindings.",
   "fatalGates": [
-    "no accepted SourceClaims",
+    "no reviewed_not_runtime SourceClaims",
     "no reviewed source_atom records",
     "no atomic KnowledgePoints",
     "no QKL",
@@ -44,9 +47,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -60,13 +67,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -77,11 +84,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec02",
@@ -102,9 +105,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -118,13 +125,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -135,11 +142,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec03",
@@ -160,9 +163,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -176,13 +183,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -193,11 +200,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec04",
@@ -218,9 +221,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -234,13 +241,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -251,11 +258,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec05",
@@ -276,9 +279,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -292,13 +299,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -309,11 +316,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec06",
@@ -334,9 +337,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -350,13 +357,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -367,11 +374,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec07",
@@ -392,9 +395,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -408,13 +415,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -425,11 +432,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap1-sec08",
@@ -450,9 +453,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -466,13 +473,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -483,11 +490,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec01",
@@ -508,9 +511,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -524,13 +531,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -541,11 +548,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec02",
@@ -566,9 +569,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -582,13 +589,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -599,11 +606,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec03",
@@ -624,9 +627,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -640,13 +647,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -657,11 +664,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec04",
@@ -682,9 +685,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -698,13 +705,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -715,11 +722,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec05",
@@ -740,9 +743,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -756,13 +763,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -773,11 +780,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap2-sec06",
@@ -798,9 +801,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -814,13 +821,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -831,11 +838,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec01",
@@ -856,9 +859,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -872,13 +879,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -889,11 +896,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec02",
@@ -914,9 +917,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -930,13 +937,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -947,11 +954,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec03",
@@ -972,9 +975,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -988,13 +995,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1005,11 +1012,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec04",
@@ -1030,9 +1033,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1046,13 +1053,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1063,11 +1070,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec05",
@@ -1088,9 +1091,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1104,13 +1111,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1121,11 +1128,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec06",
@@ -1146,9 +1149,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1162,13 +1169,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1179,11 +1186,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap3-sec07",
@@ -1204,9 +1207,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1220,13 +1227,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1237,11 +1244,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec01",
@@ -1262,9 +1265,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1278,13 +1285,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1295,11 +1302,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec02",
@@ -1320,9 +1323,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1336,13 +1343,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1353,11 +1360,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec03",
@@ -1378,9 +1381,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1394,13 +1401,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1411,11 +1418,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec04",
@@ -1436,9 +1439,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1452,13 +1459,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1469,11 +1476,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec05",
@@ -1494,9 +1497,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1510,13 +1517,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1527,11 +1534,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap4-sec06",
@@ -1552,9 +1555,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1568,13 +1575,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1585,11 +1592,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec01",
@@ -1610,9 +1613,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1626,13 +1633,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1643,11 +1650,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec02",
@@ -1668,9 +1671,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1684,13 +1691,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1701,11 +1708,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec03",
@@ -1726,9 +1729,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1742,13 +1749,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1759,11 +1766,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec04",
@@ -1784,9 +1787,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1800,13 +1807,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1817,11 +1824,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec05",
@@ -1842,9 +1845,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1858,13 +1865,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1875,11 +1882,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap5-sec06",
@@ -1900,9 +1903,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1916,13 +1923,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1933,11 +1940,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec01",
@@ -1958,9 +1961,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -1974,13 +1981,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -1991,11 +1998,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec02",
@@ -2016,9 +2019,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -2032,13 +2039,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -2049,11 +2056,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec03",
@@ -2074,9 +2077,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -2090,13 +2097,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -2107,11 +2114,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     },
     {
       "id": "atomic-kp-workitem-biologi-kap6-sec04",
@@ -2132,9 +2135,13 @@
       "candidateGenerationAllowed": false,
       "runtimeImportAllowed": false,
       "pixelEligible": false,
-      "blocker": "blocked_until_source_claims_are_accepted_and_page_records_reviewed",
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "blocker": "blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed",
       "reviewerInputsRequired": [
-        "accepted SourceClaim evidence_ref",
+        "reviewed_not_runtime SourceClaim evidence_ref",
         "neutral source_atom summary",
         "visual_source_atom when figures or models matter",
         "claim_table row for each atom",
@@ -2148,13 +2155,13 @@
         "subject": "biologi",
         "bookEditionId": "bookedition-stella-biologi-ocr-v1",
         "bookLocationIds": [
-          "accepted BookLocation id"
+          "reviewed BookLocation id"
         ],
         "sourceClaimIds": [
-          "accepted SourceClaim id"
+          "reviewed_not_runtime SourceClaim id"
         ],
         "sourceAtomIds": [
-          "accepted source_atom id"
+          "reviewed source_atom id"
         ],
         "label": "short public-safe Swedish label",
         "studentGoal": "what the student should be able to do, not copied text",
@@ -2165,14 +2172,7 @@
         ],
         "pixelEligible": false,
         "reviewStatus": "candidate_review_required"
-      },
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false,
-      "safeActiveWriteAllowed": false
+      }
     }
-  ],
-  "kvWriteAllowed": false,
-  "importApplyAllowed": false,
-  "safeActiveWriteAllowed": false
+  ]
 }

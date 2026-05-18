@@ -53,6 +53,7 @@ const baseRequiredFiles = [
   'schemas/visual-source-atom.schema.json',
   'schemas/claim-table-row.schema.json',
   'schemas/atomic-knowledge-point.schema.json',
+  'schemas/atomic-kp-review-decision.schema.json',
   'schemas/question-intake-candidate.schema.json',
   'reports/validation/ocr-contract-summary.md',
   'reports/validation/page-boundary-conflicts.md',
@@ -85,6 +86,7 @@ const baseRequiredFiles = [
   'scripts/validate-source-atoms.mjs',
   'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
+  'scripts/validate-atomic-kp-review-decisions.mjs',
   'scripts/sanitize-handoff.mjs'
 ];
 const errors = [];
@@ -102,6 +104,7 @@ const scannerToolFiles = new Set([
   'scripts/validate-source-atoms.mjs',
   'scripts/validate-atomic-knowledge-points.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
+  'scripts/validate-atomic-kp-review-decisions.mjs',
   'scripts/sanitize-handoff.mjs'
 ]);
 const privateArtifactDirs = new Set(['page_renders', 'ocr_data', 'margin_samples', 'private-source-local']);
@@ -250,7 +253,6 @@ if (errors.length === 0 && book) {
   if (physicalPageRecords.length === 0) errors.push('physical page records must be generated');
   if (evidenceRefs.length !== physicalPageRecords.length) errors.push('evidence-ref count must match physical page records');
   if (bookLocationPageLinks.length !== pageRecordReviewWorklist.pageRecordCount) errors.push('BookLocation page link count must match page record count');
-  if (atomicKpReviewDecisions.length !== 0) errors.push('atomic KP review decisions must remain empty in this handoff');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
   if (worklist.runtimeActivationAllowed !== false) errors.push('OCR worklist must block runtime activation');
   if (!Array.isArray(toc.chapters) || toc.chapters.length === 0) errors.push('toc has no chapters');
@@ -280,7 +282,7 @@ if (errors.length === 0 && book) {
     if (!locationIds.has(claim.bookLocationId)) errors.push(`SourceClaim references missing BookLocation: ${claim.id}`);
     if (!Array.isArray(claim.evidenceRefIds) || claim.evidenceRefIds.length === 0) errors.push(`SourceClaim lacks evidenceRefIds: ${claim.id}`);
     for (const evidenceRefId of claim.evidenceRefIds ?? []) if (!evidenceRefIds.has(evidenceRefId)) errors.push(`SourceClaim references missing evidence-ref: ${claim.id} -> ${evidenceRefId}`);
-    if (claim.reviewStatus === 'accepted' && (!Array.isArray(claim.evidenceRefs) || claim.evidenceRefs.length === 0)) errors.push(`accepted SourceClaim lacks evidenceRefs: ${claim.id}`);
+    if (claim.reviewStatus === 'accepted' && (!Array.isArray(claim.evidenceRefs) || claim.evidenceRefs.length === 0)) errors.push(`SourceClaim with reviewStatus accepted lacks evidenceRefs: ${claim.id}`);
     if (claim.runtimeEligible === true && claim.reviewStatus !== 'accepted') errors.push(`runtime-eligible claim is not accepted: ${claim.id}`);
     if (locationById.get(claim.bookLocationId)?.status === 'public_sample' && (claim.reviewStatus === 'accepted' || claim.runtimeEligible === true)) errors.push(`public_sample SourceClaim cannot be accepted/runtime: ${claim.id}`);
   }
@@ -298,6 +300,7 @@ runValidator('scripts/validate-source-claim-review-decisions.mjs');
 runValidator('scripts/validate-source-atoms.mjs');
 runValidator('scripts/validate-atomic-kp-review-worklist.mjs');
 runValidator('scripts/validate-atomic-knowledge-points.mjs');
+runValidator('scripts/validate-atomic-kp-review-decisions.mjs');
 runValidator('scripts/validate-question-intake-worklist.mjs');
 runValidator('scripts/validate-question-intake-candidates.mjs');
 const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));

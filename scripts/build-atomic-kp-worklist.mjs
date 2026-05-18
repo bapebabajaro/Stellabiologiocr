@@ -93,9 +93,9 @@ const workItems = sectionPlaceholders.map((candidate, index) => {
     kvWriteAllowed: false,
     importApplyAllowed: false,
     safeActiveWriteAllowed: false,
-    blocker: 'blocked_until_source_claims_are_accepted_and_page_records_reviewed',
+    blocker: 'blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed',
     reviewerInputsRequired: [
-      'accepted SourceClaim evidence_ref',
+      'reviewed_not_runtime SourceClaim evidence_ref',
       'neutral source_atom summary',
       'visual_source_atom when figures or models matter',
       'claim_table row for each atom',
@@ -108,9 +108,9 @@ const workItems = sectionPlaceholders.map((candidate, index) => {
       schemaVersion: 'knowledge-point-v1',
       subject,
       bookEditionId,
-      bookLocationIds: ['accepted BookLocation id'],
-      sourceClaimIds: ['accepted SourceClaim id'],
-      sourceAtomIds: ['accepted source_atom id'],
+      bookLocationIds: ['reviewed BookLocation id'],
+      sourceClaimIds: ['reviewed_not_runtime SourceClaim id'],
+      sourceAtomIds: ['reviewed source_atom id'],
       label: 'short public-safe Swedish label',
       studentGoal: 'what the student should be able to do, not copied text',
       assessmentModes: ['mcq', 'short_reasoning', 'visual_interpretation'],
@@ -135,8 +135,8 @@ const worklist = {
   targetAtomicKnowledgePoints,
   plannedAtomicKnowledgePointCount,
   workItemCount: workItems.length,
-  acceptedSourceClaims: sourceClaims.filter((claim) => claim.reviewStatus === 'accepted').length,
-  acceptedAtomicKnowledgePoints: 0,
+  reviewedNonRuntimeSourceClaims: sourceClaims.filter((claim) => claim.reviewStatus === 'reviewed_not_runtime').length,
+  reviewedAtomicKnowledgePoints: 0,
   runtimeImportAllowed: false,
   candidateGenerationAllowed: false,
   pixelBindingAllowed: false,
@@ -147,7 +147,7 @@ const worklist = {
   distributionPolicy:
     'Atomic KP quotas reserve review capacity. They do not authorize runtime KnowledgePoints, questions or pixel bindings.',
   fatalGates: [
-    'no accepted SourceClaims',
+    'no reviewed_not_runtime SourceClaims',
     'no reviewed source_atom records',
     'no atomic KnowledgePoints',
     'no QKL',
@@ -173,22 +173,22 @@ Status: blocked planning only.
 | Target questions per atomic KP | ${targetQuestionsPerAtomicKp} |
 | Planned atomic KPs | ${plannedAtomicKnowledgePointCount} |
 | Work items | ${workItems.length} |
-| Accepted SourceClaims | ${worklist.acceptedSourceClaims} |
-| Accepted atomic KPs | 0 |
+| Reviewed non-runtime SourceClaims | ${worklist.reviewedNonRuntimeSourceClaims} |
+| Reviewed atomic KPs | 0 |
 
 ## Why blocked
 
 - Current KP candidates are section placeholders only.
-- SourceClaims are structure/index references, not accepted runtime evidence.
-- Page records and source atoms are still pending reviewer acceptance.
+- SourceClaims are structure/index references, not reviewed_not_runtime evidence yet.
+- Page records and source atoms are still pending non-runtime review.
 - Pixel bindings and question generation remain forbidden.
 
 ## Reviewer handoff
 
 Each work item says how many atomic KPs the OCR/content reviewer should derive
-from that section after accepted evidence exists. Every atom must be narrow,
-measurable, public-safe and linked back to accepted SourceClaims. The next
-question batch must consume only accepted atomic KPs.
+from that section after reviewed_not_runtime evidence exists. Every atom must be narrow,
+measurable, public-safe and linked back to reviewed_not_runtime SourceClaims.
+The next question batch must consume only reviewed atomic KPs.
 `
 );
 

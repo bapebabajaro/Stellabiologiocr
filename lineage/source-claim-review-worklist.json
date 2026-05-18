@@ -9,12 +9,15 @@
   "physicalPageRecordCount": 360,
   "sourceEvidenceCount": 43,
   "reviewItemCount": 43,
-  "acceptedSourceClaims": 0,
+  "reviewedNonRuntimeSourceClaims": 0,
   "runtimeEligibleSourceClaims": 0,
   "acceptanceAllowedByThisWorklist": false,
   "runtimePromotionAllowed": false,
   "candidateGenerationAllowed": false,
   "pixelBindingAllowed": false,
+  "kvWriteAllowed": false,
+  "importApplyAllowed": false,
+  "safeActiveWriteAllowed": false,
   "status": "blocked_review_worklist_only",
   "fatalGates": [
     "no SourceClaim acceptance from this generator",
@@ -284,6 +287,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -317,12 +325,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
@@ -385,6 +388,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -418,12 +426,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
@@ -462,6 +465,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -495,12 +503,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
@@ -581,6 +584,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -614,12 +622,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
@@ -658,6 +661,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -691,12 +699,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
@@ -783,6 +786,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -816,12 +824,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
@@ -860,6 +863,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -893,12 +901,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
@@ -967,6 +970,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1000,12 +1008,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
@@ -1056,6 +1059,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1089,12 +1097,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2",
@@ -1325,6 +1328,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1358,12 +1366,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
@@ -1414,6 +1417,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1447,12 +1455,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
@@ -1533,6 +1536,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1566,12 +1574,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
@@ -1640,6 +1643,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1673,12 +1681,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
@@ -1735,6 +1738,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1768,12 +1776,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
@@ -1830,6 +1833,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1863,12 +1871,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
@@ -1937,6 +1940,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -1970,12 +1978,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Review locator evidence and create neutral source_atom without textbook copying."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3",
@@ -2200,6 +2203,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2234,12 +2242,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
@@ -2302,6 +2305,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2336,12 +2344,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
@@ -2398,6 +2401,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2432,12 +2440,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
@@ -2494,6 +2497,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2528,12 +2536,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
@@ -2608,6 +2611,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2642,12 +2650,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
@@ -2701,6 +2704,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2735,12 +2743,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
@@ -2794,6 +2797,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2828,12 +2836,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
@@ -2890,6 +2893,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -2924,12 +2932,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4",
@@ -3130,6 +3133,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3164,12 +3172,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
@@ -3226,6 +3229,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3260,12 +3268,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
@@ -3328,6 +3331,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3362,12 +3370,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
@@ -3430,6 +3433,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3464,12 +3472,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
@@ -3532,6 +3535,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3566,12 +3574,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
@@ -3628,6 +3631,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3662,12 +3670,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
@@ -3730,6 +3733,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -3764,12 +3772,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5",
@@ -3982,6 +3985,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4016,12 +4024,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
@@ -4090,6 +4093,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4124,12 +4132,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
@@ -4204,6 +4207,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4238,12 +4246,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
@@ -4306,6 +4309,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4340,12 +4348,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
@@ -4396,6 +4399,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4430,12 +4438,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
@@ -4498,6 +4501,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4532,12 +4540,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
@@ -4588,6 +4591,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4622,12 +4630,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6",
@@ -4774,6 +4777,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4808,12 +4816,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
@@ -4882,6 +4885,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -4916,12 +4924,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
@@ -4972,6 +4975,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -5006,12 +5014,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
@@ -5065,6 +5068,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -5099,12 +5107,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     },
     {
       "id": "source-claim-review-sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
@@ -5170,6 +5173,11 @@
       "currentRuntimeEligible": false,
       "acceptanceAllowedByThisWorklist": false,
       "runtimePromotionAllowed": false,
+      "candidateGenerationAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false,
+      "safeActiveWriteAllowed": false,
       "allowedDecisionValues": [
         "reviewed_not_runtime",
         "request_fix",
@@ -5204,15 +5212,7 @@
         "no_textbook_quote_allowed_in_public_student_copy",
         "no_runtime_promotion_without_new_release_data_order"
       ],
-      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion.",
-      "candidateGenerationAllowed": false,
-      "safeActiveWriteAllowed": false,
-      "pixelBindingAllowed": false,
-      "kvWriteAllowed": false,
-      "importApplyAllowed": false
+      "nextNonRuntimeStep": "Resolve boundary decision from reviewed page records before runtime promotion."
     }
-  ],
-  "safeActiveWriteAllowed": false,
-  "kvWriteAllowed": false,
-  "importApplyAllowed": false
+  ]
 }

@@ -259,7 +259,7 @@ const toc = {
   blockers: [
     'K3/K4 page boundary conflict between sidkarta/README and indexering files.',
     'K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.',
-    'Tracked handoff public-safety is resolved; runtime content remains blocked until accepted evidence exists.',
+    'Tracked handoff public-safety is resolved; runtime content remains blocked until reviewed_not_runtime evidence exists.',
     'No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed.'
   ]
 };
@@ -331,7 +331,7 @@ function toSourceClaim(chapter, subchapter, locationKind) {
     evidenceRefs: evidenceRefsFor(chapter.chapterNo, pageSpan),
     evidenceRefIds: evidenceRefIdsFor(chapter.chapterNo, pageSpan),
     runtimeEligible: false,
-    blocker: 'Structure-only claim; not accepted runtime evidence.'
+    blocker: 'Structure-only claim; not reviewed_not_runtime evidence yet.'
   };
 }
 
@@ -346,7 +346,7 @@ function toKpCandidate(chapter, subchapter, sourceClaimId) {
     sectionId: subchapter.sectionId,
     label: subchapter.title,
     candidateKind: 'section_placeholder',
-    status: 'blocked_until_source_claims_accepted',
+    status: 'blocked_until_source_claims_reviewed_not_runtime',
     pixelEligible: false,
     sourceClaimIds: [sourceClaimId],
     notes: 'Placeholder for OCR agent handoff only. Must be split into atomic KnowledgePoints before runtime.'
@@ -523,8 +523,8 @@ writeJson('reports/validation/ocr-agent-worklist.json', {
     'Resolve K3/K4 and K5/K6 page boundary conflicts from accepted page records.',
     'Split section placeholders into atomic KnowledgePoint candidates.',
     'Attach reviewed source_atom and visual_source_atom evidence without raw OCR excerpts.',
-    'Only after accepted SourceClaims: generate public question candidates and QKL.',
-    'Only after accepted KPs/QKL: create pixel bindings and pixel briefs.'
+    'Only after reviewed_not_runtime SourceClaims and atomic KP decisions: manually author public question candidates and QKL.',
+    'Only after reviewed KPs/QKL and separate visual gates: create pixel bindings and pixel briefs.'
   ],
   blockers: toc.blockers
 });
@@ -541,7 +541,7 @@ This lineage package is a non-runtime contract for the current OCR index state.
 - KnowledgePoint candidates are section placeholders only.
 - Page records and source evidence contain locators, not raw OCR text or page images.
 
-Runtime activation remains blocked until accepted SourceClaims, atomic KnowledgePoints, QKL, safe-active question metadata, pixel bindings and five-reviewer visual PASS exist.
+Runtime activation remains blocked until reviewed_not_runtime SourceClaims, reviewed atomic KnowledgePoints, QKL, safe-active question metadata, pixel bindings and five-reviewer visual PASS exist.
 `, 'utf8');
 
 writeFileSync(join(root, 'reports/validation/rotation-readiness.md'), `# Rotation readiness - Stella Biologi
@@ -556,8 +556,8 @@ Not ready for runtime:
 
 - tracked handoff public-safety is resolved, but runtime content remains pending;
 - boundary conflicts remain for K3/K4 and K5/K6;
-- no accepted SourceClaims exist;
-- no atomic accepted KnowledgePoints exist;
+- no reviewed_not_runtime SourceClaims exist;
+- no reviewed atomic KnowledgePoints exist;
 - no safe-active questions, QKL or pixel bindings exist.
 `, 'utf8');
 
@@ -636,9 +636,9 @@ No pixel image or live visual asset may be produced from this repo yet.
 3. Accept SourceClaims.
 4. Promote atomic KnowledgePoints.
 5. Build QKL and sanitized public question copy.
-6. Build pixel bindings from accepted KPs.
+6. Build pixel bindings from reviewed KPs.
 7. Create pixel briefs.
-8. Generate candidate images.
+8. Generate candidate images only after the visual review gate opens.
 9. Run the five-reviewer protocol.
 10. Only after PASS, create a PPF runtime handoff.
 
@@ -693,7 +693,9 @@ const generatedHashInputs = [
   'schemas/source-atom.schema.json',
   'schemas/visual-source-atom.schema.json',
   'schemas/claim-table-row.schema.json',
-  'schemas/atomic-knowledge-point.schema.json'
+  'schemas/atomic-knowledge-point.schema.json',
+  'schemas/atomic-kp-review-decision.schema.json',
+  'schemas/question-intake-candidate.schema.json'
 ].filter((rel) => {
   try {
     readFileSync(join(root, rel));

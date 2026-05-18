@@ -20,9 +20,9 @@ No pixel image or live visual asset may be produced from this repo yet.
 3. Accept SourceClaims.
 4. Promote atomic KnowledgePoints.
 5. Build QKL and sanitized public question copy.
-6. Build pixel bindings from accepted KPs.
+6. Build pixel bindings from reviewed KPs.
 7. Create pixel briefs.
-8. Generate candidate images.
+8. Generate candidate images only after the visual review gate opens.
 9. Run the five-reviewer protocol.
 10. Only after PASS, create a PPF runtime handoff.
 

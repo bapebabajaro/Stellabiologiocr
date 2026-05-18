@@ -3,7 +3,7 @@
   "generatedAt": "2026-05-17",
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
-  "intakeStatus": "blocked_until_atomic_kp_review_ready",
+  "intakeStatus": "blocked_until_atomic_kp_review_decisions_ready",
   "planningWorklist": "questions/intake-worklist.json",
   "candidateSchema": "schemas/question-intake-candidate.schema.json",
   "candidateValidator": "scripts/validate-question-intake-candidates.mjs",
@@ -12,8 +12,9 @@
   "candidateGenerationAllowed": false,
   "requiredBeforeAnyQuestionCandidate": [
     "stable BookLocation for the source page or section",
-    "accepted SourceClaim with private-source evidence_ref",
-    "atomic KnowledgePoint candidate linked to the accepted claim",
+    "reviewed_not_runtime SourceClaim with private-source evidence_ref",
+    "atomic KnowledgePoint candidate linked to the reviewed_not_runtime claim",
+    "reviewed_not_runtime atomic KP review decision linked to the same review slot",
     "student-facing Swedish copy written from sanitized understanding, not copied textbook text",
     "distractor_rationale for every wrong option",
     "QuestionKnowledgeLink review"

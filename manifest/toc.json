@@ -850,7 +850,7 @@
   "blockers": [
     "K3/K4 page boundary conflict between sidkarta/README and indexering files.",
     "K5/K6 page boundary conflict between sidkarta/README and the fresh K5/K6 indexering files.",
-    "Tracked handoff public-safety is resolved; runtime content remains blocked until accepted evidence exists.",
+    "Tracked handoff public-safety is resolved; runtime content remains blocked until reviewed_not_runtime evidence exists.",
     "No runtime SourceClaim may be accepted before exact OCR evidence refs and page records are reviewed."
   ]
 }

@@ -63,12 +63,15 @@ assert.equal(worklist.pageRecordCount, pageRecords.length);
 assert.equal(worklist.sourceEvidenceCount, sourceEvidence.length);
 assert.equal(worklist.reviewItemCount, worklist.reviewItems.length);
 assert.equal(worklist.reviewItems.length, claims.length);
-assert.equal(worklist.acceptedSourceClaims, 0);
+assert.equal(worklist.reviewedNonRuntimeSourceClaims, 0);
 assert.equal(worklist.runtimeEligibleSourceClaims, 0);
 assert.equal(worklist.acceptanceAllowedByThisWorklist, false);
 assert.equal(worklist.runtimePromotionAllowed, false);
 assert.equal(worklist.candidateGenerationAllowed, false);
 assert.equal(worklist.pixelBindingAllowed, false);
+assert.equal(worklist.kvWriteAllowed, false);
+assert.equal(worklist.importApplyAllowed, false);
+assert.equal(worklist.safeActiveWriteAllowed, false);
 assert.equal(worklist.status, 'blocked_review_worklist_only');
 
 const claimIds = new Set(claims.map((claim) => claim.id));
@@ -80,6 +83,11 @@ for (const item of worklist.reviewItems) {
   assert.equal(item.bookEditionId, worklist.bookEditionId);
   assert.equal(item.acceptanceAllowedByThisWorklist, false);
   assert.equal(item.runtimePromotionAllowed, false);
+  assert.equal(item.candidateGenerationAllowed, false);
+  assert.equal(item.pixelBindingAllowed, false);
+  assert.equal(item.kvWriteAllowed, false);
+  assert.equal(item.importApplyAllowed, false);
+  assert.equal(item.safeActiveWriteAllowed, false);
   assert.deepEqual(item.allowedDecisionValues, allowedDecisionValues);
   assert.ok(claimIds.has(item.sourceClaimId), `${item.id} references missing SourceClaim`);
   const location = locationById.get(item.bookLocationId);
@@ -120,6 +128,6 @@ for (const pattern of [/C:\\/i, /C:\//i, /rawOcrText/i, /rawOcrExcerpt/i, /stude
 console.log(JSON.stringify({
   ok: true,
   reviewItems: worklist.reviewItemCount,
-  acceptedSourceClaims: worklist.acceptedSourceClaims,
+      reviewedNonRuntimeSourceClaims: worklist.reviewedNonRuntimeSourceClaims,
   runtimePromotionAllowed: worklist.runtimePromotionAllowed
 }, null, 2));

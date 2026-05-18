@@ -44,8 +44,8 @@ assert.equal(worklist.pixelBindingAllowed, false);
 assert.equal(worklist.kvWriteAllowed, false);
 assert.equal(worklist.importApplyAllowed, false);
 assert.equal(worklist.safeActiveWriteAllowed, false);
-assert.equal(worklist.acceptedSourceClaims, 0);
-assert.equal(worklist.acceptedAtomicKnowledgePoints, 0);
+assert.equal(worklist.reviewedNonRuntimeSourceClaims, 0);
+assert.equal(worklist.reviewedAtomicKnowledgePoints, 0);
 assert.equal(worklist.workItems.length, 37);
 
 let plannedKps = 0;
@@ -62,7 +62,7 @@ for (const item of worklist.workItems) {
   assert.equal(item.kvWriteAllowed, false);
   assert.equal(item.importApplyAllowed, false);
   assert.equal(item.safeActiveWriteAllowed, false);
-  assert.equal(item.blocker, 'blocked_until_source_claims_are_accepted_and_page_records_reviewed');
+  assert.equal(item.blocker, 'blocked_until_source_claims_are_reviewed_not_runtime_and_page_records_reviewed');
   assert.equal(ids.has(item.id), false, `${item.id} must be unique`);
   ids.add(item.id);
   assert.ok(item.plannedAtomicKnowledgePointQuota >= 1);

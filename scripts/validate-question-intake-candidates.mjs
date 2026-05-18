@@ -608,11 +608,17 @@ const candidateIds = candidates.map((candidate) => candidate.id).filter(Boolean)
 assert.equal(new Set(candidateIds).size, candidateIds.length, 'question candidate ids must be unique');
 
 const atomicStatus = runJsonValidator('scripts/validate-atomic-knowledge-points.mjs');
+const atomicDecisionStatus = runJsonValidator('scripts/validate-atomic-kp-review-decisions.mjs');
 if (candidates.length > 0) {
   assert.equal(
     atomicStatus.atomicKnowledgePointStatus,
     'atomic_kp_review_ready',
     'question candidates require atomic_kp_review_ready first'
+  );
+  assert.equal(
+    atomicDecisionStatus.atomicKpReviewDecisionStatus,
+    'atomic_kp_review_decisions_ready',
+    'question candidates require atomic_kp_review_decisions_ready first'
   );
 }
 
@@ -632,7 +638,7 @@ const coveredWorkItems = Array.from(workItemCounts.values()).filter((count) => c
 const filledWorkItems = (worklist.workItems ?? []).filter((item) => (workItemCounts.get(item.id) ?? 0) === item.plannedCandidateQuota).length;
 const questionCandidateStatus =
   candidates.length === 0
-    ? atomicStatus?.atomicKnowledgePointStatus === 'atomic_kp_review_ready'
+    ? atomicDecisionStatus?.atomicKpReviewDecisionStatus === 'atomic_kp_review_decisions_ready'
       ? 'ready_for_question_candidate_authoring'
       : 'blocked_empty_until_atomic_kp_review'
     : candidates.length === worklist.plannedCandidateCount && filledWorkItems === worklist.workItems.length

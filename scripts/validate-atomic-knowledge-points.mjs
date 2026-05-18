@@ -14,6 +14,8 @@ const atomicKpFields = new Set([
   'schemaVersion',
   'subject',
   'bookEditionId',
+  'atomicKpReviewItemId',
+  'reviewItemId',
   'bookLocationIds',
   'sourceClaimIds',
   'sourceAtomIds',
@@ -21,6 +23,7 @@ const atomicKpFields = new Set([
   'studentGoal',
   'qklRole',
   'reviewStatus',
+  'status',
   'runtimeEligible',
   'pixelEligible'
 ]);
@@ -146,6 +149,14 @@ for (const [index, kp] of atomicKps.entries()) {
   assert.equal(kp.bookEditionId, bookEditionId, `${label}: bookEditionId`);
   const reviewItem = reviewItemByExpectedKpId.get(kp.id);
   assert.ok(reviewItem, `${label}: id does not match a planned atomic KP review slot`);
+  if (kp.atomicKpReviewItemId !== undefined) {
+    assertIdentifier(kp.atomicKpReviewItemId, `${label}: atomicKpReviewItemId`);
+    assert.equal(kp.atomicKpReviewItemId, reviewItem.id, `${label}: atomicKpReviewItemId must match review slot`);
+  }
+  if (kp.reviewItemId !== undefined) {
+    assertIdentifier(kp.reviewItemId, `${label}: reviewItemId`);
+    assert.equal(kp.reviewItemId, reviewItem.id, `${label}: reviewItemId must match review slot`);
+  }
   coveredReviewItemIds.add(reviewItem.id);
   assertIdentifierArray(kp.bookLocationIds, `${label}: bookLocationIds`, { allowColon: true, minItems: 1, maxItems: 1 });
   assert.deepEqual(kp.bookLocationIds, [reviewItem.bookLocationId], `${label}: bookLocationIds must match review slot`);
@@ -167,6 +178,10 @@ for (const [index, kp] of atomicKps.entries()) {
   assertPublicText(kp.studentGoal, `${label}: studentGoal`, { minLength: 20, maxLength: 180, maxWords: 24 });
   assert.ok(allowedQklRoles.has(kp.qklRole), `${label}: invalid qklRole`);
   assert.ok(allowedReviewStatuses.has(kp.reviewStatus), `${label}: invalid reviewStatus`);
+  if (kp.status !== undefined) {
+    assert.ok(allowedReviewStatuses.has(kp.status), `${label}: invalid status`);
+    assert.equal(kp.status, kp.reviewStatus, `${label}: status must match reviewStatus`);
+  }
   assert.equal(kp.runtimeEligible, false, `${label}: runtimeEligible`);
   assert.equal(kp.pixelEligible, false, `${label}: pixelEligible`);
 }

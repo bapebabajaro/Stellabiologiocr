@@ -10,6 +10,6 @@ Not ready for runtime:
 
 - tracked handoff public-safety is resolved, but runtime content remains pending;
 - boundary conflicts remain for K3/K4 and K5/K6;
-- no accepted SourceClaims exist;
-- no atomic accepted KnowledgePoints exist;
+- no reviewed_not_runtime SourceClaims exist;
+- no reviewed atomic KnowledgePoints exist;
 - no safe-active questions, QKL or pixel bindings exist.
