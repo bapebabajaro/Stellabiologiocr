@@ -96,7 +96,13 @@ for (const record of physicalPageRecords) {
   assert.equal(record.runtimeEligible, false);
   const evidence = evidenceByPhysicalId.get(record.id);
   assert.ok(evidence, `${record.id} must have evidence-ref row`);
-  assert.equal(evidence.hashStatus, 'pending_private_review');
+  assert.ok(
+    ['pending_private_review', 'reviewed_not_runtime'].includes(evidence.hashStatus),
+    `${evidence.id}: evidence hashStatus must be pending_private_review or reviewed_not_runtime`
+  );
+  if (evidence.hashStatus === 'reviewed_not_runtime') {
+    assert.match(String(evidence.evidenceHash ?? ''), /^sha256:[a-f0-9]{64}$/);
+  }
   assert.equal(evidence.containsRawOcr, false);
   assert.equal(evidence.containsPageImage, false);
   assert.equal(evidence.runtimeEligible, false);

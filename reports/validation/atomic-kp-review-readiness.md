@@ -2,15 +2,15 @@
 
 Generated: 2026-05-17
 
-Status: `blocked_review_worklist_only`
+Status: `atomic_kp_review_decisions_ready`
 
 | Artifact | Count |
 |---|---:|
 | Section work items | 37 |
 | Planned atomic KP slots | 240 |
 | Review items | 240 |
-| Reviewed atomic KPs | 0 |
+| Reviewed atomic KPs | 240 |
 
-The review worklist expands the planning quota into individual atomic KP slots.
-It still blocks runtime import, question generation and pixel binding until
-SourceClaims, source atoms, QKL and safe-active metadata are reviewed.
+The review worklist has reviewed non-runtime decisions for the 240 individual
+atomic KP slots. Runtime import, active question generation and pixel binding
+remain blocked until candidate/QKL/safe-active and visual gates pass.

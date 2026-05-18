@@ -3,7 +3,7 @@
   "generatedAt": "2026-05-17",
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
-  "fileCount": 39,
+  "fileCount": 44,
   "files": [
     {
       "rel": "manifest/book-edition.json",
@@ -75,7 +75,7 @@
     },
     {
       "rel": "lineage/evidence-refs.jsonl",
-      "sha256": "e68d13d350d4156842648f37c3ae38fa5a43049253e9cf5ab1309698c9dd37ff"
+      "sha256": "abb1a576d574641b1243b1b1800558570653004cc8092885a41f8555e481fb05"
     },
     {
       "rel": "lineage/source-evidence.jsonl",
@@ -83,39 +83,39 @@
     },
     {
       "rel": "lineage/section-boundary-decisions.jsonl",
-      "sha256": "3daf74dde6ee044910c858dcb671cff55c15d936897e9039430b6a731d2babf3"
+      "sha256": "ee479b6ff16d250a9169ce64316471c6a548ae54ebbf7901822e64d47a0298bd"
     },
     {
       "rel": "lineage/page-record-review-decisions.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "88dacccb6497ec01463114e3717a15e62fc6d5b79696587dbe543e9d78ae0446"
     },
     {
       "rel": "lineage/source-claim-review-decisions.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "bde775b1312e120127d84be0e9adcc5dbb29f95d952f0342bf631dd4458929ed"
     },
     {
       "rel": "lineage/source-atoms.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "00bba24aea612d0f2534294ccbde24db4fa4c1282a7e18a672d94ab7858d5667"
     },
     {
       "rel": "lineage/visual-source-atoms.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "12c8f3add58c6941c648caf5640f2b55c8bf346531c8fd1bb767d406b3d48ed4"
     },
     {
       "rel": "lineage/claim-table.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "45a2612e7841e6461ab89a787dd137cce92469505f0c975b754362c99b005874"
     },
     {
       "rel": "lineage/atomic-knowledge-points.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "b36a3ea6a6019aa081ccdb09fc5e695d6baeab4bbdfab6db091042e4f056e4c6"
     },
     {
       "rel": "lineage/atomic-kp-review-decisions.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "56f39b104eca3ed79bfe20dd0ae9874d96e94ed988bd3d8541c5a6ba7b0a906f"
     },
     {
       "rel": "questions/intake-candidates.jsonl",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "9d69abb60d77fc15047d86d2c310e415424f7a97d7c0216f1c200248ad280f62"
     },
     {
       "rel": "questions/intake-contract.json",
@@ -123,7 +123,7 @@
     },
     {
       "rel": "questions/intake-worklist.json",
-      "sha256": "e925f1d7b7660b008a6d7ce76ee81b1421f652923d8ef11980dea29c24756c06"
+      "sha256": "21053dd1b2ee4282aa8356d875240c984d71ee06219569a33aba27b85cf21050"
     },
     {
       "rel": "assets/pixel-briefs/pixel-brief-template.json",
@@ -143,7 +143,7 @@
     },
     {
       "rel": "schemas/evidence-ref.schema.json",
-      "sha256": "fc5578b70fd2d6fec6c63d609df83ba5c157603d78585b5df640fbb926b9b864"
+      "sha256": "998dc383615101419400c2c9f54d4caeadfb06c9257c6ccc90a71a22058039a9"
     },
     {
       "rel": "schemas/source-atom.schema.json",
@@ -160,6 +160,26 @@
     {
       "rel": "schemas/atomic-knowledge-point.schema.json",
       "sha256": "36beff399a5c214cbf2a28ca2d87b952db31ff13e024bdf9c5e2546ec8ddae66"
+    },
+    {
+      "rel": "reports/validation/reviewed-kp-seeds.json",
+      "sha256": "e137d5be61512de22a20a25dcbfa7b96d4d4ebf1e2e2fdf311c1b843b4ade622"
+    },
+    {
+      "rel": "scripts/build-reviewed-kp-seeds.mjs",
+      "sha256": "ea802866d5e6f5c55c236cec9dd0c163570eafbaf4986b5159a364c0b21eb128"
+    },
+    {
+      "rel": "reports/validation/question-generation-readiness.json",
+      "sha256": "f87fd900f37a5b764c275c2233e60b6c42efa5a5da16e89260f41b006fd8cd65"
+    },
+    {
+      "rel": "scripts/build-question-candidate-batch.mjs",
+      "sha256": "dea74056e9a54b87c6ca172b3e0f9f7ca309cd0463523a6aa626926c010905c9"
+    },
+    {
+      "rel": "scripts/validate-question-generation-readiness.mjs",
+      "sha256": "9ab4820e6660ac901eaaaeaa98bac443c047ccd0647d62fad271569c89c0bcb0"
     }
   ]
 }

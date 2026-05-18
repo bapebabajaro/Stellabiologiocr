@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "reviewed-kp-seeds-v1",
+  "generatedAt": "2026-05-18T00:00:00.000Z",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "write": true,
+  "reviewSourceInput": "BIOLOGI_REVIEW_SOURCE_ROOT",
+  "reviewSourceDigest": "25a6097ccdf5c5edb5e16774f19c62178bf84c0768b9aa23d48baf193505fac8",
+  "pageRecordDecisions": 43,
+  "sourceClaimDecisions": 43,
+  "sourceAtoms": 43,
+  "visualSourceAtoms": 43,
+  "claimTableRows": 43,
+  "atomicKnowledgePoints": 240,
+  "atomicKpReviewDecisions": 240,
+  "questionCandidatesAtSeedTime": 0,
+  "publicSafety": {
+    "ocrTextCopied": false,
+    "privatePathWritten": false,
+    "runtimeEligible": false,
+    "kvWriteAllowed": false,
+    "importApplyAllowed": false,
+    "safeActiveWriteAllowed": false,
+    "pixelBindingAllowed": false
+  },
+  "nextGate": "question candidate authoring can start only after validators pass and reviewer confirms public-safe KP quality"
+}

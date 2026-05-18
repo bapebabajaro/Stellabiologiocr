@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "schemaVersion": "question-generation-readiness-v1",
+  "status": "question_generation_ready_for_offline_candidates",
+  "counts": {
+    "evidenceRefs": 360,
+    "reviewedEvidenceRefs": 360,
+    "sourceAtoms": 43,
+    "atomicKnowledgePoints": 240,
+    "atomicKpReviewDecisions": 240,
+    "questionCandidates": 33
+  },
+  "outputPolicy": {
+    "runtimeImportAllowed": false,
+    "activationAllowed": false,
+    "kvWriteAllowed": false,
+    "importApplyAllowed": false,
+    "safeActiveWriteAllowed": false,
+    "pixelWriteAllowed": false,
+    "productionDeployAllowed": false
+  },
+  "issues": []
+}

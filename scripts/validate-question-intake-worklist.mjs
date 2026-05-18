@@ -28,6 +28,8 @@ const intakeCandidatesText = readFileSync(join(root, 'questions/intake-candidate
 const intakeCandidates = readJsonl('questions/intake-candidates.jsonl');
 const sourceClaims = readJsonl('lineage/source-claims.jsonl');
 const kpCandidates = readJsonl('lineage/knowledge-point-candidates.jsonl');
+const sourceClaimReviewDecisions = readJsonl('lineage/source-claim-review-decisions.jsonl');
+const atomicKps = readJsonl('lineage/atomic-knowledge-points.jsonl');
 
 const sourceClaimById = new Map(sourceClaims.map((claim) => [claim.id, claim]));
 const kpById = new Map(kpCandidates.map((candidate) => [candidate.id, candidate]));
@@ -44,8 +46,12 @@ assert.equal(worklist.importApplyAllowed, false);
 assert.equal(worklist.safeActiveWriteAllowed, false);
 assert.equal(worklist.pixelWriteAllowed, false);
 assert.equal(worklist.activeQuestionCount, 0);
-assert.equal(worklist.reviewedNonRuntimeSourceClaims, 0);
-assert.equal(worklist.reviewedAtomicKnowledgePoints, 0);
+assert.equal(
+  worklist.reviewedNonRuntimeSourceClaims,
+  sourceClaimReviewDecisions.filter((row) => row.status === 'reviewed_not_runtime').length
+);
+assert.equal(worklist.reviewedAtomicKnowledgePoints, atomicKps.filter((row) => row.reviewStatus === 'reviewed_not_runtime').length);
+assert.ok(['blocked_planning_only', 'ready_for_offline_candidate_authoring'].includes(worklist.status));
 assert.ok(Array.isArray(intakeCandidates));
 
 assert.equal(Array.isArray(worklist.workItems), true);

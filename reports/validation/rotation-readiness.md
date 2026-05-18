@@ -2,14 +2,19 @@
 
 Generated: 2026-05-17
 
-Status: `contract-valid-content-pending`
+Status: `contract-valid-offline-authoring-ready`
 
 The BookEdition is structurally rotatable: the current generated package is scoped by subject, source family, BookEdition id, private-source locators and additive rotation policy.
 
+Ready for offline candidate authoring:
+
+- tracked handoff public-safety is resolved;
+- page-boundary decisions are resolved as non-runtime handoff scope;
+- reviewed_not_runtime SourceClaims exist;
+- reviewed atomic KnowledgePoints exist;
+- question generation readiness passes for offline candidates.
+
 Not ready for runtime:
 
-- tracked handoff public-safety is resolved, but runtime content remains pending;
-- boundary conflicts remain for K3/K4 and K5/K6;
-- no reviewed_not_runtime SourceClaims exist;
-- no reviewed atomic KnowledgePoints exist;
-- no safe-active questions, QKL or pixel bindings exist.
+- no reviewed candidate questions have been promoted;
+- no safe-active metadata, runtime QKL import, KV write or pixel bindings exist.

@@ -13,9 +13,9 @@
   "safeActiveWriteAllowed": false,
   "pixelWriteAllowed": false,
   "activeQuestionCount": 0,
-  "reviewedNonRuntimeSourceClaims": 0,
-  "reviewedAtomicKnowledgePoints": 0,
-  "status": "blocked_planning_only",
+  "reviewedNonRuntimeSourceClaims": 43,
+  "reviewedAtomicKnowledgePoints": 240,
+  "status": "ready_for_offline_candidate_authoring",
   "distributionPolicy": "1200 is a future candidate target only. Quotas reserve review capacity per section placeholder; they do not authorize generation.",
   "fatalGates": [
     "no reviewed_not_runtime SourceClaims",

@@ -2,27 +2,27 @@
 
 Generated: 2026-05-17
 
-Status: blocked planning only.
+Status: ready for offline candidate authoring.
 
-The repository now has a 1200-question planning worklist, but no question
-candidate is generated or runtime-eligible.
+The repository now has a 1200-question planning worklist and reviewed
+non-runtime lineage for offline candidate authoring. No question candidate is
+generated yet and no candidate is runtime-eligible.
 
 | Metric | Count |
 |---|---:|
 | Target future candidates | 1200 |
 | Planned candidate quota | 1200 |
 | Work items | 37 |
-| Reviewed non-runtime SourceClaims | 0 |
-| Reviewed atomic KnowledgePoints | 0 |
+| Reviewed non-runtime SourceClaims | 43 |
+| Reviewed atomic KnowledgePoints | 240 |
 | Active questions | 0 |
 
-## Why blocked
+## Remaining runtime blocks
 
-- SourceClaims are structure-only and not reviewed_not_runtime evidence yet.
-- KnowledgePoint candidates are section placeholders, not atomic KnowledgePoints.
-- questions/intake-candidates.jsonl may only be populated after
-  atomic_kp_review_decisions_ready.
 - No QKL, safe-active metadata, import apply or KV write is allowed.
+- Every candidate must remain `candidate_review_required`.
+- Runtime import, activation, pixel binding and production deploy remain
+  forbidden.
 
 ## Candidate gate now in place
 
@@ -44,13 +44,10 @@ empty in the current handoff, but if any candidate exists it requires:
 
 ## Next input for the question agent
 
-1. Resolve page-boundary blockers.
-2. Review SourceClaims as reviewed_not_runtime; do not production-accept them.
-3. Split section placeholders into atomic KnowledgePoints.
-4. Review each atomic KP with lineage/atomic-kp-review-decisions.jsonl.
-5. Run scripts/validate-question-intake-candidates.mjs before and after adding
+1. Run scripts/validate-question-generation-readiness.mjs before authoring.
+2. Run scripts/validate-question-intake-candidates.mjs before and after adding
    candidate rows.
-6. Manually author sanitized candidate questions from reviewed atomic KPs only;
+3. Manually author sanitized candidate questions from reviewed atomic KPs only;
    candidateGenerationAllowed remains false for runtime or automated generation.
-7. Validate answer grounding, QKL, distractor rationales, uniqueness and public
+4. Validate answer grounding, QKL, distractor rationales, uniqueness and public
    copy.

@@ -1,27 +1,16 @@
-# Page boundary conflicts - Stella Biologi
+# Page Boundary Review - Stella Biologi
 
 Generated: 2026-05-17
 
-## Blocker: K3/K4 boundary
+## Resolved Handoff Scope
 
-| Source | K3 MANNISKOKROPPEN | K4 LIV OCH HALSA |
-|---|---:|---:|
-| Sidkarta/README | s.144-207 | s.208-263 |
-| Indexering | s.142-205 | s.206-263 |
+The earlier chapter-boundary mismatches are now represented by explicit
+`section-boundary-decision` rows with status `resolved`. This report no longer
+acts as a blocking conflict list. It exists only as a public-safe pointer to the
+structured decisions in `lineage/section-boundary-decisions.jsonl`.
 
-Decision: keep sidkarta/README as top-level book structure, but keep all K3/K4 SourceClaims non-runtime until accepted page records resolve the boundary.
+## Runtime Decision
 
-## Blocker: K5/K6 boundary
-
-| Source | K5 GENETIK OCH GENTEKNIK | K6 EVOLUTION |
-|---|---:|---:|
-| Sidkarta/README | s.264-327 | s.328-361 |
-| Fresh indexering | s.264-323 | s.324-361 |
-
-Decision: generated OCR locations use the fresh K5/K6 index spans because K5 explicitly ends at s.323 and K6 explicitly starts at s.324. Runtime activation remains blocked until page records are accepted.
-
-## Runtime decision
-
-- No SourceClaim may be accepted by this generator.
+- No SourceClaim may become runtime-accepted by this generator.
 - No question, QKL, pixel binding or pixel image may become runtime-eligible from this report.
 - PPF may consume the sanitized structure as a locked, non-runtime handoff only.

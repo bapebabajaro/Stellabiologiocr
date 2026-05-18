@@ -33,8 +33,8 @@
     "zoneId": { "type": "string" },
     "sourceRef": { "type": "string", "pattern": "^private-source://pdfer/biologi/.+#book-page-[0-9]+$" },
     "evidenceHash": { "type": ["string", "null"] },
-    "hashStatus": { "const": "pending_private_review" },
-    "confidence": { "const": "pending_review" },
+    "hashStatus": { "enum": ["pending_private_review", "reviewed_not_runtime"] },
+    "confidence": { "enum": ["pending_review", "medium", "high"] },
     "containsRawOcr": { "const": false },
     "containsPageImage": { "const": false },
     "runtimeEligible": { "const": false }
