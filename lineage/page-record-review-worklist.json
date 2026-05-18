@@ -303,7 +303,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec01",
@@ -389,7 +394,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec02",
@@ -451,7 +461,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec03",
@@ -555,7 +570,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec04",
@@ -617,7 +637,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec05",
@@ -727,7 +752,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec06",
@@ -789,7 +819,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec07",
@@ -881,7 +916,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap1-sec08",
@@ -955,7 +995,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2",
@@ -1209,7 +1254,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01",
@@ -1283,7 +1333,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec02",
@@ -1387,7 +1442,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec03",
@@ -1479,7 +1539,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04",
@@ -1559,7 +1624,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec05",
@@ -1639,7 +1709,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec06",
@@ -1731,7 +1806,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3",
@@ -1980,7 +2060,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec01",
@@ -2067,7 +2152,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec02",
@@ -2148,7 +2238,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec03",
@@ -2229,7 +2324,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec04",
@@ -2328,7 +2428,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec05",
@@ -2406,7 +2511,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec06",
@@ -2484,7 +2594,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap3-sec07",
@@ -2565,7 +2680,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4",
@@ -2790,7 +2910,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec01",
@@ -2871,7 +2996,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec02",
@@ -2958,7 +3088,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec03",
@@ -3045,7 +3180,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec04",
@@ -3132,7 +3272,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec05",
@@ -3213,7 +3358,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap4-sec06",
@@ -3300,7 +3450,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5",
@@ -3537,7 +3692,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec01",
@@ -3630,7 +3790,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec02",
@@ -3729,7 +3894,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec03",
@@ -3816,7 +3986,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec04",
@@ -3891,7 +4066,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec05",
@@ -3978,7 +4158,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap5-sec06",
@@ -4053,7 +4238,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6",
@@ -4224,7 +4414,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec01",
@@ -4317,7 +4512,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec02",
@@ -4392,7 +4592,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec03",
@@ -4470,7 +4675,12 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     },
     {
       "id": "page-record-review-bookedition-stella-biologi-ocr-v1-biologi-kap6-sec04",
@@ -4560,7 +4770,15 @@
         "no_raw_ocr_text_allowed_in_public_artifacts",
         "no_page_images_allowed_in_public_artifacts",
         "no_runtime_promotion_without_new_release_data_order"
-      ]
+      ],
+      "candidateGenerationAllowed": false,
+      "safeActiveWriteAllowed": false,
+      "pixelBindingAllowed": false,
+      "kvWriteAllowed": false,
+      "importApplyAllowed": false
     }
-  ]
+  ],
+  "safeActiveWriteAllowed": false,
+  "kvWriteAllowed": false,
+  "importApplyAllowed": false
 }
