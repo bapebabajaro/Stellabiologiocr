@@ -34,10 +34,29 @@ For each usable page or section, build this chain in order:
 3. Resolve K5/K6 page boundary conflict.
 4. Review `lineage/page-records.jsonl`, `lineage/physical-page-records.jsonl`,
    `lineage/book-location-page-links.jsonl` and `lineage/evidence-refs.jsonl`.
-5. Create reviewed `source_atom`, optional `visual_source_atom` and
+5. Write `lineage/page-record-review-decisions.jsonl` with one decision per
+   review item. Use only `reviewed_not_runtime`, `request_fix` or `reject`, and
+   keep every runtime/import/KV/pixel/question flag explicitly `false`. Include
+   `reviewer` and ISO-8601 UTC `reviewedAt`.
+6. Review SourceClaims and write `lineage/source-claim-review-decisions.jsonl`
+   only after all page-record decisions are reviewed and boundary decisions are
+   resolved. These decisions are still non-runtime and cannot accept claims for
+   production use. Include `reviewer` and ISO-8601 UTC `reviewedAt`.
+   Review ledgers do not support free-text comments or copied snippets; keep
+   private review notes outside tracked artifacts.
+7. Create reviewed `source_atom`, optional `visual_source_atom` and
    `claim_table` rows without copied textbook language.
-6. Review SourceClaims.
-7. Only then promote atomic KnowledgePoint candidates.
+8. Only then promote atomic KnowledgePoint candidates.
+
+## Local validation
+
+Run these after adding page/source review decisions:
+
+```powershell
+node scripts/validate-page-record-review-decisions.mjs
+node scripts/validate-source-claim-review-decisions.mjs
+node scripts/validate-ocr-contract.mjs
+```
 
 ## Output discipline
 

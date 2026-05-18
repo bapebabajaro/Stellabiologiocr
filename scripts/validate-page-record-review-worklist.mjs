@@ -116,8 +116,6 @@ assert.equal(worklist.runtimePromotionAllowed, false);
 assert.equal(worklist.candidateGenerationAllowed, false);
 assert.equal(worklist.pixelBindingAllowed, false);
 assert.equal(worklist.status, 'blocked_review_worklist_only');
-assert.equal(decisions.length, 0, 'page-record review decisions must remain empty in this non-runtime handoff');
-
 const itemIds = new Set();
 for (const location of locations) {
   const item = worklist.reviewItems.find((candidate) => candidate.bookLocationId === location.id);
@@ -165,5 +163,6 @@ console.log(JSON.stringify({
   ok: true,
   reviewItems: worklist.reviewItemCount,
   pageRecords: worklist.pageRecordCount,
+  pageRecordReviewDecisions: decisions.length,
   runtimePromotionAllowed: worklist.runtimePromotionAllowed
 }, null, 2));

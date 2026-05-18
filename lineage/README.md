@@ -7,6 +7,10 @@ This lineage package is a non-runtime contract for the current OCR index state.
 - K1-K6 have generated chapter locations.
 - Section-level locations exist where the index files expose delkapitel or existing TOC section boundaries.
 - SourceClaims are structure-only and not accepted.
+- PageRecord and SourceClaim review decisions may be added as
+  `reviewed_not_runtime`, `request_fix` or `reject`, but they do not create
+  runtime evidence. Review decision rows are identifier-only and must not carry
+  copied OCR text, textbook snippets or free-text comments.
 - KnowledgePoint candidates are section placeholders only.
 - Page records and source evidence contain locators, not raw OCR text or page images.
 

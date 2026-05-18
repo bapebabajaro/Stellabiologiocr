@@ -78,6 +78,8 @@ const baseRequiredFiles = [
   'scripts/build-source-claim-review-worklist.mjs',
   'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/validate-page-record-review-worklist.mjs',
+  'scripts/validate-page-record-review-decisions.mjs',
+  'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
@@ -91,6 +93,8 @@ const scannerToolFiles = new Set([
   'scripts/validate-atomic-kp-worklist.mjs',
   'scripts/validate-source-claim-review-worklist.mjs',
   'scripts/validate-page-record-review-worklist.mjs',
+  'scripts/validate-page-record-review-decisions.mjs',
+  'scripts/validate-source-claim-review-decisions.mjs',
   'scripts/validate-source-atoms.mjs',
   'scripts/validate-atomic-kp-review-worklist.mjs',
   'scripts/sanitize-handoff.mjs'
@@ -147,6 +151,14 @@ function isGitIgnored(rel) {
     return true;
   } catch {
     return false;
+  }
+}
+function runValidator(rel) {
+  try {
+    execFileSync(process.execPath, [rel], { cwd: root, encoding: 'utf8', stdio: 'pipe' });
+  } catch (error) {
+    const detail = String(error.stdout || error.stderr || error.message || '').trim();
+    errors.push(`${rel} failed${detail ? `: ${detail}` : ''}`);
   }
 }
 
@@ -236,8 +248,6 @@ if (errors.length === 0 && book) {
   if (sourceAtoms.length !== 0) errors.push('source-atoms ledger must remain empty in this handoff');
   if (visualSourceAtoms.length !== 0) errors.push('visual-source-atoms ledger must remain empty in this handoff');
   if (claimTable.length !== 0) errors.push('claim-table ledger must remain empty in this handoff');
-  if (sourceClaimReviewDecisions.length !== 0) errors.push('source-claim review decisions must remain empty in this handoff');
-  if (pageRecordReviewDecisions.length !== 0) errors.push('page-record review decisions must remain empty in this handoff');
   if (atomicKnowledgePoints.length !== 0) errors.push('atomic KnowledgePoints ledger must remain empty in this handoff');
   if (atomicKpReviewDecisions.length !== 0) errors.push('atomic KP review decisions must remain empty in this handoff');
   if (pixelBrief.runtimeAssetAllowed !== false) errors.push('pixel brief must block runtime assets');
@@ -282,6 +292,8 @@ if (errors.length === 0 && book) {
   if (locations.length === 0) errors.push('no BookLocations generated');
   if (claims.length === 0) warnings.push('no SourceClaims generated');
 }
+runValidator('scripts/validate-page-record-review-decisions.mjs');
+runValidator('scripts/validate-source-claim-review-decisions.mjs');
 const publicSafetyOk = !warnings.some((warning) => warning.includes('not public-safe') || warning.includes('private/leaky token'));
 console.log(JSON.stringify({
   ok: errors.length === 0,

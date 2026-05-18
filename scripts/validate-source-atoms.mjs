@@ -26,7 +26,9 @@ const report = readFileSync(join(root, 'reports/validation/source-atom-readiness
 assert.equal(sourceAtoms.length, 0, 'source-atoms.jsonl must remain empty until SourceClaim review decisions exist');
 assert.equal(visualSourceAtoms.length, 0, 'visual-source-atoms.jsonl must remain empty until visual evidence review exists');
 assert.equal(claimTable.length, 0, 'claim-table.jsonl must remain empty until reviewed source atoms exist');
-assert.equal(sourceClaimReviewDecisions.length, 0, 'source-claim-review-decisions.jsonl must remain empty in this non-runtime handoff');
+if (sourceAtoms.length + visualSourceAtoms.length + claimTable.length > 0) {
+  assert.ok(sourceClaimReviewDecisions.length > 0, 'source atoms require SourceClaim review decisions first');
+}
 
 for (const pattern of [/C:\\/i, /C:\//i, /rawOcrText/i, /rawOcrExcerpt/i, /studentPin/i, /set-cookie/i, /upstash/i, /private-source:\/\//i]) {
   assert.equal(pattern.test(report), false, `leaky token in source atom report: ${pattern}`);

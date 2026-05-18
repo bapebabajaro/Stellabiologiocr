@@ -27,3 +27,19 @@ resolve the boundary decision.
 Each item now includes explicit `pageRecordIds`, `sourceEvidenceIds`,
 `requiresBoundaryResolution` and allowed non-runtime reviewer decisions:
 `reviewed_not_runtime | request_fix | reject`.
+
+Reviewer decisions belong in `lineage/source-claim-review-decisions.jsonl`.
+They are valid only after every page-record review item has a
+`reviewed_not_runtime` decision and every section-boundary decision is
+`resolved`. SourceClaim decisions may prepare source-atom work, but they still
+cannot promote runtime evidence, generate questions, bind pixels, write KV or
+apply imports. Each decision must include `reviewer` plus ISO-8601 UTC
+`reviewedAt`. Decision rows are identifier-only; they must not contain
+free-text comments, OCR snippets or textbook copy.
+
+Validate after review:
+
+```powershell
+node scripts/validate-source-claim-review-decisions.mjs
+node scripts/validate-ocr-contract.mjs
+```
