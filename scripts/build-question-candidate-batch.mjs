@@ -3267,6 +3267,768 @@ const authoredSec08 = [
   }
 ];
 
+const authoredKap2Sec01 = [
+  {
+    "kp": "001",
+    "typ": "begrepp",
+    "niva": 1,
+    "stem": "Vad betyder hållbar när man beskriver utveckling i biologi?",
+    "correct": "Att funktioner kan fortsätta över tid medan förändringen pågår",
+    "wrong": [
+      "Att funktionen ökar snabbt första veckan och avtar senare",
+      "Att uttaget ger nytta nu medan återhämtningen skjuts upp",
+      "Att en del stärks samtidigt som bärande funktion försvagas"
+    ],
+    "rationales": [
+      "En snabb ökning räcker inte för hållbarhet över tid.",
+      "Nytta behöver vägas mot återhämtning.",
+      "En försvagad bärande funktion är en biologisk risk."
+    ],
+    "solution": "Hållbar utveckling kopplar förändring till biologiska funktioner som kan bära systemet över tid.",
+    "summary": "Sanitiserad grundning: delområdet behandlar hållbar utveckling.",
+    "tags": [
+      "hållbar",
+      "begrepp"
+    ]
+  },
+  {
+    "kp": "001",
+    "typ": "samband",
+    "niva": 2,
+    "stem": "En resurs används snabbare än den hinner återhämta sig. Varför är det svårt att kalla utvecklingen hållbar?",
+    "correct": "Återhämtningen hinner inte bära samma funktion över tid",
+    "wrong": [
+      "Snabbt uttag kan öka resursens återväxt nästa säsong",
+      "Kortsiktig nytta väger tyngre än förändrad återhämtning",
+      "Mätningen av uttag räcker för att visa stärkt funktion"
+    ],
+    "rationales": [
+      "Snabbare uttag gör återväxten mer osäker, inte säkrare.",
+      "Biologisk hållbarhet kräver mer än kort nytta.",
+      "Uttag visar påverkan men inte stärkt funktion."
+    ],
+    "solution": "Hållbarhet kräver att uttag eller förändring vägs mot biologisk funktion och återhämtning.",
+    "summary": "Sanitiserad grundning: delområdet kopplar hållbar till biologisk funktion.",
+    "tags": [
+      "hållbar",
+      "biologisk funktion"
+    ]
+  },
+  {
+    "kp": "001",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Ett område förändras så att vattenflöde och växttäcke fortfarande fungerar tillsammans. Vad talar det för?",
+    "correct": "Sambandet mellan vattenflöde och växttäcke verkar bevarat",
+    "wrong": [
+      "Vattenflödet förbättras och växttäcket räknas då som stabilt",
+      "Växttäcket ökar och flera andra funktioner räknas som stärkta",
+      "Första mätningen räcker för att kalla utvecklingen hållbar"
+    ],
+    "rationales": [
+      "Vattenflöde behöver kopplas till växttäcket, inte ersätta det.",
+      "Andra funktioner kräver eget underlag.",
+      "En hållbarhetsbedömning behöver följas över tid."
+    ],
+    "solution": "När biologiska samband och funktioner fortsätter fungera finns bättre stöd för hållbar utveckling.",
+    "summary": "Sanitiserad grundning: delområdet tränar hållbar utveckling i biologiskt samband.",
+    "tags": [
+      "hållbar",
+      "biologiskt samband"
+    ]
+  },
+  {
+    "kp": "001",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "I ett begränsat underlag minskar en biologisk funktion efter en förändring, men andra funktioner har inte undersökts. Vad är rimligast?",
+    "correct": "Att avgränsa slutsatsen till funktionen som mätts och följa upp fler",
+    "wrong": [
+      "Att låta en kort mätserie avgöra hela ekosystemets hållbarhet",
+      "Att välja den tydligaste funktionen och ge den tolkningsföreträde",
+      "Att byta fokus till kortsiktig nytta när funktionen minskar"
+    ],
+    "rationales": [
+      "En kort mätserie ger begränsat stöd.",
+      "Tydlighet gör inte funktionen representativ för helheten.",
+      "Kortsiktig nytta löser inte den biologiska varningssignalen."
+    ],
+    "solution": "Ett avgränsat resonemang följer den funktion som faktiskt undersökts och markerar osäkerhet.",
+    "summary": "Sanitiserad grundning: delområdet tränar avgränsat resonemang om hållbarhet.",
+    "tags": [
+      "hållbar",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "001",
+    "typ": "jämförelse",
+    "niva": 2,
+    "stem": "Två metoder ger lika stor skörd. A ger högre återhämtning i marklivet men kräver mer vatten. B minskar vattenanvändningen men marklivet återhämtar sig långsammare. Vad är rimligast biologiskt?",
+    "correct": "Jämför återhämtande markfunktion med vattenanvändning över tid",
+    "wrong": [
+      "B får samma biologiska stöd eftersom skörden är lika stor",
+      "A visar återhämtning men lägre koppling till markfunktion",
+      "B kan kallas hållbar om skörden mäts oftare"
+    ],
+    "rationales": [
+      "Samma skörd säger inte hur markfunktionen bärs över tid.",
+      "Återhämtning är en del av markfunktionen i jämförelsen.",
+      "Fler skördemätningar ersätter inte återhämtning."
+    ],
+    "solution": "En rimlig hållbarhetsjämförelse väger både återhämtande markfunktion och resursanvändning över tid.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförelse av hållbar utveckling.",
+    "tags": [
+      "hållbar",
+      "jämförelse"
+    ]
+  },
+  {
+    "kp": "002",
+    "typ": "begrepp",
+    "niva": 1,
+    "stem": "Vad betyder utveckling i uttrycket hållbar utveckling?",
+    "correct": "Förändring över tid som prövas mot funktion och samband",
+    "wrong": [
+      "Snabb förbättring i en mätning som får gälla för framtiden",
+      "Teknisk förändring där biologiska följder bedöms senare",
+      "Ökad användning av en resurs när nyttan syns direkt"
+    ],
+    "rationales": [
+      "En enstaka förbättring räcker inte för utveckling över tid.",
+      "Biologiska följder behöver ingå i bedömningen.",
+      "Direkt nytta är inte samma sak som hållbar utveckling."
+    ],
+    "solution": "Utveckling handlar om förändring över tid, och hållbarhet kräver biologisk bedömning av följder.",
+    "summary": "Sanitiserad grundning: delområdet behandlar utveckling i hållbar utveckling.",
+    "tags": [
+      "utveckling",
+      "begrepp"
+    ]
+  },
+  {
+    "kp": "002",
+    "typ": "samband",
+    "niva": 2,
+    "stem": "En ny metod minskar påverkan på markens återhämtning. Hur kopplas utveckling till hållbarhet?",
+    "correct": "Metoden kan stödja utveckling om återhämtningen fortsätter",
+    "wrong": [
+      "Metoden räcker när första mätningen pekar åt rätt håll",
+      "Minskad påverkan på marken visar att hela ekosystemet stärkts",
+      "Ny teknik gör markens återhämtning till en senare fråga"
+    ],
+    "rationales": [
+      "Första mätningen behöver följas över tid.",
+      "Hela ekosystemet kräver bredare underlag.",
+      "Återhämtningen är en central biologisk följd."
+    ],
+    "solution": "Utveckling kopplas till hållbarhet när förändringen stöder biologisk funktion över tid.",
+    "summary": "Sanitiserad grundning: delområdet tränar samband mellan utveckling och hållbar.",
+    "tags": [
+      "utveckling",
+      "hållbar"
+    ]
+  },
+  {
+    "kp": "002",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Ett samhälle ändrar vattenanvändning så att ett våtområde fortsätter fungera. Vad visar det biologiskt?",
+    "correct": "Vattenanvändningen kopplas till våtmarkens funktion över tid",
+    "wrong": [
+      "Våtmarkens funktion kan ersättas av mätningen av vattenmängd",
+      "Vattenanvändningen visar hållbarhet innan funktionen följts",
+      "Samma vattennivå betyder att flera funktioner är stärkta"
+    ],
+    "rationales": [
+      "Vattenmängd är inte samma sak som våtmarkens funktion.",
+      "Funktionen behöver följas för att bedöma hållbarhet.",
+      "Flera funktioner kräver eget stöd."
+    ],
+    "solution": "Hållbar utveckling kräver att biologiska samband och funktioner vägs in i förändringar.",
+    "summary": "Sanitiserad grundning: delområdet kopplar utveckling till biologiskt samband.",
+    "tags": [
+      "utveckling",
+      "biologiskt samband"
+    ]
+  },
+  {
+    "kp": "002",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "Efter ändrad markanvändning minskar växttäcket vid tre mätningar och avrinningen ökar. Vad säger det om utvecklingen?",
+    "correct": "Den kan vara mindre hållbar eftersom funktionen försvagas över tid",
+    "wrong": [
+      "Den kan vara mer hållbar eftersom mer vatten rör sig genom området",
+      "Den är hållbar om marken fortfarande används på samma plats",
+      "Den visar främst bättre vattenflöde och starkare markfunktion"
+    ],
+    "rationales": [
+      "Ökad avrinning kan vara en risk när växttäcket minskar.",
+      "Fortsatt användning säger inte att funktionen bärs.",
+      "Minskande växttäcke talar emot starkare markfunktion."
+    ],
+    "solution": "Ett starkt resonemang kopplar förändringen över tid till biologisk funktion och hållbarhet.",
+    "summary": "Sanitiserad grundning: delområdet tränar resonemang om utveckling över tid.",
+    "tags": [
+      "utveckling",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "002",
+    "typ": "jämförelse",
+    "niva": 2,
+    "stem": "Metod A låter dött växtmaterial brytas ned och näring återföras. Metod B tar bort materialet snabbare. Vad är den biologiska skillnaden?",
+    "correct": "A stödjer näringsflödet som funktion bättre",
+    "wrong": [
+      "B stödjer näringsflödet bättre genom att ytan snabbt blir ren",
+      "A och B ger samma funktion om området ser likadant ut",
+      "B blir mer hållbar om materialet används någon annanstans"
+    ],
+    "rationales": [
+      "En ren yta betyder inte att näring återförs lokalt.",
+      "Utseende räcker inte för att jämföra funktion.",
+      "Återbruk på annan plats visar inte lokal biologisk funktion."
+    ],
+    "solution": "Jämförelsen bör visa vilken utveckling som bättre bevarar biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförelse av utveckling.",
+    "tags": [
+      "utveckling",
+      "jämförelse"
+    ]
+  },
+  {
+    "kp": "003",
+    "typ": "modell",
+    "niva": 1,
+    "stem": "En modell visar resursuttag, återhämtning och biologisk funktion. Vad bör pilen mellan uttag och funktion visa?",
+    "correct": "Hur ökat uttag kan ändra återhämtning och funktion",
+    "wrong": [
+      "Hur återhämtning kan ritas som en separat slutpunkt",
+      "Hur uttag kan ersättas med nytta i modellen",
+      "Hur funktion kan markeras före orsaken som påverkar den"
+    ],
+    "rationales": [
+      "Återhämtning behöver kopplas till påverkan.",
+      "Nytta ersätter inte biologisk funktion.",
+      "Orsak och följd behöver visas i rätt riktning."
+    ],
+    "solution": "Modellen blir biologisk när den visar hur förändring påverkar funktion och återhämtning.",
+    "summary": "Sanitiserad grundning: delområdet modellerar biologiskt samband i hållbar utveckling.",
+    "tags": [
+      "biologiskt samband",
+      "modell"
+    ]
+  },
+  {
+    "kp": "003",
+    "typ": "modell",
+    "niva": 2,
+    "stem": "En modell visar utveckling men saknar biologisk funktion. Vad behöver läggas till?",
+    "correct": "Vilken funktion som påverkas och vilken följd den får",
+    "wrong": [
+      "Fler pilar mellan åtgärder med samma betydelse",
+      "En tidslinje över beslut innan biologisk följd syns",
+      "Ett värde för kortsiktig nytta som får stå för funktionen"
+    ],
+    "rationales": [
+      "Fler pilar ger inte automatiskt biologisk funktion.",
+      "Beslutstider räcker inte för biologisk modellering.",
+      "Kortsiktig nytta är inte samma sak som funktion."
+    ],
+    "solution": "Modellen behöver visa biologisk funktion för att utvecklingen ska kunna bedömas hållbart.",
+    "summary": "Sanitiserad grundning: delområdet tränar modellkomplettering.",
+    "tags": [
+      "biologiskt samband",
+      "biologisk funktion"
+    ]
+  },
+  {
+    "kp": "003",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Vilken modellkedja visar risk för mindre hållbar utveckling?",
+    "correct": "Uttag ökar, återhämtning minskar och biologisk funktion försvagas",
+    "wrong": [
+      "Uttag ökar, nytta ökar och biologisk funktion stärks",
+      "Återhämtning minskar, uttag minskar och funktion stärks",
+      "Funktion försvagas, återhämtning ökar och uttag ökar"
+    ],
+    "rationales": [
+      "Ökad nytta visar inte automatiskt stärkt funktion.",
+      "Kedjan blandar ihop orsak och följd.",
+      "Försvagad funktion talar inte för ökad återhämtning."
+    ],
+    "solution": "En bra modellkedja visar förändring, biologiskt samband och följd för funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar modellval.",
+    "tags": [
+      "biologiskt samband",
+      "utveckling"
+    ]
+  },
+  {
+    "kp": "003",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "En modell visar ökat uttag och minskad återhämtning. Underlaget gäller en funktion. Vad är rimligast?",
+    "correct": "Att knyta slutsatsen till den mätta funktionen och följa upp fler",
+    "wrong": [
+      "Att ge minskad återhämtning samma betydelse för flera omätta funktioner",
+      "Att välja uttaget som huvudmått eftersom det ökade tydligast",
+      "Att tolka den mätta funktionen som stabil trots minskad återhämtning"
+    ],
+    "rationales": [
+      "Omätta funktioner kräver eget stöd.",
+      "Uttag är en påverkan, inte hela funktionen.",
+      "Minskad återhämtning behöver vägas in."
+    ],
+    "solution": "Ett starkt modellresonemang följer kedjan men håller slutsatsen inom det som mätts.",
+    "summary": "Sanitiserad grundning: delområdet tränar avgränsat modellresonemang.",
+    "tags": [
+      "biologiskt samband",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "003",
+    "typ": "jämförelse",
+    "niva": 2,
+    "stem": "Två modeller beskriver samma åtgärd. Den ena kopplar återhämtning till funktion, den andra kopplar främst åtgärden till nytta. Vad ska jämföras?",
+    "correct": "Modellen som förklarar hur återhämtning påverkar funktionen",
+    "wrong": [
+      "Modellen som visar störst kortsiktig nytta efter åtgärden",
+      "Modellen som har flest pilar mellan begreppen",
+      "Modellen där mätningen av uttag får ersätta funktionsdata"
+    ],
+    "rationales": [
+      "Kortsiktig nytta räcker inte som biologisk förklaring.",
+      "Fler pilar behöver inte ge bättre samband.",
+      "Uttag och funktion är olika delar av modellen."
+    ],
+    "solution": "Modeller jämförs genom hur väl sambanden förklarar biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförelse av modeller.",
+    "tags": [
+      "biologiskt samband",
+      "jämförelse"
+    ]
+  },
+  {
+    "kp": "004",
+    "typ": "begrepp",
+    "niva": 1,
+    "stem": "Varför är biologisk funktion viktig när hållbar utveckling jämförs?",
+    "correct": "Den visar vad som måste fungera över tid",
+    "wrong": [
+      "Den visar vilken åtgärd som ger snabbast nytta",
+      "Den gör återhämtning till ett mått på resursmängd",
+      "Den räcker som bevis även när sambandet är oklart"
+    ],
+    "rationales": [
+      "Snabb nytta är inte samma sak som biologisk hållbarhet.",
+      "Återhämtning och resursmängd är olika saker.",
+      "Funktionen behöver kopplas till samband."
+    ],
+    "solution": "Biologisk funktion visar vad utvecklingen påverkar i ekosystemet.",
+    "summary": "Sanitiserad grundning: delområdet jämför biologisk funktion och hållbar.",
+    "tags": [
+      "biologisk funktion",
+      "begrepp"
+    ]
+  },
+  {
+    "kp": "004",
+    "typ": "jämförelse",
+    "niva": 2,
+    "stem": "Åtgärd A ger samma nytta med långsammare uttag men kräver större yta. Åtgärd B ger samma nytta på mindre yta men svagare återhämtning. Vad behövs för biologisk hållbarhetsjämförelse?",
+    "correct": "Jämför hur funktionerna håller över tid i båda åtgärderna",
+    "wrong": [
+      "Välj A om ytan är större och nyttan är densamma",
+      "Välj B om nyttan ryms på mindre yta",
+      "Utgå från snabbaste nyttan och följ funktionen senare"
+    ],
+    "rationales": [
+      "Större yta avgör inte hållbarheten ensam.",
+      "Mindre yta behöver vägas mot återhämtning.",
+      "Funktionen behöver ingå i jämförelsen från början."
+    ],
+    "solution": "När nyttan är liknande blir biologisk funktion en viktig skillnad för hållbarhet.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförelse av biologisk funktion.",
+    "tags": [
+      "biologisk funktion",
+      "jämförelse"
+    ]
+  },
+  {
+    "kp": "004",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Åtgärd A låter ett område återhämta sig, åtgärd B gör återhämtningen långsammare. Vad jämförs biologiskt?",
+    "correct": "Hur åtgärderna ändrar återhämtningen som funktion",
+    "wrong": [
+      "Hur snabbt området kan användas igen efter åtgärden",
+      "Vilken åtgärd som ger tydligast kortsiktig nytta",
+      "Hur långsammare återhämtning kan tolkas som starkare funktion"
+    ],
+    "rationales": [
+      "Användningstakt är inte samma sak som återhämtande funktion.",
+      "Kortsiktig nytta behöver vägas mot biologisk funktion.",
+      "Långsammare återhämtning talar inte för starkare funktion."
+    ],
+    "solution": "Jämförelsen bör fokusera på funktionen som gör att ekosystemet kan fortsätta fungera.",
+    "summary": "Sanitiserad grundning: delområdet tränar casebaserad jämförelse.",
+    "tags": [
+      "biologisk funktion",
+      "hållbar"
+    ]
+  },
+  {
+    "kp": "004",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "En åtgärd minskar översvämning genom snabbare vattenflöde, men växttäcket minskar och marken återhämtar sig långsammare. Vad gör jämförelsen rimlig?",
+    "correct": "Att väga vattenflödet mot växttäcke och återhämtning",
+    "wrong": [
+      "Att låta vattenflödet väga tyngst eftersom nyttan syns direkt",
+      "Att låta växttäcket avgöra frågan eftersom minskningen syns tydligt",
+      "Att välja den funktion som ändrats mest som enda mått"
+    ],
+    "rationales": [
+      "Direkt nytta behöver vägas mot biologiska risker.",
+      "En tydlig minskning är viktig men inte hela avvägningen.",
+      "Störst förändring räcker inte som enda hållbarhetsmått."
+    ],
+    "solution": "En rimlig jämförelse visar både stöd och risk för biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar avvägt resonemang.",
+    "tags": [
+      "biologisk funktion",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "004",
+    "typ": "modell",
+    "niva": 2,
+    "stem": "En modell jämför två åtgärder för hållbar utveckling. Vad behöver modellen visa?",
+    "correct": "Vilka funktioner som stärks, försvagas och hur säkert det är",
+    "wrong": [
+      "Vilken åtgärd som ger flest positiva mätpunkter",
+      "Vilken funktion som ändras snabbast efter åtgärden",
+      "Vilket beslut som passar bäst med kortsiktig nytta"
+    ],
+    "rationales": [
+      "Antalet positiva mätpunkter behöver kopplas till funktion.",
+      "Snabbast förändring är inte alltid mest hållbarhetsrelevant.",
+      "Kortsiktig nytta är bara en del av underlaget."
+    ],
+    "solution": "Modellen bör visa hur åtgärderna påverkar biologiska funktioner över tid.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförande modell.",
+    "tags": [
+      "biologisk funktion",
+      "modell"
+    ]
+  },
+  {
+    "kp": "005",
+    "typ": "samband",
+    "niva": 1,
+    "stem": "Vad gör ett påstående om hållbar utveckling biologiskt?",
+    "correct": "Det kopplar påståendet till samband, funktion och tid",
+    "wrong": [
+      "Det kopplar påståendet till en synlig förändring i första mätningen",
+      "Det väljer den funktion som stöder åtgärden tydligast",
+      "Det beskriver nyttan och låter biologin komma i nästa steg"
+    ],
+    "rationales": [
+      "En synlig förändring behöver följas biologiskt.",
+      "Ett urval av stödjande funktioner kan bli ensidigt.",
+      "Biologin behöver ingå i själva påståendet."
+    ],
+    "solution": "Ett biologiskt påstående visar vilket samband som gör utvecklingen hållbar eller riskfylld.",
+    "summary": "Sanitiserad grundning: delområdet tränar hållbar i resonemang.",
+    "tags": [
+      "hållbar",
+      "biologiskt samband"
+    ]
+  },
+  {
+    "kp": "005",
+    "typ": "förståelse",
+    "niva": 2,
+    "stem": "En förändring sparar resurser men försvagar återhämtning. Varför räcker inte resursbesparingen som hållbarhetsargument?",
+    "correct": "Resursbesparing behöver vägas mot försvagad återhämtning",
+    "wrong": [
+      "Resursbesparing visar att återhämtningen får större stöd",
+      "Svagare återhämtning kan räknas som lägre uttag",
+      "Kortsiktig resursnytta ger starkare biologiskt bevis än funktion"
+    ],
+    "rationales": [
+      "Försvagad återhämtning talar inte för större stöd.",
+      "Återhämtning och uttag är olika led i sambandet.",
+      "Kortsiktig nytta behöver biologiskt stöd."
+    ],
+    "solution": "Hållbarhetsargument behöver väga både nytta och följd för biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar förståelse av hållbarhet.",
+    "tags": [
+      "hållbar",
+      "förståelse"
+    ]
+  },
+  {
+    "kp": "005",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Ett område används försiktigare och en viktig funktion återhämtar sig. Vilket påstående är bäst?",
+    "correct": "Mer hållbar är rimligt om återhämtningen håller över tid",
+    "wrong": [
+      "Mindre intensiv användning räcker redan innan följden följs",
+      "Återhämtningen visar att flera andra funktioner stärks samtidigt",
+      "Försiktigare användning gör orsakssambandet mindre viktigt"
+    ],
+    "rationales": [
+      "Själva användningsnivån behöver följas mot funktion.",
+      "Andra funktioner kräver eget underlag.",
+      "Orsakssambandet är viktigt när användningen ändras."
+    ],
+    "solution": "När en biologisk funktion återhämtar sig finns bättre stöd för hållbar utveckling.",
+    "summary": "Sanitiserad grundning: delområdet tränar påstående om hållbar.",
+    "tags": [
+      "hållbar",
+      "biologisk funktion"
+    ]
+  },
+  {
+    "kp": "005",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "En förändring stärker vattenflöde men försvagar växttäcke. Hur bör ett hållbart resonemang hantera detta?",
+    "correct": "Väg förbättrat vattenflöde mot svagare växttäcke",
+    "wrong": [
+      "Välj vattenflödet eftersom förbättringen syns snabbast",
+      "Välj växttäcket eftersom minskningen syns tydligast",
+      "Räkna båda funktionerna som stärkta när en funktion förbättras"
+    ],
+    "rationales": [
+      "Snabb synlighet räcker inte som hållbarhetsmått.",
+      "En tydlig minskning behöver vägas mot andra funktioner.",
+      "En förbättrad funktion gör inte andra funktioner stärkta."
+    ],
+    "solution": "Ett starkt resonemang väger biologiska vinster mot biologiska risker.",
+    "summary": "Sanitiserad grundning: delområdet tränar avvägt resonemang om hållbar.",
+    "tags": [
+      "hållbar",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "005",
+    "typ": "jämförelse",
+    "niva": 2,
+    "stem": "Två argument gäller samma förändring. A visar ökad återhämtning efter tre mätningar. B visar minskad vattenanvändning med kortare uppföljning. Vilket är starkare biologiskt?",
+    "correct": "A är starkare eftersom det har längre stöd för funktion över tid",
+    "wrong": [
+      "B är starkare eftersom minskad vattenanvändning är en funktion i sig",
+      "A och B väger lika när båda beskriver en förändring",
+      "B blir starkare om nyttan gäller fler användare"
+    ],
+    "rationales": [
+      "Minskad vattenanvändning behöver kopplas till biologisk funktion.",
+      "En förändring behöver olika starkt stöd beroende på uppföljning.",
+      "Fler användare säger inte hur funktionen utvecklas."
+    ],
+    "solution": "Ett starkare hållbarhetsargument visar biologisk funktion över tid.",
+    "summary": "Sanitiserad grundning: delområdet tränar jämförelse av hållbarhetsargument.",
+    "tags": [
+      "hållbar",
+      "jämförelse"
+    ]
+  },
+  {
+    "kp": "006",
+    "typ": "samband",
+    "niva": 1,
+    "stem": "Vilket exempel visar orsak och följd mellan utveckling och hållbarhet?",
+    "correct": "Minskat uttag ger bättre återhämtning och starkare funktion",
+    "wrong": [
+      "Minskat uttag ger lägre resursmängd och svagare funktion",
+      "Ökat uttag ger snabb återväxt och starkare funktion",
+      "Oförändrat uttag ger bättre återhämtning när nyttan ökar"
+    ],
+    "rationales": [
+      "Minskat uttag brukar snarare minska belastningen på resursen.",
+      "Ökat uttag kan belasta återhämtningen.",
+      "Oförändrat uttag förklarar inte bättre återhämtning."
+    ],
+    "solution": "Orsak och följd blir tydliga när utvecklingen ändrar en biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet behandlar utveckling som orsak och följd.",
+    "tags": [
+      "utveckling",
+      "samband"
+    ]
+  },
+  {
+    "kp": "006",
+    "typ": "process",
+    "niva": 2,
+    "stem": "Ett område används mindre intensivt och växttäcket återhämtar sig. Vilken följd är rimlig?",
+    "correct": "Funktionen kan stärkas om återhämtningen fortsätter",
+    "wrong": [
+      "Växttäcket kan öka medan funktionen bedöms som oförändrad",
+      "Återhämtningen visar direkt hur flera funktioner förändras",
+      "Följden bör bedömas främst från användningsnivån före mätningen"
+    ],
+    "rationales": [
+      "Ökat växttäcke är relevant för funktion och bör följas.",
+      "Flera funktioner kräver egna mätningar.",
+      "Tidigare användningsnivå behöver kopplas till mätt följd."
+    ],
+    "solution": "Följden kopplar förändrad användning till biologisk funktion och hållbar utveckling.",
+    "summary": "Sanitiserad grundning: delområdet tränar process från utveckling till hållbar.",
+    "tags": [
+      "utveckling",
+      "biologisk funktion"
+    ]
+  },
+  {
+    "kp": "006",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "En åtgärd förbättrar en funktion men ökar trycket på en annan. Vad är orsaken i en hållbarhetsanalys?",
+    "correct": "Åtgärden som ändrar båda funktionerna",
+    "wrong": [
+      "Den förbättrade funktionen som förklarar hela hållbarheten",
+      "Den pressade funktionen som förklarar varför åtgärden infördes",
+      "Kortsiktig nytta som förklarar de biologiska följderna"
+    ],
+    "rationales": [
+      "En förbättrad funktion är en följd, inte hela orsaken.",
+      "Den pressade funktionen är också en följd i scenariot.",
+      "Nytta kan motivera åtgärden men visar inte biologisk orsakskedja."
+    ],
+    "solution": "Orsaken är den utveckling eller åtgärd som förändrar biologiska funktioner.",
+    "summary": "Sanitiserad grundning: delområdet tränar orsak i utveckling.",
+    "tags": [
+      "utveckling",
+      "orsak"
+    ]
+  },
+  {
+    "kp": "006",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "En metod ger bättre kortsiktig tillgång men långsammare återhämtning. Vad gör slutsatsen hållbarhetsmässigt stark?",
+    "correct": "Att visa nyttan, återhämtningen och gränsen för slutsatsen",
+    "wrong": [
+      "Att låta bättre tillgång väga tyngre än långsammare återhämtning",
+      "Att låta återhämtningen avgöra även omätta funktioner",
+      "Att jämföra metoden med nytta först och följa återhämtning senare"
+    ],
+    "rationales": [
+      "Tillgång behöver vägas mot återhämtning.",
+      "Omätta funktioner kräver eget underlag.",
+      "Återhämtning behöver ingå i slutsatsen, inte skjutas upp."
+    ],
+    "solution": "Ett starkt resonemang visar orsak, följd och begränsning.",
+    "summary": "Sanitiserad grundning: delområdet tränar resonemang om orsak och följd.",
+    "tags": [
+      "utveckling",
+      "resonemang"
+    ]
+  },
+  {
+    "kp": "007",
+    "typ": "begrepp",
+    "niva": 1,
+    "stem": "Vilket exempel visar biologiskt samband i hållbar utveckling?",
+    "correct": "Uttag påverkar återhämtning som påverkar funktion",
+    "wrong": [
+      "Uttag påverkar kostnad som påverkar beslut",
+      "Återhämtning mäts som samma sak som resursmängd",
+      "Funktion ändras först och orsakar sedan uttaget"
+    ],
+    "rationales": [
+      "Kostnad och beslut är inte det biologiska sambandet här.",
+      "Återhämtning och resursmängd är inte samma mått.",
+      "Orsakskedjan blir omvänd."
+    ],
+    "solution": "Biologiskt samband syns när förändring påverkar funktion via delar i ekosystemet.",
+    "summary": "Sanitiserad grundning: delområdet repeterar biologiskt samband i hållbar utveckling.",
+    "tags": [
+      "biologiskt samband",
+      "begrepp"
+    ]
+  },
+  {
+    "kp": "007",
+    "typ": "förståelse",
+    "niva": 2,
+    "stem": "Varför behöver hållbar utveckling beskrivas som biologiskt samband?",
+    "correct": "Flera delar kan föra vidare följder till funktionen",
+    "wrong": [
+      "En del som förbättras får representera hela utvecklingen",
+      "Sambandet kan väljas efter den tydligaste mätningen",
+      "Följder över tid kan ersättas av första resultatet"
+    ],
+    "rationales": [
+      "En del räcker inte för hela utvecklingen.",
+      "Samband behöver stöd i biologiska följder.",
+      "Första resultatet behöver följas över tid."
+    ],
+    "solution": "Hållbar utveckling kräver att man följer hur biologiska delar och funktioner påverkar varandra.",
+    "summary": "Sanitiserad grundning: delområdet tränar förståelse av biologiskt samband.",
+    "tags": [
+      "biologiskt samband",
+      "hållbar"
+    ]
+  },
+  {
+    "kp": "007",
+    "typ": "mcq",
+    "niva": 2,
+    "stem": "Ett område får minskat uttag och bättre återhämtning. Vilket samband beskriver detta bäst?",
+    "correct": "Minskat uttag kan ge bättre återhämtning och funktion",
+    "wrong": [
+      "Bättre återhämtning förklarar uttaget som redan minskats",
+      "Minskat uttag visar samma sak som stärkt funktion direkt",
+      "Funktionen stärks först och gör uttaget mindre"
+    ],
+    "rationales": [
+      "Orsak och följd blir omvända.",
+      "Minskat uttag behöver följas mot funktion.",
+      "Funktionen är följd i kedjan, inte första orsaken."
+    ],
+    "solution": "Sambandet går från förändrat uttag till återhämtning och biologisk funktion.",
+    "summary": "Sanitiserad grundning: delområdet tränar korrekt biologiskt samband.",
+    "tags": [
+      "biologiskt samband",
+      "utveckling"
+    ]
+  },
+  {
+    "kp": "007",
+    "typ": "resonemang",
+    "niva": 3,
+    "stem": "Ett biologiskt samband verkar stödja hållbar utveckling. Underlaget gäller återhämtning. Vad är en rimlig slutsats?",
+    "correct": "Stöd för återhämtning, men fler funktioner behöver följas",
+    "wrong": [
+      "Stöd för hela ekosystemets hållbarhet på samma nivå",
+      "Återhämtning ger ett säkert svar om vattenflöde och växttäcke",
+      "Sambandet bör bytas mot kortsiktig nytta i slutsatsen"
+    ],
+    "rationales": [
+      "En funktion räcker inte för hela ekosystemet.",
+      "Vattenflöde och växttäcke kräver eget stöd.",
+      "Kortsiktig nytta ersätter inte biologiskt samband."
+    ],
+    "solution": "En stark slutsats kopplar sambandet till det som mätts och markerar vad som återstår.",
+    "summary": "Sanitiserad grundning: delområdet tränar sammanfattande resonemang om biologiskt samband.",
+    "tags": [
+      "biologiskt samband",
+      "resonemang"
+    ]
+  }
+];
+
 const batches = [
   {
     idPrefix: 'bio-q-k1-sec01',
@@ -3355,6 +4117,17 @@ const batches = [
     delkapitel: 'K1-biologi-kap1-sec08',
     stella: 'Stella Biologi K1 delområde 8',
     authored: authoredSec08
+  },
+  {
+    idPrefix: 'bio-q-k2-sec01',
+    importBatchId: 'biologi-k2-sec01-offline-batch-20260518',
+    bookLocationId: 'bookedition-stella-biologi-ocr-v1:biologi-kap2-sec01',
+    sourceClaimId: 'sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec01',
+    chapterCode: 'K2',
+    delkapitel: 'K2-biologi-kap2-sec01',
+    stella: 'Stella Biologi K2 delområde 1',
+    authored: authoredKap2Sec01
   }
 ];
 

@@ -153,7 +153,12 @@ const supportedConceptTerms = [
   { term: 'ekosystemtjänster', location: 'biologi-kap1-sec08' },
   { term: 'ekosystem', location: 'biologi-kap1-sec08' },
   { term: 'biologiskt samband', location: 'biologi-kap1-sec08' },
-  { term: 'biologisk funktion', location: 'biologi-kap1-sec08' }
+  { term: 'biologisk funktion', location: 'biologi-kap1-sec08' },
+  { term: 'hållbar', location: 'biologi-kap2-sec01' },
+  { term: 'utveckling', location: 'biologi-kap2-sec01' },
+  { term: 'hållbar utveckling', location: 'biologi-kap2-sec01' },
+  { term: 'biologiskt samband', location: 'biologi-kap2-sec01' },
+  { term: 'biologisk funktion', location: 'biologi-kap2-sec01' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -277,6 +282,7 @@ if (questionCandidates.length > 0) {
       const isSec06 = candidateLocationText.includes('biologi-kap1-sec06');
       const isSec07 = candidateLocationText.includes('biologi-kap1-sec07');
       const isSec08 = candidateLocationText.includes('biologi-kap1-sec08');
+      const isKap2Sec01 = candidateLocationText.includes('biologi-kap2-sec01');
       const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
         ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
         : /fältundersökning/.test(primaryTagText)
@@ -323,6 +329,10 @@ if (questionCandidates.length > 0) {
                                                   ? { pattern: /organismer/, label: 'organisms' }
                                                   : isSec08 && /ekosystemtjänster/.test(primaryTagText)
                                                     ? { pattern: /ekosystemtjänster/, label: 'ecosystem services' }
+                                                    : isKap2Sec01 && /hållbar/.test(primaryTagText)
+                                                      ? { pattern: /hållbar/, label: 'sustainable' }
+                                                      : isKap2Sec01 && /utveckling/.test(primaryTagText)
+                                                        ? { pattern: /utveckling/, label: 'development' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)
