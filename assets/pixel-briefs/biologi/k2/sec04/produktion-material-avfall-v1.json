@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "visual-question-brief-v1",
+  "id": "visual-brief-biologi-k2-sec04-produktion-material-avfall-v1",
+  "uri": "visual-brief://biologi/k2/sec04/produktion-material-avfall-v1",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "chapterCode": "K2",
+  "bookLocationIds": [
+    "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04"
+  ],
+  "sourceAtomIds": [
+    "source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion"
+  ],
+  "knowledgePointIds": [
+    "kp-biologi-biologi-kap2-sec04-003"
+  ],
+  "candidateQuestionIds": [
+    "bio-q-k2-sec04-012"
+  ],
+  "runtimeAssetAllowed": false,
+  "pixelImageAllowed": false,
+  "renderStatus": "brief_only_candidate_review_required",
+  "coordinateSpace": {
+    "width": 650,
+    "height": 480
+  },
+  "visualIntent": "A simple flow model that lets a student compare material input, product output, waste and recycling before deciding what biological impact can be inferred.",
+  "elements": [
+    "left input node: nytt material",
+    "center process node: produktion",
+    "right output node: produkt",
+    "lower branch: restavfall",
+    "return branch: återvinning"
+  ],
+  "studentTask": "Use the model to identify why the biological conclusion must include both material use and waste.",
+  "mustNotContain": [
+    "raw OCR text",
+    "textbook layout",
+    "publisher illustration",
+    "student data",
+    "runtime activation metadata"
+  ],
+  "reviewRequiredBeforeAsset": [
+    "biology content review",
+    "visual semantics review",
+    "chemistry visual parity review",
+    "copyright leak review",
+    "responsive screenshot review"
+  ]
+}

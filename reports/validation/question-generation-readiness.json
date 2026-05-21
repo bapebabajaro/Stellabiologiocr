@@ -1,14 +1,14 @@
 {
-  "ok": true,
+  "ok": false,
   "schemaVersion": "question-generation-readiness-v1",
-  "status": "question_generation_ready_for_offline_candidates",
+  "status": "blocked",
   "counts": {
     "evidenceRefs": 360,
     "reviewedEvidenceRefs": 360,
-    "sourceAtoms": 43,
+    "sourceAtoms": 49,
     "atomicKnowledgePoints": 240,
     "atomicKpReviewDecisions": 240,
-    "questionCandidates": 363
+    "questionCandidates": 396
   },
   "outputPolicy": {
     "runtimeImportAllowed": false,
@@ -19,5 +19,101 @@
     "pixelWriteAllowed": false,
     "productionDeployAllowed": false
   },
-  "issues": []
+  "issues": [
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-001",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-002",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-005",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-006",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-011",
+      "message": "primary QKL does not match biological function/structure semantics"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-011",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-012",
+      "message": "primary QKL does not match magnification/scale semantics"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-012",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-018",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-022",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-024",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-029",
+      "message": "candidate uses cellvägg without matching reviewed source atom support"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec02-030",
+      "message": "primary QKL does not match biological function/structure semantics"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec03-012",
+      "message": "too many distractors rely on absolute cue words"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec04-023",
+      "message": "primary QKL does not match species diversity semantics"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec05-019",
+      "message": "distractor overclaims absence of function"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k1-sec06-005",
+      "message": "primary QKL does not match biological function semantics"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k2-sec02-008",
+      "message": "distractor overclaims absence of function"
+    },
+    {
+      "category": "question-quality",
+      "id": "bio-q-k2-sec02-017",
+      "message": "primary QKL does not match habitat semantics"
+    }
+  ]
 }

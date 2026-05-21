@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "visual-question-brief-v1",
+  "id": "visual-brief-biologi-k2-sec04-naring-aterhamtning-tabell-v1",
+  "uri": "visual-brief://biologi/k2/sec04/naring-aterhamtning-tabell-v1",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "chapterCode": "K2",
+  "bookLocationIds": [
+    "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04"
+  ],
+  "sourceAtomIds": [
+    "source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan"
+  ],
+  "knowledgePointIds": [
+    "kp-biologi-biologi-kap2-sec04-005"
+  ],
+  "candidateQuestionIds": [
+    "bio-q-k2-sec04-025"
+  ],
+  "runtimeAssetAllowed": false,
+  "pixelImageAllowed": false,
+  "renderStatus": "brief_only_candidate_review_required",
+  "coordinateSpace": {
+    "width": 650,
+    "height": 480
+  },
+  "visualIntent": "A compact two-column comparison table for two different habitat consequences: nutrient availability and recovery.",
+  "elements": [
+    "column: näringstillgång",
+    "column: återhämtning",
+    "row: vad underlaget visar",
+    "row: vad som återstår att följa upp"
+  ],
+  "studentTask": "Use the table to avoid treating one measured consequence as proof for every ecosystem effect.",
+  "mustNotContain": [
+    "raw OCR text",
+    "textbook layout",
+    "publisher illustration",
+    "student data",
+    "runtime activation metadata"
+  ],
+  "reviewRequiredBeforeAsset": [
+    "biology content review",
+    "visual semantics review",
+    "chemistry visual parity review",
+    "copyright leak review",
+    "responsive screenshot review"
+  ]
+}

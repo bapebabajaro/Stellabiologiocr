@@ -75,6 +75,113 @@ function metadataCompleteness() {
   };
 }
 
+function publicSummary(summary) {
+  const cleaned = String(summary ?? '')
+    .replace(/^Sanitiserad grundning:\s*/i, '')
+    .replace(/^Sanitized grounding:\s*/i, '')
+    .trim();
+  const publicText = cleaned ? cleaned.charAt(0).toUpperCase() + cleaned.slice(1) : 'Avsnittet behandlar ett public-safe biologiskt delområde.';
+  return publicText.length >= 30 ? publicText : `${publicText} i biologiundervisningen.`;
+}
+
+function diagnosticRationale(rationale, optionText, item, batch) {
+  const raw = String(rationale ?? '').trim();
+  if (!batch.idPrefix.startsWith('bio-q-k2-sec04')) return raw;
+  const specific = new Map([
+    ['Resursmått behöver kopplas till biologisk följd.', 'Ett resursmått visar mängd, men säger inte om arter eller livsmiljöer påverkas.'],
+    ['Resursminskning behöver kopplas till levande system.', 'Minskad resursanvändning kan vara positiv, men biologin avgörs av effekten på organismer och miljöer.'],
+    ['Återvinning behöver kopplas till material och påverkan.', 'Återvinning är relevant först när materialflödet och den möjliga miljöeffekten syns.'],
+    ['Ett bättre resursmått räcker inte för hela biologin.', 'Ett förbättrat resursvärde kan dölja en risk för livsmiljö eller arter.'],
+    ['En risk behöver prövas, inte avsluta bedömningen direkt.', 'En nämnd risk är ett skäl att undersöka följden, inte ett färdigt svar.'],
+    ['Avfall behöver vägas mot materialflöde.', 'Låg avfallsmängd kan vara missvisande om materialåtgången samtidigt är stor.'],
+    ['Mindre nyproduktion behöver kopplas till levande system.', 'Mindre nyproduktion är ett mellanled; påverkan på organismer måste fortfarande synas.'],
+    ['Biologisk påverkan behöver kopplas till användning här.', 'Här handlar felvalet om påverkan före eller efter användningen, inte om själva konsumtionen.'],
+    ['Matsvinn behöver kopplas till resursanvändning.', 'Matsvinnet blir biologiskt relevant först när råvaror, odling eller avfall i kedjan följs.'],
+    ['Ett val behöver kopplas till resursanvändning.', 'Ett köp eller val i sig visar inte om mindre material, energi eller livsmiljöpåverkan uppstår.'],
+    ['Resurskedjan behöver följas innan biologisk påverkan bedöms.', 'Annars kan påståendet bli positivt formulerat utan bevis för mindre påverkan.'],
+    ['Avfallsmängd behöver kopplas till resursanvändning och följder.', 'Avfallsmängden är bara ett led; råvaror och effekter i miljön kan ändra slutsatsen.'],
+    ['Avfall och nyproduktion behöver vägas tillsammans.', 'Ett val kan ge mindre avfall men ändå öka behovet av nya resurser.'],
+    ['Materialbesparing behöver kopplas till biologisk följd.', 'Sparat material är ett mellanled och visar inte automatiskt påverkan på livsmiljöer.'],
+    ['Stort flöde behöver kopplas till påverkan.', 'Ett stort materialflöde är viktigt först när man ser vilken miljöeffekt flödet kan ge.'],
+    ['Minskat avfall behöver vägas mot materialanvändning.', 'Mindre restavfall kan motverkas av större uttag av nytt material.'],
+    ['Materialbyte behöver följas biologiskt.', 'Ett nytt material kan ändra råvaruuttag, avfall eller påverkan på livsmiljöer.'],
+    ['Återvinning behöver kopplas till påverkan.', 'Mer återvinning visar inte ensam vad som händer med resursuttag eller miljö.'],
+    ['Ett mått räcker inte för hela bedömningen.', 'Ett enda mått kan dölja att en annan del av systemet försämras.'],
+    ['Material och avfall behöver vägas tillsammans.', 'Materialåtgång och avfall kan peka åt olika håll och måste jämföras.'],
+    ['Avfall behöver vägas mot materialbehov.', 'Litet avfall kan vara mindre hållbart om produktionen kräver mycket nytt material.'],
+    ['Materialbesparing behöver kopplas till biologisk påverkan.', 'Materialbesparing är relevant först när följden för miljö eller organismer syns.'],
+    ['Lägre avfall behöver kopplas till biologisk följd.', 'Lägre avfall säger inget säkert om arter, mark eller vatten påverkas mindre.'],
+    ['Resursanvändning behöver kopplas till levande system.', 'Resursdata beskriver uttag men inte automatiskt effekten på livsmiljöer.'],
+    ['Avfall behöver kopplas till livsmiljö.', 'Avfallsmängden blir biologisk först när man vet vilken miljö den kan påverka.'],
+    ['Produktion behöver kopplas till biologisk respons.', 'Produktionsdata behöver följas av vad som händer med arter eller livsmiljö.'],
+    ['Ett avfallsmått räcker inte för hela sambandet.', 'Avfallet är ett led i kedjan och kan inte ensam visa hela påverkan.'],
+    ['Mätvärden behöver kopplas till påverkan.', 'Mätvärden blir biologiskt meningsfulla först när de förklarar en effekt i miljön.'],
+    ['Ett avfallsmått räcker inte för mångfald.', 'Mångfald påverkas av fler faktorer än mängden restmaterial.'],
+    ['Avfallsmängd behöver kopplas till levande sammanhang.', 'Avfallsmängden måste tolkas mot den miljö där organismer lever.'],
+    ['Återvinning behöver kopplas till faktisk påverkan.', 'Återvinning kan minska ett problem men måste följas i resurs- och avfallskedjan.'],
+    ['Avfallsmängd behöver kopplas till livsmiljö.', 'Avfallets mängd säger inte vilken livsmiljö som påverkas eller hur starkt.'],
+    ['Resursminskning behöver kopplas till arter eller mångfald.', 'Färre resurser använda är inte samma sak som visad effekt på arter.'],
+    ['Återvinning behöver följas biologiskt.', 'Återvinningen behöver visa följder i materialflöde, avfall eller livsmiljö.'],
+    ['Följden behöver kopplas till levande sammanhang.', 'En följd blir biologisk när den beskriver organismer, livsmiljö eller återhämtning.'],
+    ['Produktion behöver kopplas till biologisk följd.', 'Produktionens förändring är bara början; effekten i miljön avgör biologin.'],
+    ['Återvunnet material behöver kopplas till påverkan.', 'Återvunnet material kan minska uttag, men miljöeffekten måste fortfarande granskas.'],
+    ['Mindre nytt material behöver vägas mot avfall.', 'Mindre ny råvara kan samtidigt ge avfall som påverkar miljön.'],
+    ['Förändring behöver kopplas till biologisk följd.', 'Själva förändringen visar inte vilken effekt den får för organismer eller miljö.'],
+    ['En positiv del räcker inte för hela bedömningen.', 'Ett positivt delresultat kan samexistera med en negativ följd i systemet.'],
+    ['Märkning behöver följas av faktisk påverkan.', 'En märkning visar inte ensam hur resursanvändning eller livsmiljö påverkas.'],
+    ['Avfall behöver kopplas till resurser.', 'Avfallet måste sättas i relation till råvaror och användning i kedjan.'],
+    ['Ett resursmått behöver kopplas till levande system.', 'Ett enda resursmått visar inte om livsmiljön lämnas utanför.']
+  ]).get(raw) ?? raw;
+  if (specific.split(/\s+/).filter(Boolean).length >= 10) return specific;
+  const context = item.tags?.includes('produktion')
+    ? 'Det misstar produktionsledet för ekologisk effekt och lämnar materialkedjan ofullständig.'
+    : item.tags?.includes('konsumtion')
+      ? 'Det behandlar valet som hållbart utan att visa hur resurskedjan ändras.'
+      : item.tags?.includes('ekosystempåverkan')
+        ? 'Det blandar ett enskilt mått med vad som händer i livsmiljön.'
+        : item.tags?.includes('biologiskt samband')
+          ? 'Det hoppar över ett mellanled mellan valet och följden för arter eller livsmiljö.'
+          : item.tags?.includes('hållbar')
+            ? 'Det gör hållbarhet till ett etikettord istället för en prövning av påverkan.'
+            : item.typ === 'resonemang'
+              ? 'Det gör slutsatsen större än underlaget och döljer osäkerheten.'
+              : item.typ === 'jämförelse'
+                ? 'Det jämför fel nivåer och gör därför alternativen svåra att bedöma lika.'
+                : 'Det ger för smalt underlag för att bedöma biologisk hållbarhet.';
+  return `${specific} ${context}`;
+}
+
+function candidateSolution(item, batch) {
+  const base = String(item.solution ?? '').trim();
+  if (!batch.idPrefix.startsWith('bio-q-k2-sec04')) return base;
+  const firstDiagnostic = diagnosticRationale(item.rationales?.[0], item.wrong?.[0], item, batch);
+  return `${base} ${firstDiagnostic}`;
+}
+
+function abilityTagsFor(item) {
+  const tags = [];
+  if (item.niva === 3 || item.typ === 'resonemang') tags.push('resonemang-och-avvägning');
+  if (item.visual) tags.push('modell-och-visualtolkning');
+  if (item.typ === 'process' || item.tags?.includes('orsak och följd')) tags.push('orsak-och-följd');
+  if (item.typ === 'jämförelse' || item.typ === 'singapore-table-mcq') tags.push('jämförande-analys');
+  if (item.tags?.includes('ekosystempåverkan')) tags.push('ekosystempåverkan');
+  if (item.tags?.includes('biologiskt samband')) tags.push('sambandsförståelse');
+  if (tags.length === 0) tags.push('begreppslig-förståelse');
+  return [...new Set(tags)];
+}
+
+function techniqueTagsFor(item) {
+  const tags = ['flerval'];
+  if (item.visual) tags.push('visualtolkning');
+  if (item.typ === 'mcq_visual' || item.typ === 'modell') tags.push('modellanalys');
+  if (item.typ === 'singapore-table-mcq') tags.push('tabelltolkning');
+  if (item.typ === 'process' || item.typ === 'samband') tags.push('orsakskedja');
+  if (item.typ === 'jämförelse') tags.push('jämförelse');
+  if (item.typ === 'resonemang') tags.push('avvägning');
+  tags.push('distraktoranalys');
+  return [...new Set(tags)];
+}
+
 const authored = [
   {
     kp: '001',
@@ -4827,6 +4934,450 @@ const authoredKap2Sec03 = [
   }
 ];
 
+const authoredKap2Sec04 = [
+  {
+    kp: '001',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-hallbar',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad betyder hållbar i hållbar konsumtion och produktion?',
+    correct: 'Att resursanvändning kopplas till påverkan på levande system',
+    wrong: ['Att varor används länge men kräver mer resurser', 'Att produktionen minskar avfall men ökar materialbehov', 'Att påverkan bedöms utan livsmiljö eller funktion'],
+    rationales: ['Lång användning behöver fortfarande prövas mot resursanvändning.', 'En förbättrad del kan vägas mot en annan belastning.', 'Biologisk bedömning behöver följd för levande system.'],
+    solution: 'Biologiskt hållbar innebär att konsumtion och produktion prövas mot resursanvändning och levande system.',
+    summary: 'Sanitiserad grundning: delområdet kopplar hållbar konsumtion och produktion till levande system.',
+    tags: ['hållbar', 'begrepp']
+  },
+  {
+    kp: '001',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-hallbar',
+    typ: 'samband',
+    niva: 2,
+    stem: 'En elev säger att en produkt är hållbar eftersom den används länge. Vad behöver också prövas biologiskt?',
+    correct: 'Om den längre användningen minskar resursanvändning och påverkan på levande system',
+    wrong: ['Om längre användning räcker även när nyproduktion ökar', 'Om produktionen blir snabbare utan biologiska mått', 'Om resursanvändning mäts men levande system lämnas utanför'],
+    rationales: ['Längre användning kan motverkas av ökad nyproduktion.', 'Snabbare produktion är inte i sig biologiskt hållbar.', 'Resursmått behöver kopplas till biologisk följd.'],
+    solution: 'Lång användning blir biologiskt relevant först när den kopplas till resursanvändning och påverkan.',
+    summary: 'Sanitiserad grundning: delområdet prövar hållbarhet genom resursanvändning och biologisk påverkan.',
+    tags: ['hållbar', 'biologiskt samband']
+  },
+  {
+    kp: '001',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-hallbar',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket underlag ger bäst stöd för att kalla ett val biologiskt hållbart?',
+    correct: 'Uppgifter om resursanvändning och följder för levande system',
+    wrong: ['Uppgifter om minskad resursanvändning utan biologisk följd', 'Uppgifter om återvinning utan materialflöde', 'Uppgifter om en livsmiljö utan koppling till valet'],
+    rationales: ['Resursminskning behöver kopplas till levande system.', 'Återvinning behöver kopplas till material och påverkan.', 'Livsmiljön behöver bindas till konsumtion eller produktion.'],
+    solution: 'Hållbarhetsbedömningen behöver biologiskt underlag, inte bara språk eller popularitet.',
+    summary: 'Sanitiserad grundning: delområdet kopplar hållbar till resursanvändning och biologisk påverkan.',
+    tags: ['hållbar', 'resursanvändning']
+  },
+  {
+    kp: '001',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-hallbar',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett förslag minskar resursanvändning men kan påverka en livsmiljö mer. Vilken slutsats är mest hållbar biologiskt?',
+    correct: 'Förslaget behöver vägas mot både resursanvändning och påverkan på levande system',
+    wrong: ['Förslaget är hållbart eftersom ett resursmått blir bättre', 'Förslaget bör avvisas eftersom en risk nämns', 'Förslaget kan bedömas från den del som är lättast att mäta'],
+    rationales: ['Ett bättre resursmått räcker inte för hela biologin.', 'En risk behöver prövas, inte avsluta bedömningen direkt.', 'Lätta mått kan missa biologisk påverkan.'],
+    solution: 'Ett starkt resonemang väger flera biologiskt relevanta delar i samma hållbarhetsfråga.',
+    summary: 'Sanitiserad grundning: delområdet låter hållbarhet prövas mot resursanvändning och levande system.',
+    tags: ['hållbar', 'resonemang']
+  },
+  {
+    kp: '001',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-hallbar',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Två varor marknadsförs som hållbara. Vad är den bästa biologiska jämförelsen?',
+    correct: 'Hur varje vara kopplas till resursanvändning och påverkan på levande system',
+    wrong: ['Vilken vara som har lägst avfallsmängd utan att material jämförs', 'Vilken vara som kräver minst nyproduktion men saknar biologisk följd', 'Vilken vara som påverkar en livsmiljö utan att resursledet prövas'],
+    rationales: ['Avfall behöver vägas mot materialflöde.', 'Mindre nyproduktion behöver kopplas till levande system.', 'Livsmiljöpåverkan behöver bindas till resursanvändning.'],
+    solution: 'En biologisk jämförelse prövar resursanvändning och levande system för båda alternativen.',
+    summary: 'Sanitiserad grundning: delområdet jämför hållbarhet genom biologiskt relevant påverkan.',
+    tags: ['hållbar', 'jämförelse']
+  },
+  {
+    kp: '002',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad betyder konsumtion i det här delområdet?',
+    correct: 'Hur produkter eller resurser används, återanvänds eller slängs',
+    wrong: ['Hur material blir avfall i framställningen', 'Hur en resurs påverkar en livsmiljö utan användningsled', 'Hur produktionens utsläpp jämförs utan konsumtion'],
+    rationales: ['Det beskriver produktion mer än konsumtion.', 'Biologisk påverkan behöver kopplas till användning här.', 'Konsumtion handlar om användning, inte enbart framställning.'],
+    solution: 'Konsumtion handlar här om användningen av produkter och resurser, inklusive återanvändning och matsvinn.',
+    summary: 'Sanitiserad grundning: delområdet behandlar konsumtion som användning, återanvändning och matsvinn.',
+    tags: ['konsumtion', 'begrepp']
+  },
+  {
+    kp: '002',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'samband',
+    niva: 2,
+    stem: 'En skola minskar matsvinnet i matsalen. Vilken biologisk fråga blir viktigast?',
+    correct: 'Om minskat matsvinn också minskar resursanvändning i kedjan',
+    wrong: ['Om minskat matsvinn räcker utan att resursledet prövas', 'Om matsvinnet minskar men annan avfallshantering ökar', 'Om avfallsmängden ändras utan koppling till kedjan'],
+    rationales: ['Matsvinn behöver kopplas till resursanvändning.', 'En förbättring kan vägas mot en annan följd.', 'Avfallsmängd behöver sättas in i ett biologiskt samband.'],
+    solution: 'Matsvinn blir biologiskt relevant när det kopplas till resursanvändning och följder i kedjan.',
+    summary: 'Sanitiserad grundning: delområdet kopplar konsumtion och matsvinn till resursanvändning.',
+    tags: ['konsumtion', 'matsvinn']
+  },
+  {
+    kp: '002',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket exempel visar bäst hållbar konsumtion som kan prövas biologiskt?',
+    correct: 'En produkt återanvänds så att behovet av nya resurser kan minska',
+    wrong: ['En produkt antas vara hållbar eftersom den är dyrare', 'En produkt beskrivs som klimatsmart utan resursdata', 'En klass väljer en vara utan att följa resursanvändning'],
+    rationales: ['Dyrare varor visar inte i sig resursanvändning eller påverkan.', 'Påståendet behöver biologiskt underlag.', 'Ett val behöver kopplas till resursanvändning.'],
+    solution: 'Återanvändning kan kopplas till resursanvändning och blir därför biologiskt prövbar.',
+    summary: 'Sanitiserad grundning: delområdet behandlar återanvändning som del av konsumtion.',
+    tags: ['konsumtion', 'återanvändning']
+  },
+  {
+    kp: '002',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett resonemang säger att mindre matsvinn är bra för biologin. Vad gör resonemanget mer exakt?',
+    correct: 'Att visa vilken resursanvändning och biologisk påverkan som faktiskt kan minska',
+    wrong: ['Att anta att mindre matsvinn alltid minskar biologisk påverkan utan att följa resurskedjan', 'Att jämföra matsvinn med produktens kostnad', 'Att låta avfallsmängden bli hela biologiska måttet'],
+    rationales: ['Resurskedjan behöver följas innan biologisk påverkan bedöms.', 'Kostnad är inte biologisk påverkan.', 'Avfallsmängd behöver kopplas till resursanvändning och följder.'],
+    solution: 'Ett starkt resonemang visar vilken biologisk påverkan minskad konsumtion kan förändra.',
+    summary: 'Sanitiserad grundning: delområdet kopplar matsvinn till resursanvändning och biologisk påverkan.',
+    tags: ['konsumtion', 'resonemang']
+  },
+  {
+    kp: '002',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Två konsumtionsval jämförs: köpa nytt ofta eller återanvända längre. Vad bör jämföras biologiskt?',
+    correct: 'Hur valen påverkar resursanvändning och levande system',
+    wrong: ['Vilket val som minskar avfall men ökar nyproduktion', 'Vilket val som sparar material men saknar livsmiljödata', 'Vilket val som lämnar resursledet oklart'],
+    rationales: ['Avfall och nyproduktion behöver vägas tillsammans.', 'Materialbesparing behöver kopplas till biologisk följd.', 'Oklar resurskedja ger svag biologisk jämförelse.'],
+    solution: 'Konsumtionsval kan jämföras biologiskt genom resursanvändning och påverkan på levande system.',
+    summary: 'Sanitiserad grundning: delområdet jämför konsumtion och återanvändning med biologisk påverkan.',
+    tags: ['konsumtion', 'jämförelse']
+  },
+  {
+    kp: '003',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad betyder produktion i hållbar konsumtion och produktion?',
+    correct: 'Hur material, avfall och återvinning hör ihop med framställning',
+    wrong: ['Hur en vara används efter köp', 'Hur många väljer en viss vara', 'Hur en art anpassas till sin miljö'],
+    rationales: ['Användning efter köp hör mer till konsumtion.', 'Val av vara är inte produktion i sig.', 'Anpassning är ett annat biologiskt begrepp.'],
+    solution: 'Produktion handlar här om framställning och hur material, avfall och återvinning kan kopplas till resursanvändning.',
+    summary: 'Sanitiserad grundning: delområdet behandlar produktion genom material, avfall och återvinning.',
+    tags: ['produktion', 'begrepp']
+  },
+  {
+    kp: '003',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion',
+    typ: 'mcq_visual',
+    niva: 2,
+    stem: 'En modell visar material in, produkt ut och avfall från en produktion. Vad bör modellen främst hjälpa eleven att se?',
+    correct: 'Hur produktionen kan kopplas till resursanvändning och biologisk påverkan',
+    wrong: ['Vilket materialflöde som är störst men inte vad det påverkar', 'Vilket avfall som minskar utan att ny materialanvändning syns', 'Hur modellen kan ge slutsats utan biologisk följd'],
+    rationales: ['Stort flöde behöver kopplas till påverkan.', 'Minskat avfall behöver vägas mot materialanvändning.', 'Modellen behöver visa biologisk följd.'],
+    solution: 'En produktionsmodell blir biologiskt användbar när den visar resursflöde och möjlig påverkan.',
+    summary: 'Sanitiserad grundning: delområdet stödjer modeller av produktion, material och avfall.',
+    tags: ['produktion', 'modell'],
+    visual: 'visual-brief://biologi/k2/sec04/produktion-material-avfall-v1',
+    visualAlt: 'Förenklad modell med pilar från material till produkt och vidare till avfall eller återvinning.',
+    bildtext: 'Materialflöde i produktion behöver kopplas till biologisk påverkan.',
+    fallback: 'Tänk på en modell med material in, produkt ut och restflöden.'
+  },
+  {
+    kp: '003',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilken förändring i produktion är mest biologiskt relevant att undersöka?',
+    correct: 'Att återvinning minskar behovet av nytt material och därmed möjlig påverkan',
+    wrong: ['Att materialet byts utan uppföljning av resursanvändning', 'Att återvinning ökar men avfallspåverkan inte prövas', 'Att produktionen minskar ett steg utan biologisk koppling'],
+    rationales: ['Materialbyte behöver följas biologiskt.', 'Återvinning behöver kopplas till påverkan.', 'Färre steg är inte samma sak som biologisk förbättring.'],
+    solution: 'Återvinning kan kopplas till materialanvändning och därför till biologisk påverkan.',
+    summary: 'Sanitiserad grundning: delområdet kopplar produktion och återvinning till resursanvändning.',
+    tags: ['produktion', 'återvinning']
+  },
+  {
+    kp: '003',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'En fabrik minskar avfall men använder mer nytt material. Hur bör en biologisk slutsats formuleras?',
+    correct: 'Avfallet kan ha minskat, men materialanvändningen behöver också vägas in',
+    wrong: ['Produktionen är hållbar eftersom avfallsmängden minskar', 'Materialanvändningen avgör allt även om avfallet förändras', 'Minskat avfall väger alltid tyngre än ökad användning av nytt material'],
+    rationales: ['Ett mått räcker inte för hela bedömningen.', 'Material och avfall behöver vägas tillsammans.', 'En positiv del kan missa en biologisk risk.'],
+    solution: 'Ett bra resonemang avgränsar vad som förbättras och vad som fortfarande behöver prövas.',
+    summary: 'Sanitiserad grundning: delområdet kopplar produktion till material, avfall och resursanvändning.',
+    tags: ['produktion', 'resonemang']
+  },
+  {
+    kp: '003',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-produktion',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Produktion A ger lite avfall men kräver mycket nytt material. Produktion B återvinner mer men ger mer restavfall. Vad bör jämföras?',
+    correct: 'Hur materialval och avfall tillsammans kan påverka levande system',
+    wrong: ['Vilken produktion som har lägst avfall oavsett materialbehov', 'Vilken produktion som har mest återvinning utan restavfallsmått', 'Vilken produktion som kräver minst material men har oklar livsmiljöpåverkan'],
+    rationales: ['Avfall behöver vägas mot materialbehov.', 'Återvinning behöver jämföras med restavfall.', 'Materialbesparing behöver kopplas till biologisk påverkan.'],
+    solution: 'Produktionssätt jämförs biologiskt genom både materialflöde och avfallspåverkan.',
+    summary: 'Sanitiserad grundning: delområdet jämför produktion genom material, avfall och återvinning.',
+    tags: ['produktion', 'jämförelse']
+  },
+  {
+    kp: '004',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad gör ett samband biologiskt i hållbar konsumtion och produktion?',
+    correct: 'Det kopplar ett val till påverkan på livsmiljö, arter eller biologisk mångfald',
+    wrong: ['Det kopplar ett val till lägre avfall utan levande system', 'Det kopplar ett val till resursanvändning men inte livsmiljö', 'Det kopplar artförändring till valet utan mellanled'],
+    rationales: ['Lägre avfall behöver kopplas till biologisk följd.', 'Resursanvändning behöver kopplas till levande system.', 'Artförändring behöver en förklarad kedja.'],
+    solution: 'Ett biologiskt samband behöver visa hur konsumtion eller produktion kan påverka levande system.',
+    summary: 'Sanitiserad grundning: delområdet behandlar biologiskt samband med livsmiljö, arter och mångfald.',
+    tags: ['biologiskt samband', 'hållbar']
+  },
+  {
+    kp: '004',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband',
+    typ: 'samband',
+    niva: 2,
+    stem: 'En produktion ändras så att en livsmiljö påverkas mindre. Vilket samband behöver beskrivas?',
+    correct: 'Hur ändringen i produktion kan påverka arter eller biologisk mångfald',
+    wrong: ['Hur ändringen minskar avfall utan att livsmiljön följs', 'Hur ändringen påverkar produktionen men inte arter', 'Hur ändringen ger mindre resursanvändning utan mångfaldsdata'],
+    rationales: ['Avfall behöver kopplas till livsmiljö.', 'Produktion behöver kopplas till biologisk respons.', 'Mindre resursanvändning behöver biologiskt underlag.'],
+    solution: 'Sambandet blir biologiskt när produktionsändringen kopplas till livsmiljö, arter eller mångfald.',
+    summary: 'Sanitiserad grundning: delområdet kopplar produktion till livsmiljö, arter och biologisk mångfald.',
+    tags: ['biologiskt samband', 'produktion']
+  },
+  {
+    kp: '004',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband',
+    typ: 'mcq_visual',
+    niva: 2,
+    stem: 'Vilken kedja visar bäst ett biologiskt samband?',
+    correct: 'Konsumtion förändras, produktion påverkas och en livsmiljö kan påverkas',
+    wrong: ['Konsumtion förändras och biologisk följd antas direkt', 'Produktion beskrivs och avfallsmåttet får bära hela slutsatsen', 'Livsmiljö nämns men kopplas inte till valet'],
+    rationales: ['Följden behöver visas i kedjan.', 'Ett avfallsmått räcker inte för hela sambandet.', 'Livsmiljön behöver ingå i en kedja.'],
+    solution: 'Kedjan behöver visa hur ett val kan leda vidare till biologisk påverkan.',
+    summary: 'Sanitiserad grundning: delområdet tränar biologiskt samband mellan val och livsmiljö.',
+    tags: ['biologiskt samband', 'konsumtion'],
+    visual: 'visual-brief://biologi/k2/sec04/konsumtion-produktion-livsmiljo-v1',
+    visualAlt: 'Kedja med tre led: konsumtionsval, ändrad produktion och möjlig påverkan på en livsmiljö.',
+    bildtext: 'Ett biologiskt samband visar mellanleden från val till livsmiljö.',
+    fallback: 'Följ kedjan från konsumtion via produktion till livsmiljö.'
+  },
+  {
+    kp: '004',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband',
+    typ: 'jämförelse',
+    niva: 2,
+    stem: 'Två påståenden jämförs. A nämner livsmiljö men inte konsumtion. B nämner konsumtion men inte biologisk påverkan. Vad saknas?',
+    correct: 'Ett samband som binder valet till livsmiljö eller biologisk mångfald',
+    wrong: ['Ett exempel som beskriver livsmiljö och konsumtion var för sig', 'Ett påstående som jämför val utan biologisk kedja', 'Flera mätvärden utan kedja mellan val och påverkan'],
+    rationales: ['Delarna behöver bindas ihop.', 'Rangordning behöver biologiskt samband.', 'Mätvärden behöver kopplas till påverkan.'],
+    solution: 'Båda påståendena behöver en biologisk koppling mellan val och påverkan.',
+    summary: 'Sanitiserad grundning: delområdet jämför biologiska samband i hållbar konsumtion och produktion.',
+    tags: ['biologiskt samband', 'jämförelse']
+  },
+  {
+    kp: '004',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett svar säger att återvinning är bra för biologisk mångfald. Vilken precisering behövs?',
+    correct: 'Vilken resursanvändning eller produktion som ändras och hur mångfalden kan påverkas',
+    wrong: ['Att mindre avfall används som enda stöd för mångfald', 'Att resursanvändning minskar utan att arter följs', 'Att materialbyte antas ge samma effekt i alla livsmiljöer'],
+    rationales: ['Ett avfallsmått räcker inte för mångfald.', 'Resursminskning behöver biologiskt underlag.', 'Livsmiljöer kan påverkas olika.'],
+    solution: 'Ett starkt resonemang preciserar både förändringen och den biologiska påverkan.',
+    summary: 'Sanitiserad grundning: delområdet kopplar återvinning, resursanvändning och biologisk mångfald.',
+    tags: ['biologiskt samband', 'resonemang']
+  },
+  {
+    kp: '005',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan',
+    typ: 'begrepp',
+    niva: 1,
+    stem: 'Vad betyder ekosystempåverkan i de här frågorna?',
+    correct: 'En möjlig följd för livsmiljöer, arter eller biologisk mångfald',
+    wrong: ['En förändring i avfallsmängd utan följd för livsmiljöer', 'Ett mått på resursanvändning utan koppling till arter', 'En beskrivning av återvinning utan biologisk uppföljning'],
+    rationales: ['Avfallsmängd behöver kopplas till levande sammanhang.', 'Resursmått behöver biologisk följd.', 'Återvinning behöver kopplas till faktisk påverkan.'],
+    solution: 'Ekosystempåverkan handlar här om hur val kan påverka livsmiljöer, arter eller biologisk mångfald.',
+    summary: 'Sanitiserad grundning: delområdet behandlar följder för livsmiljöer, arter och biologisk mångfald.',
+    tags: ['ekosystempåverkan', 'begrepp']
+  },
+  {
+    kp: '005',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan',
+    typ: 'förståelse',
+    niva: 2,
+    stem: 'Varför räcker det inte att mäta avfallsmängd om man vill bedöma påverkan på en livsmiljö?',
+    correct: 'Avfallsmängden behöver kopplas till vad som händer med arter eller livsmiljö',
+    wrong: ['Avfallsmängden får ensam avgöra hela bedömningen', 'Mindre avfall tolkas som mindre påverkan utan att arter följs', 'En mindre mängd avfall gör återhämtning ointressant'],
+    rationales: ['Ett mått behöver biologisk tolkning.', 'Mindre avfall behöver fortfarande kopplas till biologisk följd.', 'Återhämtning kan fortfarande behöva prövas.'],
+    solution: 'Ett mått blir biologiskt användbart när det kopplas till livsmiljö, arter eller återhämtning.',
+    summary: 'Sanitiserad grundning: delområdet kopplar avfall till påverkan på livsmiljöer och arter.',
+    tags: ['ekosystempåverkan', 'avfall']
+  },
+  {
+    kp: '005',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket mått säger mest om ekosystempåverkan efter ett hållbarhetsval?',
+    correct: 'Om livsmiljöer, arter eller biologisk mångfald påverkas',
+    wrong: ['Om avfallsmängden minskar men livsmiljö inte följs', 'Om resursanvändning minskar men arter inte prövas', 'Om återvinning ökar utan uppföljning av påverkan'],
+    rationales: ['Avfallsmängd behöver kopplas till livsmiljö.', 'Resursminskning behöver kopplas till arter eller mångfald.', 'Återvinning behöver följas biologiskt.'],
+    solution: 'Ekosystempåverkan bedöms genom följder för livsmiljöer, arter eller biologisk mångfald.',
+    summary: 'Sanitiserad grundning: delområdet behandlar livsmiljö, arter och biologisk mångfald.',
+    tags: ['ekosystempåverkan', 'livsmiljö']
+  },
+  {
+    kp: '005',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett underlag visar mindre avfall men oförändrad återhämtning i en livsmiljö. Vad är rimligast?',
+    correct: 'Stöd finns för mindre avfall, men inte för förbättrad återhämtning',
+    wrong: ['Mindre avfall visar att återhämtningen förbättrats', 'Oförändrad återhämtning gör avfallsmåttet oanvändbart', 'Resursmåttet kan ersätta uppföljning av återhämtning'],
+    rationales: ['Avfall och återhämtning är olika mått.', 'Ett mått kan vara relevant utan att visa allt.', 'Återhämtning behöver biologisk uppföljning.'],
+    solution: 'Ett bra resonemang skiljer mellan avfallsmått och återhämtning i livsmiljön.',
+    summary: 'Sanitiserad grundning: delområdet kopplar avfall och återhämtning till påverkan på livsmiljö.',
+    tags: ['ekosystempåverkan', 'resonemang']
+  },
+  {
+    kp: '005',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-ekosystempaverkan',
+    typ: 'singapore-table-mcq',
+    niva: 2,
+    stem: 'Två följder jämförs: näringstillgång och återhämtning i en livsmiljö. Vad ska jämförelsen visa?',
+    correct: 'Om hållbarhetsvalet påverkar livsmiljöns delar på olika sätt',
+    wrong: ['Vilken följd som syns tydligast i ett enda mått', 'Vilken följd som kan beskrivas utan livsmiljö', 'Vilken följd som kopplas till avfall men inte näring'],
+    rationales: ['Ett mått kan missa annan följd.', 'Följden behöver kopplas till levande sammanhang.', 'Avfall är bara en del av jämförelsen.'],
+    solution: 'Följder kan påverka livsmiljön på olika sätt och behöver jämföras biologiskt.',
+    summary: 'Sanitiserad grundning: delområdet jämför näringstillgång och återhämtning i livsmiljö.',
+    tags: ['ekosystempåverkan', 'jämförelse'],
+    visual: 'visual-brief://biologi/k2/sec04/naring-aterhamtning-tabell-v1',
+    visualAlt: 'Tvåkolumnstabell som jämför näringstillgång och återhämtning i en livsmiljö efter ett val.',
+    bildtext: 'Två biologiska följder kan påverkas olika av samma hållbarhetsval.',
+    fallback: 'Jämför näringstillgång och återhämtning var för sig.'
+  },
+  {
+    kp: '006',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-orsak-foljd',
+    typ: 'samband',
+    niva: 2,
+    stem: 'Vilken kedja visar orsak och följd i hållbar konsumtion?',
+    correct: 'Konsumtion ändras, resursanvändning påverkas och biologisk påverkan kan förändras',
+    wrong: ['Konsumtion ändras och slutsatsen blir hållbar direkt', 'Biologisk påverkan nämns först och förklaringen stannar där', 'Produktion beskrivs utan följd för levande system'],
+    rationales: ['Kedjan behöver visa mellanled.', 'En nämnd påverkan behöver förklaras.', 'Produktion behöver kopplas till biologisk följd.'],
+    solution: 'Orsak och följd kräver en kedja från val till biologisk påverkan.',
+    summary: 'Sanitiserad grundning: delområdet behandlar orsak och följd i hållbar konsumtion.',
+    tags: ['hållbar', 'konsumtion']
+  },
+  {
+    kp: '006',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-orsak-foljd',
+    typ: 'process',
+    niva: 2,
+    stem: 'En produktion byter till mer återvunnet material. Vilken följd behöver prövas biologiskt?',
+    correct: 'Om förändringen minskar eller ökar påverkan på levande system',
+    wrong: ['Om mer återvunnet material räcker som slutsats utan biologisk följd', 'Om bytet minskar nytt material men ökar avfall', 'Om materialflödet ändras utan livsmiljödata'],
+    rationales: ['Återvunnet material behöver kopplas till påverkan.', 'Mindre nytt material behöver vägas mot avfall.', 'Materialflöde behöver biologisk uppföljning.'],
+    solution: 'Materialbyte behöver kopplas till möjlig biologisk påverkan innan slutsatsen dras.',
+    summary: 'Sanitiserad grundning: delområdet prövar följder av ändrad produktion.',
+    tags: ['hållbar', 'produktion']
+  },
+  {
+    kp: '006',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-orsak-foljd',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilket svar skiljer bäst mellan orsak och följd?',
+    correct: 'Mindre matsvinn är en förändring; minskad biologisk påverkan behöver visas som följd',
+    wrong: ['Mindre matsvinn räcker som följd även utan biologiskt mått', 'Minskad biologisk påverkan kan antas när argumentet är positivt', 'Orsak och följd behöver inte skiljas i hållbarhetsfrågor'],
+    rationales: ['Förändring behöver kopplas till biologisk följd.', 'Positivt argument är inte bevis.', 'Hållbarhetsfrågor behöver tydlig kedja.'],
+    solution: 'Ett bra svar skiljer på förändringen som görs och den biologiska följden som prövas.',
+    summary: 'Sanitiserad grundning: delområdet tränar orsak och följd i hållbar konsumtion.',
+    tags: ['hållbar', 'ekosystempåverkan']
+  },
+  {
+    kp: '006',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-orsak-foljd',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett val minskar resursanvändning men kan ge mer avfall. Hur bör resonemanget hantera det?',
+    correct: 'Det bör väga både minskad resursanvändning och möjlig avfallspåverkan',
+    wrong: ['Det bör låta den positiva delen avgöra hela slutsatsen', 'Det bör räkna avfall som oviktigt när resursanvändning minskar', 'Det bör välja den del som är enklast att mäta'],
+    rationales: ['En positiv del räcker inte för hela bedömningen.', 'Avfall kan också ha biologisk betydelse.', 'Enkla mått kan missa viktiga följder.'],
+    solution: 'Ett starkt resonemang hanterar flera följder i samma biologiska bedömning.',
+    summary: 'Sanitiserad grundning: delområdet kopplar orsak och följd till biologisk påverkan.',
+    tags: ['hållbar', 'resonemang']
+  },
+  {
+    kp: '007',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'process',
+    niva: 2,
+    stem: 'En familj reparerar en jacka i stället för att köpa ny. Vilken kedja gör exemplet biologiskt relevant?',
+    correct: 'Reparation kan minska nyproduktion, resursanvändning och möjlig påverkan på livsmiljöer',
+    wrong: ['Reparation räknas som hållbar även när fler nya plagg köps samtidigt', 'Det räcker att jackan används längre utan att materialflödet följs', 'Klädvalet blir biologiskt bara om märket är återvunnet'],
+    rationales: ['Fler nya plagg kan ändra resurskedjan.', 'Längre användning behöver sättas i materialflödet.', 'Märkning behöver följas av faktisk påverkan.'],
+    solution: 'Reparation blir biologiskt relevant när den kan kopplas till minskad nyproduktion och mindre påverkan på livsmiljöer.',
+    summary: 'Sanitiserad grundning: delområdet behandlar återanvändning och reparation som konsumtionsval med biologisk följd.',
+    tags: ['konsumtion', 'återanvändning', 'ekosystempåverkan']
+  },
+  {
+    kp: '007',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'förståelse',
+    niva: 2,
+    stem: 'Varför kan återanvändning vara biologiskt relevant?',
+    correct: 'Den kan påverka behovet av nya resurser och därmed biologisk påverkan',
+    wrong: ['Den kan antas minska påverkan även om nyproduktion ökar', 'Den räcker som mått utan att resursanvändning följs', 'Den gör produktion oviktig i alla bedömningar'],
+    rationales: ['Nyproduktion kan förändra den biologiska följden.', 'Återanvändning behöver fortfarande prövas.', 'Produktion kan fortfarande vara relevant.'],
+    solution: 'Återanvändning behöver kopplas till resursanvändning och biologisk påverkan.',
+    summary: 'Sanitiserad grundning: delområdet kopplar konsumtion och återanvändning till resursanvändning.',
+    tags: ['konsumtion', 'återanvändning']
+  },
+  {
+    kp: '007',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'mcq',
+    niva: 2,
+    stem: 'Vilken fråga passar bäst efter påståendet att mindre matsvinn är hållbart?',
+    correct: 'Vilken resursanvändning och biologisk påverkan kan matsvinnet kopplas till?',
+    wrong: ['Vilken avfallsmängd syns utan koppling till resurser?', 'Vilken resursanvändning ändras utan biologisk följd?', 'Vilken livsmiljö nämns utan matsvinnskedja?'],
+    rationales: ['Avfall behöver kopplas till resurser.', 'Resursanvändning behöver biologisk följd.', 'Livsmiljön behöver bindas till matsvinnet.'],
+    solution: 'Påståendet behöver kopplas till resursanvändning och biologisk påverkan.',
+    summary: 'Sanitiserad grundning: delområdet prövar konsumtion och matsvinn biologiskt.',
+    tags: ['konsumtion', 'ekosystempåverkan']
+  },
+  {
+    kp: '007',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-konsumtion',
+    typ: 'resonemang',
+    niva: 3,
+    stem: 'Ett argument säger att köpa färre nya saker är hållbart. Vilken invändning är mest biologisk?',
+    correct: 'Det behöver visa hur konsumtionsvalet påverkar resursanvändning och levande system',
+    wrong: ['Det behöver visa ett enda resursmått och släppa livsmiljön', 'Det behöver jämföra avfall men inte nyproduktion', 'Det behöver anta att mindre nykonsumtion räcker som biologisk slutsats'],
+    rationales: ['Ett resursmått behöver kopplas till levande system.', 'Avfall och nyproduktion behöver vägas tillsammans.', 'Mindre nykonsumtion behöver biologisk följd.'],
+    solution: 'Mindre nykonsumtion blir ett biologiskt resonemang när följden för levande system prövas.',
+    summary: 'Sanitiserad grundning: delområdet kopplar konsumtionsval till resursanvändning och biologisk påverkan.',
+    tags: ['konsumtion', 'resonemang']
+  }
+];
+
 const batches = [
   {
     idPrefix: 'bio-q-k1-sec01',
@@ -4948,6 +5499,17 @@ const batches = [
     delkapitel: 'K2-biologi-kap2-sec03',
     stella: 'Stella Biologi K2 delområde 3',
     authored: authoredKap2Sec03
+  },
+  {
+    idPrefix: 'bio-q-k2-sec04',
+    importBatchId: 'biologi-k2-sec04-offline-batch-20260518',
+    bookLocationId: 'bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04',
+    sourceClaimId: 'sourceclaim-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04',
+    sourceAtomId: 'source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04',
+    chapterCode: 'K2',
+    delkapitel: 'K2-biologi-kap2-sec04',
+    stella: 'Stella Biologi K2 delområde 4',
+    authored: authoredKap2Sec04
   }
 ];
 
@@ -4958,6 +5520,10 @@ const atomicKps = new Set(readJsonl('lineage/atomic-knowledge-points.jsonl').map
 const sourceAtoms = new Set(readJsonl('lineage/source-atoms.jsonl').map((row) => row.id));
 for (const batch of batches) {
   if (!sourceAtoms.has(batch.sourceAtomId)) throw new Error(`Missing source atom: ${batch.sourceAtomId}`);
+  for (const item of batch.authored) {
+    const itemSourceAtomId = item.sourceAtomId ?? batch.sourceAtomId;
+    if (!sourceAtoms.has(itemSourceAtomId)) throw new Error(`Missing source atom: ${itemSourceAtomId}`);
+  }
 }
 
 const candidates = batches.flatMap((batch, batchIndex) => batch.authored.map((item, index) => {
@@ -4966,6 +5532,7 @@ const candidates = batches.flatMap((batch, batchIndex) => batch.authored.map((it
   const knowledgePointId = `kp-biologi-${sectionId}-${item.kp}`;
   if (!atomicKps.has(knowledgePointId)) throw new Error(`Missing KP: ${knowledgePointId}`);
   const correctIndex = (index + batchIndex) % 4;
+  const itemSourceAtomId = item.sourceAtomId ?? batch.sourceAtomId;
   const options = optionRows(item.correct, item.wrong, correctIndex);
   const correctOptionId = options.find((option) => option.text === item.correct)?.id;
   if (!correctOptionId) throw new Error(`Missing correct option for ${id}`);
@@ -4984,10 +5551,10 @@ const candidates = batches.flatMap((batch, batchIndex) => batch.authored.map((it
       .filter((option) => option.id !== correctOptionId)
       .map((option) => ({
         optionId: option.id,
-        rationale: item.rationales[item.wrong.indexOf(option.text)]
+        rationale: diagnosticRationale(item.rationales[item.wrong.indexOf(option.text)], option.text, item, batch)
       })),
-    solution: item.solution,
-    publicSanitizedSourceSummary: item.summary,
+    solution: candidateSolution(item, batch),
+    publicSanitizedSourceSummary: publicSummary(item.summary),
     bookLocationIds: [batch.bookLocationId],
     sourceClaimIds: [batch.sourceClaimId],
     knowledgePointIds: [knowledgePointId],
@@ -4996,24 +5563,40 @@ const candidates = batches.flatMap((batch, batchIndex) => batch.authored.map((it
         questionId: id,
         knowledgePointId,
         linkType: 'primary',
-        weight: 1
+        role: 'primary',
+        weight: 1,
+        evidenceMode: item.visual ? 'direct_visual_mcq' : 'direct_mcq',
+        confidence: 'candidate',
+        sourceBatch: batch.importBatchId,
+        sourcePath: 'sanitized-ocr-candidate://questions/intake-candidates.jsonl',
+        sourceEvidenceStatus: 'reviewed_not_runtime_source_atom',
+        sourceAtomId: itemSourceAtomId,
+        reason: `Offline candidate maps this question to ${knowledgePointId} through reviewed source atom ${itemSourceAtomId}; runtime activation remains blocked.`
       }
     ],
     runtimeProjection: {
       typ: item.typ,
       niva: item.niva,
       delkapitel: batch.delkapitel,
-      stella: batch.stella
+      stella: batch.stella,
+      ...(item.visual
+        ? {
+            visual: item.visual,
+            visualAlt: item.visualAlt,
+            bildtext: item.bildtext,
+            fallback: item.fallback
+          }
+        : {})
     },
     difficultyLevel: item.niva,
     enabledLevels: [`niva-${item.niva}`],
     skillTags: [...new Set(item.tags)],
-    abilityTags: ['begreppslig-förståelse'],
-    techniqueTags: ['flerval', 'distraktoranalys'],
+    abilityTags: abilityTagsFor(item),
+    techniqueTags: techniqueTagsFor(item),
     metadataCompleteness: metadataCompleteness(),
     contentHash: '',
     importBatchId: batch.importBatchId,
-    createdFromSourceId: batch.sourceAtomId,
+    createdFromSourceId: itemSourceAtomId,
     validationReport: falseValidationReport(),
     reviewStatus: 'candidate_review_required'
   };

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-remaining-003-sec03-031",
+    "selector": "ids",
+    "offset": null,
+    "count": 1,
+    "ids": [
+      "bio-q-k2-sec03-031"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T16:28:00.748Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Codex read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T18:34:19.1859700+02:00",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec03-031",
+      "candidateHash": "sha256:ca2abdac5d5cf12e5d1a693452518d64c1144abdb2969e2a3867ffec0f3ccbc7",
+      "line": 361,
+      "studentStem": "A:åtg+6ha, sårb70->48, arter18->22, mål:minska följd. B:åtg+6ha, sårb saknas, arter18->22, mål:beskriv insats. C:åtg startad, sårb70->70, arter18->18, mål:löst direkt. D:åtg saknas, sårb70->48, artlista18, mål:ersätt klimat. Vilken rad har bäst stöd?",
+      "stemWordCount": 28,
+      "stemCharCount": 250,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Mönster A.",
+      "runtimeProjection": {
+        "typ": "analys",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec03",
+        "stella": "Stella Biologi K2 delomrade 3"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A has action plus 6 ha, vulnerability 70 to 48, species 18 to 22 and a bounded goal to reduce consequence. B lacks vulnerability, C has unchanged vulnerability and species, and D lacks action and uses only an art list. Correct A has best support. (b) Distractor types: B is Type I action-only shortcut, C is Type II label-without-effect shortcut, D is Type III consequence-without-action shortcut. (c) Cognitive dimensions: action-effect reasoning, vulnerability interpretation, species outcome and bounded conclusion. (d) Specific knowledge vs general ability: the item tests evaluating climate-action evidence. (e) Knowledge link map: action -> vulnerability -> species -> bounded goal. (f) Text audit and shortcut check: answer labels are neutral and data must be integrated.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec03-031",
+      "verdict": "FAIL",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": false,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "The stem can be solved from the single unique goal cue 'mål:minska följd' because the other goal phrases are weak or implausible. This violates the no-one-fact-solvability gate even though the numeric data are otherwise compact and within limits."
+      ],
+      "exactRepairTextIfFail": {
+        "studentStem": "A: åtg+6 ha, sårb 70->48, arter 18->22. B: åtg+6 ha, sårb saknas, arter 18->22. C: åtg startad, sårb 70->70, arter 18->18. D: åtg saknas, sårb 70->48, artlista 18. Vilken rad ger starkast stöd för effekt av åtgärden?",
+        "construction_note_en": "Sections: (a) Numeric verification: A has an action of 6 ha, vulnerability 70 to 48 and species 18 to 22, so it gives the strongest evidence for an effect of the measure. B has the same action and species change but no vulnerability value, C has no outcome change, and D has lower vulnerability without an action and only a species list. (b) Distractor types: B is Type I missing-outcome shortcut, C is Type II action-label-without-effect shortcut, D is Type III outcome-without-action shortcut. (c) Cognitive dimensions: action-effect reasoning, vulnerability interpretation, species outcome interpretation, evidence completeness, bounded conclusion. (d) Specific knowledge vs general ability: the item tests evaluating whether action data and biological outcome data support a climate-adaptation effect. (e) Knowledge link map: 1. action of 6 ha in A -> identify an actual measure -> needed to connect outcomes to an intervention; 2. vulnerability 70 to 48 in A -> infer reduced consequence risk -> needed for the effect claim; 3. species 18 to 22 in A -> include biological outcome evidence -> needed to avoid a risk-only answer; 4. B/C/D missing or mismatched data -> reject incomplete proxies -> needed to eliminate distractors. (f) Text audit and shortcut check: unique goal wording was removed; all answer labels are neutral; the answer requires integrating action, vulnerability change, species change and distractor rejection. Can answer from text only? No. Can answer from one fact only? No."
+      }
+    }
+  ]
+}

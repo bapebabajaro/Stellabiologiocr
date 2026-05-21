@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-repair-004-sec04-004-005-sec03-031",
+    "selector": "offset",
+    "offset": 404,
+    "count": 3,
+    "ids": [
+      "bio-q-k2-sec04-004",
+      "bio-q-k2-sec04-005",
+      "bio-q-k2-sec03-031"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T16:43:05.323Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Codex GPT-5 read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T18:45:12.0157199+02:00",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": "node.exe scripts/repair-mpcq-k1-sec01-first3.mjs --offset=404 --count=3",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"repairedCount\": 3,\n  \"ids\": [\n    \"bio-q-k2-sec04-004\",\n    \"bio-q-k2-sec04-005\",\n    \"bio-q-k2-sec03-031\"\n  ]\n}",
+      "stderr": ""
+    },
+    {
+      "command": "node.exe scripts/validate-question-intake-candidates.mjs",
+      "exitCode": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"questionCandidateStatus\": \"question_candidate_batch_incomplete\",\n  \"questionCandidates\": 396,\n  \"plannedQuestionCandidates\": 1200,\n  \"coveredQuestionWorkItems\": 12,\n  \"filledQuestionWorkItems\": 12,\n  \"runtimeImportAllowed\": false,\n  \"candidateGenerationAllowed\": false,\n  \"kvWriteAllowed\": false,\n  \"importApplyAllowed\": false,\n  \"safeActiveWriteAllowed\": false,\n  \"pixelWriteAllowed\": false\n}",
+      "stderr": ""
+    },
+    {
+      "command": "node.exe scripts/audit-mpcq-quality.mjs --write",
+      "exitCode": 0,
+      "stdout": "{\n  \"schemaVersion\": \"mpcq-quality-audit-v1\",\n  \"generatedAt\": \"2026-05-18\",\n  \"subject\": \"biologi\",\n  \"sourceFile\": \"questions/intake-candidates.jsonl\",\n  \"standardSources\": [\n    \"memory:singapore_stella_protocol\",\n    \"skill:singaporempc/SKILL.md\",\n    \"skill:singaporempc/references/high-inference-doctrine.md\",\n    \"skill:singaporempc/references/stellakemiocr-canon.md\",\n    \"skill:singaporempc/references/error-log.md\",\n    \"skill:singapore-format-1-combination/SKILL.md\",\n    \"skill:singapore-format-2-table/SKILL.md\",\n    \"skill:singapore-format-3-single-visual/SKILL.md\",\n    \"skill:singapore-format-4-pure-text/SKILL.md\",\n    \"ppf:kemi-visual-question-pipeline-v1/README.md\",\n    \"ppf:kemi-visual-question-pipeline-v1/PIPELINE.md\",\n    \"ppf:kemi-visual-question-pipeline-v1/REVIEW_GATES.md\"\n  ],\n  \"decision\": \"accept_current_batch_for_mpcq_quality\",\n  \"totalCandidates\": 396,\n  \"hardFailedCandidates\": 0,\n  \"likelyMpcqPassCandidates\": 396,\n  \"reasonCounts\": {\n    \"weak_absolute_distractor_words\": 4,\n    \"parallel_but_formulaic_options\": 379,\n    \"too_short_option\": 21\n  },\n  \"chapterCounts\": {\n    \"K1\": 264,\n    \"K2\": 132\n  },\n  \"scoreBuckets\": {\n    \"0-4\": 0,\n    \"5-9\": 0,\n    \"10-14\": 0,\n    \"15-20\": 396\n  },\n  \"hardFailPolicy\": [\n    \"missing_construction_note_en\",\n    \"missing_knowledge_link_map\",\n    \"missing_ocr_verification\",\n    \"qkl_lt_3\",\n    \"stem_correct_keyword_echo\",\n    \"no_visual_table_or_data_load\"\n  ],\n  \"sampleFailures\": []\n}",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "candidateHash": "sha256:616f40b057d6c4b4e00da08141d5301e2fb64a4db02b740a87f8ad24661eee1a",
+      "line": 367,
+      "studentStem": "A:resurs80->54, miljö70->76, arter18->24. B:resurs80->83, miljö70->76, arter18->24. C:resurs80->54, miljö70->52, arter18->12. D:resurs80->83, miljö70->52, arter18->12. Vilken rad visar resursminskning och biologisk kostnad?",
+      "stemWordCount": 19,
+      "stemCharCount": 223,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctText": "Mönster C.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: C combines resource 80 to 54 with habitat 70 to 52 and species 18 to 12, so it is a resource gain with biological cost. A is resource gain with biological gain, B is resource cost with biological gain and D is resource cost with biological cost. (b) Distractor types: A is Type I positive-biology shortcut, B is Type II biology-only shortcut, D is Type III resource-direction mismatch. (c) Cognitive dimensions: two-direction comparison, habitat interpretation, species interpretation and distractor elimination. (d) Specific knowledge vs general ability: the item tests trade-off classification in sustainable production. (e) Knowledge link map: resource direction plus habitat and species direction. (f) Text audit and shortcut check: the direct C-row cue was removed; neutral option labels avoid keyword echo and the row must be inferred from data.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "candidateHash": "sha256:e85e1f1147ffcd79ccb6f92ba2b9e4fec517f90306ac2665557daac7b6e9ed57",
+      "line": 368,
+      "studentStem": "A:v1 resurs 54 arter 24; v2 resurs 70 arter 19. B:v1 resurs 70 arter 24; v2 resurs 54 arter 19. C:v1 resurs 54 arter 19; v2 resurs 70 arter 24. D:v1 resurs 70 arter 19; v2 resurs 54 arter 24. Vilken rad ger v1 lägre resurs och fler arter?",
+      "stemWordCount": 49,
+      "stemCharCount": 238,
+      "options": [
+        {
+          "id": "A",
+          "text": "Rad A matchar."
+        },
+        {
+          "id": "B",
+          "text": "Rad B matchar."
+        },
+        {
+          "id": "C",
+          "text": "Rad C matchar."
+        },
+        {
+          "id": "D",
+          "text": "Rad D matchar."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Rad A matchar.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A gives product one resource 54 versus product two resource 70 and product one species 24 versus product two species 19. B keeps the species advantage but reverses resource direction, C keeps resource direction but reverses species direction, and D reverses both. Correct A is the only row with lower resource value and higher species value for product one. (b) Distractor types: B is Type I species-only shortcut, C is Type II resource-only shortcut, D is Type III double-reversal. (c) Cognitive dimensions: paired data comparison, resource-pressure reading, species-outcome reading and distractor elimination. (d) Specific knowledge vs general ability: the item tests biological product comparison from two measures. (e) Knowledge link map: resource direction plus species direction. (f) Text audit and shortcut check: neutral row labels and separated numeric values create explicit data load without keyword echo; the wording is under the pure-text word limit.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec03-031",
+      "candidateHash": "sha256:fea6ecac3562f8ccc6e350ec29f0847b74a61cb033271688a5b883ed9fdc319b",
+      "line": 361,
+      "studentStem": "A: åtg+6 ha, sårb 70->48, arter 18->22. B: åtg+6 ha, sårb saknas, arter 18->22. C: åtg startad, sårb 70->70, arter 18->18. D: åtg saknas, sårb 70->48, artlista 18. Vilken rad ger starkast stöd för effekt av åtgärden?",
+      "stemWordCount": 37,
+      "stemCharCount": 216,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Mönster A.",
+      "runtimeProjection": {
+        "typ": "analys",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec03",
+        "stella": "Stella Biologi K2 delomrade 3"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A has an action of 6 ha, vulnerability 70 to 48 and species 18 to 22, so it gives the strongest evidence for an effect of the measure. B has the same action and species change but no vulnerability value, C has no outcome change, and D has lower vulnerability without an action and only a species list. (b) Distractor types: B is Type I missing-outcome shortcut, C is Type II action-label-without-effect shortcut, D is Type III outcome-without-action shortcut. (c) Cognitive dimensions: action-effect reasoning, vulnerability interpretation, species outcome interpretation, evidence completeness, bounded conclusion. (d) Specific knowledge vs general ability: the item tests evaluating whether action data and biological outcome data support a climate-adaptation effect. (e) Knowledge link map: action of 6 ha in A -> identify an actual measure -> needed to connect outcomes to an intervention; vulnerability 70 to 48 in A -> infer reduced consequence risk -> needed for the effect claim; species 18 to 22 in A -> include biological outcome evidence -> needed to avoid a risk-only answer; B/C/D missing or mismatched data -> reject incomplete proxies -> needed to eliminate distractors. (f) Text audit and shortcut check: unique goal wording was removed; all answer labels are neutral; the answer requires integrating action, vulnerability change, species change and distractor rejection. Can answer from text only? No. Can answer from one fact only? No.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec03-031",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    }
+  ]
+}

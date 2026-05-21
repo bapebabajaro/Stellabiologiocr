@@ -98,6 +98,13 @@ const atomicKpById = new Map(atomicKps.map((row) => [row.id, row]));
 const issues = [];
 
 const weakQuestionPatterns = [
+  { pattern: /\bfler meningar\b/i, message: 'distractor is argument-length meta instead of biological reasoning' },
+  { pattern: /\blåter bäst\b/i, message: 'distractor is rhetorical preference instead of biological reasoning' },
+  { pattern: /\bFelvalet är lockande\b/i, message: 'distractor rationale uses formulaic meta wording' },
+  { pattern: /\butan att,\b/i, message: 'distractor rationale contains truncated option text' },
+  { pattern: /\bsaknar,\b/i, message: 'distractor rationale contains truncated option text' },
+  { pattern: /\bsläppa,\b/i, message: 'distractor rationale contains truncated option text' },
+  { pattern: /\bräcker som,\b/i, message: 'distractor rationale contains truncated option text' },
   { pattern: /\bmikroskoperandet\b/i, message: 'question copy uses awkward Swedish phrasing' },
   { pattern: /\bskalenlig uppgift\b/i, message: 'question copy uses awkward Swedish phrasing' },
   { pattern: /\banvända mikroskopera\b/i, message: 'KP/question copy uses ungrammatical Swedish phrasing' },
@@ -169,7 +176,14 @@ const supportedConceptTerms = [
   { term: 'konsekvenser', location: 'biologi-kap2-sec03' },
   { term: 'orsak och följd', location: 'biologi-kap2-sec03' },
   { term: 'biologiskt samband', location: 'biologi-kap2-sec03' },
-  { term: 'biologisk funktion', location: 'biologi-kap2-sec03' }
+  { term: 'biologisk funktion', location: 'biologi-kap2-sec03' },
+  { term: 'hållbar', location: 'biologi-kap2-sec04' },
+  { term: 'konsumtion', location: 'biologi-kap2-sec04' },
+  { term: 'produktion', location: 'biologi-kap2-sec04' },
+  { term: 'hållbar konsumtion', location: 'biologi-kap2-sec04' },
+  { term: 'ekosystempåverkan', location: 'biologi-kap2-sec04' },
+  { term: 'biologiskt samband', location: 'biologi-kap2-sec04' },
+  { term: 'biologisk funktion', location: 'biologi-kap2-sec04' }
 ];
 const legacyDistractorQualityBatchIds = new Set(['biologi-k1-sec01-offline-batch-20260518']);
 const broadCuePattern = /\b(alltid|aldrig|alla|automatiskt|exakt samma|saknar helt|bara|säkert|säker|direkt|inte längre|utan belägg|ren gissning|överflödiga|inte behövs|onödiga|ensam)\b/i;
@@ -296,6 +310,7 @@ if (questionCandidates.length > 0) {
       const isKap2Sec01 = candidateLocationText.includes('biologi-kap2-sec01');
       const isKap2Sec02 = candidateLocationText.includes('biologi-kap2-sec02');
       const isKap2Sec03 = candidateLocationText.includes('biologi-kap2-sec03');
+      const isKap2Sec04 = candidateLocationText.includes('biologi-kap2-sec04');
       const conceptExpectation = /biologisk mångfald/.test(primaryTagText)
         ? { pattern: /biologisk mångfald/, label: 'biological diversity' }
         : /fältundersökning/.test(primaryTagText)
@@ -358,6 +373,14 @@ if (questionCandidates.length > 0) {
                                                                 ? { pattern: /konsekvenser/, label: 'consequences' }
                                                                 : isKap2Sec03 && /orsak och följd/.test(primaryTagText)
                                                                   ? { pattern: /orsak|följd/, label: 'cause and effect' }
+                                                                  : isKap2Sec04 && /hållbar/.test(primaryTagText)
+                                                                    ? { pattern: /hållbar/, label: 'sustainable' }
+                                                                    : isKap2Sec04 && /konsumtion/.test(primaryTagText)
+                                                                      ? { pattern: /konsumtion/, label: 'consumption' }
+                                                                      : isKap2Sec04 && /produktion/.test(primaryTagText)
+                                                                        ? { pattern: /produktion/, label: 'production' }
+                                                                        : isKap2Sec04 && /ekosystempåverkan/.test(primaryTagText)
+                                                                          ? { pattern: /ekosystempåverkan|livsmiljö|arter|biologisk mångfald/, label: 'ecosystem impact' }
         : /artmångfald|arter/.test(primaryTagText)
           ? { pattern: /artmångfald/, label: 'species diversity' }
           : /ekosystem/.test(primaryTagText)

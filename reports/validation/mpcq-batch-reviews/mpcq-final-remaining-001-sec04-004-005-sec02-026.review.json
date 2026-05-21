@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-remaining-001-sec04-004-005-sec02-026",
+    "selector": "ids",
+    "offset": null,
+    "count": 3,
+    "ids": [
+      "bio-q-k2-sec04-004",
+      "bio-q-k2-sec04-005",
+      "bio-q-k2-sec02-026"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T16:27:48.683Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Codex GPT-5 read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T18:34:31.3961750+02:00",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "candidateHash": "sha256:fe95095eeb24bcf55d2da289efb6b4675643646b04d6e32db2220099dc2c1775",
+      "line": 367,
+      "studentStem": "A:resurs80->54, miljö70->76, arter18->24. B:resurs80->83, miljö70->76, arter18->24. C:resurs80->54, miljö70->52, arter18->12. D:resurs80->83, miljö70->52, arter18->12. Vilken slutsats följer av C-raden?",
+      "stemWordCount": 17,
+      "stemCharCount": 202,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctText": "Mönster C.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: C combines resource 80 to 54 with habitat 70 to 52 and species 18 to 12, so it is a resource gain with biological cost. A is resource gain with biological gain, B is resource cost with biological gain and D is resource cost with biological cost. (b) Distractor types: A is Type I positive-biology shortcut, B is Type II biology-only shortcut, D is Type III resource-direction mismatch. (c) Cognitive dimensions: two-direction comparison, habitat interpretation, species interpretation and distractor elimination. (d) Specific knowledge vs general ability: the item tests trade-off classification in sustainable production. (e) Knowledge link map: resource direction plus habitat/species direction. (f) Text audit and shortcut check: neutral option labels avoid keyword echo.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "candidateHash": "sha256:6dac6e2c4181f1966337f1bc45f13cf950b44052961e9a0ebab7974355d42049",
+      "line": 368,
+      "studentStem": "A: vara1 resurs 54 arter 24; vara2 resurs 70 arter 19. B: vara1 resurs 70 arter 24; vara2 resurs 54 arter 19. C: vara1 resurs 54 arter 19; vara2 resurs 70 arter 24. D: vara1 resurs 70 arter 19; vara2 resurs 54 arter 24. Vilken rad visar lägst resursvärde och flest arter för vara1?",
+      "stemWordCount": 54,
+      "stemCharCount": 281,
+      "options": [
+        {
+          "id": "A",
+          "text": "Rad A matchar."
+        },
+        {
+          "id": "B",
+          "text": "Rad B matchar."
+        },
+        {
+          "id": "C",
+          "text": "Rad C matchar."
+        },
+        {
+          "id": "D",
+          "text": "Rad D matchar."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Rad A matchar.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A gives product one resource 54 versus product two resource 70 and product one species 24 versus product two species 19. B keeps the species advantage but reverses resource direction, C keeps resource direction but reverses species direction, and D reverses both. Correct A is the only row with lower resource value and higher species value for product one. (b) Distractor types: B is Type I species-only shortcut, C is Type II resource-only shortcut, D is Type III double-reversal. (c) Cognitive dimensions: paired data comparison, resource-pressure reading, species-outcome reading and distractor elimination. (d) Specific knowledge vs general ability: the item tests biological product comparison from two measures. (e) Knowledge link map: resource direction plus species direction. (f) Text audit and shortcut check: neutral row labels and separated numeric values create explicit data load without keyword echo.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec02-026",
+      "candidateHash": "sha256:e9dc01fe607692e82859af0dbf8b273e3c126743efe4a5451fe6ca2f401e1ec2",
+      "line": 323,
+      "studentStem": "A:T+0,7/20 före, blomstart42->35, pollinering saknas. B:T+0,7/20 efter, blomstart42->35, pollinering58->49. C:T+0,7/20 före, blomstart42->35, pollinering58->49. D:T+0,7/2 före, blomstart42->35, pollinering58->49. Vilken orsakskedja håller?",
+      "stemWordCount": 20,
+      "stemCharCount": 239,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctText": "Mönster C.",
+      "runtimeProjection": {
+        "typ": "samband",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec02",
+        "stella": "Stella Biologi K2 delomrade 2"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: C has T plus 0.7 over 20 years before flower start changes 42 to 35 and pollination changes 58 to 49. A lacks pollination, B places warming after the biological changes and D uses only two years. Correct C is the supported causal chain. (b) Distractor types: A is Type I missing-outcome shortcut, B is Type II reversed-order shortcut, D is Type III short-window shortcut. (c) Cognitive dimensions: time-order reasoning, duration reasoning, phenology interpretation and function-outcome inference. (d) Specific knowledge vs general ability: the item tests a climate-to-biological-function chain. (e) Knowledge link map: long warming -> timing -> pollination. (f) Text audit and shortcut check: neutral option labels remove keyword echo.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "verdict": "FAIL",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": false,
+        "noAnswerShapeShortcut": false,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "The stem asks for the C-row while the answer labels are Mönster A-D and the correct option is C, so the item is solvable by letter/answer-shape echo without interpreting the data."
+      ],
+      "exactRepairTextIfFail": "Replace studentStem with: \"A:resurs80->54, miljö70->76, arter18->24. B:resurs80->83, miljö70->76, arter18->24. C:resurs80->54, miljö70->52, arter18->12. D:resurs80->83, miljö70->52, arter18->12. Vilken rad visar resursminskning och biologisk kostnad?\" Leave options, correctOptionId and construction_note_en unchanged."
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "verdict": "FAIL",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": false,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "Stem is 54 words, exceeding the pure-text MPCQ limit of 50 words, though it is within 320 characters."
+      ],
+      "exactRepairTextIfFail": "Replace studentStem with: \"A: vara1 resurs54 arter24; vara2 resurs70 arter19. B: vara1 resurs70 arter24; vara2 resurs54 arter19. C: vara1 resurs54 arter19; vara2 resurs70 arter24. D: vara1 resurs70 arter19; vara2 resurs54 arter24. Vilken rad ger vara1 lägre resursvärde och fler arter än vara2?\" Leave options, correctOptionId and construction_note_en unchanged."
+    },
+    {
+      "id": "bio-q-k2-sec02-026",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    }
+  ]
+}

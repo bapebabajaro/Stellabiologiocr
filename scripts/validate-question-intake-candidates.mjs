@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const root = process.cwd();
@@ -64,6 +64,16 @@ const candidateFields = new Set([
   'knowledgePointIds',
   'questionKnowledgeLinks',
   'runtimeProjection',
+  'formatNumber',
+  'mpcqFormat',
+  'mpcqReviewStatus',
+  'ocr_verification',
+  'sourceCertification',
+  'construction_note_en',
+  'knowledge_link_map',
+  'remediation_map',
+  'shortcut_check',
+  'mpcqRubric',
   'difficultyLevel',
   'enabledLevels',
   'skillTags',
@@ -139,12 +149,27 @@ const requiredFalseValidationReportKeys = [
   'productionDeployAllowed'
 ];
 const validationReportFields = new Set([...requiredFalseValidationReportKeys, 'requiredBeforeActive']);
+const mpcqFormats = new Set(['singapore-combination', 'singapore-table', 'singapore-single-visual', 'singapore-pure-text']);
+const mpcqReviewStatuses = new Set(['repaired_pending_review', 'candidate_review_required', 'review_failed']);
 const metadataCompletenessFields = new Set(['checks']);
 const metadataCheckFields = new Set(requiredMetadataChecks);
 const runtimeProjectionFields = new Set(['typ', 'niva', 'delkapitel', 'stella', 'visual', 'visualAlt', 'bildtext', 'fallback']);
 const optionFields = new Set(['id', 'text']);
 const distractorRationaleFields = new Set(['optionId', 'rationale']);
-const qklFields = new Set(['questionId', 'knowledgePointId', 'linkType', 'weight']);
+const qklFields = new Set([
+  'questionId',
+  'knowledgePointId',
+  'linkType',
+  'role',
+  'weight',
+  'evidenceMode',
+  'confidence',
+  'sourceBatch',
+  'sourcePath',
+  'sourceEvidenceStatus',
+  'sourceAtomId',
+  'reason'
+]);
 const forbiddenTrueKeys = new Set([
   'runtimeEligible',
   'safeActive',
@@ -289,6 +314,15 @@ function assertUniqueStringArray(value, label, { minItems = 1, maxItems = 24 } =
   }
 }
 
+function visualBriefPath(visual) {
+  const prefix = 'visual-brief://';
+  if (!visual.startsWith(prefix)) return null;
+  const parts = visual.slice(prefix.length).split('/');
+  assert.ok(parts.length >= 4, `visual brief URI must include subject/chapter/section/name: ${visual}`);
+  for (const part of parts) assertIdentifier(part, `visual brief URI part ${part}`, { maxLength: 80 });
+  return join(root, 'assets', 'pixel-briefs', ...parts) + '.json';
+}
+
 function optionRows(candidate) {
   if (!Array.isArray(candidate.options)) return [];
   return candidate.options.flatMap((option, index) => {
@@ -408,6 +442,9 @@ function assertRuntimeProjection(candidate, label) {
   if (visual) {
     assert.ok(visual.length <= 220, `${label}: runtimeProjection.visual too long`);
     assertPublicText(visualAlt, `${label}: runtimeProjection.visualAlt`, { minLength: 20, maxLength: 260 });
+    const briefPath = visualBriefPath(visual);
+    assert.ok(briefPath, `${label}: runtimeProjection.visual must use visual-brief:// for offline candidates`);
+    assert.equal(existsSync(briefPath), true, `${label}: runtimeProjection.visual brief file missing`);
   } else {
     assert.equal(visualAlt, null, `${label}: runtimeProjection.visualAlt requires visual`);
   }
@@ -416,6 +453,44 @@ function assertRuntimeProjection(candidate, label) {
   const fallback = asString(projection.fallback);
   if (fallback) assertPublicText(fallback, `${label}: runtimeProjection.fallback`, { minLength: 4, maxLength: 260 });
   scanNoLeaks(`${label}: runtimeProjection`, projection);
+}
+
+function assertOptionalMpcqFields(candidate, label) {
+  if ('formatNumber' in candidate) {
+    assert.ok([1, 2, 3, 4].includes(candidate.formatNumber), `${label}: formatNumber must be 1-4`);
+  }
+  if ('mpcqFormat' in candidate) {
+    assert.ok(mpcqFormats.has(candidate.mpcqFormat), `${label}: invalid mpcqFormat`);
+  }
+  if ('mpcqReviewStatus' in candidate) {
+    assert.ok(mpcqReviewStatuses.has(candidate.mpcqReviewStatus), `${label}: invalid mpcqReviewStatus`);
+  }
+  if ('construction_note_en' in candidate) {
+    assertPublicText(candidate.construction_note_en, `${label}: construction_note_en`, { minLength: 80, maxLength: 2400 });
+    assert.equal(/[åäöÅÄÖ]/.test(candidate.construction_note_en), false, `${label}: construction_note_en must be English`);
+  }
+  if ('knowledge_link_map' in candidate) {
+    assert.ok(Array.isArray(candidate.knowledge_link_map), `${label}: knowledge_link_map must be an array`);
+    assert.ok(candidate.knowledge_link_map.length >= 3 && candidate.knowledge_link_map.length <= 8, `${label}: knowledge_link_map must have 3-8 links`);
+    for (const [index, link] of candidate.knowledge_link_map.entries()) {
+      assert.ok(asRecord(link), `${label}: knowledge_link_map #${index + 1} must be an object`);
+      scanNoLeaks(`${label}: knowledge_link_map #${index + 1}`, link);
+    }
+  }
+  if ('remediation_map' in candidate) {
+    assert.ok(Array.isArray(candidate.remediation_map), `${label}: remediation_map must be an array`);
+    assert.ok(candidate.remediation_map.length >= 3 && candidate.remediation_map.length <= 8, `${label}: remediation_map must have 3-8 rows`);
+    for (const [index, row] of candidate.remediation_map.entries()) {
+      assert.ok(asRecord(row), `${label}: remediation_map #${index + 1} must be an object`);
+      scanNoLeaks(`${label}: remediation_map #${index + 1}`, row);
+    }
+  }
+  for (const objectField of ['ocr_verification', 'sourceCertification', 'shortcut_check', 'mpcqRubric']) {
+    if (objectField in candidate) {
+      assert.ok(asRecord(candidate[objectField]), `${label}: ${objectField} must be an object`);
+      scanNoLeaks(`${label}: ${objectField}`, candidate[objectField]);
+    }
+  }
 }
 
 function assertCandidateShape(candidate, index) {
@@ -470,6 +545,7 @@ function assertCandidateShape(candidate, index) {
   assertIdentifierArray(candidate.sourceClaimIds, `${label}: sourceClaimIds`, { prefix: 'sourceclaim-', minItems: 1, maxItems: 4 });
   assertIdentifierArray(candidate.knowledgePointIds, `${label}: knowledgePointIds`, { prefix: 'kp-biologi-', minItems: 1, maxItems: 6 });
   assertRuntimeProjection(candidate, label);
+  assertOptionalMpcqFields(candidate, label);
   assert.ok(Number.isInteger(candidate.difficultyLevel), `${label}: difficultyLevel must be integer`);
   assert.ok(candidate.difficultyLevel >= 1 && candidate.difficultyLevel <= 3, `${label}: difficultyLevel must be 1-3`);
   assertUniqueStringArray(candidate.enabledLevels, `${label}: enabledLevels`, { minItems: 1, maxItems: 6 });

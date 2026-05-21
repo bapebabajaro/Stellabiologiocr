@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "mpcq-readonly-review-ledger-v1",
+  "updatedAt": "2026-05-20T06:26:21.048Z",
+  "batches": [
+    {
+      "batchId": "mpcq-final-remaining-001-sec04-004-005-sec02-026",
+      "selector": "ids",
+      "offset": null,
+      "count": 3,
+      "ids": [
+        "bio-q-k2-sec04-004",
+        "bio-q-k2-sec04-005",
+        "bio-q-k2-sec02-026"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-001-sec04-004-005-sec02-026.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-001-sec04-004-005-sec02-026.review.md",
+      "status": "superseded_by_repair",
+      "createdAt": "2026-05-19T16:27:48.683Z",
+      "appliedByThisRun": false,
+      "supersededByBatchId": "mpcq-final-refresh-sec04-004-005-sec03-031",
+      "supersededReason": "Read-only review failed bio-q-k2-sec04-004 and bio-q-k2-sec04-005; regenerated current-hash refresh batch passed read-only validation."
+    },
+    {
+      "batchId": "mpcq-final-remaining-002-sec02-028-032-sec03-017",
+      "selector": "ids",
+      "offset": null,
+      "count": 3,
+      "ids": [
+        "bio-q-k2-sec02-028",
+        "bio-q-k2-sec02-032",
+        "bio-q-k2-sec03-017"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-002-sec02-028-032-sec03-017.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-002-sec02-028-032-sec03-017.review.md",
+      "status": "readonly_review_passed",
+      "createdAt": "2026-05-19T16:27:55.224Z",
+      "appliedByThisRun": false,
+      "reviewedAt": "2026-05-20T06:26:20.880Z",
+      "reviewValidatedBy": "scripts/validate-mpcq-readonly-review.mjs"
+    },
+    {
+      "batchId": "mpcq-final-remaining-003-sec03-031",
+      "selector": "ids",
+      "offset": null,
+      "count": 1,
+      "ids": [
+        "bio-q-k2-sec03-031"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-003-sec03-031.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-remaining-003-sec03-031.review.md",
+      "status": "superseded_by_repair",
+      "createdAt": "2026-05-19T16:28:00.748Z",
+      "appliedByThisRun": false,
+      "supersededByBatchId": "mpcq-final-refresh-sec04-004-005-sec03-031",
+      "supersededReason": "Read-only review failed bio-q-k2-sec03-031; regenerated current-hash refresh batch passed read-only validation."
+    },
+    {
+      "batchId": "mpcq-final-repair-004-sec04-004-005-sec03-031",
+      "selector": "offset",
+      "offset": 404,
+      "count": 3,
+      "ids": [
+        "bio-q-k2-sec04-004",
+        "bio-q-k2-sec04-005",
+        "bio-q-k2-sec03-031"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-repair-004-sec04-004-005-sec03-031.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-repair-004-sec04-004-005-sec03-031.review.md",
+      "status": "superseded_by_repair",
+      "createdAt": "2026-05-19T16:43:05.323Z",
+      "appliedByThisRun": true,
+      "reviewedAt": "2026-05-19T20:33:17.572Z",
+      "reviewValidatedBy": "scripts/validate-mpcq-readonly-review.mjs",
+      "supersededByBatchId": "mpcq-final-refresh-sec04-004-005-sec03-031",
+      "supersededReason": "Candidate hashes changed after this review; regenerated current-hash refresh batch passed read-only validation."
+    },
+    {
+      "batchId": "mpcq-final-refresh-sec04-029",
+      "selector": "ids",
+      "offset": null,
+      "count": 1,
+      "ids": [
+        "bio-q-k2-sec04-029"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-refresh-sec04-029.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-refresh-sec04-029.review.md",
+      "status": "readonly_review_passed",
+      "createdAt": "2026-05-19T22:46:01.000Z",
+      "appliedByThisRun": false,
+      "reviewedAt": "2026-05-20T06:26:20.962Z",
+      "reviewValidatedBy": "scripts/validate-mpcq-readonly-review.mjs"
+    },
+    {
+      "batchId": "mpcq-final-refresh-sec04-004-005-sec03-031",
+      "selector": "ids",
+      "offset": null,
+      "count": 3,
+      "ids": [
+        "bio-q-k2-sec04-004",
+        "bio-q-k2-sec04-005",
+        "bio-q-k2-sec03-031"
+      ],
+      "reviewJson": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-refresh-sec04-004-005-sec03-031.review.json",
+      "reviewMarkdown": "reports\\validation\\mpcq-batch-reviews\\mpcq-final-refresh-sec04-004-005-sec03-031.review.md",
+      "status": "readonly_review_passed",
+      "createdAt": "2026-05-19T22:48:29.604Z",
+      "appliedByThisRun": false,
+      "reviewedAt": "2026-05-20T06:26:21.047Z",
+      "reviewValidatedBy": "scripts/validate-mpcq-readonly-review.mjs"
+    }
+  ]
+}

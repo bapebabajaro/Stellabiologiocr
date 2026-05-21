@@ -1,0 +1,593 @@
+{
+  "schemaVersion": "mpcq-quality-audit-v1",
+  "generatedAt": "2026-05-18",
+  "subject": "biologi",
+  "sourceFile": "questions/intake-candidates.jsonl",
+  "standardSources": [
+    "memory:singapore_stella_protocol",
+    "skill:singaporempc/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md",
+    "skill:singaporempc/references/stellakemiocr-canon.md",
+    "skill:singaporempc/references/error-log.md",
+    "skill:singapore-format-1-combination/SKILL.md",
+    "skill:singapore-format-2-table/SKILL.md",
+    "skill:singapore-format-3-single-visual/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "ppf:kemi-visual-question-pipeline-v1/README.md",
+    "ppf:kemi-visual-question-pipeline-v1/PIPELINE.md",
+    "ppf:kemi-visual-question-pipeline-v1/REVIEW_GATES.md"
+  ],
+  "decision": "reject_current_batch_for_mpcq_quality",
+  "totalCandidates": 396,
+  "hardFailedCandidates": 377,
+  "likelyMpcqPassCandidates": 19,
+  "reasonCounts": {
+    "pseudo_visual_without_asset": 361,
+    "weak_absolute_distractor_words": 5,
+    "label_only_options": 349,
+    "parallel_but_formulaic_options": 378,
+    "too_short_option": 21
+  },
+  "chapterCounts": {
+    "K1": 264,
+    "K2": 132
+  },
+  "scoreBuckets": {
+    "0-4": 0,
+    "5-9": 0,
+    "10-14": 334,
+    "15-20": 62
+  },
+  "hardFailPolicy": [
+    "missing_construction_note_en",
+    "missing_knowledge_link_map",
+    "missing_ocr_verification",
+    "qkl_lt_3",
+    "stem_correct_keyword_echo",
+    "no_visual_table_or_data_load",
+    "pseudo_visual_without_asset",
+    "label_only_options"
+  ],
+  "sampleFailures": [
+    {
+      "line": 11,
+      "id": "bio-q-k1-sec01-011",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Hypoteser i släktskapsmodell. H1: A-B delar fosterdrag och tidslager men olika handledsben. H2: A-C delar handledsben och fosterdrag men olika tidslager. H3: B-D delar käkled och tänder men olika fosterdrag. H4: C-D delar ryggkotor och kroppsform men saknar mellanled. Vilken har starkast stöd?",
+      "correct": "Val H2 gäller."
+    },
+    {
+      "line": 12,
+      "id": "bio-q-k1-sec01-012",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Fossilmodell R1-R4. R1: lik käkled, tandnötning och miljö, men svag lagerföljd. R2: lik käkled och ryggkotor samt fossil i mellanlager, men få skallfynd. R3: lik ryggkotor, mellanlager och föda, men annan tandform och käkled. R4: lik skallform, yttre drag, miljö och lager, men få ryggkotor jämförda. Välj tyngst stöd.",
+      "correct": "Val R2 gäller."
+    },
+    {
+      "line": 13,
+      "id": "bio-q-k1-sec01-013",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Modell: P-Q har 4 yttre likheter och gren L. P-R har 2 härledda skelettdrag och gren M. Q-S har 3 yttre likheter och gren N. L/M/N ger inget ensamfacit. T1: P-Q väger tyngst för flest likheter. T2: P-R väger tyngst. T3: Q-S väger tyngst för högst samlat teckental. T4: P-R bör vara samma art. Vilken tolkning är bäst?",
+      "correct": "Val T2 gäller."
+    },
+    {
+      "line": 14,
+      "id": "bio-q-k1-sec01-014",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Modell M: 400 milj. år, fem grenar. Data: 36 fossil, 12 drag, ojämn täckning. U1: fossil/drag/täckning rangordnar sena grenar. U2: fossil/drag/täckning låter ålder avgöra. U3: fossil/drag/täckning jämför gemensamma egenskaper. U4: fossil/drag/täckning gör grenar till rak kedja. Vilken användning är rimligast?",
+      "correct": "Val U3 gäller."
+    },
+    {
+      "line": 15,
+      "id": "bio-q-k1-sec01-015",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "A-B nod 7; A-C nod 9; A-D nod 2. X finns hos A,B,C; Y är härlett och finns hos A-B; Z är yttre och finns hos A-C. F1: A-C får starkt stöd av Z och nod 9. F2: A-D får starkt stöd av tidig nod 2. F3: A-B får starkt stöd av Y och nod 7. F4: A-B och A-C får lika stöd. Vilket val passar modellen?",
+      "correct": "Val F3 gäller."
+    },
+    {
+      "line": 16,
+      "id": "bio-q-k1-sec01-016",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "I: massa 2->6->9 g, R oförändrad. G: R hos 18,31,54 % år 1,8,16; ungar liknar föräldertyp. P1: I:s massa ger bäst evolutionsstöd. P2: G:s R-fördelning ger bäst stöd. P3: R-byte hos individer ger bäst stöd. P4: I och G ger lika starkt stöd. Välj starkaste slutsatsen.",
+      "correct": "Val P2 gäller."
+    },
+    {
+      "line": 18,
+      "id": "bio-q-k1-sec01-018",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "A/B: 3 arter, 90 individer. A: art1 80 %, 4 miljöer, 1 färgvariant. B: jämn artfördelning, 2 miljöer, 2 färgvarianter. R1: lika för samma antal. R2: B starkare: jämnhet+2 varianter vägs mot A:s 4 miljöer. R3: A starkare: 4 miljöer vägs mot B:s jämnhet+2 varianter. R4: B starkare för jämnhet ensam. Välj.",
+      "correct": "Val R2 gäller."
+    },
+    {
+      "line": 19,
+      "id": "bio-q-k1-sec01-019",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Art A/B delar 11 DNA-markörer och gren G4. A kallt: pälsindex 8, öron 2 cm. B varmt: pälsindex 3, öron 7 cm. H1: delade markörer gör dragdata överflödiga. H2: efter delning kan miljöer gynna ärftliga varianter. H3: dragskillnad väger bort släktskap. H4: miljö räcker utan arv. Vilket val passar bäst?",
+      "correct": "Val H2 gäller."
+    },
+    {
+      "line": 20,
+      "id": "bio-q-k1-sec01-020",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Område A/B har 4 arter och 70 individer. A: en färgvariant, en livsmiljö. B: tre färgvarianter, två livsmiljöer. M1: individlängd/ålder räcker. M2: cellstorlek i bild räcker. M3: väderdata räcker. M4: färgvarianter, artantal och livsmiljöer hålls isär. Vilket val stöds bäst?",
+      "correct": "Val M4 gäller."
+    },
+    {
+      "line": 21,
+      "id": "bio-q-k1-sec01-021",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Population K: variant L finns hos 25 %. Till parning når 72 % med L och 38 % utan L. Ungar liknar ofta föräldervariant. R1: behov gör L ärftlig. R2: kroppsstyrka avgör utan variantdata. R3: ärftlig variant med högre parningsöverlevnad kan öka. R4: grupperna får lika många ungar. Vilket val passar bäst?",
+      "correct": "Val R3 gäller."
+    },
+    {
+      "line": 22,
+      "id": "bio-q-k1-sec01-022",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Fältdata: år 1 mörka 18 %, ljusa 82 %. År 10 mörka 61 %, ljusa 39 %. Fåglar tar 12/100 mörka och 31/100 ljusa. P1: andelsbyte + lägre fångst + vuxen omfärgning. P2: andelsbyte + lägre fångst + ärftlig färgform. P3: andelsbyte + mörk miljö formar avkommefärg. P4: andelsbyte + arv + ny artgräns. Vilket val passar?",
+      "correct": "Val P2 gäller."
+    },
+    {
+      "line": 23,
+      "id": "bio-q-k1-sec01-023",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        26,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Variant E ger 15 % bättre födosök hos vuxna; 40 % har den. Mätningen gäller före häckning. S1: E hos föräldrar + E hos nyfödda ungar. S2: E hos vuxna + vuxenöverlevnad. S3: E hos föräldrar + E hos överlevande ungar. S4: kroppsform + födosök hos vuxna. Vilket test avgör om E kan öka i populationen?",
+      "correct": "Val S3 är bäst underbyggt."
+    },
+    {
+      "line": 24,
+      "id": "bio-q-k1-sec01-024",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "E1: vuxna sträcker halsen 4 cm; ungar föds längre. E2: hals 42-58 cm; långa får 1,8 ungar/par, korta 0,9; längd liknar föräldrar. V1: 4 cm träning + 42-58 + föräldralikhet. V2: 42-58 + 1,8/0,9 + slumpad längd. V3: 42-58 + föräldralikhet + lika ungar. V4: 42-58 + 1,8/0,9 + föräldralikhet. Vilket val förbättrar E1 bäst?",
+      "correct": "Val V4 gäller."
+    },
+    {
+      "line": 25,
+      "id": "bio-q-k1-sec01-025",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Data: A är 22 % år 1 och 49 % år 12; individer byter inte variant, ungar liknar föräldrar. M1: livsförändring driver skiftet. M2: behov skapar A hos alla. M3: högre komplexitet krävs. M4: skillnader mellan varianter kan ändra gruppens andel över generationer. Vilket val stöds bäst av uppgifterna?",
+      "correct": "Val M4 gäller."
+    },
+    {
+      "line": 26,
+      "id": "bio-q-k1-sec01-026",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Start: tät/tunn päls 45/55. Vinter: 68 % tät, 37 % tunn överlever; ungar liknar föräldrapäls. O1: behov -> genbyte -> art klar. O2: tät päls kan bli vanligare i nästa generation. O3: tunn vanligast -> flest tunn-ungar -> tunn ökar. O4: vinter -> individ får tät päls -> tät ökar. Vilket val stöds bäst av uppgifterna?",
+      "correct": "Val O2 gäller."
+    },
+    {
+      "line": 28,
+      "id": "bio-q-k1-sec01-028",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "G1: M finns hos 6 %, ärvs ofta, överlevnad 54 %. G2: N uppstår i hudceller, ärvs inte. G3: P finns hos 8 %, ärvs, överlevnad 31 %. T1: N styr nästa generation eftersom den uppstår under livet. T2: behov skapar mutationer. T3: M kan passera P över generationer. T4: P blir vanligast eftersom startandelen är högst. Välj.",
+      "correct": "Val T3 gäller."
+    },
+    {
+      "line": 29,
+      "id": "bio-q-k1-sec01-029",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Egenskap E ger +20 % överlevnad i torr miljö men -15 % i våt miljö. E ärvs i 48 % av avkommor. R1: E har samma värde överallt. R2: E:s värde beror på miljö och reproduktion. R3: arv slutar spela roll när miljön byts. R4: E är alltid neutral. Vilket val passar bäst?",
+      "correct": "Val R2 gäller."
+    },
+    {
+      "line": 30,
+      "id": "bio-q-k1-sec01-030",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Bytesdjur: snabb variant S finns hos 35 %. Rovdjur fångar 18/100 snabba och 44/100 långsamma. Ungar liknar ofta föräldravariant. P1: alla blir snabbare samma dag. P2: arv slutar spela roll. P3: S kan bli vanligare över generationer. P4: ny art uppstår direkt. Vilket val passar bäst?",
+      "correct": "Val P3 gäller."
+    },
+    {
+      "line": 31,
+      "id": "bio-q-k1-sec01-031",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Tre öar startar med samma insekt. Efter 80 år: A torr, 70 % hårt skal; B fuktig, 64 % tunnare skal; C blandad, två former kvar. Ungar liknar föräldrar. S1: alla öar ger samma mångfald. S2: individer väljer form. S3: miljö+arv kan ge olika populationer. S4: olikhet saknar samband. Vilket val visar sambandet?",
+      "correct": "Val S3 gäller."
+    },
+    {
+      "line": 32,
+      "id": "bio-q-k1-sec01-032",
+      "chapterCode": "K1",
+      "hardFail": true,
+      "estimatedRubricScore": 11,
+      "reasons": [
+        "pseudo_visual_without_asset",
+        "label_only_options",
+        "parallel_but_formulaic_options"
+      ],
+      "qklCount": 4,
+      "hasVisual": false,
+      "hasEvidenceAsset": false,
+      "pseudoVisualWithoutAsset": true,
+      "labelOnlyOptions": true,
+      "hasDataLoad": true,
+      "optionLengths": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "keywordEcho": [],
+      "stem": "Population P/Q har samma art och 90 individer. P: 4 färgformer, 92 % nära släkt, 1 tålig linje. Q: 3 färgformer, 28 % nära släkt, 3 tåliga linjer. G1: P har större synlig färgformsvariation. G2: Q har mer samlad variation inom arten. G3: ålder avgör. G4: färgform saknar arv. Välj.",
+      "correct": "Val G2 gäller."
+    }
+  ]
+}

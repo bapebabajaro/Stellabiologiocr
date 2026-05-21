@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "visual-question-brief-v1",
+  "id": "visual-brief-biologi-k2-sec04-konsumtion-produktion-livsmiljo-v1",
+  "uri": "visual-brief://biologi/k2/sec04/konsumtion-produktion-livsmiljo-v1",
+  "subject": "biologi",
+  "bookEditionId": "bookedition-stella-biologi-ocr-v1",
+  "chapterCode": "K2",
+  "bookLocationIds": [
+    "bookedition-stella-biologi-ocr-v1:biologi-kap2-sec04"
+  ],
+  "sourceAtomIds": [
+    "source-atom-bookedition-stella-biologi-ocr-v1-biologi-kap2-sec04-samband"
+  ],
+  "knowledgePointIds": [
+    "kp-biologi-biologi-kap2-sec04-004"
+  ],
+  "candidateQuestionIds": [
+    "bio-q-k2-sec04-018"
+  ],
+  "runtimeAssetAllowed": false,
+  "pixelImageAllowed": false,
+  "renderStatus": "brief_only_candidate_review_required",
+  "coordinateSpace": {
+    "width": 650,
+    "height": 480
+  },
+  "visualIntent": "A three-step causal chain from a consumption choice through production change to possible habitat impact.",
+  "elements": [
+    "node 1: konsumtionsval",
+    "node 2: produktion eller materialflöde ändras",
+    "node 3: livsmiljö kan påverkas",
+    "arrows showing that each step needs evidence"
+  ],
+  "studentTask": "Choose the option that keeps the biological chain intact instead of jumping from a choice to a conclusion.",
+  "mustNotContain": [
+    "raw OCR text",
+    "textbook layout",
+    "publisher illustration",
+    "student data",
+    "runtime activation metadata"
+  ],
+  "reviewRequiredBeforeAsset": [
+    "biology content review",
+    "visual semantics review",
+    "chemistry visual parity review",
+    "copyright leak review",
+    "responsive screenshot review"
+  ]
+}

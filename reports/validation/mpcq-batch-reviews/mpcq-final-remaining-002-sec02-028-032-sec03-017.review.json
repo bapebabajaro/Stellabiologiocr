@@ -1,0 +1,264 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-remaining-002-sec02-028-032-sec03-017",
+    "selector": "ids",
+    "offset": null,
+    "count": 3,
+    "ids": [
+      "bio-q-k2-sec02-028",
+      "bio-q-k2-sec02-032",
+      "bio-q-k2-sec03-017"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T16:27:55.224Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Codex read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T18:34:40.7651934+02:00",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec02-028",
+      "candidateHash": "sha256:5e6c42a8b31ba4cf65d494f14967b71ecde6da2685ced09c14cea8f59aae593c",
+      "line": 325,
+      "studentStem": "A:T+0,7/20 före, insekter36->29, blomning42->35. B:insekter36->29 före T+0,7/20, blomning42->35. C:T+0,7/2 före, insekter36->29, blomning42->35. D:varm dag24, medel stabilt, insekter36->29. Vilken orsak är rimligast?",
+      "stemWordCount": 21,
+      "stemCharCount": 216,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Mönster A.",
+      "runtimeProjection": {
+        "typ": "analys",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec02",
+        "stella": "Stella Biologi K2 delomrade 2"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A has T plus 0.7 over 20 years before insect 36 to 29 and flowering 42 to 35. B reverses order, C uses two years and D has only a warm day with stable average. Correct A is the strongest cause. (b) Distractor types: B is Type II reversed-cause shortcut, C is Type III short-period shortcut, D is Type I weather-event shortcut. (c) Cognitive dimensions: time-order reasoning, climate-versus-weather distinction, insect data reading and flowering-timing inference. (d) Specific knowledge vs general ability: the item tests cause evidence for warming effects. (e) Knowledge link map: long trend -> insects and flowering. (f) Text audit and shortcut check: neutral option labels and multiple shared cues prevent one-fact solving.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec02-032",
+      "candidateHash": "sha256:4a5c29979e076fbce5256aaf28a6fe30f598de0f9e947a6a435c92784ba2637b",
+      "line": 329,
+      "studentStem": "A:T+0,7/20, insekter36->29, fågelmatning45->45, födosök63->42. B:T+0,7/20, insekter36->29, fågelmatning45->35, födosök63->61. C:T saknas, insekter36->29, fågelmatning45->45, födosök63->42. D:T+0,7/2, insekter36->29, fågelmatning45->45, födosök63->42. Vilket samband håller?",
+      "stemWordCount": 20,
+      "stemCharCount": 273,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Mönster A.",
+      "runtimeProjection": {
+        "typ": "samband",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec02",
+        "stella": "Stella Biologi K2 delomrade 2"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A has T plus 0.7 over 20 years, insects 36 to 29, feeding 45 to 45 and foraging 63 to 42. B changes feeding and keeps foraging high, C lacks temperature and D uses two years. Correct A is the coherent relationship. (b) Distractor types: B is Type II mismatched-response shortcut, C is Type I missing-driver shortcut, D is Type III short-window shortcut. (c) Cognitive dimensions: food-chain reasoning, control-variable reading, bird-response interpretation and distractor elimination. (d) Specific knowledge vs general ability: the item tests a warming-insect-bird relation. (e) Knowledge link map: warming -> insects -> controlled feeding -> foraging. (f) Text audit and shortcut check: labels are neutral and no stem keyword appears in the correct option.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec03-017",
+      "candidateHash": "sha256:bd4534d82d487e40a5e2137d452be8b1e86339dc409795fd9605f9737133e7c2",
+      "line": 347,
+      "studentStem": "A:T70->55, G12->6, P80->62, kedja G->T->P. B:T70->55, G12->6, P saknas, kedja T->G->P. C:T70->55, G12->6, P80->62, kedja T->G->P. D:T70->55, G saknas, P80->62, kedja T->P. Vilken kedja håller?",
+      "stemWordCount": 25,
+      "stemCharCount": 192,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctText": "Mönster C.",
+      "runtimeProjection": {
+        "typ": "samband",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec03",
+        "stella": "Stella Biologi K2 delomrade 3"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: C has drought 70 to 55, germination 12 to 6, population 80 to 62 and chain T to G to P. A reverses the order, B lacks population and D lacks germination. Correct C is the supported chain. (b) Distractor types: A is Type II reversed-chain shortcut, B is Type I missing-outcome shortcut, D is Type III missing-middle-link shortcut. (c) Cognitive dimensions: causal ordering, middle-link reasoning, population consequence and distractor elimination. (d) Specific knowledge vs general ability: the item tests climate consequence structure. (e) Knowledge link map: drought -> germination -> population. (f) Text audit and shortcut check: neutral option labels remove keyword echo.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec02-028",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec02-032",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec03-017",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [],
+      "exactRepairTextIfFail": null
+    }
+  ]
+}

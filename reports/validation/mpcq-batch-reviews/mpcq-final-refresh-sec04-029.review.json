@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-refresh-sec04-029",
+    "selector": "ids",
+    "offset": null,
+    "count": 1,
+    "ids": [
+      "bio-q-k2-sec04-029"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T22:46:01.000Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Mencius read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T22:46:25.3957633Z",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec04-029",
+      "candidateHash": "sha256:e583c86cb93d5be3174551cb67ab171470cf4d9aa688a065330c8500da14dc2f",
+      "line": 392,
+      "studentStem": "A:res80->54,avfall30->42,miljö70->68,arter18->17. B:res80->54,avfall30->42,miljö70->76,arter18->24. C:res80->54,avfall30->18,miljö70->69,arter18->18. D:res80->83,avfall30->18,miljö70->70,arter18->18. Hur bör avvägningen hanteras?",
+      "stemWordCount": 8,
+      "stemCharCount": 229,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "B",
+      "correctText": "Mönster B.",
+      "runtimeProjection": {
+        "typ": "resonemang",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: B has lower resource use, higher waste, improved habitat and more species. A has biological decline, C has weak biological gain, and D has rising resource use with flat biology. Correct B handles the trade-off with biological evidence. (b) Distractor types: A is Type II resource-only with negative biology, C is Type I no-trade-off shortcut, D is Type III waste-only shortcut with rising resource pressure. (c) Cognitive dimensions: trade-off reasoning, resource-waste comparison, habitat interpretation, species response and distractor elimination. (d) Specific knowledge vs general ability: the item tests weighing resource and waste effects, not choosing one metric. (e) Knowledge link map: resource benefit plus waste cost plus biological outcome. (f) Text audit and shortcut check: no row wins all measures and D no longer offers equivalent biological support; labels are neutral.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec04-029",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "B is uniquely defensible because it combines lower resource use with clear biological improvement while preserving the intended waste trade-off.",
+        "A has biological decline, C lacks biological gain despite better resource and waste values, and D has rising resource pressure with flat biology.",
+        "The item has no missing-data cue, no mapping-noise shortcut, equal option lengths, four QKL/KLM links, and closed write/runtime flags."
+      ],
+      "exactRepairTextIfFail": null
+    }
+  ]
+}

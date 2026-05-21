@@ -1,12 +1,12 @@
 # Question intake readiness - Stella Biologi
 
-Generated: 2026-05-17
+Generated: 2026-05-18
 
-Status: ready for offline candidate authoring.
+Status: offline candidate authoring in progress.
 
 The repository now has a 1200-question planning worklist and reviewed
-non-runtime lineage for offline candidate authoring. No question candidate is
-generated yet and no candidate is runtime-eligible.
+non-runtime lineage for offline candidate authoring. Offline question
+candidates exist for reviewed work items, but no candidate is runtime-eligible.
 
 | Metric | Count |
 |---|---:|
@@ -15,6 +15,8 @@ generated yet and no candidate is runtime-eligible.
 | Work items | 37 |
 | Reviewed non-runtime SourceClaims | 43 |
 | Reviewed atomic KnowledgePoints | 240 |
+| Offline candidate questions | 396 |
+| Filled work items | 12 |
 | Active questions | 0 |
 
 ## Remaining runtime blocks

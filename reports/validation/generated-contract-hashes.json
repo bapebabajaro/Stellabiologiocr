@@ -3,7 +3,7 @@
   "generatedAt": "2026-05-18",
   "subject": "biologi",
   "bookEditionId": "bookedition-stella-biologi-ocr-v1",
-  "fileCount": 44,
+  "fileCount": 48,
   "files": [
     {
       "rel": "manifest/book-edition.json",
@@ -91,11 +91,11 @@
     },
     {
       "rel": "lineage/source-claim-review-decisions.jsonl",
-      "sha256": "bde775b1312e120127d84be0e9adcc5dbb29f95d952f0342bf631dd4458929ed"
+      "sha256": "70c4763596ae628f7e524f2a658d1ff40620537a1a04889ef9258e57571e3084"
     },
     {
       "rel": "lineage/source-atoms.jsonl",
-      "sha256": "2eaa5d19b80b3347129e530d658d3e5215d3c30a5aadf2fb88a9f879690f2f4a"
+      "sha256": "dab8429d37f843ba6d61176a8da5d588dc279de49d42df6f381db801aaefeff6"
     },
     {
       "rel": "lineage/visual-source-atoms.jsonl",
@@ -103,19 +103,19 @@
     },
     {
       "rel": "lineage/claim-table.jsonl",
-      "sha256": "45a2612e7841e6461ab89a787dd137cce92469505f0c975b754362c99b005874"
+      "sha256": "ba755c46c1700fe1f9af3d16f479cbadd9ad01957411fe7b6e30ce587c8fda04"
     },
     {
       "rel": "lineage/atomic-knowledge-points.jsonl",
-      "sha256": "d0f846bb412125e83db17321b0556a5fce68e5a94f547431621ca6b1463101d4"
+      "sha256": "83e96208c5912bcd118e70c8417b04a981c94d34cc4d3c30c8a0377b45b88618"
     },
     {
       "rel": "lineage/atomic-kp-review-decisions.jsonl",
-      "sha256": "56f39b104eca3ed79bfe20dd0ae9874d96e94ed988bd3d8541c5a6ba7b0a906f"
+      "sha256": "a89b8e3ccefaa8165e427e66707729fe6d601cc6fcbf05256dc9c1cbcd5a4797"
     },
     {
       "rel": "questions/intake-candidates.jsonl",
-      "sha256": "81df5868e262badd9d38a22a70acbbf82ca350f815ebac497059789d33793ebd"
+      "sha256": "bf0f1f31f1bf14c99a4aa89c95778bca1bf8539772d685c4bb10ec8c4bc18b0f"
     },
     {
       "rel": "questions/intake-contract.json",
@@ -171,15 +171,31 @@
     },
     {
       "rel": "reports/validation/question-generation-readiness.json",
-      "sha256": "dbf95e923a2451cbe59b7058727a846dc19ba0d7ae7ab6ed32d271c6248581ab"
+      "sha256": "c7ba753dd1b3b10ef09bc794a156c3f2d2f6cf76691f20bfb41a0cabd8ec0788"
     },
     {
       "rel": "scripts/build-question-candidate-batch.mjs",
-      "sha256": "6bf81dd4c0fe9515caa5a56802228e8b867b311be02f6681db59339225adc16d"
+      "sha256": "98d41a3e4387d3e10e8ef775df96ccd3297ec87834a5650bba74f9e6215e5bbe"
     },
     {
       "rel": "scripts/validate-question-generation-readiness.mjs",
-      "sha256": "8d5ac4f53b44de8c4fc9a21cd7d0a6c85a6b6527a770f49b688676c180e223c6"
+      "sha256": "4f42b9e80592aa35bc83b95c755e3772340338f2025eaaa7b46128334d251c10"
+    },
+    {
+      "rel": "assets/pixel-briefs/biologi/k2/sec04/produktion-material-avfall-v1.json",
+      "sha256": "8fe70c08c7a2c4baf639d9613cf853df6b174ef8615057e5895032ccb3e87f04"
+    },
+    {
+      "rel": "assets/pixel-briefs/biologi/k2/sec04/konsumtion-produktion-livsmiljo-v1.json",
+      "sha256": "a96c76a79788f032d8c483d5c5d9aef09650908f59156bdbe2475c30f7e0b86e"
+    },
+    {
+      "rel": "assets/pixel-briefs/biologi/k2/sec04/naring-aterhamtning-tabell-v1.json",
+      "sha256": "65e35a9871d762a9d66de3205b8e8237ae766b8c089b61c39269586166ee4163"
+    },
+    {
+      "rel": "scripts/validate-question-intake-candidates.mjs",
+      "sha256": "3196f4feeb34e9ebc2830741af7a327c65290b4a3ac326bcd8f8e59027e43571"
     }
   ]
 }

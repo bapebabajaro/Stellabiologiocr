@@ -88,6 +88,35 @@
       "items": { "$ref": "#/$defs/qkl" }
     },
     "runtimeProjection": { "$ref": "#/$defs/runtimeProjection" },
+    "formatNumber": { "enum": [1, 2, 3, 4] },
+    "mpcqFormat": {
+      "enum": [
+        "singapore-combination",
+        "singapore-table",
+        "singapore-single-visual",
+        "singapore-pure-text"
+      ]
+    },
+    "mpcqReviewStatus": {
+      "enum": ["repaired_pending_review", "candidate_review_required", "review_failed"]
+    },
+    "ocr_verification": { "$ref": "#/$defs/mpcqOpenRecord" },
+    "sourceCertification": { "$ref": "#/$defs/mpcqOpenRecord" },
+    "construction_note_en": { "type": "string", "minLength": 80, "maxLength": 2400 },
+    "knowledge_link_map": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "items": { "$ref": "#/$defs/mpcqOpenRecord" }
+    },
+    "remediation_map": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 8,
+      "items": { "$ref": "#/$defs/mpcqOpenRecord" }
+    },
+    "shortcut_check": { "$ref": "#/$defs/mpcqOpenRecord" },
+    "mpcqRubric": { "$ref": "#/$defs/mpcqOpenRecord" },
     "difficultyLevel": { "type": "integer", "minimum": 1, "maximum": 3 },
     "enabledLevels": { "$ref": "#/$defs/nonEmptyStringArray" },
     "skillTags": { "$ref": "#/$defs/nonEmptyStringArray" },
@@ -131,7 +160,15 @@
         "questionId": { "type": "string" },
         "knowledgePointId": { "type": "string", "pattern": "^kp-biologi-" },
         "linkType": { "enum": ["primary", "supporting"] },
-        "weight": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 }
+        "role": { "enum": ["primary", "supporting"] },
+        "weight": { "type": "number", "exclusiveMinimum": 0, "maximum": 1 },
+        "evidenceMode": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "confidence": { "type": "string", "minLength": 1, "maxLength": 80 },
+        "sourceBatch": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "sourcePath": { "type": "string", "minLength": 1, "maxLength": 260 },
+        "sourceEvidenceStatus": { "type": "string", "minLength": 1, "maxLength": 160 },
+        "sourceAtomId": { "type": "string", "minLength": 1, "maxLength": 180 },
+        "reason": { "type": "string", "minLength": 20, "maxLength": 520 }
       }
     },
     "runtimeProjection": {
@@ -148,6 +185,11 @@
         "bildtext": { "type": "string", "minLength": 1, "maxLength": 260 },
         "fallback": { "type": "string", "minLength": 1, "maxLength": 260 }
       }
+    },
+    "mpcqOpenRecord": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": true
     },
     "nonEmptyStringArray": {
       "type": "array",

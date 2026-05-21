@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "mpcq-readonly-review-v1",
+  "batch": {
+    "batchId": "mpcq-final-refresh-sec04-004-005-sec03-031",
+    "selector": "ids",
+    "offset": null,
+    "count": 3,
+    "ids": [
+      "bio-q-k2-sec04-004",
+      "bio-q-k2-sec04-005",
+      "bio-q-k2-sec03-031"
+    ],
+    "sourceFile": "questions/intake-candidates.jsonl",
+    "createdAt": "2026-05-19T22:48:29.604Z",
+    "status": "readonly_review_required"
+  },
+  "reviewer": {
+    "name": "Mencius read-only reviewer",
+    "mode": "read_only_separate_context",
+    "reviewedAt": "2026-05-19T22:48:50.5334580Z",
+    "didNotEditFiles": true,
+    "reviewerNotRepairAuthor": true,
+    "didReadStandards": [
+      "skill:singaporempc/SKILL.md",
+      "skill:singapore-format-4-pure-text/SKILL.md",
+      "skill:singaporempc/references/high-inference-doctrine.md"
+    ]
+  },
+  "requiredStandards": [
+    "skill:singaporempc/SKILL.md",
+    "skill:singapore-format-4-pure-text/SKILL.md",
+    "skill:singaporempc/references/high-inference-doctrine.md"
+  ],
+  "requiredChecks": [
+    "stemWithin50WordsAnd320Chars",
+    "neutralAnswerLabels",
+    "noOneFactSolvability",
+    "noAnswerShapeShortcut",
+    "noLongestRowShortcut",
+    "constructionNoteEnglishOnly",
+    "qklAndKlmAtLeast4",
+    "runtimeProjectionKemiCompatible",
+    "noRuntimeImportKvPixelWrites"
+  ],
+  "commandsRun": [
+    {
+      "command": "node.exe --check scripts/repair-mpcq-k1-sec01-first3.mjs",
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "candidateHash": "sha256:95bf8d0d3e44e47edec1addf193f2c7f9f1eb416bca173d9dacf7e1f0ca4c7df",
+      "line": 367,
+      "studentStem": "A:res80->54,miljö70->76,arter18->24. B:res80->83,miljö70->70,arter18->18. C:res80->54,miljö70->52,arter18->12. D:res80->83,miljö70->52,arter18->12. Vilken rad visar resursminskning med biologisk kostnad?",
+      "stemWordCount": 11,
+      "stemCharCount": 203,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "C",
+      "correctText": "Mönster C.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: C combines resource 80 to 54 with habitat 70 to 52 and species 18 to 12, so it is resource reduction with biological cost. A is resource reduction with biological gain, B is rising resources with flat biology and D is rising resources with biological cost. (b) Distractor types: A is Type I positive-biology shortcut, B is Type II flat-biology distractor, D is Type III resource-direction mismatch. (c) Cognitive dimensions: two-direction comparison, habitat interpretation, species interpretation and distractor elimination. (d) Specific knowledge vs general ability: the item tests trade-off classification in sustainable production. (e) Knowledge link map: resource direction plus habitat and species direction. (f) Text audit and shortcut check: the direction is specified so B is no longer an alternate opposite trade-off; neutral option labels avoid keyword echo.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "candidateHash": "sha256:a856e4d9603b03700a175ce5797a4e92975206d5e4da2994b8a54572259e1e13",
+      "line": 368,
+      "studentStem": "A:v1 res80->54,arter18->24; v2 res80->70,arter18->19. B:v1 res80->70,arter18->24; v2 res80->54,arter18->19. C:v1 res80->54,arter18->19; v2 res80->70,arter18->24. D:v1 res80->70,arter18->19; v2 res80->54,arter18->24. Vilken rad ger bäst helhetsstöd för v1?",
+      "stemWordCount": 23,
+      "stemCharCount": 255,
+      "options": [
+        {
+          "id": "A",
+          "text": "Rad A passar."
+        },
+        {
+          "id": "B",
+          "text": "Rad B passar."
+        },
+        {
+          "id": "C",
+          "text": "Rad C passar."
+        },
+        {
+          "id": "D",
+          "text": "Rad D passar."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Rad A passar.",
+      "runtimeProjection": {
+        "typ": "jämförelse",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec04",
+        "stella": "Stella Biologi K2 delomrade 4"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A gives product one resource 80 to 54 versus product two resource 80 to 70, and product one species 18 to 24 versus product two species 18 to 19. B keeps the species advantage but reverses resource direction, C keeps resource direction but reverses species direction, and D reverses both. Correct A is the only row with lower resource value and higher species value for product one. (b) Distractor types: B is Type I species-only shortcut, C is Type II resource-only shortcut, D is Type III double-reversal. (c) Cognitive dimensions: paired data comparison, resource-pressure reading, species-outcome reading and distractor elimination. (d) Specific knowledge vs general ability: the item tests biological product comparison from two measures. (e) Knowledge link map: resource direction plus species direction. (f) Text audit and shortcut check: the question asks for overall support, not direct word matching; neutral row labels and separated numeric values reduce shortcut risk.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    },
+    {
+      "id": "bio-q-k2-sec03-031",
+      "candidateHash": "sha256:40a0e4aa460c040f3f3a8c84a72a921978635f3bb38e350f7bab66d2db424557",
+      "line": 361,
+      "studentStem": "A: åtg+6 ha, sårb70->48, arter18->22. B: åtg+6 ha, sårb70->68, arter18->18. C: åtg+2 ha, sårb70->70, arter18->22. D: åtg+1 ha, sårb70->48, arter18->18. Vilken rad ger starkast stöd för effekt av åtgärden?",
+      "stemWordCount": 29,
+      "stemCharCount": 204,
+      "options": [
+        {
+          "id": "A",
+          "text": "Mönster A."
+        },
+        {
+          "id": "B",
+          "text": "Mönster B."
+        },
+        {
+          "id": "C",
+          "text": "Mönster C."
+        },
+        {
+          "id": "D",
+          "text": "Mönster D."
+        }
+      ],
+      "correctOptionId": "A",
+      "correctText": "Mönster A.",
+      "runtimeProjection": {
+        "typ": "analys",
+        "niva": 3,
+        "delkapitel": "K2-biologi-kap2-sec03",
+        "stella": "Stella Biologi K2 delomrade 3"
+      },
+      "qklCount": 4,
+      "knowledgeLinkMapCount": 4,
+      "construction_note_en": "Sections: (a) Numeric verification: A has action plus 6 ha, vulnerability 70 to 48 and species 18 to 22, so it gives the strongest evidence for an effect of the measure. B has the same action area but weak vulnerability change and flat species, C has a smaller action with species gain but flat vulnerability, and D has vulnerability reduction with a much smaller action and flat species. Correct A is the strongest combined effect row. (b) Distractor types: B is Type I action-area shortcut, C is Type II species-only shortcut, D is Type III vulnerability-only shortcut. (c) Cognitive dimensions: action-effect reasoning, vulnerability interpretation, species outcome interpretation, evidence integration and distractor elimination. (d) Specific knowledge vs general ability: the item tests evaluating whether action data and biological outcome data support a climate-adaptation effect. (e) Knowledge link map: action strength plus vulnerability direction plus species direction. (f) Text audit and shortcut check: every row has complete data fields; no answer can be selected from absent-data wording, and the answer requires integrating action size, vulnerability change and species change.",
+      "shortcut_check": {
+        "textKeywordEcho": "checked_no_correct_option_keyword_echo_intended",
+        "oneFactSolvable": false,
+        "answerLengthCue": false,
+        "decorativeVisualRisk": false,
+        "requiresIndependentLinks": 4,
+        "reviewerNote": "Pure text format is allowed here because the stem contains compact scenario or numeric data; the answer requires multiple inferences."
+      },
+      "validationReport": {
+        "runtimeImportAllowed": false,
+        "importApplyAllowed": false,
+        "kvWriteAllowed": false,
+        "safeActiveWriteAllowed": false,
+        "pixelWriteAllowed": false
+      }
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "bio-q-k2-sec04-004",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "C is uniquely defensible because resource decreases while both biology measures worsen.",
+        "A is resource reduction with biological improvement, B has rising resource use with flat biology, and D has biological cost without resource reduction.",
+        "The item has neutral equal labels, no missing-data wording, four QKL/KLM links, English-only note, compatible runtime projection, and closed write flags."
+      ],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec04-005",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "A is uniquely correct because v1 has both lower resource value and higher species value than v2.",
+        "B, C and D each reverse one or both required comparison links, so the item cannot be solved from one fact.",
+        "The stem is within budget, labels are neutral and equal length, the construction note is English-only, QKL/KLM coverage is four links, and write flags are closed."
+      ],
+      "exactRepairTextIfFail": null
+    },
+    {
+      "id": "bio-q-k2-sec03-031",
+      "verdict": "PASS",
+      "checks": {
+        "stemWithin50WordsAnd320Chars": true,
+        "neutralAnswerLabels": true,
+        "noOneFactSolvability": true,
+        "noAnswerShapeShortcut": true,
+        "noLongestRowShortcut": true,
+        "constructionNoteEnglishOnly": true,
+        "qklAndKlmAtLeast4": true,
+        "runtimeProjectionKemiCompatible": true,
+        "noRuntimeImportKvPixelWrites": true
+      },
+      "findings": [
+        "The previous missing-data shortcut is removed; every row now has complete data fields.",
+        "A is uniquely defensible because it combines strongest action size, reduced vulnerability, and species gain.",
+        "B, C and D are plausible partial-evidence distractors; the item has four QKL/KLM links, English-only construction note, compatible runtime projection, and closed write flags."
+      ],
+      "exactRepairTextIfFail": null
+    }
+  ]
+}
